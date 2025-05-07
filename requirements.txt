@@ -1,0 +1,25 @@
+# Core Data Science
+numpy>=2.0.2
+pandas>=2.2.3
+scipy>=1.15.2
+scikit-learn>=1.6.1
+
+# Deep Learning
+tensorflow>=2.18.1
+pytorch>=2.5.1
+keras>=3.6.0
+
+# Visualization
+matplotlib>=3.10.0
+seaborn>=0.13.2
+
+# Jupyter
+jupyter>=1.1.1
+notebook>=7.3.2
+
+# Additional Dependencies
+# Add specific versions as needed for:
+# - VMD implementation
+# - PSO optimization
+# - LLM integration
+# - Data collection APIs 
