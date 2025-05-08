@@ -44,12 +44,6 @@ env.bak/
 venv.bak/
 .env.bak
 
-# Project specific
-02_Data_Processed/**/*
-05_Results/**/*
-!02_Data_Processed/**/.gitkeep
-!05_Results/**/.gitkeep
-
 # Logs
 *.log
 logs/
