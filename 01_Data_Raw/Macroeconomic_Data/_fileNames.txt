@@ -11,9 +11,7 @@
 湖北_用电量_当月值.csv
 现货价_动力煤_欧洲ARA港.csv
 中国_CPI_当月同比.csv
-中国_GDP_不变价_当季同比.csv
 中国_GDP_现价_累计值.csv
-广东_GDP_当季同比.csv
 广东_GDP_累计值.csv
 湖北_GDP_累计值.csv
 中国_制造业PMI.csv
