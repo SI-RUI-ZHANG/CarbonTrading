@@ -196,7 +196,7 @@ date,close,vwap,volume_tons,turnover_cny,cum_turnover_cny,is_open,is_quiet,has_t
 2014-11-08,,,,,5947555.0,False,False,False
 2014-11-09,,,,,5947555.0,False,False,False
 2014-11-10,25.0,25.0,300.0,7500.0,5947855.0,True,False,True
-2014-11-11,25.0,25.0,0.0,0.0,5947855.0,True,True,False
+2014-11-11,,,0.0,0.0,5947855.0,True,True,False
 2014-11-12,24.38,24.33,27901.0,678789.8,5975756.0,True,False,True
 2014-11-13,24.2,24.73,23347.0,577445.07,5999103.0,True,False,True
 2014-11-14,24.36,24.32,11501.0,279744.9,6010604.0,True,False,True
@@ -274,7 +274,7 @@ date,close,vwap,volume_tons,turnover_cny,cum_turnover_cny,is_open,is_quiet,has_t
 2015-01-25,,,,,7210462.0,False,False,False
 2015-01-26,24.08,24.07,22578.0,543467.14,7233040.0,True,False,True
 2015-01-27,24.08,24.09,3274.0,78876.0,7236314.0,True,False,True
-2015-01-28,24.08,24.08,13608.0,327721.02,7249922.0,True,False,True
+2015-01-28,,24.08,13608.0,327721.02,7249922.0,True,False,True
 2015-01-29,24.17,23.78,1623.0,38597.07,7251545.0,True,False,True
 2015-01-30,24.15,24.4,66828.0,1630568.54,7318373.0,True,False,True
 2015-01-31,,,,,7318373.0,False,False,False
@@ -283,7 +283,7 @@ date,close,vwap,volume_tons,turnover_cny,cum_turnover_cny,is_open,is_quiet,has_t
 2015-02-03,24.15,24.16,18388.0,444177.2,7342447.0,True,False,True
 2015-02-04,24.13,24.2,33167.0,802494.86,7375614.0,True,False,True
 2015-02-05,24.1,24.1,2880.0,69399.2,7378494.0,True,False,True
-2015-02-06,24.1,24.1,14690.0,354058.0,7393184.0,True,False,True
+2015-02-06,,24.1,14690.0,354058.0,7393184.0,True,False,True
 2015-02-07,,,,,7393184.0,False,False,False
 2015-02-08,,,,,7393184.0,False,False,False
 2015-02-09,24.03,24.03,15099.0,362782.98,7408283.0,True,False,True
@@ -302,7 +302,7 @@ date,close,vwap,volume_tons,turnover_cny,cum_turnover_cny,is_open,is_quiet,has_t
 2015-02-22,,,,,7514627.0,False,False,False
 2015-02-23,,,,,7514627.0,False,False,False
 2015-02-24,,,,,7514627.0,False,False,False
-2015-02-25,21.44,21.44,0.0,0.0,7514627.0,True,True,False
+2015-02-25,,,0.0,0.0,7514627.0,True,True,False
 2015-02-26,,,0.0,0.0,7514627.0,True,True,False
 2015-02-27,,,0.0,0.0,7514627.0,True,True,False
 2015-02-28,,,,,7514627.0,False,False,False
@@ -407,7 +407,7 @@ date,close,vwap,volume_tons,turnover_cny,cum_turnover_cny,is_open,is_quiet,has_t
 2015-06-07,,,,,10231739.0,False,False,False
 2015-06-08,25.66,25.56,27294.0,697558.7,10259033.0,True,False,True
 2015-06-09,25.5,25.76,22976.0,591865.2,10282009.0,True,False,True
-2015-06-10,25.5,25.76,0.0,0.0,10282009.0,True,True,False
+2015-06-10,,,0.0,0.0,10282009.0,True,True,False
 2015-06-11,25.4,25.59,14227.0,364086.8,10296236.0,True,False,True
 2015-06-12,25.37,25.4,4831.0,122703.3,10301067.0,True,False,True
 2015-06-13,,,,,10301067.0,False,False,False
@@ -428,7 +428,7 @@ date,close,vwap,volume_tons,turnover_cny,cum_turnover_cny,is_open,is_quiet,has_t
 2015-06-28,,,,,10457741.0,False,False,False
 2015-06-29,25.0,24.99,31807.0,794828.8,10489548.0,True,False,True
 2015-06-30,25.0,25.29,12095.0,305875.0,10501643.0,True,False,True
-2015-07-01,25.0,25.29,0.0,0.0,10501643.0,True,True,False
+2015-07-01,,,0.0,0.0,10501643.0,True,True,False
 2015-07-02,25.5,25.21,39556.0,997102.98,10541199.0,True,False,True
 2015-07-03,23.19,23.3,226904.0,5287434.6,10768103.0,True,False,True
 2015-07-04,,,,,10768103.0,False,False,False
@@ -821,15 +821,15 @@ date,close,vwap,volume_tons,turnover_cny,cum_turnover_cny,is_open,is_quiet,has_t
 2016-07-25,11.33,11.19,163590.0,1830748.86,30267045.0,True,False,True
 2016-07-26,12.46,12.46,40831.0,508728.5,30307876.0,True,False,True
 2016-07-27,13.71,13.71,223885.0,3069463.35,30531761.0,True,False,True
-2016-07-28,13.71,13.71,0.0,0.0,30531761.0,True,True,False
+2016-07-28,,,0.0,0.0,30531761.0,True,True,False
 2016-07-29,14.2,14.2,89281.0,1267790.2,30621042.0,True,False,True
 2016-07-30,,,,,30621042.0,False,False,False
 2016-07-31,,,,,30621042.0,False,False,False
-2016-08-01,14.2,14.2,0.0,0.0,30621042.0,True,True,False
+2016-08-01,,,0.0,0.0,30621042.0,True,True,False
 2016-08-02,13.92,13.92,274.0,3814.08,30621316.0,True,False,True
 2016-08-03,13.78,13.78,13458.0,185451.24,30634774.0,True,False,True
 2016-08-04,13.64,13.64,957.0,13053.48,30635731.0,True,False,True
-2016-08-05,13.64,13.64,0.0,0.0,30635731.0,True,True,False
+2016-08-05,,,0.0,0.0,30635731.0,True,True,False
 2016-08-06,,,,,30635731.0,False,False,False
 2016-08-07,,,,,30635731.0,False,False,False
 2016-08-08,14.18,13.51,74900.0,1011854.73,30710631.0,True,False,True
@@ -840,7 +840,7 @@ date,close,vwap,volume_tons,turnover_cny,cum_turnover_cny,is_open,is_quiet,has_t
 2016-08-13,,,,,30759315.0,False,False,False
 2016-08-14,,,,,30759315.0,False,False,False
 2016-08-15,14.2,14.2,20029.0,284411.8,30779344.0,True,False,True
-2016-08-16,14.2,14.2,0.0,0.0,30779344.0,True,True,False
+2016-08-16,,,0.0,0.0,30779344.0,True,True,False
 2016-08-17,14.09,14.0,47226.0,660991.54,30826570.0,True,False,True
 2016-08-18,14.23,14.26,42019.0,599138.0,30868589.0,True,False,True
 2016-08-19,14.58,14.61,11277.0,164812.82,30879866.0,True,False,True
@@ -919,7 +919,7 @@ date,close,vwap,volume_tons,turnover_cny,cum_turnover_cny,is_open,is_quiet,has_t
 2016-10-31,16.65,16.65,1.0,16.65,31703531.0,True,False,True
 2016-11-01,16.48,16.48,816.0,13447.68,31704347.0,True,False,True
 2016-11-02,16.32,16.32,617.0,10069.44,31704964.0,True,False,True
-2016-11-03,16.32,16.32,0.0,0.0,31704964.0,True,True,False
+2016-11-03,,,0.0,0.0,31704964.0,True,True,False
 2016-11-04,16.0,16.0,4459.0,71344.0,31709423.0,True,False,True
 2016-11-05,,,,,31709423.0,False,False,False
 2016-11-06,,,,,31709423.0,False,False,False
@@ -934,7 +934,7 @@ date,close,vwap,volume_tons,turnover_cny,cum_turnover_cny,is_open,is_quiet,has_t
 2016-11-15,16.93,16.54,12041.0,199145.87,31745579.0,True,False,True
 2016-11-16,16.76,16.88,11524.0,194563.34,31757103.0,True,False,True
 2016-11-17,17.14,16.61,1272.0,21128.98,31758375.0,True,False,True
-2016-11-18,17.14,16.61,0.0,0.0,31758375.0,True,True,False
+2016-11-18,,,0.0,0.0,31758375.0,True,True,False
 2016-11-19,,,,,31758375.0,False,False,False
 2016-11-20,,,,,31758375.0,False,False,False
 2016-11-21,17.05,17.23,12254.0,211102.08,31770629.0,True,False,True
@@ -969,7 +969,7 @@ date,close,vwap,volume_tons,turnover_cny,cum_turnover_cny,is_open,is_quiet,has_t
 2016-12-20,21.77,21.5,159800.0,3435834.0,32364340.0,True,False,True
 2016-12-21,21.99,21.9,117000.0,2562162.0,32481340.0,True,False,True
 2016-12-22,22.15,22.16,132200.0,2929110.0,32613540.0,True,False,True
-2016-12-23,22.15,22.16,0.0,0.0,32613540.0,True,True,False
+2016-12-23,,,0.0,0.0,32613540.0,True,True,False
 2016-12-24,,,,,32613540.0,False,False,False
 2016-12-25,,,,,32613540.0,False,False,False
 2016-12-26,18.75,18.17,671.0,12189.99,32614211.0,True,False,True
@@ -1003,7 +1003,7 @@ date,close,vwap,volume_tons,turnover_cny,cum_turnover_cny,is_open,is_quiet,has_t
 2017-01-23,18.5,18.5,7.0,129.5,32800268.0,True,False,True
 2017-01-24,17.63,17.63,54.0,951.75,32800322.0,True,False,True
 2017-01-25,18.68,18.69,5.0,93.43,32800327.0,True,False,True
-2017-01-26,18.68,18.69,0.0,0.0,32800327.0,True,True,False
+2017-01-26,,,0.0,0.0,32800327.0,True,True,False
 2017-01-27,,,,,32800327.0,False,False,False
 2017-01-28,,,,,32800327.0,False,False,False
 2017-01-29,,,,,32800327.0,False,False,False
@@ -1045,7 +1045,7 @@ date,close,vwap,volume_tons,turnover_cny,cum_turnover_cny,is_open,is_quiet,has_t
 2017-03-06,16.8,16.74,4401.0,73689.44,32822492.0,True,False,True
 2017-03-07,17.72,17.72,51.0,903.48,32822543.0,True,False,True
 2017-03-08,17.4,17.48,898.0,15697.83,32823441.0,True,False,True
-2017-03-09,17.4,17.48,0.0,0.0,32823441.0,True,True,False
+2017-03-09,,,0.0,0.0,32823441.0,True,True,False
 2017-03-10,,,0.0,0.0,32823441.0,True,True,False
 2017-03-11,,,,,32823441.0,False,False,False
 2017-03-12,,,,,32823441.0,False,False,False
@@ -1137,14 +1137,14 @@ date,close,vwap,volume_tons,turnover_cny,cum_turnover_cny,is_open,is_quiet,has_t
 2017-06-06,16.09,15.94,48316.0,770356.23,36209805.0,True,False,True
 2017-06-07,15.78,16.17,62942.0,1018053.31,36272747.0,True,False,True
 2017-06-08,15.81,16.07,24044.0,386364.86,36296791.0,True,False,True
-2017-06-09,15.81,16.07,0.0,0.0,36296791.0,True,True,False
+2017-06-09,,,0.0,0.0,36296791.0,True,True,False
 2017-06-10,,,,,36296791.0,False,False,False
 2017-06-11,,,,,36296791.0,False,False,False
 2017-06-12,,,0.0,0.0,36296791.0,True,True,False
 2017-06-13,15.46,15.58,113716.0,1771526.79,36410507.0,True,False,True
 2017-06-14,15.65,15.65,94537.0,1479849.06,36505044.0,True,False,True
 2017-06-15,15.64,15.64,114848.0,1796149.6,36619892.0,True,False,True
-2017-06-16,15.64,15.64,0.0,0.0,36619892.0,True,True,False
+2017-06-16,,,0.0,0.0,36619892.0,True,True,False
 2017-06-17,,,,,36619892.0,False,False,False
 2017-06-18,,,,,36619892.0,False,False,False
 2017-06-19,15.6,15.65,143297.0,2241889.21,36763189.0,True,False,True
@@ -1416,7 +1416,7 @@ date,close,vwap,volume_tons,turnover_cny,cum_turnover_cny,is_open,is_quiet,has_t
 2018-03-12,14.95,14.35,818.0,11736.67,45450099.0,True,False,True
 2018-03-13,14.8,14.8,12542.0,185597.52,45462641.0,True,False,True
 2018-03-14,14.98,14.43,152.0,2193.86,45462793.0,True,False,True
-2018-03-15,14.98,14.43,0.0,0.0,45462793.0,True,True,False
+2018-03-15,,,0.0,0.0,45462793.0,True,True,False
 2018-03-16,14.98,14.52,416.0,6039.79,45463209.0,True,False,True
 2018-03-17,,,,,45463209.0,False,False,False
 2018-03-18,,,,,45463209.0,False,False,False
@@ -2106,7 +2106,7 @@ date,close,vwap,volume_tons,turnover_cny,cum_turnover_cny,is_open,is_quiet,has_t
 2020-01-31,,,,,60058203.0,False,False,False
 2020-02-01,,,,,60058203.0,False,False,False
 2020-02-02,,,,,60058203.0,False,False,False
-2020-02-03,27.34,27.115992,0.0,0.0,60058203.0,True,True,False
+2020-02-03,,,0.0,0.0,60058203.0,True,True,False
 2020-02-04,,,0.0,0.0,60058203.0,True,True,False
 2020-02-05,,,0.0,0.0,60058203.0,True,True,False
 2020-02-06,,,0.0,0.0,60058203.0,True,True,False
@@ -2494,7 +2494,7 @@ date,close,vwap,volume_tons,turnover_cny,cum_turnover_cny,is_open,is_quiet,has_t
 2021-02-22,34.92,33.21,2195.0,72906.57,74340615.0,True,False,True
 2021-02-23,36.56,32.15,3254.0,104607.03,74343869.0,True,False,True
 2021-02-24,36.54,32.95,515.0,16966.7,74344384.0,True,False,True
-2021-02-25,36.54,32.95,0.0,0.0,74344384.0,True,True,False
+2021-02-25,,,0.0,0.0,74344384.0,True,True,False
 2021-02-26,30.0,29.98,18296.0,548499.31,74362680.0,True,False,True
 2021-02-27,,,,,74362680.0,False,False,False
 2021-02-28,,,,,74362680.0,False,False,False
@@ -2904,7 +2904,7 @@ date,close,vwap,volume_tons,turnover_cny,cum_turnover_cny,is_open,is_quiet,has_t
 2022-04-08,47.17,46.73,8919.0,416756.94,80627366.0,True,False,True
 2022-04-09,,,,,80627366.0,False,False,False
 2022-04-10,,,,,80627366.0,False,False,False
-2022-04-11,47.17,46.73,0.0,0.0,80627366.0,True,True,False
+2022-04-11,,,0.0,0.0,80627366.0,True,True,False
 2022-04-12,,,0.0,0.0,80627366.0,True,True,False
 2022-04-13,,,0.0,0.0,80627366.0,True,True,False
 2022-04-14,,,0.0,0.0,80627366.0,True,True,False
@@ -3222,7 +3222,7 @@ date,close,vwap,volume_tons,turnover_cny,cum_turnover_cny,is_open,is_quiet,has_t
 2023-02-20,47.97,47.7,1873.0,89350.02,85814677.0,True,False,True
 2023-02-21,47.52,47.55,2722.0,129434.18,85817399.0,True,False,True
 2023-02-22,47.84,46.51,153.0,7115.63,85817552.0,True,False,True
-2023-02-23,47.84,46.51,0.0,0.0,85817552.0,True,True,False
+2023-02-23,,,0.0,0.0,85817552.0,True,True,False
 2023-02-24,47.54,47.34,5422.0,256686.56,85822974.0,True,False,True
 2023-02-25,,,,,85822974.0,False,False,False
 2023-02-26,,,,,85822974.0,False,False,False
@@ -3338,7 +3338,7 @@ date,close,vwap,volume_tons,turnover_cny,cum_turnover_cny,is_open,is_quiet,has_t
 2023-06-16,46.85,46.37,3245.0,150458.63,86242997.0,True,False,True
 2023-06-17,,,,,86242997.0,False,False,False
 2023-06-18,,,,,86242997.0,False,False,False
-2023-06-19,46.85,46.37,0.0,0.0,86242997.0,True,True,False
+2023-06-19,,,0.0,0.0,86242997.0,True,True,False
 2023-06-20,46.82,46.77,68226.0,3190734.87,86311223.0,True,False,True
 2023-06-21,46.82,46.43,2255.0,104700.97,86313478.0,True,False,True
 2023-06-22,,,,,86313478.0,False,False,False
@@ -3452,7 +3452,7 @@ date,close,vwap,volume_tons,turnover_cny,cum_turnover_cny,is_open,is_quiet,has_t
 2023-10-08,,,,,86554304.0,False,False,False
 2023-10-09,44.65,44.06,2054.0,90507.92,86568124.0,True,False,True
 2023-10-10,42.5,43.62,4996.0,217920.97,86573120.0,True,False,True
-2023-10-11,42.5,43.62,0.0,0.0,86554304.0,True,True,False
+2023-10-11,,,0.0,0.0,86554304.0,True,True,False
 2023-10-12,,,0.0,0.0,86554304.0,True,True,False
 2023-10-13,,,0.0,0.0,86554304.0,True,True,False
 2023-10-14,,,,,86554304.0,False,False,False
@@ -3950,7 +3950,7 @@ date,close,vwap,volume_tons,turnover_cny,cum_turnover_cny,is_open,is_quiet,has_t
 2025-02-17,39.98,39.98,2081.0,83197.35,100988745.0,True,False,True
 2025-02-18,38.79,38.79,136.0,5274.8,100988881.0,True,False,True
 2025-02-19,39.26,39.26,207.0,8126.63,100989088.0,True,False,True
-2025-02-20,39.26,39.26,0.0,0.0,100989088.0,True,True,False
+2025-02-20,39.26,,0.0,0.0,100989088.0,True,True,False
 2025-02-21,39.03,39.03,226.0,8820.67,100989314.0,True,False,True
 2025-02-22,,,,,100989314.0,False,False,False
 2025-02-23,,,,,100989314.0,False,False,False
