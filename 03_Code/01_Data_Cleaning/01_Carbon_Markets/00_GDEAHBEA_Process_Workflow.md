@@ -57,25 +57,25 @@
        - `has_trade`: True if `volume_tons` is not `NaN` (indicating trading activity).
        - Verify flag counts using `value_counts()`.
      - **Activity Columns** (`volume_tons`, `turnover_cny`):
-       - Set to `0.0` for `is_quiet` days (open market, no trades).
-       - Leave as `NaN` for non-trading days (`is_open == False`).
-       - Retain original values where `has_trade` is True.
-       - Verify no unfilled values remain on open days.
+       - Fill missing value with 0
      - **Price Columns** (`close`, `vwap`):
-       - Forward-fill missing prices for one trading day only within `is_open` blocks using `groupby` and `ffill(limit=1)`.
-       - (Note: The notebooks mention creating `close_carried` and `vwap_carried` flags but do not implement them.)
-       - Verify the number of filled and remaining `NaN` values on open days.
-       - Check for unintended fills (e.g., non-target days filled).
+       1. Do nothing.
+       2. Forward Fill
+       3. Linear interpolation
      - **Cumulative Turnover** (`cum_turnover_cny`):
        - Forward-fill without limit to propagate the last known cumulative value.
        - Verify no unfilled values remain on open days.
-   - **Output**: DataFrame with imputed values for activity and price columns, and fully filled cumulative turnover.
+   - **Output**: 
+     - DataFrame with imputed values for activity and price columns, and fully filled cumulative turnover.
+       1. Nothing is down to price columns.
+       2. Forwoard filled price columns.
+       3. Linearly Interpolated price columns.
+
 
 #### 9. **Clean Up**
    - **Objective**: Finalize the DataFrame by removing temporary columns and ensuring data consistency.
    - **Steps**:
      - Drop the `is_trading_day` column as it is redundant with `is_open`.
-     - Drop rows where `close` and `vwap` are still `NaN` (e.g., before the market started trading).
      - Ensure all numeric columns are `float64` (already handled in parsing).
      - Verify the final DataFrame structure using `head()` or `info()`.
    - **Output**: Final cleaned DataFrame with no redundant columns and consistent data types.
