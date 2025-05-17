@@ -81,7 +81,7 @@
 The dataset was processed from the raw file `HBEA_raw.csv` using a Python script (`02_HBEA_Process.ipynb`). The following steps were applied:
 
 1. **Data Loading**:
-   - Loaded raw CSV (`../../01_Data_Raw/Carbon_Markets/HBEA_raw.csv`) using `pandas` with `gb18030` encoding.
+   - Loaded raw CSV (`../../01_Data_Raw/01_Carbon_Markets/HBEA_raw.csv`) using `pandas` with `gb18030` encoding.
    - Raw shape: 4,033 rows, 7 columns (including metadata and duplicate column).
 
 2. **Data Cleaning**:
@@ -123,12 +123,12 @@ The dataset was processed from the raw file `HBEA_raw.csv` using a Python script
    - No rows were dropped, preserving the full date range (no rows with NaN prices were explicitly dropped, despite the stated strategy).
 
 7. **Persistence**:
-   - Saved as `HBEA_processed.csv` and `HBEA_processed.parquet` in `../../02_Data_Processed/Carbon_Cleaned_Aligned/`.
+   - Saved as `HBEA_processed.csv` and `HBEA_processed.parquet` in `../../02_Data_Processed/01_Carbon_Markets/`.
    - Visualized inspection results (pie charts for trading and non-trading day statuses).
 
 ## Assumptions
 
-- **Calendar Accuracy**: The XSHG calendar is assumed to approximate the Hubei Carbon Emissions Trading Center’s trading schedule. No non-trading days had activity, suggesting better calendar alignment than for other markets (e.g., GDEA).
+- **Calendar Accuracy**: The XSHG calendar is assumed to approximate the Hubei Carbon Emissions Trading Center's trading schedule. No non-trading days had activity, suggesting better calendar alignment than for other markets (e.g., GDEA).
 - **No Trading Activity**: Trading days with NaN `volume_tons` in the raw data (69 days) are interpreted as days with no trades (set to 0.0 for `volume_tons` and `turnover_cny`).
 - **Price Continuity**: Forward-filling `close` and `vwap` for one trading day assumes prices remain stable for a single day of no trading. Longer gaps result in NaNs.
 - **Cumulative Turnover**: Forward-filling `cum_turnover_cny` assumes the cumulative total remains constant until new trading activity occurs.
@@ -136,8 +136,8 @@ The dataset was processed from the raw file `HBEA_raw.csv` using a Python script
 
 ## Limitations
 
-- **Calendar Uncertainty**: The XSHG calendar may not perfectly align with the Hubei Carbon Emissions Trading Center’s schedule, though no non-trading day anomalies were detected. No official HBEA calendar was available during processing.
+- **Calendar Uncertainty**: The XSHG calendar may not perfectly align with the Hubei Carbon Emissions Trading Center's schedule, though no non-trading day anomalies were detected. No official HBEA calendar was available during processing.
 - **Remaining NaNs**: 46 NaNs in both `close` and `vwap` persist on trading days, indicating gaps not filled by forward-filling (e.g., consecutive quiet days).
 - **No Row Dropping**: The strategy to drop rows with NaN prices was not implemented, retaining all 4,027 rows, which may include sparse early data.
-- **Early Data Sparsity**: The period around 2014-04-28 may have lower data quality due to the market’s initial phase, despite the immediate ≥50% trade frequency.
+- **Early Data Sparsity**: The period around 2014-04-28 may have lower data quality due to the market's initial phase, despite the immediate ≥50% trade frequency.
 - **No External Validation**: Imputation rules were not cross-checked with Hubei Carbon Emissions Trading Center reports or Wind metadata due to lack of access.

@@ -81,7 +81,7 @@
 The dataset was processed from the raw file `GDEA_raw.csv` using a Python script (`01_GDEA_Process.ipynb`). The following steps were applied:
 
 1. **Data Loading**:
-   - Loaded raw CSV (`../../01_Data_Raw/Carbon_Markets/GDEA_raw.csv`) using `pandas` with `gb18030` encoding.
+   - Loaded raw CSV (`../../01_Data_Raw/01_Carbon_Markets/GDEA_raw.csv`) using `pandas` with `gb18030` encoding.
    - Raw shape: 4,163 rows, 7 columns (including metadata and duplicate column).
 
 2. **Data Cleaning**:
@@ -124,12 +124,12 @@ The dataset was processed from the raw file `GDEA_raw.csv` using a Python script
    - No rows were dropped, preserving the full date range.
 
 7. **Persistence**:
-   - Saved as `GDEA_processed.csv` and `GDEA_processed.parquet` in `../../02_Data_Processed/Carbon_Cleaned_Aligned/`.
+   - Saved as `GDEA_processed.csv` and `GDEA_processed.parquet` in `../../02_Data_Processed/01_Carbon_Markets/`.
    - Visualized inspection results (pie charts for trading and non-trading day statuses).
 
 ## Assumptions
 
-- **Calendar Accuracy**: The XSHG calendar is assumed to approximate the Guangzhou Emissions Exchange’s trading schedule. This may lead to misclassification:
+- **Calendar Accuracy**: The XSHG calendar is assumed to approximate the Guangzhou Emissions Exchange's trading schedule. This may lead to misclassification:
   - 15 non-trading days with activity (1.13%) may indicate calendar errors or data misalignments.
   - 232 trading days with all NaNs (8.8%) are assumed to be open market days with no trading activity.
 - **No Trading Activity**: Trading days with NaN `volume_tons` in the raw data are interpreted as days with no trades (set to 0.0 for `volume_tons` and `turnover_cny`).
@@ -139,8 +139,8 @@ The dataset was processed from the raw file `GDEA_raw.csv` using a Python script
 
 ## Limitations
 
-- **Calendar Uncertainty**: The XSHG calendar may not perfectly align with the Guangzhou Emissions Exchange’s schedule, potentially misclassifying trading/non-trading days. No official GDEA calendar was available during processing.
+- **Calendar Uncertainty**: The XSHG calendar may not perfectly align with the Guangzhou Emissions Exchange's schedule, potentially misclassifying trading/non-trading days. No official GDEA calendar was available during processing.
 - **Remaining NaNs**: 125 NaNs in `close` and 124 in `vwap` persist on trading days, indicating gaps not filled by forward-filling (e.g., consecutive quiet days or early data sparsity).
 - **Non-Trading Day Anomalies**: 15 non-trading days with activity were not corrected, pending confirmation of the correct calendar or data errors.
-- **Early Data Sparsity**: The period shortly after 2014-06-27 may have lower data quality due to the market’s immature phase, despite the ≥50% trade frequency threshold.
+- **Early Data Sparsity**: The period shortly after 2014-06-27 may have lower data quality due to the market's immature phase, despite the ≥50% trade frequency threshold.
 - **No External Validation**: Imputation rules were not cross-checked with Guangzhou Emissions Exchange reports or Wind metadata due to lack of access.
