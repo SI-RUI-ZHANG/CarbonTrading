@@ -57,3 +57,6 @@ Log_Files/
 .Trashes
 ehthumbs.db
 Thumbs.db 
+
+# exclude typings folder
+typings/
