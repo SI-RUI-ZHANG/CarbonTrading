@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import os
-
+import json
 from a_Strategy import *
 from a_Evaluation import *
 
@@ -47,5 +47,27 @@ base_dir = os.path.dirname(os.path.abspath(__file__))
 path_plots = os.path.join(base_dir, "..", "Plots")
 
 os.makedirs(path_plots, exist_ok=True)
-plot_cumulative_returns_with_price(NAV_HBEA, close_HBEA, data_name="HBEA", smooth=1, save=True, save_path="plots/HBEA_cumulative_returns.png")
-plot_cumulative_returns_with_price(NAV_GDEA, close_GDEA, data_name="GDEA", smooth=1, save=True, save_path="plots/GDEA_cumulative_returns.png")
+plot_cumulative_returns_with_price(NAV_HBEA, close_HBEA, data_name="HBEA", smooth=1, save=True, save_path=os.path.join(path_plots, "HBEA_cumulative_returns.png"))
+plot_cumulative_returns_with_price(NAV_GDEA, close_GDEA, data_name="GDEA", smooth=1, save=True, save_path=os.path.join(path_plots, "GDEA_cumulative_returns.png"))
+
+# Record the performance of the strategies using a_Evaluation.evaluate_performance
+# Create a dictionary to store performance metrics
+perf_HBEA = {}
+perf_GDEA = {}
+
+# Calculate performance metrics for each strategy
+for name in strategies.keys():
+    perf_HBEA[name] = evaluate_performance(NAV_HBEA[name])
+    perf_GDEA[name] = evaluate_performance(NAV_GDEA[name])
+
+# Save performance metrics to CSV
+with open(os.path.join(path_plots, "HBEA_performance.json"), "w") as f:
+    json.dump(perf_HBEA, f, indent=4)
+with open(os.path.join(path_plots, "GDEA_performance.json"), "w") as f:
+    json.dump(perf_GDEA, f, indent=4)
+
+# Print performance metrics
+print("\nHBEA Performance Metrics:")
+print(perf_HBEA)
+print("\nGDEA Performance Metrics:")
+print(perf_GDEA)
