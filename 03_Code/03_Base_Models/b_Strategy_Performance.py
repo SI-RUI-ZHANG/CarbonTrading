@@ -2,10 +2,8 @@ import pandas as pd
 import numpy as np
 import os
 import json
-from a_Strategy import *
-from a_Evaluation import *
-
-
+from a_Strategy import BuyAndHold, SMA20, RSI143070, NavDict, SignalDict
+from a_Evaluation import evaluate_performance, plot_cumulative_returns_with_price
 # support for parquet
 import pyarrow
 
@@ -65,9 +63,3 @@ with open(os.path.join(path_plots, "HBEA_performance.json"), "w") as f:
     json.dump(perf_HBEA, f, indent=4)
 with open(os.path.join(path_plots, "GDEA_performance.json"), "w") as f:
     json.dump(perf_GDEA, f, indent=4)
-
-# Print performance metrics
-print("\nHBEA Performance Metrics:")
-print(perf_HBEA)
-print("\nGDEA Performance Metrics:")
-print(perf_GDEA)
