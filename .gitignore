@@ -60,3 +60,6 @@ Thumbs.db
 
 # exclude typings folder
 typings/
+
+# Claude CLI
+CLAUDE.md
