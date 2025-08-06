@@ -21,6 +21,7 @@ CN2EN = {
     "粗钢": "CrudeSteel",
     "原油加工量": "CrudeOilProcessing",
     "原煤": "RawCoal",
+    "水泥": "Cement",
     "社会融资规模": "TotalSocialFinancing",
     "火电": "ThermalPower",
     "制造业PMI": "ManufacturingPMI",
@@ -70,7 +71,7 @@ def detect_region(first_piece: str) -> str:
 # 3.  Main routine
 # -------------------------------------------------------------------
 def process_folder(src_dir: Path, dst_dir: Path, dry: bool = False):
-    parquet_paths = src_dir.rglob("*.parquet")
+    parquet_paths = src_dir.glob("*.parquet")  # Changed from rglob to glob - only root level
     for path in parquet_paths:
         stem_cn = path.stem  # without .parquet
         pieces = stem_cn.split("_")
@@ -84,15 +85,15 @@ def process_folder(src_dir: Path, dst_dir: Path, dry: bool = False):
         if dry:
             print(f"[dry-run] {path}  →  {target_path}")
         else:
-            shutil.copy2(path, target_path)  # use move() if you prefer
+            shutil.copy2(path, target_path)
             print(f"copied {path.name}  →  {target_path.relative_to(dst_dir)}")
 
 
 # Parse all macro files
 base_dir = os.path.dirname(os.path.abspath(__file__))
-path_macro = os.path.join(base_dir, "../../../02_Data_Processed/02_Macroeconomic_Indicators/03_Forward_Filled_Daily/")
+path_macro = os.path.join(base_dir, "../../02_Data_Processed/02_Macroeconomic_Indicators/03_Forward_Filled_Daily/")
 src_dir = Path(path_macro)
-dst_dir = Path(path_macro)  # or wherever you want the output to go
+dst_dir = Path(path_macro) 
 process_folder(src_dir, dst_dir, dry=False)
     
 print("Done")
