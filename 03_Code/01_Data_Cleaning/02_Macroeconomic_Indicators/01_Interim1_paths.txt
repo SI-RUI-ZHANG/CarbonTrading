@@ -9,7 +9,6 @@
 ../_temp_data_files/01_中国_社会融资规模_当月值_Interim1.parquet
 ../_temp_data_files/01_广东_用电量_当月值_Interim1.parquet
 ../_temp_data_files/01_湖北_用电量_当月值_Interim1.parquet
-../_temp_data_files/01_现货价_动力煤_欧洲ARA港_Interim1.parquet
 ../_temp_data_files/01_中国_CPI_当月同比_Interim1.parquet
 ../_temp_data_files/01_中国_GDP_现价_累计值_Interim1.parquet
 ../_temp_data_files/01_广东_GDP_累计值_Interim1.parquet

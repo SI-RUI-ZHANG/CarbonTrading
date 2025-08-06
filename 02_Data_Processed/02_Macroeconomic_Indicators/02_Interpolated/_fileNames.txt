@@ -11,11 +11,10 @@
 湖北_用电量_当月值_interp.parquet
 中国_CPI_当月同比_interp.parquet
 中国_制造业PMI_interp.parquet
-现货价_动力煤_欧洲ARA港_interp.parquet
+中国_GDP_现价_累计值_interp.parquet
+广东_GDP_累计值_interp.parquet
+湖北_GDP_累计值_interp.parquet
 期货结算价(连续)_布伦特原油_interp.parquet
 期货结算价(连续)_欧盟排放配额(EUA)_interp.parquet
 期货收盘价(连续)_NYMEX天然气_interp.parquet
 CFETS_即期汇率_美元兑人民币_interp.parquet
-中国_GDP_现价_累计值_interp.parquet
-广东_GDP_累计值_interp.parquet
-湖北_GDP_累计值_interp.parquet

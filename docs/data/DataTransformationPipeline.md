@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document provides comprehensive documentation of the entire data transformation pipeline for the Chinese regional carbon markets research project. The pipeline processes raw carbon market data from Guangdong (GDEA) and Hubei (HBEA), combines it with 21 macroeconomic indicators, and produces feature-engineered datasets ready for modeling.
+This document provides comprehensive documentation of the entire data transformation pipeline for the Chinese regional carbon markets research project. The pipeline processes raw carbon market data from Guangdong (GDEA) and Hubei (HBEA), combines it with 20 macroeconomic indicators, and produces feature-engineered datasets ready for modeling.
 
 **Pipeline Structure:**
 1. Carbon Markets Data Processing
@@ -10,7 +10,7 @@ This document provides comprehensive documentation of the entire data transforma
 3. Feature Engineering and Final Join
 
 **Date Range**: 2012-01-01 to 2025-05-06  
-**Final Output**: Two feature-rich datasets with 26 columns each for HBEA and GDEA markets
+**Final Output**: Two feature-rich datasets with 25 columns each for HBEA and GDEA markets
 
 ---
 
@@ -168,11 +168,11 @@ All files saved to: `02_Data_Processed/01_Carbon_Markets/01_Regional/`
 ## Part 2: Macroeconomic Indicators Processing
 
 ### 2.1 Raw Macroeconomic Data Cleaning
-**Source**: `01_Data_Raw/02_Macroeconomic_Indicators/` (21 CSV files)  
+**Source**: `01_Data_Raw/02_Macroeconomic_Indicators/` (20 CSV files)  
 **Process**: `03_Code/01_Data_Cleaning/02_Macroeconomic_Indicators/01_MacroData_Processes.ipynb`  
 **Outputs**: Forward filled and interpolated variants in separate directories
 
-#### Input Files (21 indicators)
+#### Input Files (20 indicators)
 ```
 广东_工业增加值_可比价_规模以上工业企业_当月同比.csv
 湖北_工业增加值_可比价_规模以上工业企业_当月同比.csv
@@ -185,7 +185,6 @@ All files saved to: `02_Data_Processed/01_Carbon_Markets/01_Regional/`
 中国_社会融资规模_当月值.csv
 广东_用电量_当月值.csv
 湖北_用电量_当月值.csv
-现货价_动力煤_欧洲ARA港.csv
 中国_CPI_当月同比.csv
 中国_GDP_现价_累计值.csv
 广东_GDP_累计值.csv
@@ -229,7 +228,7 @@ CFETS_即期汇率_美元兑人民币.csv
 
 | Frequency | Count | Indicators | Avg Missing % |
 |-----------|-------|------------|---------------|
-| Daily | 5 | FX rate, energy futures, spot prices | 17.4% |
+| Daily | 4 | FX rate, energy futures | 15.5% |
 | Monthly | 13 | Industrial production, electricity, CPI, PMI | 4.5% |
 | Quarterly | 3 | GDP (China, Guangdong, Hubei) | 0.0% |
 
@@ -321,9 +320,9 @@ Files are organized into three folders based on first component:
    - Guangdong_IndustrialAddedValue_RealPrices_AboveScaleIndustry_YoY_ffill_daily
    - Guangdong_GDP_Cumulative_ffill_daily
 
-3. **`national_or_global/`**: National China and global indicators (15 files)
+3. **`national_or_global/`**: National China and global indicators (14 files)
    - China indicators: CPI, PMI, GDP, industrial outputs, electricity
-   - Global indicators: Brent crude, EU carbon futures, natural gas, coal spot, FX rate
+   - Global indicators: Brent crude, EU carbon futures, natural gas, FX rate
 
 #### Processing Steps
 1. Parse Chinese filename components using underscore delimiter
@@ -344,7 +343,7 @@ Files are organized into three folders based on first component:
 └── national_or_global/
     ├── China_CPI_YoY_ffill_daily.parquet
     ├── FuturesSettle(Cont)_BrentCrude_ffill_daily.parquet
-    └── ... (15 files)
+    └── ... (14 files)
 ```
 
 ### 3.2 Final Join with Intelligent Lag Structure
@@ -357,7 +356,7 @@ Files are organized into three folders based on first component:
   - `HBEA_forward_filled.parquet`
   - `GDEA_forward_filled.parquet`
 - **Macroeconomic Indicators**: 
-  - 21 files from geographic folders (hubei/, guangdong/, national_or_global/)
+  - 20 files from geographic folders (hubei/, guangdong/, national_or_global/)
 
 #### Lag Strategy Based on Frequency Detection
 
@@ -399,8 +398,8 @@ The notebook implements intelligent lagging to prevent look-ahead bias:
 #### Final Output Schema
 
 **Files Created**:
-- `HBEA_daily_with_macro.parquet` (4,027 rows × 26 columns)
-- `GDEA_daily_with_macro.parquet` (3,967 rows × 26 columns)
+- `HBEA_daily_with_macro.parquet` (4,027 rows × 25 columns)
+- `GDEA_daily_with_macro.parquet` (3,967 rows × 25 columns)
 
 **Column Structure**:
 | Column Category | Count | Examples |
@@ -408,7 +407,7 @@ The notebook implements intelligent lagging to prevent look-ahead bias:
 | Carbon market | 8 | close, vwap, volume_tons, turnover_cny, cum_turnover_cny, is_open, is_quiet, has_trade |
 | Province macro | 3 | {Province}_ElectricityConsumption_Monthly_ffill_daily_15, {Province}_IndustrialAddedValue_*, {Province}_GDP_* |
 | National macro | 10 | China_CPI_YoY_ffill_daily_15, China_ManufacturingPMI_ffill_daily_15, China_Output_* |
-| Global macro | 5 | FuturesSettle(Cont)_BrentCrude_ffill_daily_1, CFETS_SpotFX_USD_CNY_ffill_daily_1, etc. |
+| Global macro | 4 | FuturesSettle(Cont)_BrentCrude_ffill_daily_1, CFETS_SpotFX_USD_CNY_ffill_daily_1, etc. |
 
 #### Data Quality Metrics
 - **Missing values**: 503 total in each dataset (primarily from early dates before macro data starts)
