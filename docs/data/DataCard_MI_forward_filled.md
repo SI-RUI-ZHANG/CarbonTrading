@@ -6,7 +6,7 @@
 - **Description**: Collection of 21 macroeconomic time series cleaned and forward filled. Data covers daily, monthly and quarterly frequencies. Each series retains the original date index and includes a boolean column to indicate filled values.
 - **Source**: Raw CSV files in `01_Data_Raw/02_Macroeconomic_Indicators` processed using the notebook `01_MacroData_Processes.ipynb`.
 - **Date Range**: 2012-01-01 to 2025-04-29
-- **File Format**: Each series saved as CSV and Parquet in `02_Data_Processed/02_Macroeconomic_Indicators/01_Forward_Filled`. The file `_fileNames.txt` lists all output files.
+- **File Format**: Each series saved as Parquet in `02_Data_Processed/02_Macroeconomic_Indicators/01_Forward_Filled`. The file `_fileNames.txt` lists all output files.
 
 ## Dataset Description
 
@@ -50,7 +50,7 @@ The dataset includes 21 files. Example entries from `_fileNames.txt`:
 2. **Interim Storage**: Saved cleaned tables to `_Interim1` Parquet files.
 3. **Frequency Detection**: Inferred each series frequency (daily, monthly or quarterly) with a helper function (`infer_freq`).
 4. **Forward Fill**: Forward filled missing values column by column and flagged them in `value_filled`.
-5. **Persistence**: Saved each series as `<name>_ffill.csv` and `<name>_ffill.parquet` and recorded the filenames in `_fileNames.txt`.
+5. **Persistence**: Saved each series as `<name>_ffill.parquet` and recorded the filenames in `_fileNames.txt`.
 
 ## Assumptions
 

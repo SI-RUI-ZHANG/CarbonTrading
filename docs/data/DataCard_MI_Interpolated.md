@@ -6,7 +6,7 @@
 - **Description**: Collection of 21 macroeconomic time series cleaned and interpolated. Data covers daily, monthly and quarterly frequencies. Each series retains the original date index and includes a boolean column to indicate interpolated values.
 - **Source**: Raw CSV files in `01_Data_Raw/02_Macroeconomic_Indicators` processed using the notebook `01_MacroData_Processes.ipynb`.
 - **Date Range**: 2012-01-01 to 2025-04-29
-- **File Format**: Each series saved as CSV and Parquet in `02_Data_Processed/02_Macroeconomic_Indicators/02_Interpolated`. The file `_fileNames.txt` lists all output files.
+- **File Format**: Each series saved as Parquet in `02_Data_Processed/02_Macroeconomic_Indicators/02_Interpolated`. The file `_fileNames.txt` lists all output files.
 
 ## Dataset Description
 
@@ -50,7 +50,7 @@ The dataset includes 21 files. Example entries from `_fileNames.txt`:
 2. **Interim Storage**: Saved cleaned tables to `_Interim1` Parquet files.
 3. **Frequency Detection**: Inferred each series frequency (daily, monthly or quarterly) with a helper function (`infer_freq`).
 4. **Interpolation**: Linearly interpolated missing values column by column, rounded results to one decimal place, and flagged them in `value_filled`.
-5. **Persistence**: Saved each series as `<name>_interp.csv` and `<name>_interp.parquet` and recorded the filenames in `_fileNames.txt`.
+5. **Persistence**: Saved each series as and `<name>_interp.parquet` and recorded the filenames in `_fileNames.txt`.
 
 ## Assumptions
 
