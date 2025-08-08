@@ -10,7 +10,7 @@ from datetime import datetime
 
 class Config:
     # Data
-    MARKET = 'GDEA'  # or 'HBEA'
+    MARKET = 'HBEA'  # or 'HBEA'
     DATA_DIR = '../../02_Data_Processed/04_LSTM_Ready'
     
     # Experiment Tracking - Unique folder for each run
@@ -21,7 +21,7 @@ class Config:
     # Model Architecture for Classification
     # INPUT_SIZE will be determined dynamically from data
     # Using BCEWithLogitsLoss for binary classification with pos_weight
-    HIDDEN_SIZE = 64
+    HIDDEN_SIZE = 128
     NUM_LAYERS = 2
     DROPOUT = 0.2
     
