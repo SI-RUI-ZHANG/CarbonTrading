@@ -11,9 +11,9 @@ class CarbonPriceLSTM(nn.Module):
     """
     LSTM model for carbon price direction classification
     Input size is determined dynamically from the data
-    Outputs 2 logits for binary classification
+    Outputs single logit for binary classification with BCEWithLogitsLoss
     """
-    def __init__(self, input_size, hidden_size, num_layers, dropout, num_classes=2):
+    def __init__(self, input_size, hidden_size, num_layers, dropout):
         super().__init__()
         
         # Store configuration
@@ -21,7 +21,6 @@ class CarbonPriceLSTM(nn.Module):
         self.hidden_size = hidden_size
         self.num_layers = num_layers
         self.dropout_rate = dropout
-        self.num_classes = num_classes
         
         # LSTM layers
         self.lstm = nn.LSTM(
@@ -39,7 +38,7 @@ class CarbonPriceLSTM(nn.Module):
         self.dropout = nn.Dropout(dropout)
         self.fc1 = nn.Linear(hidden_size, 64)
         self.fc2 = nn.Linear(64, 32)
-        self.fc3 = nn.Linear(32, num_classes)  # Output layer for classification
+        self.fc3 = nn.Linear(32, 1)  # Single output for binary classification with BCEWithLogitsLoss
         
         # Activation
         self.relu = nn.ReLU()
@@ -77,6 +76,6 @@ class CarbonPriceLSTM(nn.Module):
         x = self.relu(self.fc1(x))
         x = self.dropout(x)
         x = self.relu(self.fc2(x))
-        x = self.fc3(x)  # Raw logits for CrossEntropyLoss
+        x = self.fc3(x)  # Raw logit for BCEWithLogitsLoss
         
-        return x  # Shape: (batch_size, num_classes)
+        return x.squeeze()  # Shape: (batch_size,) for binary classification

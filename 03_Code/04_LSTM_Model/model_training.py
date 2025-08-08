@@ -1,7 +1,7 @@
 """
 Main training script for LSTM carbon price direction classification model
 Implements dynamic input size detection and experiment tracking
-Uses CrossEntropyLoss for binary classification
+Uses BCEWithLogitsLoss with pos_weight for handling class imbalance
 """
 
 import torch
@@ -42,14 +42,14 @@ def train_epoch(model, train_loader, criterion, optimizer, config):
     
     for X_batch, y_batch in train_loader:
         X_batch = X_batch.to(config.DEVICE)
-        y_batch = y_batch.long().to(config.DEVICE)  # Convert to long for classification
+        y_batch = y_batch.float().to(config.DEVICE)  # Float for BCEWithLogitsLoss
         
         # Forward pass
         predictions = model(X_batch)
         loss = criterion(predictions, y_batch)
         
-        # Calculate accuracy
-        _, predicted = torch.max(predictions.data, 1)
+        # Calculate accuracy using sigmoid threshold
+        predicted = (torch.sigmoid(predictions) > 0.5).float()
         total += y_batch.size(0)
         correct += (predicted == y_batch).sum().item()
         
@@ -77,13 +77,13 @@ def validate_epoch(model, val_loader, criterion, config):
     with torch.no_grad():
         for X_batch, y_batch in val_loader:
             X_batch = X_batch.to(config.DEVICE)
-            y_batch = y_batch.long().to(config.DEVICE)  # Convert to long for classification
+            y_batch = y_batch.float().to(config.DEVICE)  # Float for BCEWithLogitsLoss
             
             predictions = model(X_batch)
             loss = criterion(predictions, y_batch)
             
-            # Calculate accuracy
-            _, predicted = torch.max(predictions.data, 1)
+            # Calculate accuracy using sigmoid threshold
+            predicted = (torch.sigmoid(predictions) > 0.5).float()
             total += y_batch.size(0)
             correct += (predicted == y_batch).sum().item()
             
@@ -132,14 +132,21 @@ def train_model(config):
         input_size=config.INPUT_SIZE,
         hidden_size=config.HIDDEN_SIZE,
         num_layers=config.NUM_LAYERS,
-        dropout=config.DROPOUT,
-        num_classes=config.NUM_CLASSES
+        dropout=config.DROPOUT
     ).to(config.DEVICE)
     
     logger.info(f"Model parameters: {sum(p.numel() for p in model.parameters()):,}")
     
-    # Loss and optimizer for classification
-    criterion = nn.CrossEntropyLoss()
+    # Calculate pos_weight for class imbalance
+    num_negatives = np.sum(y_train == 0)
+    num_positives = np.sum(y_train == 1)
+    pos_weight_value = num_negatives / num_positives
+    pos_weight = torch.tensor([pos_weight_value], dtype=torch.float32, device=config.DEVICE)
+    logger.info(f"Class distribution - Down/Flat: {num_negatives}, Up: {num_positives}")
+    logger.info(f"Calculated pos_weight for 'Up' class: {pos_weight_value:.2f}")
+    
+    # Loss and optimizer with class balancing
+    criterion = nn.BCEWithLogitsLoss(pos_weight=pos_weight)
     optimizer = optim.Adam(model.parameters(), lr=config.LEARNING_RATE)
     
     # Learning rate scheduler
@@ -188,8 +195,7 @@ def train_model(config):
                 'input_size': config.INPUT_SIZE,
                 'hidden_size': config.HIDDEN_SIZE,
                 'num_layers': config.NUM_LAYERS,
-                'dropout': config.DROPOUT,
-                'num_classes': config.NUM_CLASSES
+                'dropout': config.DROPOUT
             }, f'{config.OUTPUT_DIR}/best_model.pth')
             logger.info(f"✓ Saved best model at epoch {epoch+1} (val_acc: {val_acc:.2f}%, val_loss: {val_loss:.6f})")
         

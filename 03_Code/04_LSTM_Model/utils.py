@@ -129,8 +129,7 @@ def save_config(config):
     config_dict = {
         'MARKET': config.MARKET,
         'RUN_NAME': config.RUN_NAME,
-        'TASK_TYPE': 'Classification',
-        'NUM_CLASSES': config.NUM_CLASSES,
+        'TASK_TYPE': 'Binary Classification (BCEWithLogitsLoss)',
         'INPUT_SIZE': getattr(config, 'INPUT_SIZE', 'Determined from data'),
         'HIDDEN_SIZE': config.HIDDEN_SIZE,
         'NUM_LAYERS': config.NUM_LAYERS,

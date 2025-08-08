@@ -20,15 +20,15 @@ class Config:
     
     # Model Architecture for Classification
     # INPUT_SIZE will be determined dynamically from data
-    NUM_CLASSES = 2  # Binary classification: Down/Flat (0) vs Up (1)
+    # Using BCEWithLogitsLoss for binary classification with pos_weight
     HIDDEN_SIZE = 64
-    NUM_LAYERS = 1
+    NUM_LAYERS = 2
     DROPOUT = 0.2
     
     # Training
     BATCH_SIZE = 32
     LEARNING_RATE = 0.001
-    NUM_EPOCHS = 100  # Quick test to check completion
+    NUM_EPOCHS = 100
     EARLY_STOPPING_PATIENCE = 15
     SHUFFLE_TRAIN_LOADER = True  # Easily toggle shuffle behavior
     

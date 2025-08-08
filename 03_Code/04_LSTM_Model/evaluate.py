@@ -61,12 +61,12 @@ def evaluate_model(model, test_loader, config):
             # Get model predictions (logits)
             outputs = model(X_batch)
             
-            # Convert to probabilities using softmax
-            probs = torch.softmax(outputs, dim=1)
-            probabilities.extend(probs[:, 1].cpu().numpy())  # Probability of class 1 (up)
+            # Convert to probabilities using sigmoid for binary classification
+            probs = torch.sigmoid(outputs)
+            probabilities.extend(probs.cpu().numpy())  # Probability of class 1 (up)
             
-            # Get predicted classes
-            _, predicted = torch.max(outputs, 1)
+            # Get predicted classes using threshold
+            predicted = (probs > 0.5).float()
             predictions.extend(predicted.cpu().numpy())
             actuals.extend(y_batch.numpy())
     
