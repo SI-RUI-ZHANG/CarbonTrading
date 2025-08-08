@@ -191,7 +191,7 @@ def save_document_json(doc_data, section_name, output_dir):
         json.dump(doc_data, f, ensure_ascii=False, indent=2, default=json_serial)
     
     # Also append to JSONL file for easy processing
-    jsonl_file = os.path.join(section_dir, "all_documents.jsonl")
+    jsonl_file = os.path.join(section_dir, "_all_documents.jsonl")
     with open(jsonl_file, 'a', encoding='utf-8') as f:
         json.dump(doc_data, f, ensure_ascii=False, default=json_serial)
         f.write('\n')
