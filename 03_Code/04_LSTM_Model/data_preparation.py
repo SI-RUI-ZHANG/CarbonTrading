@@ -35,7 +35,8 @@ logger = logging.getLogger(__name__)
 SEQUENCE_LENGTH = 60  # 60-day lookback window
 TRAIN_END_DATE = '2020-12-31'
 VAL_END_DATE = '2022-12-31'
-TARGET_COLUMN = 'log_return'  # Predict next-day log returns
+TARGET_COLUMN = 'log_return'  # Used to derive direction labels
+TASK_TYPE = 'classification'  # Changed from regression to classification
 RANDOM_SEED = 42
 
 MARKET = 'GDEA'  # HBEA or GDEA
@@ -209,6 +210,31 @@ def create_sequences(features: np.ndarray,
     logger.info(f"Created sequences: X shape {X.shape}, y shape {y.shape}")
     return X, y
 
+def create_direction_labels(log_returns: np.ndarray) -> np.ndarray:
+    """
+    Convert log returns to binary direction labels
+    
+    Args:
+        log_returns: Array of log returns
+        
+    Returns:
+        Binary labels: 0 for down/flat (<=0), 1 for up (>0)
+    """
+    # Create binary labels: 1 for positive returns, 0 for negative/zero
+    direction_labels = (log_returns > 0).astype(np.int64)
+    
+    # Log class distribution
+    n_down = np.sum(direction_labels == 0)
+    n_up = np.sum(direction_labels == 1)
+    total = len(direction_labels)
+    
+    logger.info(f"Direction labels distribution:")
+    logger.info(f"  Down/Flat (0): {n_down} ({n_down/total*100:.1f}%)")
+    logger.info(f"  Up (1): {n_up} ({n_up/total*100:.1f}%)")
+    logger.info(f"  Class ratio (up/down): {n_up/n_down:.2f}")
+    
+    return direction_labels
+
 def prepare_lstm_data(train_df: pd.DataFrame,
                      val_df: pd.DataFrame,
                      test_df: pd.DataFrame,
@@ -216,29 +242,35 @@ def prepare_lstm_data(train_df: pd.DataFrame,
                      target_col: str,
                      sequence_length: int) -> Tuple[np.ndarray, ...]:
     """
-    Create LSTM sequences for all datasets
+    Create LSTM sequences for all datasets with direction classification
     
     Args:
         train_df, val_df, test_df: Original DataFrames (for extracting targets)
         features_scaled: Tuple of scaled feature arrays
-        target_col: Name of target column
+        target_col: Name of target column (log_return)
         sequence_length: Lookback window size
         
     Returns:
         Tuple of (X_train, y_train, X_val, y_val, X_test, y_test)
+        where y arrays contain direction labels (0 or 1)
     """
     logger.info(f"Creating sequences with lookback={sequence_length}")
     
     train_scaled, val_scaled, test_scaled = features_scaled
     
-    # Extract target values (not scaled)
-    train_targets = train_df[target_col].values
-    val_targets = val_df[target_col].values
-    test_targets = test_df[target_col].values
+    # Extract log returns
+    train_log_returns = train_df[target_col].values
+    val_log_returns = val_df[target_col].values
+    test_log_returns = test_df[target_col].values
     
-    logger.info(f"Target statistics - Train: mean={train_targets.mean():.6f}, std={train_targets.std():.6f}")
-    logger.info(f"Target statistics - Val: mean={val_targets.mean():.6f}, std={val_targets.std():.6f}")
-    logger.info(f"Target statistics - Test: mean={test_targets.mean():.6f}, std={test_targets.std():.6f}")
+    # Convert to direction labels
+    logger.info("Converting log returns to direction labels...")
+    logger.info("\nTraining set:")
+    train_targets = create_direction_labels(train_log_returns)
+    logger.info("\nValidation set:")
+    val_targets = create_direction_labels(val_log_returns)
+    logger.info("\nTest set:")
+    test_targets = create_direction_labels(test_log_returns)
     
     # Create sequences for each split
     X_train, y_train = create_sequences(train_scaled, train_targets, sequence_length)
@@ -331,6 +363,10 @@ def verify_outputs(output_dir: str, market: str) -> bool:
                 elif 'y_' in filename:
                     if len(array.shape) != 1:
                         logger.warning(f"  WARNING: Expected 1D array for {filename}, got {len(array.shape)}D")
+                    # Check for classification labels
+                    unique_vals = np.unique(array)
+                    if len(unique_vals) <= 3:
+                        logger.info(f"    Classification labels: {unique_vals}")
             else:
                 # Verify scaler can be loaded
                 try:
@@ -364,8 +400,9 @@ def main():
     logger.info(f"Started at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     logger.info(f"Configuration:")
     logger.info(f"  - Market: {MARKET}")
+    logger.info(f"  - Task type: {TASK_TYPE}")
     logger.info(f"  - Sequence length: {SEQUENCE_LENGTH}")
-    logger.info(f"  - Target column: {TARGET_COLUMN}")
+    logger.info(f"  - Target column: {TARGET_COLUMN} (converted to direction)")
     logger.info(f"  - Train end date: {TRAIN_END_DATE}")
     logger.info(f"  - Val end date: {VAL_END_DATE}")
     

@@ -1,0 +1,17 @@
+{
+    "MARKET": "GDEA",
+    "RUN_NAME": "20250808_171525_GDEA_LSTM_Classification",
+    "TASK_TYPE": "Classification",
+    "NUM_CLASSES": 2,
+    "INPUT_SIZE": 51,
+    "HIDDEN_SIZE": 128,
+    "NUM_LAYERS": 2,
+    "DROPOUT": 0.2,
+    "BATCH_SIZE": 32,
+    "LEARNING_RATE": 0.001,
+    "NUM_EPOCHS": 10,
+    "EARLY_STOPPING_PATIENCE": 5,
+    "SHUFFLE_TRAIN_LOADER": true,
+    "SEED": 42,
+    "DEVICE": "cpu"
+}
