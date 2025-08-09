@@ -194,12 +194,14 @@ def scrape_document_safe(url, retry_count=0):
         if len(content) < 50:
             content = "[Image-based content - text extraction limited]"
         
-        # Extract date
-        date_text = soup.find('span', class_='time') or \
-                   soup.find('div', class_='time')
+        # Extract date from the time element
+        # The HTML structure is: <div class="time...">发布时间：YYYY-MM-DD</div>
+        date_text = soup.find('div', class_='time') or soup.find('span', class_='time')
         
         if date_text:
             date_str = date_text.get_text()
+            # Remove the "发布时间：" prefix if present
+            date_str = date_str.replace('发布时间：', '').replace('发布时间:', '').strip()
             publish_date = extract_date(date_str)
         else:
             publish_date = None
