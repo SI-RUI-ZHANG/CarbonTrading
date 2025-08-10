@@ -39,7 +39,7 @@ TARGET_COLUMN = 'log_return'  # Used to derive direction labels
 TASK_TYPE = 'classification'  # Changed from regression to classification
 RANDOM_SEED = 42
 
-MARKET = 'GDEA'  # HBEA or GDEA
+MARKET = 'HBEA'  # HBEA or GDEA
 
 # Paths
 INPUT_PATH = f'../../02_Data_Processed/03_Feature_Engineered/{MARKET}_LSTM_advanced.parquet'
