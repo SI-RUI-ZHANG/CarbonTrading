@@ -3,7 +3,7 @@
 import json
 import time
 import re
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, List, Optional, Tuple, Any
 from openai import OpenAI
 import config
 from smart_rate_limiter import SmartRateLimiter
@@ -18,7 +18,7 @@ class DocumentClassifier:
         self.temperature = config.TEMPERATURE
         self.max_tokens = config.MAX_TOKENS
         
-    def classify_document(self, document: Dict) -> List[Tuple[str, str]]:
+    def classify_document(self, document: Dict[str, Any]) -> List[Tuple[str, str]]:
         """Classify a document across all dimensions with rate limiting.
         
         Args:
@@ -48,7 +48,11 @@ class DocumentClassifier:
                 # Mark success for rate limiter
                 self.rate_limiter.success()
                 
-                result = json.loads(response.choices[0].message.content)
+                content = response.choices[0].message.content
+                if content is None:
+                    return []
+                    
+                result = json.loads(content)
                 classifications = []
                 
                 if 'classifications' in result:
@@ -97,8 +101,11 @@ class DocumentClassifier:
                 else:
                     print(f"    Failed after {attempt + 1} attempts for doc {document.get('doc_id', 'unknown')}: {error_str[:200]}")
                     return []
+        
+        # This should never be reached, but ensures all paths return a value
+        return []
     
-    def compare_documents(self, doc_a: Dict, doc_b: Dict, dimension: str, category: str) -> str:
+    def compare_documents(self, doc_a: Dict[str, Any], doc_b: Dict[str, Any], dimension: str, category: str) -> str:
         """Compare two documents to determine which better represents a dimension-category.
         
         Args:
@@ -130,7 +137,11 @@ class DocumentClassifier:
                 # Mark success for rate limiter
                 self.rate_limiter.success()
                 
-                result = response.choices[0].message.content.strip().upper()
+                content = response.choices[0].message.content
+                if content is None:
+                    return 'A'  # Default to A if no content
+                    
+                result = content.strip().upper()
                 
                 # Extract A or B from response
                 if 'A' in result and 'B' not in result:
@@ -170,8 +181,11 @@ class DocumentClassifier:
                 else:
                     print(f"    Failed comparing after {attempt + 1} attempts: {error_str[:200]}")
                     return 'A'  # Default to keeping current
+        
+        # This should never be reached, but ensures all paths return a value
+        return 'A'
     
-    def _build_classification_prompt(self, document: Dict) -> str:
+    def _build_classification_prompt(self, document: Dict[str, Any]) -> str:
         """Build the classification prompt for a document."""
         
         content = document.get('content', '')
@@ -226,7 +240,7 @@ class DocumentClassifier:
         
         return prompt
     
-    def _build_comparison_prompt(self, doc_a: Dict, doc_b: Dict, dimension: str, category: str) -> str:
+    def _build_comparison_prompt(self, doc_a: Dict[str, Any], doc_b: Dict[str, Any], dimension: str, category: str) -> str:
         """Build the comparison prompt for two documents."""
         
         dim_info = config.DIMENSIONS[dimension]
