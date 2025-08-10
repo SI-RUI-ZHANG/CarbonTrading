@@ -1,0 +1,41 @@
+{
+  "supply": {
+    "major_decrease": null,
+    "minor_decrease": {
+      "doc_id": "54137c41fed1aa43",
+      "title": "夯实碳交易会员自律管理 推动碳市场深化改革创新"
+    },
+    "minor_increase": {
+      "doc_id": "7426bfd1c86f6380",
+      "title": "广碳所支持上清所成功举办创新绿金产品 助力低碳转型碳金融业务分享会"
+    },
+    "major_increase": null
+  },
+  "demand": {
+    "major_increase": null,
+    "minor_increase": {
+      "doc_id": "7426bfd1c86f6380",
+      "title": "广碳所支持上清所成功举办创新绿金产品 助力低碳转型碳金融业务分享会"
+    },
+    "minor_decrease": null,
+    "major_decrease": null
+  },
+  "policy_strength": {
+    "mandatory": {
+      "doc_id": "54137c41fed1aa43",
+      "title": "夯实碳交易会员自律管理 推动碳市场深化改革创新"
+    },
+    "binding": {
+      "doc_id": "7426bfd1c86f6380",
+      "title": "广碳所支持上清所成功举办创新绿金产品 助力低碳转型碳金融业务分享会"
+    },
+    "encouraged": {
+      "doc_id": "1f9bfba9ef458839",
+      "title": "携手低碳生活，共建绿色家园青少年主题路演活动顺利举办"
+    },
+    "informational": {
+      "doc_id": "cd914da68f02c5a9",
+      "title": "广东省碳排放核查机构培训（新纳入行业企业核查专场）成功举办"
+    }
+  }
+}

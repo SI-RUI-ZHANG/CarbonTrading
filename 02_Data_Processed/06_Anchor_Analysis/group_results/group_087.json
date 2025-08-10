@@ -1,0 +1,50 @@
+{
+  "supply": {
+    "major_decrease": {
+      "doc_id": "a0a8f2741a507068",
+      "title": "广东省2024年度碳排放配额分配方案解读"
+    },
+    "minor_decrease": {
+      "doc_id": "9ba5eac388f1d435",
+      "title": "广州碳排放权交易中心董事长张争鸣：碳市场扩围将有助于激发市场活力，赋能企业绿色转型"
+    },
+    "minor_increase": {
+      "doc_id": "9afb9d241cfd568c",
+      "title": "广东省碳排放配额线上抵质押融资业务启动仪式成功举行"
+    },
+    "major_increase": null
+  },
+  "demand": {
+    "major_increase": {
+      "doc_id": "9ba5eac388f1d435",
+      "title": "广州碳排放权交易中心董事长张争鸣：碳市场扩围将有助于激发市场活力，赋能企业绿色转型"
+    },
+    "minor_increase": {
+      "doc_id": "9afb9d241cfd568c",
+      "title": "广东省碳排放配额线上抵质押融资业务启动仪式成功举行"
+    },
+    "minor_decrease": null,
+    "major_decrease": {
+      "doc_id": "a0a8f2741a507068",
+      "title": "广东省2024年度碳排放配额分配方案解读"
+    }
+  },
+  "policy_strength": {
+    "mandatory": {
+      "doc_id": "a0a8f2741a507068",
+      "title": "广东省2024年度碳排放配额分配方案解读"
+    },
+    "binding": {
+      "doc_id": "02ddb087b1406eb4",
+      "title": "相聚广州碳交中心 共研广东碳市场及碳金融发展"
+    },
+    "encouraged": {
+      "doc_id": "a745e28f1f066f41",
+      "title": "加入琴碳星人碳普惠平台，开启绿色商业新征程"
+    },
+    "informational": {
+      "doc_id": "053f0889a9eaa7d2",
+      "title": "绿美广东 金融赋能——广州碳交中心、上海清算所、华夏银行广州分行联合举办广东区域碳融资系列业务交流会"
+    }
+  }
+}

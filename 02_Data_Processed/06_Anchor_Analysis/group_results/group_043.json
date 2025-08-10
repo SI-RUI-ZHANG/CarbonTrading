@@ -1,0 +1,35 @@
+{
+  "supply": {
+    "major_decrease": null,
+    "minor_decrease": {
+      "doc_id": "5f1eaea4457ff508",
+      "title": "关于调整广东省碳排放配额、国家核证自愿减排量和广东省碳普惠制核证减排量收盘价规定的公告"
+    },
+    "minor_increase": {
+      "doc_id": "45ec484972a1d144",
+      "title": "2017年广东省省级碳普惠制核证减排量（PHCER）项目首次竞价情况"
+    },
+    "major_increase": null
+  },
+  "demand": {
+    "major_increase": null,
+    "minor_increase": {
+      "doc_id": "45ec484972a1d144",
+      "title": "2017年广东省省级碳普惠制核证减排量（PHCER）项目首次竞价情况"
+    },
+    "minor_decrease": null,
+    "major_decrease": null
+  },
+  "policy_strength": {
+    "mandatory": {
+      "doc_id": "57473a7ed6933b5e",
+      "title": "广东省省级碳普惠制核证减排量（PHCER）项目竞价公告"
+    },
+    "binding": null,
+    "encouraged": null,
+    "informational": {
+      "doc_id": "7357847dffd931dc",
+      "title": "CCER购买需求发布"
+    }
+  }
+}

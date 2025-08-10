@@ -1,0 +1,38 @@
+{
+  "supply": {
+    "major_decrease": null,
+    "minor_decrease": {
+      "doc_id": "6b65f36a8f43dd85",
+      "title": "广东省省级碳普惠制核证减排量（PHCER）项目竞价公告"
+    },
+    "minor_increase": {
+      "doc_id": "12b9bab971bbadae",
+      "title": "2016年度广东省碳排放配额有偿发放（第四次）公告"
+    },
+    "major_increase": null
+  },
+  "demand": {
+    "major_increase": null,
+    "minor_increase": {
+      "doc_id": "45ec484972a1d144",
+      "title": "2017年广东省省级碳普惠制核证减排量（PHCER）项目首次竞价情况"
+    },
+    "minor_decrease": null,
+    "major_decrease": null
+  },
+  "policy_strength": {
+    "mandatory": {
+      "doc_id": "6b65f36a8f43dd85",
+      "title": "广东省省级碳普惠制核证减排量（PHCER）项目竞价公告"
+    },
+    "binding": null,
+    "encouraged": {
+      "doc_id": "330e9c567f04e0a9",
+      "title": "广州碳排放权交易中心经纪机构招募公告"
+    },
+    "informational": {
+      "doc_id": "71a863131db962a4",
+      "title": "关于2017年劳动节休市安排的公告"
+    }
+  }
+}

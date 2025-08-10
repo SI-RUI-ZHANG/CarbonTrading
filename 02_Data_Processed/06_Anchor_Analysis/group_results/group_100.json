@@ -1,0 +1,38 @@
+{
+  "supply": {
+    "major_decrease": null,
+    "minor_decrease": {
+      "doc_id": "cf42043f84fa90aa",
+      "title": "粤电集团联合广碳所开展的集团环保排放权经营策略及管理模式研究课题荣获粤电集团二等奖"
+    },
+    "minor_increase": {
+      "doc_id": "d081f3e13c16a333",
+      "title": "广碳所与黑龙江联交所签署碳市场建设合作协议 共建全国碳市场能力建设（广东）中心黑龙江分中心"
+    },
+    "major_increase": null
+  },
+  "demand": {
+    "major_increase": null,
+    "minor_increase": {
+      "doc_id": "775142a05a5b164a",
+      "title": "广碳讲堂话普惠 低碳合作促发展"
+    },
+    "minor_decrease": null,
+    "major_decrease": null
+  },
+  "policy_strength": {
+    "mandatory": null,
+    "binding": {
+      "doc_id": "e1648b8f7d85e7d2",
+      "title": "2018中国新能源电力投融资大会于广州绿色金融改革创新试验区召开"
+    },
+    "encouraged": {
+      "doc_id": "775142a05a5b164a",
+      "title": "广碳讲堂话普惠 低碳合作促发展"
+    },
+    "informational": {
+      "doc_id": "7540526b90f354c4",
+      "title": "广碳所出席联合国波恩气候大会广东专场边会"
+    }
+  }
+}

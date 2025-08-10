@@ -1,0 +1,41 @@
+{
+  "supply": {
+    "major_decrease": null,
+    "minor_decrease": {
+      "doc_id": "71e2e338e0a24050",
+      "title": "湖北省产品碳足迹公共服务平台正式发布"
+    },
+    "minor_increase": {
+      "doc_id": "32e0300866297eeb",
+      "title": "湖北省产品碳足迹公共服务平台正式发布"
+    },
+    "major_increase": null
+  },
+  "demand": {
+    "major_increase": null,
+    "minor_increase": {
+      "doc_id": "71e2e338e0a24050",
+      "title": "湖北省产品碳足迹公共服务平台正式发布"
+    },
+    "minor_decrease": null,
+    "major_decrease": null
+  },
+  "policy_strength": {
+    "mandatory": {
+      "doc_id": "71e2e338e0a24050",
+      "title": "湖北省产品碳足迹公共服务平台正式发布"
+    },
+    "binding": {
+      "doc_id": "cfc01f4cd23168ad",
+      "title": "湖北省产品碳足迹公共服务平台正式发布"
+    },
+    "encouraged": {
+      "doc_id": "32e0300866297eeb",
+      "title": "湖北省产品碳足迹公共服务平台正式发布"
+    },
+    "informational": {
+      "doc_id": "f44964112d950391",
+      "title": "湖北省产品碳足迹公共服务平台正式发布"
+    }
+  }
+}

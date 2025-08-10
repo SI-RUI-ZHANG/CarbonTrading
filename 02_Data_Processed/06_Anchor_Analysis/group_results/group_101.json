@@ -1,0 +1,41 @@
+{
+  "supply": {
+    "major_decrease": null,
+    "minor_decrease": {
+      "doc_id": "fdb6e7c974d2131f",
+      "title": "广碳所联合安迅思发布碳市场投资分析报告 首创多指数分析并引入投资评级标准"
+    },
+    "minor_increase": {
+      "doc_id": "13274422339b57d9",
+      "title": "第六届中国（广州）国际金融交易博览会绿色金融论坛成功举办"
+    },
+    "major_increase": null
+  },
+  "demand": {
+    "major_increase": null,
+    "minor_increase": {
+      "doc_id": "e0d81227dcfa6c35",
+      "title": "绿色行动，走向全国——广碳所助力全国低碳周主题宣传"
+    },
+    "minor_decrease": null,
+    "major_decrease": null
+  },
+  "policy_strength": {
+    "mandatory": {
+      "doc_id": "fdb6e7c974d2131f",
+      "title": "广碳所联合安迅思发布碳市场投资分析报告 首创多指数分析并引入投资评级标准"
+    },
+    "binding": {
+      "doc_id": "f3882b0cd06fa729",
+      "title": "浙江省发展和改革委员会一行莅临广碳所调研"
+    },
+    "encouraged": {
+      "doc_id": "22ff6c2c63bf81b5",
+      "title": "广碳所与摩拜单车联合发起骑行一分钟 点亮低碳行绿色健康出行宣传活动"
+    },
+    "informational": {
+      "doc_id": "e0d81227dcfa6c35",
+      "title": "绿色行动，走向全国——广碳所助力全国低碳周主题宣传"
+    }
+  }
+}

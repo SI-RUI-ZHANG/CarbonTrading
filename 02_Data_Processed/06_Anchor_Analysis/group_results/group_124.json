@@ -1,0 +1,35 @@
+{
+  "supply": {
+    "major_decrease": null,
+    "minor_decrease": {
+      "doc_id": "cd64bd6e75f5bc11",
+      "title": "关于暂停受理省级碳普惠核证减排量备案申请的通知"
+    },
+    "minor_increase": {
+      "doc_id": "6967efbce4ad96eb",
+      "title": "广东省发展改革委关于同意广州市5个分布式光伏发电碳普惠项目减排量备案的函"
+    },
+    "major_increase": null
+  },
+  "demand": {
+    "major_increase": null,
+    "minor_increase": {
+      "doc_id": "3dbe3463801ae22d",
+      "title": "广州市发展改革委关于征求《广州市碳普惠制管理暂行办法》公众意见的公告"
+    },
+    "minor_decrease": null,
+    "major_decrease": null
+  },
+  "policy_strength": {
+    "mandatory": {
+      "doc_id": "c0ad9c058eed4133",
+      "title": "关于广东省2017年度碳排放配额履约工作的最新公告"
+    },
+    "binding": null,
+    "encouraged": null,
+    "informational": {
+      "doc_id": "e095cfbd789c9e53",
+      "title": "2017年省级近零碳排放区示范工程试点项目公示"
+    }
+  }
+}

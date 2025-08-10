@@ -1,0 +1,38 @@
+{
+  "supply": {
+    "major_decrease": null,
+    "minor_decrease": {
+      "doc_id": "c7319311b3f2b3d0",
+      "title": "2022年度广东省拟纳入行业企业碳排放信息报告指南与核查专题培训顺利举行"
+    },
+    "minor_increase": {
+      "doc_id": "d0770418e2e8ba0e",
+      "title": "广碳所生态产品价值实现平台落地我国首单滨海盐沼生态系统碳汇产品交易"
+    },
+    "major_increase": null
+  },
+  "demand": {
+    "major_increase": null,
+    "minor_increase": {
+      "doc_id": "1f5bd61eb9d177e0",
+      "title": "接续奋斗 碳路先行"
+    },
+    "minor_decrease": null,
+    "major_decrease": null
+  },
+  "policy_strength": {
+    "mandatory": {
+      "doc_id": "d0770418e2e8ba0e",
+      "title": "广碳所生态产品价值实现平台落地我国首单滨海盐沼生态系统碳汇产品交易"
+    },
+    "binding": null,
+    "encouraged": {
+      "doc_id": "5288d9440136b51c",
+      "title": "广碳所参加全省生态修复技术和国土绿化培训班"
+    },
+    "informational": {
+      "doc_id": "c7319311b3f2b3d0",
+      "title": "2022年度广东省拟纳入行业企业碳排放信息报告指南与核查专题培训顺利举行"
+    }
+  }
+}

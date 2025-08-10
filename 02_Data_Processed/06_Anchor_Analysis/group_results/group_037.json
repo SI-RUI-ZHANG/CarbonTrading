@@ -1,0 +1,32 @@
+{
+  "supply": {
+    "major_decrease": null,
+    "minor_decrease": {
+      "doc_id": "ebb5574e18125f71",
+      "title": "连山壮族瑶族自治县25个林业碳汇碳普惠项目广东省碳普惠制核证减排量（PHCER）竞价情况"
+    },
+    "minor_increase": {
+      "doc_id": "d81975f525db1d21",
+      "title": "广宁县13个镇107个村林业碳汇碳普惠项目广东省碳普惠制核证减排量竞价公告"
+    },
+    "major_increase": null
+  },
+  "demand": {
+    "major_increase": null,
+    "minor_increase": {
+      "doc_id": "d81975f525db1d21",
+      "title": "广宁县13个镇107个村林业碳汇碳普惠项目广东省碳普惠制核证减排量竞价公告"
+    },
+    "minor_decrease": null,
+    "major_decrease": null
+  },
+  "policy_strength": {
+    "mandatory": {
+      "doc_id": "f10412f76c1e999c",
+      "title": "连山壮族瑶族自治县25个林业碳汇碳普惠项目广东省碳普惠制核证减排量竞价公告"
+    },
+    "binding": null,
+    "encouraged": null,
+    "informational": null
+  }
+}

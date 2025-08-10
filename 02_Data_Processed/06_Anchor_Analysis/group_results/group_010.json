@@ -1,0 +1,41 @@
+{
+  "supply": {
+    "major_decrease": null,
+    "minor_decrease": {
+      "doc_id": "189fede40454b79e",
+      "title": "湖北省产品碳足迹公共服务平台正式发布"
+    },
+    "minor_increase": {
+      "doc_id": "befd00b85b93da5e",
+      "title": "校企合作湖北碳交获评全国水利与生态环保行业高校学生实习实践基地"
+    },
+    "major_increase": null
+  },
+  "demand": {
+    "major_increase": {
+      "doc_id": "2bfc5adf232d88bd",
+      "title": "湖北省产品碳足迹公共服务平台正式发布"
+    },
+    "minor_increase": {
+      "doc_id": "befd00b85b93da5e",
+      "title": "校企合作湖北碳交获评全国水利与生态环保行业高校学生实习实践基地"
+    },
+    "minor_decrease": null,
+    "major_decrease": null
+  },
+  "policy_strength": {
+    "mandatory": {
+      "doc_id": "08f82701a3b5c032",
+      "title": "MBAESG双驱商业领袖高级研修班招生简章"
+    },
+    "binding": null,
+    "encouraged": {
+      "doc_id": "86ead9842d3f1816",
+      "title": "校企合作湖北碳交获评全国水利与生态环保行业高校学生实习实践基地"
+    },
+    "informational": {
+      "doc_id": "4443e0731ae8fb4a",
+      "title": "湖北省产品碳足迹公共服务平台正式发布"
+    }
+  }
+}

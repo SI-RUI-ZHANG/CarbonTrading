@@ -1,0 +1,35 @@
+{
+  "supply": {
+    "major_decrease": null,
+    "minor_decrease": {
+      "doc_id": "5ccbb41447d6aaf6",
+      "title": "关于纳入全国碳市场发电企业（含自备电厂）广东省配额临时冻结的通知"
+    },
+    "minor_increase": {
+      "doc_id": "7855c1da7e6c917e",
+      "title": "2021年韶关市翁源县等4县5个林业碳普惠项目、韶关市仁化县 4个林业碳普惠项目（PHCER） 竞价情况"
+    },
+    "major_increase": null
+  },
+  "demand": {
+    "major_increase": null,
+    "minor_increase": {
+      "doc_id": "7855c1da7e6c917e",
+      "title": "2021年韶关市翁源县等4县5个林业碳普惠项目、韶关市仁化县 4个林业碳普惠项目（PHCER） 竞价情况"
+    },
+    "minor_decrease": null,
+    "major_decrease": null
+  },
+  "policy_strength": {
+    "mandatory": {
+      "doc_id": "5ccbb41447d6aaf6",
+      "title": "关于纳入全国碳市场发电企业（含自备电厂）广东省配额临时冻结的通知"
+    },
+    "binding": null,
+    "encouraged": null,
+    "informational": {
+      "doc_id": "01cdcd2273afa8d4",
+      "title": "关于碳排放权交易账户安全的提示"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "supply": {
+    "major_decrease": null,
+    "minor_decrease": {
+      "doc_id": "1ec871e58668c092",
+      "title": "2015年度广东省碳排放配额有偿发放（第四次）竞价情况"
+    },
+    "minor_increase": {
+      "doc_id": "4c30d65e45fb23ce",
+      "title": "2016年度广东省碳排放配额有偿发放第一次）公告"
+    },
+    "major_increase": null
+  },
+  "demand": {
+    "major_increase": null,
+    "minor_increase": {
+      "doc_id": "822805013031dd5a",
+      "title": "广东省碳排放配额回购交易需求发布"
+    },
+    "minor_decrease": null,
+    "major_decrease": null
+  },
+  "policy_strength": {
+    "mandatory": {
+      "doc_id": "badc1135b9ad1901",
+      "title": "关于发布《广州碳排放权交易中心会员管理暂行办法（2017年修订）》的通知"
+    },
+    "binding": {
+      "doc_id": "c6ae0871089e88c9",
+      "title": "关于广东碳排放权交易系统代理开户事项的公告"
+    },
+    "encouraged": null,
+    "informational": {
+      "doc_id": "63115db639def01a",
+      "title": "广东省碳排放配额回购交易购碳需求发布"
+    }
+  }
+}

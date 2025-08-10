@@ -1,0 +1,38 @@
+{
+  "supply": {
+    "major_decrease": null,
+    "minor_decrease": {
+      "doc_id": "1b276e854d5ce51f",
+      "title": "关于举办温室气体管理师基础知识课程培训的通知"
+    },
+    "minor_increase": null,
+    "major_increase": null
+  },
+  "demand": {
+    "major_increase": null,
+    "minor_increase": {
+      "doc_id": "d3f7a1e0ccb0b0c6",
+      "title": "湖北省产品碳足迹公共服务平台正式发布"
+    },
+    "minor_decrease": null,
+    "major_decrease": null
+  },
+  "policy_strength": {
+    "mandatory": {
+      "doc_id": "f6515f2e73600f6b",
+      "title": "湖北省产品碳足迹公共服务平台正式发布"
+    },
+    "binding": {
+      "doc_id": "3faa04425d945a10",
+      "title": "MBAESG双驱商业领袖高级研修班招生简章"
+    },
+    "encouraged": {
+      "doc_id": "706b4cc055e826c1",
+      "title": "MBAESG双驱商业领袖高级研修班招生简章"
+    },
+    "informational": {
+      "doc_id": "3a154212bac495c9",
+      "title": "湖北省产品碳足迹公共服务平台正式发布"
+    }
+  }
+}

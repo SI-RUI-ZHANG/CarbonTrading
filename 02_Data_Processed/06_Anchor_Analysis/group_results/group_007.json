@@ -1,0 +1,35 @@
+{
+  "supply": {
+    "major_decrease": null,
+    "minor_decrease": {
+      "doc_id": "2de6b468c98e814c",
+      "title": "MBAESG双驱商业领袖高级研修班招生简章"
+    },
+    "minor_increase": {
+      "doc_id": "bb283b6ed1b30b92",
+      "title": "校企合作湖北碳交获评全国水利与生态环保行业高校学生实习实践基地"
+    },
+    "major_increase": null
+  },
+  "demand": {
+    "major_increase": null,
+    "minor_increase": {
+      "doc_id": "2de6b468c98e814c",
+      "title": "MBAESG双驱商业领袖高级研修班招生简章"
+    },
+    "minor_decrease": null,
+    "major_decrease": null
+  },
+  "policy_strength": {
+    "mandatory": null,
+    "binding": null,
+    "encouraged": {
+      "doc_id": "2de6b468c98e814c",
+      "title": "MBAESG双驱商业领袖高级研修班招生简章"
+    },
+    "informational": {
+      "doc_id": "d574b4c8721d839d",
+      "title": "校企合作湖北碳交获评全国水利与生态环保行业高校学生实习实践基地"
+    }
+  }
+}

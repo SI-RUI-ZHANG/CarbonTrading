@@ -1,0 +1,41 @@
+{
+  "supply": {
+    "major_decrease": null,
+    "minor_decrease": {
+      "doc_id": "43b08a91d214ede7",
+      "title": "碳市场建设的问题与发展路径——基于构建碳人民币体系视角"
+    },
+    "minor_increase": {
+      "doc_id": "9373bff82658b880",
+      "title": "广州碳交中心举办广东碳配额资产证券化业务研讨会"
+    },
+    "major_increase": null
+  },
+  "demand": {
+    "major_increase": null,
+    "minor_increase": {
+      "doc_id": "9373bff82658b880",
+      "title": "广州碳交中心举办广东碳配额资产证券化业务研讨会"
+    },
+    "minor_decrease": null,
+    "major_decrease": null
+  },
+  "policy_strength": {
+    "mandatory": {
+      "doc_id": "0cebf0a042d71fa3",
+      "title": "广州碳交中心支持制定的《广州市发展绿色金融支持碳达峰行动实施方案》正式印发"
+    },
+    "binding": {
+      "doc_id": "43b08a91d214ede7",
+      "title": "碳市场建设的问题与发展路径——基于构建碳人民币体系视角"
+    },
+    "encouraged": {
+      "doc_id": "9373bff82658b880",
+      "title": "广州碳交中心举办广东碳配额资产证券化业务研讨会"
+    },
+    "informational": {
+      "doc_id": "b3d4f1b5b5cd0407",
+      "title": "广碳所参加2023年广州开发区广州市黄埔区街镇、相关企业碳账户宣讲系列培训活动"
+    }
+  }
+}

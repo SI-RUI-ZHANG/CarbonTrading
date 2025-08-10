@@ -1,0 +1,35 @@
+{
+  "supply": {
+    "major_decrease": null,
+    "minor_decrease": {
+      "doc_id": "306b28f871b5cee5",
+      "title": "广碳所联合撰写课题获评为国家机关事务管理局2022-2023年度公共机构绿色低碳转型优秀课题"
+    },
+    "minor_increase": null,
+    "major_increase": null
+  },
+  "demand": {
+    "major_increase": null,
+    "minor_increase": null,
+    "minor_decrease": null,
+    "major_decrease": null
+  },
+  "policy_strength": {
+    "mandatory": {
+      "doc_id": "306b28f871b5cee5",
+      "title": "广碳所联合撰写课题获评为国家机关事务管理局2022-2023年度公共机构绿色低碳转型优秀课题"
+    },
+    "binding": {
+      "doc_id": "09ef0643dabae14c",
+      "title": "广碳所生态产品价值实现平台正式发布红树林、城市绿地领域碳汇计量与监测方法"
+    },
+    "encouraged": {
+      "doc_id": "f0879be9a95de41e",
+      "title": "广东省博物馆联合广碳所等开展绿色博物馆主题活动"
+    },
+    "informational": {
+      "doc_id": "9b4d676066af5776",
+      "title": "第一期碳资产开发与交易实务培训班成功举办"
+    }
+  }
+}

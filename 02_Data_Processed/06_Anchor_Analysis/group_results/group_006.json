@@ -1,0 +1,41 @@
+{
+  "supply": {
+    "major_decrease": null,
+    "minor_decrease": {
+      "doc_id": "858ba0a47501f5b5",
+      "title": "湖北省产品碳足迹公共服务平台正式发布"
+    },
+    "minor_increase": {
+      "doc_id": "e4b48d65cd579ea9",
+      "title": "MBAESG双驱商业领袖高级研修班招生简章"
+    },
+    "major_increase": null
+  },
+  "demand": {
+    "major_increase": null,
+    "minor_increase": {
+      "doc_id": "e4b48d65cd579ea9",
+      "title": "MBAESG双驱商业领袖高级研修班招生简章"
+    },
+    "minor_decrease": null,
+    "major_decrease": null
+  },
+  "policy_strength": {
+    "mandatory": {
+      "doc_id": "e4b48d65cd579ea9",
+      "title": "MBAESG双驱商业领袖高级研修班招生简章"
+    },
+    "binding": {
+      "doc_id": "ec85042f4c4c24d7",
+      "title": "湖北省产品碳足迹公共服务平台正式发布"
+    },
+    "encouraged": {
+      "doc_id": "98f3f485061e6199",
+      "title": "湖北省产品碳足迹公共服务平台正式发布"
+    },
+    "informational": {
+      "doc_id": "858ba0a47501f5b5",
+      "title": "湖北省产品碳足迹公共服务平台正式发布"
+    }
+  }
+}

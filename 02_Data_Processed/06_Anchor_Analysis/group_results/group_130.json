@@ -1,0 +1,44 @@
+{
+  "supply": {
+    "major_decrease": null,
+    "minor_decrease": {
+      "doc_id": "3f554916baef067f",
+      "title": "广东省2014年度碳排放配额分配实施方案"
+    },
+    "minor_increase": {
+      "doc_id": "e18999742f773adc",
+      "title": "广东：配额竞拍收入拟纳入碳基金鼓励减排"
+    },
+    "major_increase": null
+  },
+  "demand": {
+    "major_increase": {
+      "doc_id": "58ffe65e670484a2",
+      "title": "广东碳市场开放个人投资者买碳 首批5名会员昨日进场交易"
+    },
+    "minor_increase": {
+      "doc_id": "e18999742f773adc",
+      "title": "广东：配额竞拍收入拟纳入碳基金鼓励减排"
+    },
+    "minor_decrease": null,
+    "major_decrease": null
+  },
+  "policy_strength": {
+    "mandatory": {
+      "doc_id": "0702c1b8a6a60d7f",
+      "title": "广东省2013年度控排企业碳排放配额清缴通知"
+    },
+    "binding": {
+      "doc_id": "1b601e6ed6096d46",
+      "title": "广东拟牵头建立华南碳市场"
+    },
+    "encouraged": {
+      "doc_id": "ad686fd33ca3efe0",
+      "title": "广东个人碳排放权首日交易金额超万元"
+    },
+    "informational": {
+      "doc_id": "d5e9c95e894674bf",
+      "title": "广东省控排企业碳排放交易培训班在广州召开"
+    }
+  }
+}

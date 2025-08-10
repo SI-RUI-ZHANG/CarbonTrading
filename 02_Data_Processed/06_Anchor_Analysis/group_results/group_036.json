@@ -1,0 +1,41 @@
+{
+  "supply": {
+    "major_decrease": null,
+    "minor_decrease": {
+      "doc_id": "1810940ad4b81fe3",
+      "title": "湖北省产品碳足迹公共服务平台正式发布"
+    },
+    "minor_increase": {
+      "doc_id": "5a1a127c9f0465b7",
+      "title": "湖北碳交助力湖北省首家政策性银行实现碳中和"
+    },
+    "major_increase": null
+  },
+  "demand": {
+    "major_increase": null,
+    "minor_increase": {
+      "doc_id": "1810940ad4b81fe3",
+      "title": "湖北省产品碳足迹公共服务平台正式发布"
+    },
+    "minor_decrease": null,
+    "major_decrease": null
+  },
+  "policy_strength": {
+    "mandatory": {
+      "doc_id": "0d1e22e9d99ac813",
+      "title": "连山壮族瑶族自治县28个林业碳汇碳普惠项目广东省碳普惠制核证减排量竞价公告"
+    },
+    "binding": {
+      "doc_id": "1810940ad4b81fe3",
+      "title": "湖北省产品碳足迹公共服务平台正式发布"
+    },
+    "encouraged": {
+      "doc_id": "5a1a127c9f0465b7",
+      "title": "湖北碳交助力湖北省首家政策性银行实现碳中和"
+    },
+    "informational": {
+      "doc_id": "62acdd178babcca1",
+      "title": "MBAESG双驱商业领袖高级研修班招生简章"
+    }
+  }
+}

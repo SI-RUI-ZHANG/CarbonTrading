@@ -1,0 +1,41 @@
+{
+  "supply": {
+    "major_decrease": null,
+    "minor_decrease": {
+      "doc_id": "fd704909528b9998",
+      "title": "湖北省产品碳足迹公共服务平台正式发布"
+    },
+    "minor_increase": {
+      "doc_id": "b761f1915d24e604",
+      "title": "湖北碳交助力湖北省首家政策性银行实现碳中和"
+    },
+    "major_increase": null
+  },
+  "demand": {
+    "major_increase": null,
+    "minor_increase": {
+      "doc_id": "b761f1915d24e604",
+      "title": "湖北碳交助力湖北省首家政策性银行实现碳中和"
+    },
+    "minor_decrease": null,
+    "major_decrease": null
+  },
+  "policy_strength": {
+    "mandatory": {
+      "doc_id": "9aa0333f1a2c1e4d",
+      "title": "湖北碳交助力湖北省首家政策性银行实现碳中和"
+    },
+    "binding": {
+      "doc_id": "fd704909528b9998",
+      "title": "湖北省产品碳足迹公共服务平台正式发布"
+    },
+    "encouraged": {
+      "doc_id": "b761f1915d24e604",
+      "title": "湖北碳交助力湖北省首家政策性银行实现碳中和"
+    },
+    "informational": {
+      "doc_id": "889a355c611c95fe",
+      "title": "湖北省产品碳足迹公共服务平台正式发布"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "supply": {
+    "major_decrease": null,
+    "minor_decrease": {
+      "doc_id": "c444b9f0f0a51255",
+      "title": "关于举办温室气体管理师基础知识课程培训的通知"
+    },
+    "minor_increase": {
+      "doc_id": "bb108809949148a9",
+      "title": "MBAESG双驱商业领袖高级研修班招生简章"
+    },
+    "major_increase": {
+      "doc_id": "fbfdebbf511d1ce4",
+      "title": "关于举办温室气体管理师基础知识课程培训的通知"
+    }
+  },
+  "demand": {
+    "major_increase": null,
+    "minor_increase": {
+      "doc_id": "bb108809949148a9",
+      "title": "MBAESG双驱商业领袖高级研修班招生简章"
+    },
+    "minor_decrease": null,
+    "major_decrease": null
+  },
+  "policy_strength": {
+    "mandatory": {
+      "doc_id": "bb108809949148a9",
+      "title": "MBAESG双驱商业领袖高级研修班招生简章"
+    },
+    "binding": {
+      "doc_id": "0a05f97894f1d4cc",
+      "title": "MBAESG双驱商业领袖高级研修班招生简章"
+    },
+    "encouraged": {
+      "doc_id": "6fd3bc9ccf8e2e4d",
+      "title": "湖北碳交助力湖北省首家政策性银行实现碳中和"
+    },
+    "informational": {
+      "doc_id": "fbfdebbf511d1ce4",
+      "title": "关于举办温室气体管理师基础知识课程培训的通知"
+    }
+  }
+}

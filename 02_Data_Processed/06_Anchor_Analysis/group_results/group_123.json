@@ -1,0 +1,41 @@
+{
+  "supply": {
+    "major_decrease": null,
+    "minor_decrease": {
+      "doc_id": "00c506c2b142e758",
+      "title": "广东省生态环境厅关于做好2018年度企业碳排放信息报告核查和配额清缴履约相关工作的通知"
+    },
+    "minor_increase": {
+      "doc_id": "bef05911c254a772",
+      "title": "广东省生态环境厅关于恢复受理省级碳普惠核证减排量备案申请的通知"
+    },
+    "major_increase": null
+  },
+  "demand": {
+    "major_increase": null,
+    "minor_increase": {
+      "doc_id": "bef05911c254a772",
+      "title": "广东省生态环境厅关于恢复受理省级碳普惠核证减排量备案申请的通知"
+    },
+    "minor_decrease": {
+      "doc_id": "912cde2e7de1e218",
+      "title": "关于广东省2018年度碳排放配额履约工作的公告"
+    },
+    "major_decrease": null
+  },
+  "policy_strength": {
+    "mandatory": {
+      "doc_id": "afd7355f544386f0",
+      "title": "关于广东省2017年度碳排放配额履约工作的公告"
+    },
+    "binding": null,
+    "encouraged": {
+      "doc_id": "bef05911c254a772",
+      "title": "广东省生态环境厅关于恢复受理省级碳普惠核证减排量备案申请的通知"
+    },
+    "informational": {
+      "doc_id": "dc2c505fb43f51f2",
+      "title": "关于广州珠江电力有限公司购买碳配额的通知"
+    }
+  }
+}

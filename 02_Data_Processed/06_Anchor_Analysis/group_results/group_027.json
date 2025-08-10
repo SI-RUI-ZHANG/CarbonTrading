@@ -1,0 +1,41 @@
+{
+  "supply": {
+    "major_decrease": null,
+    "minor_decrease": {
+      "doc_id": "9c2de4fc475d7c76",
+      "title": "湖北省产品碳足迹公共服务平台正式发布"
+    },
+    "minor_increase": {
+      "doc_id": "e713b44d2fd5663b",
+      "title": "湖北省产品碳足迹公共服务平台正式发布"
+    },
+    "major_increase": null
+  },
+  "demand": {
+    "major_increase": {
+      "doc_id": "41fd6132e7371afe",
+      "title": "MBAESG双驱商业领袖高级研修班招生简章"
+    },
+    "minor_increase": {
+      "doc_id": "22401913be67ba81",
+      "title": "湖北碳交助力湖北省首家政策性银行实现碳中和"
+    },
+    "minor_decrease": null,
+    "major_decrease": null
+  },
+  "policy_strength": {
+    "mandatory": {
+      "doc_id": "599f7e1bc0861eea",
+      "title": "湖北省产品碳足迹公共服务平台正式发布"
+    },
+    "binding": null,
+    "encouraged": {
+      "doc_id": "22401913be67ba81",
+      "title": "湖北碳交助力湖北省首家政策性银行实现碳中和"
+    },
+    "informational": {
+      "doc_id": "56496268aa496146",
+      "title": "湖北省产品碳足迹公共服务平台正式发布"
+    }
+  }
+}

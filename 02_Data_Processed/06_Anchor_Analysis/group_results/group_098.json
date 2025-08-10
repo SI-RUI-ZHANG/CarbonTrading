@@ -1,0 +1,41 @@
+{
+  "supply": {
+    "major_decrease": null,
+    "minor_decrease": {
+      "doc_id": "41925b9dfc6619c0",
+      "title": "知否知否，广东碳价已突破20元关口"
+    },
+    "minor_increase": {
+      "doc_id": "d1dca4211e91bba1",
+      "title": "广碳所和欧洲能源交易所同步上线业务推介 进一步开拓绿色金融国际化合作"
+    },
+    "major_increase": null
+  },
+  "demand": {
+    "major_increase": null,
+    "minor_increase": {
+      "doc_id": "f7111ae3a5cbe950",
+      "title": "广州市绿色金融改革创新试验区召开绿色金融专题研讨会"
+    },
+    "minor_decrease": null,
+    "major_decrease": null
+  },
+  "policy_strength": {
+    "mandatory": {
+      "doc_id": "a61df3ac1ed5793b",
+      "title": "能源基金会项目中国碳排放配额有偿分配机制研究成果论证会在北京成功举办"
+    },
+    "binding": {
+      "doc_id": "ab08775878a61b9f",
+      "title": "2019穗港澳金融合作推介会在港成功举办"
+    },
+    "encouraged": {
+      "doc_id": "fd3214205c869e00",
+      "title": "广碳所成功举办梅州低碳分享日活动"
+    },
+    "informational": {
+      "doc_id": "77893c292b60ed9b",
+      "title": "广碳所成功举办大湾区绿色金融培训班暨第二十二期碳交易员培训班"
+    }
+  }
+}

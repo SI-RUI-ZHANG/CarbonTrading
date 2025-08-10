@@ -1,0 +1,32 @@
+{
+  "supply": {
+    "major_decrease": null,
+    "minor_decrease": {
+      "doc_id": "98cc2ffd7a616450",
+      "title": "广东省发展改革委关于广东省2015年度碳排放配额有偿发放方案的批复"
+    },
+    "minor_increase": {
+      "doc_id": "0c630eb93bfa893f",
+      "title": "2015年度广东省碳排放配额有偿发放第一次）公告"
+    },
+    "major_increase": null
+  },
+  "demand": {
+    "major_increase": null,
+    "minor_increase": null,
+    "minor_decrease": null,
+    "major_decrease": null
+  },
+  "policy_strength": {
+    "mandatory": {
+      "doc_id": "a7babbab7196de94",
+      "title": "广州碳排放权交易中心广东省碳排放配额抵押登记操作规程（试行）"
+    },
+    "binding": {
+      "doc_id": "98cc2ffd7a616450",
+      "title": "广东省发展改革委关于广东省2015年度碳排放配额有偿发放方案的批复"
+    },
+    "encouraged": null,
+    "informational": null
+  }
+}

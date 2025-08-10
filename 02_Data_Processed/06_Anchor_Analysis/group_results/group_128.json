@@ -1,0 +1,41 @@
+{
+  "supply": {
+    "major_decrease": null,
+    "minor_decrease": {
+      "doc_id": "8487dad2c67b9559",
+      "title": "广东配额有偿发放再现供不应求"
+    },
+    "minor_increase": {
+      "doc_id": "0f6c503aee989ff2",
+      "title": "广碳所推出碳排放配额回购交易业务"
+    },
+    "major_increase": null
+  },
+  "demand": {
+    "major_increase": {
+      "doc_id": "2d08d91d5c1fa522",
+      "title": "广东省民航等六行业需报告碳排信息"
+    },
+    "minor_increase": {
+      "doc_id": "8aef5cfd866765c1",
+      "title": "广东正式启动碳普惠制试点建设 成全国首创"
+    },
+    "minor_decrease": null,
+    "major_decrease": null
+  },
+  "policy_strength": {
+    "mandatory": {
+      "doc_id": "eb784cbaf97ab4c4",
+      "title": "广东控排企业年度碳履约率100"
+    },
+    "binding": {
+      "doc_id": "8aef5cfd866765c1",
+      "title": "广东正式启动碳普惠制试点建设 成全国首创"
+    },
+    "encouraged": {
+      "doc_id": "4c8627465b6307d9",
+      "title": "中国探索奖励公民碳币 鼓励低碳行为"
+    },
+    "informational": null
+  }
+}

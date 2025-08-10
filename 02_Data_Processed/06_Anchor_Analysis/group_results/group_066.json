@@ -1,0 +1,47 @@
+{
+  "supply": {
+    "major_decrease": {
+      "doc_id": "a0a8f2741a507068",
+      "title": "广东省2024年度碳排放配额分配方案解读"
+    },
+    "minor_decrease": {
+      "doc_id": "4e387403fdba37ed",
+      "title": "广州碳交中心承办双碳战略 绿色转型 国企先行绿色低碳高质量发展活动"
+    },
+    "minor_increase": null,
+    "major_increase": null
+  },
+  "demand": {
+    "major_increase": {
+      "doc_id": "faa8c93a061f3ea6",
+      "title": "广东省碳排放管理和交易新纳入行业企业专题培训顺利举行"
+    },
+    "minor_increase": {
+      "doc_id": "1c98ee96991e778a",
+      "title": "广州碳排放权交易中心携手恒丰银行广州分行成功举办绿色金融沙龙活动"
+    },
+    "minor_decrease": null,
+    "major_decrease": {
+      "doc_id": "a0a8f2741a507068",
+      "title": "广东省2024年度碳排放配额分配方案解读"
+    }
+  },
+  "policy_strength": {
+    "mandatory": {
+      "doc_id": "a0a8f2741a507068",
+      "title": "广东省2024年度碳排放配额分配方案解读"
+    },
+    "binding": {
+      "doc_id": "4e387403fdba37ed",
+      "title": "广州碳交中心承办双碳战略 绿色转型 国企先行绿色低碳高质量发展活动"
+    },
+    "encouraged": {
+      "doc_id": "589d3ea032882ba3",
+      "title": "倒计时1天  广州碳交中心承建的横琴粤澳深度合作区琴碳星人碳普惠小程序即将上线"
+    },
+    "informational": {
+      "doc_id": "525f9439d3460ea0",
+      "title": "2023年度广东碳市场新增控排企业履约指引专题沙龙活动成功举办"
+    }
+  }
+}

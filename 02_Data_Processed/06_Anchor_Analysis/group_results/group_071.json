@@ -1,0 +1,38 @@
+{
+  "supply": {
+    "major_decrease": null,
+    "minor_decrease": {
+      "doc_id": "54137c41fed1aa43",
+      "title": "夯实碳交易会员自律管理 推动碳市场深化改革创新"
+    },
+    "minor_increase": null,
+    "major_increase": null
+  },
+  "demand": {
+    "major_increase": null,
+    "minor_increase": {
+      "doc_id": "56e3d8c1db814725",
+      "title": "广碳所与哈啰达成战略合作 携手升级个人碳账户"
+    },
+    "minor_decrease": null,
+    "major_decrease": null
+  },
+  "policy_strength": {
+    "mandatory": {
+      "doc_id": "54137c41fed1aa43",
+      "title": "夯实碳交易会员自律管理 推动碳市场深化改革创新"
+    },
+    "binding": {
+      "doc_id": "4643917b651031b7",
+      "title": "广碳所与中信证券签署战略合作协议 服务国家双碳战略 助力绿色低碳高质量发展"
+    },
+    "encouraged": {
+      "doc_id": "8b74d6255a4519b5",
+      "title": "广碳所作为首家交易所机构加入生物多样性金融伙伴关系PBF"
+    },
+    "informational": {
+      "doc_id": "dc97e5c88d56b364",
+      "title": "第二期碳管理技术人员系列培训班成功举办"
+    }
+  }
+}

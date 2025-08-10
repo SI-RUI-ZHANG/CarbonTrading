@@ -1,0 +1,41 @@
+{
+  "supply": {
+    "major_decrease": null,
+    "minor_decrease": {
+      "doc_id": "40df8fa1245c3322",
+      "title": "河源市成功举办碳普惠工作推进暨碳排放交易管理培训会"
+    },
+    "minor_increase": {
+      "doc_id": "373351469fbc5e65",
+      "title": "市委书记张硕辅调研花都，听取广州碳排放权交易所有关情况汇报"
+    },
+    "major_increase": null
+  },
+  "demand": {
+    "major_increase": null,
+    "minor_increase": {
+      "doc_id": "0c56689c81f501f5",
+      "title": "中电联理事会赴广碳所开展自备电厂参与碳排放权交易情况调研座谈会"
+    },
+    "minor_decrease": null,
+    "major_decrease": null
+  },
+  "policy_strength": {
+    "mandatory": {
+      "doc_id": "235ccac0b8ce262d",
+      "title": "广州碳排放权交易所不忘初心、牢记使命主题教育活动暨年中工作总结会顺利召开"
+    },
+    "binding": {
+      "doc_id": "0c56689c81f501f5",
+      "title": "中电联理事会赴广碳所开展自备电厂参与碳排放权交易情况调研座谈会"
+    },
+    "encouraged": {
+      "doc_id": "40df8fa1245c3322",
+      "title": "河源市成功举办碳普惠工作推进暨碳排放交易管理培训会"
+    },
+    "informational": {
+      "doc_id": "4e304da6faa6b172",
+      "title": "广碳所低碳分享日活动走进清远"
+    }
+  }
+}

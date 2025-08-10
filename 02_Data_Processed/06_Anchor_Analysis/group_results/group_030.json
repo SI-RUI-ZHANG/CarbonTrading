@@ -1,0 +1,38 @@
+{
+  "supply": {
+    "major_decrease": null,
+    "minor_decrease": {
+      "doc_id": "ec35b9c2b91489b5",
+      "title": "湖北省产品碳足迹公共服务平台正式发布"
+    },
+    "minor_increase": {
+      "doc_id": "77ca537d5942d26b",
+      "title": "湖北省产品碳足迹公共服务平台正式发布"
+    },
+    "major_increase": null
+  },
+  "demand": {
+    "major_increase": null,
+    "minor_increase": {
+      "doc_id": "0c36c927908340c7",
+      "title": "关于举办温室气体管理师基础知识课程培训的通知"
+    },
+    "minor_decrease": null,
+    "major_decrease": null
+  },
+  "policy_strength": {
+    "mandatory": {
+      "doc_id": "77ca537d5942d26b",
+      "title": "湖北省产品碳足迹公共服务平台正式发布"
+    },
+    "binding": null,
+    "encouraged": {
+      "doc_id": "5b65302d9bd1faea",
+      "title": "湖北省产品碳足迹公共服务平台正式发布"
+    },
+    "informational": {
+      "doc_id": "16d732dbf5c76a00",
+      "title": "关于举办温室气体管理师基础知识课程培训的通知"
+    }
+  }
+}

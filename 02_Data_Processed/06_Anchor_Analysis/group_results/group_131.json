@@ -1,0 +1,41 @@
+{
+  "supply": {
+    "major_decrease": null,
+    "minor_decrease": {
+      "doc_id": "21b1472418816456",
+      "title": "省政府颁布《广东省碳排放管理试行办法》"
+    },
+    "minor_increase": {
+      "doc_id": "b974f249be39f79c",
+      "title": "广东首度发放有偿碳排放配额300万吨"
+    },
+    "major_increase": {
+      "doc_id": "d55a5e3eefff0ce9",
+      "title": "广东省碳市场开锣 创下多个第一"
+    }
+  },
+  "demand": {
+    "major_increase": {
+      "doc_id": "43ec3c537488324d",
+      "title": "广东省碳排放权配额或下月首次竞拍"
+    },
+    "minor_increase": {
+      "doc_id": "21b1472418816456",
+      "title": "省政府颁布《广东省碳排放管理试行办法》"
+    },
+    "minor_decrease": null,
+    "major_decrease": null
+  },
+  "policy_strength": {
+    "mandatory": {
+      "doc_id": "21b1472418816456",
+      "title": "省政府颁布《广东省碳排放管理试行办法》"
+    },
+    "binding": null,
+    "encouraged": {
+      "doc_id": "05111265e08997c7",
+      "title": "碳交易师有望走近广州市民生活"
+    },
+    "informational": null
+  }
+}

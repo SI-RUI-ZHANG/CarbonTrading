@@ -1,0 +1,38 @@
+{
+  "supply": {
+    "major_decrease": null,
+    "minor_decrease": {
+      "doc_id": "7492bcb188bd0c9d",
+      "title": "共建美丽广东，助推生态文明建设 广碳所在行动：系列四 生态产品价值实现"
+    },
+    "minor_increase": null,
+    "major_increase": null
+  },
+  "demand": {
+    "major_increase": null,
+    "minor_increase": {
+      "doc_id": "7492bcb188bd0c9d",
+      "title": "共建美丽广东，助推生态文明建设 广碳所在行动：系列四 生态产品价值实现"
+    },
+    "minor_decrease": null,
+    "major_decrease": null
+  },
+  "policy_strength": {
+    "mandatory": {
+      "doc_id": "b5a251cdbd692344",
+      "title": "广东省2018年度碳市场报告（中文版）"
+    },
+    "binding": {
+      "doc_id": "7492bcb188bd0c9d",
+      "title": "共建美丽广东，助推生态文明建设 广碳所在行动：系列四 生态产品价值实现"
+    },
+    "encouraged": {
+      "doc_id": "ee6deda2181ccd0c",
+      "title": "共建低碳湾区，绿金创新发展，广碳所在行动：系列二 绿色金融"
+    },
+    "informational": {
+      "doc_id": "10b1f73e8d8a8b53",
+      "title": "广碳所成功举办第二十四期碳交易员培训班"
+    }
+  }
+}

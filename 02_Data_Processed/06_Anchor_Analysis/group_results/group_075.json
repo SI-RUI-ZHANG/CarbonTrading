@@ -1,0 +1,35 @@
+{
+  "supply": {
+    "major_decrease": null,
+    "minor_decrease": {
+      "doc_id": "b14a1a4e3639c55a",
+      "title": "凝心聚力湾区 改革创新碳市 广碳所第三届会员大会成功举行"
+    },
+    "minor_increase": {
+      "doc_id": "a87e982bd5fa7f00",
+      "title": "广碳所碳排放权抵质押融资项目入选2019年度广东绿色金融创新优秀案例"
+    },
+    "major_increase": null
+  },
+  "demand": {
+    "major_increase": null,
+    "minor_increase": {
+      "doc_id": "a87e982bd5fa7f00",
+      "title": "广碳所碳排放权抵质押融资项目入选2019年度广东绿色金融创新优秀案例"
+    },
+    "minor_decrease": null,
+    "major_decrease": null
+  },
+  "policy_strength": {
+    "mandatory": {
+      "doc_id": "b14a1a4e3639c55a",
+      "title": "凝心聚力湾区 改革创新碳市 广碳所第三届会员大会成功举行"
+    },
+    "binding": null,
+    "encouraged": {
+      "doc_id": "a87e982bd5fa7f00",
+      "title": "广碳所碳排放权抵质押融资项目入选2019年度广东绿色金融创新优秀案例"
+    },
+    "informational": null
+  }
+}

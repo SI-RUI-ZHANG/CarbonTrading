@@ -1,0 +1,44 @@
+{
+  "supply": {
+    "major_decrease": null,
+    "minor_decrease": {
+      "doc_id": "ac999c58c668c21e",
+      "title": "湖北省产品碳足迹公共服务平台正式发布"
+    },
+    "minor_increase": {
+      "doc_id": "27161670af611012",
+      "title": "湖北碳交助力湖北省首家政策性银行实现碳中和"
+    },
+    "major_increase": {
+      "doc_id": "6ddf76a798eb6f1a",
+      "title": "湖北省产品碳足迹公共服务平台正式发布"
+    }
+  },
+  "demand": {
+    "major_increase": null,
+    "minor_increase": {
+      "doc_id": "27161670af611012",
+      "title": "湖北碳交助力湖北省首家政策性银行实现碳中和"
+    },
+    "minor_decrease": null,
+    "major_decrease": null
+  },
+  "policy_strength": {
+    "mandatory": {
+      "doc_id": "82e725c1ef7e9c12",
+      "title": "校企合作湖北碳交获评全国水利与生态环保行业高校学生实习实践基地"
+    },
+    "binding": {
+      "doc_id": "ac999c58c668c21e",
+      "title": "湖北省产品碳足迹公共服务平台正式发布"
+    },
+    "encouraged": {
+      "doc_id": "5386fb3ee4c0eeb5",
+      "title": "湖北碳交助力湖北省首家政策性银行实现碳中和"
+    },
+    "informational": {
+      "doc_id": "452c4f4d8cd661fd",
+      "title": "关于举办温室气体管理师基础知识课程培训的通知"
+    }
+  }
+}

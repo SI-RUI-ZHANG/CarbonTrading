@@ -1,0 +1,35 @@
+{
+  "supply": {
+    "major_decrease": null,
+    "minor_decrease": null,
+    "minor_increase": {
+      "doc_id": "f7111ae3a5cbe950",
+      "title": "广州市绿色金融改革创新试验区召开绿色金融专题研讨会"
+    },
+    "major_increase": null
+  },
+  "demand": {
+    "major_increase": null,
+    "minor_increase": {
+      "doc_id": "f7111ae3a5cbe950",
+      "title": "广州市绿色金融改革创新试验区召开绿色金融专题研讨会"
+    },
+    "minor_decrease": null,
+    "major_decrease": null
+  },
+  "policy_strength": {
+    "mandatory": {
+      "doc_id": "f7111ae3a5cbe950",
+      "title": "广州市绿色金融改革创新试验区召开绿色金融专题研讨会"
+    },
+    "binding": null,
+    "encouraged": {
+      "doc_id": "c6bdb56a9c32db27",
+      "title": "广东省牲畜粪污综合利用碳普惠方法学评审会成功举办"
+    },
+    "informational": {
+      "doc_id": "cab3896830493932",
+      "title": "广东省碳市场履约及碳资产管理沙龙成功举办"
+    }
+  }
+}

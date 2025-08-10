@@ -1,0 +1,38 @@
+{
+  "supply": {
+    "major_decrease": null,
+    "minor_decrease": {
+      "doc_id": "23e5e8816ec4590e",
+      "title": "广碳所参加澳门大湾区碳中和发展研讨会"
+    },
+    "minor_increase": {
+      "doc_id": "7426bfd1c86f6380",
+      "title": "广碳所支持上清所成功举办创新绿金产品 助力低碳转型碳金融业务分享会"
+    },
+    "major_increase": null
+  },
+  "demand": {
+    "major_increase": null,
+    "minor_increase": {
+      "doc_id": "23e5e8816ec4590e",
+      "title": "广碳所参加澳门大湾区碳中和发展研讨会"
+    },
+    "minor_decrease": null,
+    "major_decrease": null
+  },
+  "policy_strength": {
+    "mandatory": {
+      "doc_id": "715aebd721941f43",
+      "title": "广碳所助力消博会第三届可持续消费高峰论坛实现大型活动碳中和"
+    },
+    "binding": null,
+    "encouraged": {
+      "doc_id": "23e5e8816ec4590e",
+      "title": "广碳所参加澳门大湾区碳中和发展研讨会"
+    },
+    "informational": {
+      "doc_id": "7426bfd1c86f6380",
+      "title": "广碳所支持上清所成功举办创新绿金产品 助力低碳转型碳金融业务分享会"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "supply": {
+    "major_decrease": null,
+    "minor_decrease": {
+      "doc_id": "bf19a7b5c85c70b6",
+      "title": "碳交易财务与税务机制研讨会在广州召开"
+    },
+    "minor_increase": null,
+    "major_increase": null
+  },
+  "demand": {
+    "major_increase": {
+      "doc_id": "7721a1bce68ab459",
+      "title": "广东省碳排放权交易试点新纳入行业控排企业专题培训圆满举行"
+    },
+    "minor_increase": {
+      "doc_id": "5515fd6aa6526a0c",
+      "title": "全国碳市场能力建设（广东）中心举办粤西地区碳交易专场培训"
+    },
+    "minor_decrease": null,
+    "major_decrease": null
+  },
+  "policy_strength": {
+    "mandatory": {
+      "doc_id": "bf19a7b5c85c70b6",
+      "title": "碳交易财务与税务机制研讨会在广州召开"
+    },
+    "binding": null,
+    "encouraged": {
+      "doc_id": "048e758028b4e0b3",
+      "title": "黑龙江省国资委一行赴广碳所开展调研"
+    },
+    "informational": {
+      "doc_id": "c3153abeb09ad4c0",
+      "title": "广碳讲堂第二期——碳交易会计处理培训研讨会在广州成功开讲"
+    }
+  }
+}

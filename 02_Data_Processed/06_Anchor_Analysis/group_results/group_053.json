@@ -1,0 +1,35 @@
+{
+  "supply": {
+    "major_decrease": null,
+    "minor_decrease": {
+      "doc_id": "05b1f673abef935c",
+      "title": "关于暂停受理广东省碳排放配额回购交易业务的公告"
+    },
+    "minor_increase": null,
+    "major_increase": null
+  },
+  "demand": {
+    "major_increase": null,
+    "minor_increase": null,
+    "minor_decrease": null,
+    "major_decrease": null
+  },
+  "policy_strength": {
+    "mandatory": {
+      "doc_id": "b64bf25a7ac44214",
+      "title": "关于履约期增加周末交易日的公告"
+    },
+    "binding": {
+      "doc_id": "5880e9d8f9e6f243",
+      "title": "关于公开遴选广州市自然资源领域生态产品价值实现专家委员会委员和专家库成员的通知"
+    },
+    "encouraged": {
+      "doc_id": "99c3f48ff4eef405",
+      "title": "花都论碳沙龙活动—公众多场景下的碳普惠邀请函"
+    },
+    "informational": {
+      "doc_id": "25a29b3484d45572",
+      "title": "关于启用新版广东省碳排放配额注册登记系统的公告"
+    }
+  }
+}

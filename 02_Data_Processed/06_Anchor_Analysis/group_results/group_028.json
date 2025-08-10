@@ -1,0 +1,41 @@
+{
+  "supply": {
+    "major_decrease": null,
+    "minor_decrease": {
+      "doc_id": "5186c05f89be98de",
+      "title": "关于举办温室气体管理师基础知识课程培训的通知"
+    },
+    "minor_increase": {
+      "doc_id": "03a8c70b6047dee2",
+      "title": "关于举办温室气体管理师基础知识课程培训的通知"
+    },
+    "major_increase": null
+  },
+  "demand": {
+    "major_increase": null,
+    "minor_increase": {
+      "doc_id": "5186c05f89be98de",
+      "title": "关于举办温室气体管理师基础知识课程培训的通知"
+    },
+    "minor_decrease": null,
+    "major_decrease": null
+  },
+  "policy_strength": {
+    "mandatory": {
+      "doc_id": "ed9d979a325eee35",
+      "title": "MBAESG双驱商业领袖高级研修班招生简章"
+    },
+    "binding": {
+      "doc_id": "9487aa1e4d6fd536",
+      "title": "湖北省产品碳足迹公共服务平台正式发布"
+    },
+    "encouraged": {
+      "doc_id": "44af76de18507a76",
+      "title": "校企合作湖北碳交获评全国水利与生态环保行业高校学生实习实践基地"
+    },
+    "informational": {
+      "doc_id": "5186c05f89be98de",
+      "title": "关于举办温室气体管理师基础知识课程培训的通知"
+    }
+  }
+}

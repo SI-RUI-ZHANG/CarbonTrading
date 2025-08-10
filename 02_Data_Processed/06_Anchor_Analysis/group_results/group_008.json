@@ -1,0 +1,38 @@
+{
+  "supply": {
+    "major_decrease": null,
+    "minor_decrease": {
+      "doc_id": "4da9cd71596db3f8",
+      "title": "湖北碳交助力湖北省首家政策性银行实现碳中和"
+    },
+    "minor_increase": {
+      "doc_id": "eb44e52e4dde9b5a",
+      "title": "湖北碳交助力湖北省首家政策性银行实现碳中和"
+    },
+    "major_increase": null
+  },
+  "demand": {
+    "major_increase": null,
+    "minor_increase": {
+      "doc_id": "eb44e52e4dde9b5a",
+      "title": "湖北碳交助力湖北省首家政策性银行实现碳中和"
+    },
+    "minor_decrease": null,
+    "major_decrease": null
+  },
+  "policy_strength": {
+    "mandatory": {
+      "doc_id": "4c530d9287216721",
+      "title": "MBAESG双驱商业领袖高级研修班招生简章"
+    },
+    "binding": null,
+    "encouraged": {
+      "doc_id": "8fca59c802f2d73e",
+      "title": "校企合作湖北碳交获评全国水利与生态环保行业高校学生实习实践基地"
+    },
+    "informational": {
+      "doc_id": "23619399937bd587",
+      "title": "湖北碳交助力湖北省首家政策性银行实现碳中和"
+    }
+  }
+}

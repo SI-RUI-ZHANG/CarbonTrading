@@ -1,0 +1,38 @@
+{
+  "supply": {
+    "major_decrease": null,
+    "minor_decrease": {
+      "doc_id": "4bfa910ad98f45eb",
+      "title": "广宁县13个镇107个村林业碳汇碳普惠项目广东省碳普惠制核证减排量（PHCER）竞价情况"
+    },
+    "minor_increase": {
+      "doc_id": "3fd2699cba769303",
+      "title": "汕尾市陆河县7个镇37个村林业碳普惠项目（PHCER）竞价情况"
+    },
+    "major_increase": null
+  },
+  "demand": {
+    "major_increase": null,
+    "minor_increase": {
+      "doc_id": "d87df473e8e7f70c",
+      "title": "中山四海家具制造有限公司12MW分布式光伏等68个项目竞价公告"
+    },
+    "minor_decrease": null,
+    "major_decrease": null
+  },
+  "policy_strength": {
+    "mandatory": {
+      "doc_id": "10f6d67bc3c0a468",
+      "title": "广宁县古水镇牛岐村等五个村分布式光伏发电碳普惠项目三次竞价公告"
+    },
+    "binding": null,
+    "encouraged": {
+      "doc_id": "442849e7002d12d5",
+      "title": "关于公开征集广州市碳普惠方法学的通知"
+    },
+    "informational": {
+      "doc_id": "ea67c451cb356d58",
+      "title": "【邀请函】广州碳普惠自愿减排量开发与碳中和实践研讨会"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "supply": {
+    "major_decrease": null,
+    "minor_decrease": {
+      "doc_id": "65f0e23085f2f600",
+      "title": "广东落地全国首个碳配额抵质押融资标准"
+    },
+    "minor_increase": {
+      "doc_id": "4613d5696d729928",
+      "title": "全国首单海草床生态系统碳汇产品在广州碳交中心生态产品价值实现平台落地"
+    },
+    "major_increase": null
+  },
+  "demand": {
+    "major_increase": {
+      "doc_id": "faa8c93a061f3ea6",
+      "title": "广东省碳排放管理和交易新纳入行业企业专题培训顺利举行"
+    },
+    "minor_increase": {
+      "doc_id": "9373bff82658b880",
+      "title": "广州碳交中心举办广东碳配额资产证券化业务研讨会"
+    },
+    "minor_decrease": null,
+    "major_decrease": null
+  },
+  "policy_strength": {
+    "mandatory": {
+      "doc_id": "0cebf0a042d71fa3",
+      "title": "广州碳交中心支持制定的《广州市发展绿色金融支持碳达峰行动实施方案》正式印发"
+    },
+    "binding": {
+      "doc_id": "65f0e23085f2f600",
+      "title": "广东落地全国首个碳配额抵质押融资标准"
+    },
+    "encouraged": {
+      "doc_id": "4613d5696d729928",
+      "title": "全国首单海草床生态系统碳汇产品在广州碳交中心生态产品价值实现平台落地"
+    },
+    "informational": {
+      "doc_id": "faa8c93a061f3ea6",
+      "title": "广东省碳排放管理和交易新纳入行业企业专题培训顺利举行"
+    }
+  }
+}

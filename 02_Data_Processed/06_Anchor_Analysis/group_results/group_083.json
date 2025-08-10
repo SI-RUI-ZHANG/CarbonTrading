@@ -1,0 +1,41 @@
+{
+  "supply": {
+    "major_decrease": null,
+    "minor_decrease": {
+      "doc_id": "8e4a7152c3065467",
+      "title": "广东研究碳交易监管机制 为国家碳市场建言献策"
+    },
+    "minor_increase": {
+      "doc_id": "002c7873f020691d",
+      "title": "广碳所举办第一届会员大会 发布碳金融产品创新举措"
+    },
+    "major_increase": null
+  },
+  "demand": {
+    "major_increase": null,
+    "minor_increase": {
+      "doc_id": "002c7873f020691d",
+      "title": "广碳所举办第一届会员大会 发布碳金融产品创新举措"
+    },
+    "minor_decrease": null,
+    "major_decrease": null
+  },
+  "policy_strength": {
+    "mandatory": {
+      "doc_id": "bf6c3b2a0890c398",
+      "title": "广东2014年碳排放配额首次竞价 成交超5000万元"
+    },
+    "binding": {
+      "doc_id": "41a3bfcea36c1111",
+      "title": "广碳所在香港举办SPF课题研讨会暨广东碳市场境外投资者见面会"
+    },
+    "encouraged": {
+      "doc_id": "002c7873f020691d",
+      "title": "广碳所举办第一届会员大会 发布碳金融产品创新举措"
+    },
+    "informational": {
+      "doc_id": "ac8d36d10e948410",
+      "title": "广碳所举办河北省首期国家碳交易师岗位能力培训班"
+    }
+  }
+}

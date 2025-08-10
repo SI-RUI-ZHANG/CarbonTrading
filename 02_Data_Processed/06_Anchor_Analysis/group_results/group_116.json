@@ -1,0 +1,35 @@
+{
+  "supply": {
+    "major_decrease": null,
+    "minor_decrease": {
+      "doc_id": "8bed91e4ad976ebf",
+      "title": "广东省生态环境厅办公室关于暂时冻结我省部分控排企业盈余配额的通知"
+    },
+    "minor_increase": {
+      "doc_id": "6967efbce4ad96eb",
+      "title": "广东省发展改革委关于同意广州市5个分布式光伏发电碳普惠项目减排量备案的函"
+    },
+    "major_increase": null
+  },
+  "demand": {
+    "major_increase": null,
+    "minor_increase": null,
+    "minor_decrease": null,
+    "major_decrease": null
+  },
+  "policy_strength": {
+    "mandatory": {
+      "doc_id": "383392707f190ef0",
+      "title": "广东省生态环境厅关于广东省2023年度碳排放配额履约工作的公告"
+    },
+    "binding": {
+      "doc_id": "86cafd612ba1b765",
+      "title": "广东省生态环境厅召开广东试点碳市场工作座谈会"
+    },
+    "encouraged": null,
+    "informational": {
+      "doc_id": "4ff1caef774d5033",
+      "title": "关于举办广东省碳排放管理核查机构2017年度碳排放信息报告专题培训的通知"
+    }
+  }
+}

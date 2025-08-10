@@ -1,0 +1,35 @@
+{
+  "supply": {
+    "major_decrease": null,
+    "minor_decrease": {
+      "doc_id": "99ca20475900a6bb",
+      "title": "关于调整广东省碳普惠核证自愿减排量（PHCER）开盘价的公告"
+    },
+    "minor_increase": {
+      "doc_id": "cb13c10682392272",
+      "title": "汕尾市陆河县7个镇37个村林业碳普惠项目竞价公告"
+    },
+    "major_increase": null
+  },
+  "demand": {
+    "major_increase": null,
+    "minor_increase": {
+      "doc_id": "cb13c10682392272",
+      "title": "汕尾市陆河县7个镇37个村林业碳普惠项目竞价公告"
+    },
+    "minor_decrease": null,
+    "major_decrease": null
+  },
+  "policy_strength": {
+    "mandatory": {
+      "doc_id": "2a4df4a648d7eb74",
+      "title": "广宁县13个镇109个村林业碳汇碳普惠项目竞价公告"
+    },
+    "binding": null,
+    "encouraged": null,
+    "informational": {
+      "doc_id": "99ca20475900a6bb",
+      "title": "关于调整广东省碳普惠核证自愿减排量（PHCER）开盘价的公告"
+    }
+  }
+}

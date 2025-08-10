@@ -1,0 +1,35 @@
+{
+  "supply": {
+    "major_decrease": null,
+    "minor_decrease": {
+      "doc_id": "3b96b5956280fcdc",
+      "title": "广东省林业碳汇碳普惠项目开发等有关工作的指引"
+    },
+    "minor_increase": {
+      "doc_id": "95c0adffa5e53c33",
+      "title": "广宁县古水镇牛岐村村等五个村分布式光伏发电碳普惠项目二次竞价公告"
+    },
+    "major_increase": null
+  },
+  "demand": {
+    "major_increase": null,
+    "minor_increase": null,
+    "minor_decrease": null,
+    "major_decrease": null
+  },
+  "policy_strength": {
+    "mandatory": {
+      "doc_id": "95c0adffa5e53c33",
+      "title": "广宁县古水镇牛岐村村等五个村分布式光伏发电碳普惠项目二次竞价公告"
+    },
+    "binding": null,
+    "encouraged": {
+      "doc_id": "0566947485d7c3b0",
+      "title": "关于《大型活动碳中和实施标准》地方标准公开征求意见的函"
+    },
+    "informational": {
+      "doc_id": "bd5b61be97da0f5e",
+      "title": "关于延迟履约期增加周末交易日的公告"
+    }
+  }
+}

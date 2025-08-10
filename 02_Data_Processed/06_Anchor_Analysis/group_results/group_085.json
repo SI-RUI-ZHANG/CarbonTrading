@@ -1,0 +1,44 @@
+{
+  "supply": {
+    "major_decrease": null,
+    "minor_decrease": {
+      "doc_id": "ace5d2515a37defe",
+      "title": "广碳所举办碳交易实务与碳金融创新研讨会"
+    },
+    "minor_increase": {
+      "doc_id": "1c25460dd4536da2",
+      "title": "粤碳排放权有偿配额昨第二次发放"
+    },
+    "major_increase": {
+      "doc_id": "6dbe6dd05728baec",
+      "title": "广东在全国率先开拍碳排放配额 现代卖碳翁减碳尝甜头"
+    }
+  },
+  "demand": {
+    "major_increase": {
+      "doc_id": "383125f0a5a4ef6b",
+      "title": "广东启动碳排放权交易 多个创新减排项目签约"
+    },
+    "minor_increase": {
+      "doc_id": "6dbe6dd05728baec",
+      "title": "广东在全国率先开拍碳排放配额 现代卖碳翁减碳尝甜头"
+    },
+    "minor_decrease": null,
+    "major_decrease": null
+  },
+  "policy_strength": {
+    "mandatory": {
+      "doc_id": "6dbe6dd05728baec",
+      "title": "广东在全国率先开拍碳排放配额 现代卖碳翁减碳尝甜头"
+    },
+    "binding": null,
+    "encouraged": {
+      "doc_id": "7bc9cbfcaba4c1c8",
+      "title": "两会代表委员零距离建言献策广东碳交易"
+    },
+    "informational": {
+      "doc_id": "f0be423ef6160e0d",
+      "title": "碳交易师培训新增上机演练 厉兵秣马迎战2014"
+    }
+  }
+}

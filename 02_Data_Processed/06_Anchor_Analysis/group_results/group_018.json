@@ -1,0 +1,38 @@
+{
+  "supply": {
+    "major_decrease": null,
+    "minor_decrease": {
+      "doc_id": "a0619dc7dd542527",
+      "title": "湖北省产品碳足迹公共服务平台正式发布"
+    },
+    "minor_increase": {
+      "doc_id": "7e8851feb416ac2f",
+      "title": "MBAESG双驱商业领袖高级研修班招生简章"
+    },
+    "major_increase": null
+  },
+  "demand": {
+    "major_increase": null,
+    "minor_increase": {
+      "doc_id": "d7497e7f426150d4",
+      "title": "湖北碳交助力湖北省首家政策性银行实现碳中和"
+    },
+    "minor_decrease": null,
+    "major_decrease": null
+  },
+  "policy_strength": {
+    "mandatory": {
+      "doc_id": "a0619dc7dd542527",
+      "title": "湖北省产品碳足迹公共服务平台正式发布"
+    },
+    "binding": null,
+    "encouraged": {
+      "doc_id": "433d81de7b054dc2",
+      "title": "校企合作湖北碳交获评全国水利与生态环保行业高校学生实习实践基地"
+    },
+    "informational": {
+      "doc_id": "7c061fecf42cc016",
+      "title": "关于举办温室气体管理师基础知识课程培训的通知"
+    }
+  }
+}

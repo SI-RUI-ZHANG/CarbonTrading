@@ -1,0 +1,17 @@
+{
+  "run_date": "2025-08-11T03:14:44.965677",
+  "test_mode": false,
+  "documents_processed": 2617,
+  "batch_size": 20,
+  "max_parallel_groups": 100,
+  "num_groups": 131,
+  "group_processing_time_seconds": 710.0523290634155,
+  "merge_time_seconds": 79.09626317024231,
+  "total_time_seconds": 789.1638283729553,
+  "avg_time_per_doc": 0.3015470356261589,
+  "anchor_status": {
+    "filled": 12,
+    "total": 12
+  },
+  "total_comparisons": 807
+}

@@ -1,0 +1,44 @@
+{
+  "supply": {
+    "major_decrease": null,
+    "minor_decrease": {
+      "doc_id": "a61df3ac1ed5793b",
+      "title": "能源基金会项目中国碳排放配额有偿分配机制研究成果论证会在北京成功举办"
+    },
+    "minor_increase": {
+      "doc_id": "7fec310b531d31dd",
+      "title": "稳健前行，广东碳市场配额成交量率先突破亿吨大关！"
+    },
+    "major_increase": null
+  },
+  "demand": {
+    "major_increase": {
+      "doc_id": "7fec310b531d31dd",
+      "title": "稳健前行，广东碳市场配额成交量率先突破亿吨大关！"
+    },
+    "minor_increase": {
+      "doc_id": "d1dca4211e91bba1",
+      "title": "广碳所和欧洲能源交易所同步上线业务推介 进一步开拓绿色金融国际化合作"
+    },
+    "minor_decrease": null,
+    "major_decrease": null
+  },
+  "policy_strength": {
+    "mandatory": {
+      "doc_id": "a61df3ac1ed5793b",
+      "title": "能源基金会项目中国碳排放配额有偿分配机制研究成果论证会在北京成功举办"
+    },
+    "binding": {
+      "doc_id": "ab08775878a61b9f",
+      "title": "2019穗港澳金融合作推介会在港成功举办"
+    },
+    "encouraged": {
+      "doc_id": "95932371cddaf958",
+      "title": "2019年环境信息披露研讨会暨CDP培训广州站于花都举行"
+    },
+    "informational": {
+      "doc_id": "40df8fa1245c3322",
+      "title": "河源市成功举办碳普惠工作推进暨碳排放交易管理培训会"
+    }
+  }
+}

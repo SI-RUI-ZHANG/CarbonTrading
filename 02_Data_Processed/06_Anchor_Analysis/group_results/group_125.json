@@ -1,0 +1,35 @@
+{
+  "supply": {
+    "major_decrease": null,
+    "minor_decrease": {
+      "doc_id": "412664e364200433",
+      "title": "广东省人民政府关于印发广东省十三五控制温室气体排放工作实施方案的通知"
+    },
+    "minor_increase": {
+      "doc_id": "30873e1efa479ba9",
+      "title": "厉害了！国家级绿色金融改革创新试验区落子广州"
+    },
+    "major_increase": null
+  },
+  "demand": {
+    "major_increase": null,
+    "minor_increase": {
+      "doc_id": "8e304042e31d743c",
+      "title": "广州市人民政府办公厅关于印发广州市节能降碳第十三个五年规划（2016—2020年）的通知"
+    },
+    "minor_decrease": null,
+    "major_decrease": null
+  },
+  "policy_strength": {
+    "mandatory": {
+      "doc_id": "2f6d93c5fbcb3991",
+      "title": "广东省发展改革委关于开展广东参与全国碳交易市场企业2016年度温室气体排放信息报告核查工作的通知"
+    },
+    "binding": null,
+    "encouraged": null,
+    "informational": {
+      "doc_id": "9be9dca8df68a50d",
+      "title": "广东代表团参加COP23联合国波恩气候大会并成功举办中国角广东边会"
+    }
+  }
+}
