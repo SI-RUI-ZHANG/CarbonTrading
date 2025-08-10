@@ -1,0 +1,52 @@
+{
+  "total_docs": 2617,
+  "total_chars": 1707767,
+  "date_range": "2010-03-10 to 2025-08-07",
+  "date_span_days": 5630,
+  "docs_per_day": 0.46483126110124334,
+  "chars_per_day": 303.33339253996445,
+  "sources": {
+    "HBETS": {
+      "total_docs": 675,
+      "total_chars": 358861,
+      "categories": {
+        "Center_Dynamics": {
+          "docs": 675,
+          "chars": 358861
+        }
+      }
+    },
+    "GZETS": {
+      "total_docs": 1905,
+      "total_chars": 1255373,
+      "categories": {
+        "Center_Dynamics": {
+          "docs": 858,
+          "chars": 494952
+        },
+        "Provincial_Municipal": {
+          "docs": 471,
+          "chars": 440005
+        },
+        "Trading_Announcements": {
+          "docs": 576,
+          "chars": 320416
+        }
+      }
+    },
+    "MEE": {
+      "total_docs": 37,
+      "total_chars": 93533,
+      "categories": {
+        "Decrees": {
+          "docs": 4,
+          "chars": 21842
+        },
+        "Notices": {
+          "docs": 33,
+          "chars": 71691
+        }
+      }
+    }
+  }
+}

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Carbon Document Filtering Script
-Filters policy documents based on carbon-related keyword
+Filters cleaned policy documents based on carbon-related keyword
 """
 
 import json
@@ -61,10 +61,16 @@ class CarbonDocumentFilter:
                 if self.check_document(doc):
                     matched_count += 1
                     if self.config['output_metadata']['include_match_info']:
-                        doc['_filter_metadata'] = {
+                        # Preserve cleaning metadata if present
+                        filter_metadata = {
                             'matched_keyword': self.keyword,
                             'filter_timestamp': datetime.now().isoformat()
                         }
+                        if '_cleaning_metadata' in doc:
+                            filter_metadata['was_cleaned'] = True
+                            filter_metadata['chars_removed_in_cleaning'] = doc['_cleaning_metadata']['chars_removed']
+                        
+                        doc['_filter_metadata'] = filter_metadata
                     filtered_docs.append(doc)
         
         retention_rate = (matched_count / total_count * 100) if total_count > 0 else 0
@@ -87,7 +93,7 @@ class CarbonDocumentFilter:
     
     def run_filtering(self):
         """Run filtering on all configured sources"""
-        logger.info("Starting carbon document filtering...")
+        logger.info("Starting carbon document filtering on CLEANED documents...")
         logger.info(f"Filter keyword: '{self.keyword}'")
         logger.info("=" * 60)
         
@@ -119,7 +125,8 @@ class CarbonDocumentFilter:
             'total_filtered': total_filtered,
             'overall_retention_rate': (total_filtered / total_original * 100) if total_original > 0 else 0,
             'documents_removed': total_original - total_filtered,
-            'filter_timestamp': datetime.now().isoformat()
+            'filter_timestamp': datetime.now().isoformat(),
+            'used_cleaned_documents': True
         }
         
         logger.info("=" * 60)
@@ -139,17 +146,19 @@ class CarbonDocumentFilter:
     
     def generate_report(self):
         """Generate markdown report of filtering results"""
-        report_path = self.base_path / 'docs' / 'filtering' / 'carbon_filter_report.md'
+        report_path = self.base_path / 'docs' / 'filtering' / 'carbon_filter_report_cleaned.md'
         report_path.parent.mkdir(parents=True, exist_ok=True)
         
         with open(report_path, 'w', encoding='utf-8') as f:
-            f.write("# Carbon Document Filtering Report\n\n")
+            f.write("# Carbon Document Filtering Report (Cleaned Documents)\n\n")
             f.write(f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n")
             
             f.write("## Configuration\n\n")
             f.write(f"- **Filter Keyword**: `{self.keyword}`\n")
             f.write(f"- **Search Fields**: {', '.join(self.search_fields)}\n")
-            f.write(f"- **Case Sensitive**: {self.config['filter']['case_sensitive']}\n\n")
+            f.write(f"- **Case Sensitive**: {self.config['filter']['case_sensitive']}\n")
+            f.write(f"- **Input**: Cleaned documents from `04_Documents_Cleaned/`\n")
+            f.write(f"- **Output**: `05_Policy_Doc_Filtered/`\n\n")
             
             f.write("## Results Summary\n\n")
             summary = self.statistics['summary']
@@ -168,21 +177,15 @@ class CarbonDocumentFilter:
                     f.write(f"| {source_name} | {category} | {stats['original']} | ")
                     f.write(f"{stats['filtered']} | {stats['retention_rate']:.1f}% |\n")
             
-            f.write("\n## Analysis\n\n")
-            f.write("### High Retention Sources (>90%)\n")
-            f.write("- HBETS Center Dynamics: 98.7%\n")
-            f.write("- GZETS Trading Announcements: 99.0%\n")
-            f.write("- GZETS Center Dynamics: 99.4%\n")
-            f.write("- GZETS Provincial Municipal: 95.8%\n\n")
+            f.write("\n## Pipeline Summary\n\n")
+            f.write("1. **Raw Documents**: 3,312 total\n")
+            f.write("2. **After Cleaning**: 3,312 documents (navigation garbage removed)\n")
+            f.write(f"3. **After Carbon Filter**: {summary['total_filtered']:,} documents retained\n\n")
             
-            f.write("### Low Retention Sources (<10%)\n")
-            f.write("- MEE Decrees: 4.5%\n")
-            f.write("- MEE Notices: 6.8%\n\n")
-            
-            f.write("### Interpretation\n")
-            f.write("The filtering results show that documents from carbon exchanges (HBETS, GZETS) ")
-            f.write("are highly relevant to carbon trading, while MEE documents cover broader ")
-            f.write("environmental topics beyond carbon trading.\n")
+            f.write("### Impact of Two-Stage Processing\n")
+            f.write("- Navigation cleaning reduced document sizes (especially GZETS)\n")
+            f.write("- Carbon filtering removed non-carbon environmental documents\n")
+            f.write("- Final dataset is clean and focused on carbon trading\n")
         
         logger.info(f"Report generated: {report_path}")
 

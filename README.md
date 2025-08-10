@@ -1,24 +1,27 @@
 ## Project Overview
 
-Carbon trading research project analyzing Chinese regional carbon markets (Guangdong GDEA and Hubei HBEA). Predicts daily price movements using LSTM models with macroeconomic features. Includes 2,367 scraped policy documents for future NLP integration.
+Carbon trading research project analyzing Chinese regional carbon markets (Guangdong GDEA and Hubei HBEA). Predicts daily price movements using LSTM models with macroeconomic features. Includes 3,312 scraped policy documents (2,617 carbon-relevant after filtering) for NLP integration.
 
 ## Directory Structure
 
 - **01_Data_Raw/**: Raw data sources
   - `01_Carbon_Markets/`: GDEA, HBEA price data
   - `02_Macroeconomic_Indicators/`: 21 economic indicators
-  - `03_Policy_Documents/`: MEE (573), HBETS (684), GZETS (1,110) scraped docs
+  - `03_Policy_Documents/`: MEE (573), HBETS (684), GZETS (2,055) scraped docs
 - **02_Data_Processed/**:
   - `01_Carbon_Markets/01_Regional/`: Cleaned carbon price data
   - `02_Macroeconomic_Indicators/`: Forward-filled, interpolated, daily-aligned versions
   - `03_Feature_Engineered/`: GDEA/HBEA_daily_with_macro.parquet, *_LSTM_advanced.parquet
+  - `04_Documents_Cleaned/`: Navigation garbage removed from scraped docs
   - `04_LSTM_Ready/`: Model-ready datasets
+  - `05_Policy_Doc_Filtered/`: 2,617 carbon-relevant documents after filtering
 - **03_Code/**:
   - `01_Data_Cleaning/`: Carbon markets and macro indicators processing
   - `02_Feature_Engineering/`: Lagged macro features join
   - `03_Base_Models/`: Buy&Hold, MA, MACD, RSI strategies
   - `04_LSTM_Model/`: Binary classification model (up/down-flat)
   - `05_Web_Scraping/`: MEE, HBETS, GZETS scrapers
+  - `06_Document_Processing/`: Document cleaning & carbon filtering pipeline
 - **04_Models/**: Timestamped experiment folders with trained models
 - **docs/**: analysis/, data/, models/, scrapers/ documentation
 
@@ -47,6 +50,17 @@ cd 03_Code/05_Web_Scraping/
 python 01_scrape_mee.py
 python 04_scrape_hbets.py
 python 05_scrape_gzets.py
+```
+
+### Document Processing
+```bash
+# Clean and filter scraped documents
+cd 03_Code/06_Document_Processing/
+python 03_pipeline_runner.py  # Runs full pipeline
+
+# Or run stages separately:
+python 01_clean_documents.py  # Remove navigation garbage
+python 02_carbon_filter.py    # Filter for carbon content
 ```
 
 ## Architecture & Design Patterns

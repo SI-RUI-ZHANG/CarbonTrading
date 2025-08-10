@@ -1,0 +1,88 @@
+{
+  "total_docs": 3312,
+  "docs_cleaned": 914,
+  "total_chars_removed": 401234,
+  "patterns_applied": {
+    "navigation_header": 460,
+    "footer_navigation": 450,
+    "trailing_whitespace": 450,
+    "empty_metadata": 55,
+    "footer_simple": 55,
+    "multiple_spaces": 1
+  },
+  "timestamp": "2025-08-10T22:15:55.787719",
+  "patterns_config": {
+    "version": "1.0",
+    "description": "Patterns for removing navigation and footer elements from scraped documents",
+    "sources": {
+      "GZETS": {
+        "enabled": true,
+        "patterns": [
+          {
+            "name": "navigation_header",
+            "pattern": "^-广州碳排放权交易所\\s+首页.*?当前位置：[^\\n]+",
+            "replacement": "",
+            "flags": [
+              "DOTALL"
+            ],
+            "description": "Remove GZETS navigation menu and breadcrumb"
+          },
+          {
+            "name": "empty_metadata",
+            "pattern": "来源：\\s*时间：\\s*(?=[^\\s])",
+            "replacement": "",
+            "flags": [],
+            "description": "Remove empty source and time metadata"
+          },
+          {
+            "name": "footer_navigation",
+            "pattern": "新闻中心\\s+交易中心公告\\s+交易中心动态\\s+省市动态\\s+国内资讯\\s+(国际资讯\\s+)?绿金委动态",
+            "replacement": "",
+            "flags": [],
+            "description": "Remove footer navigation links"
+          },
+          {
+            "name": "copyright_footer",
+            "pattern": "地址：.*?粤公网安备[^\\n]+",
+            "replacement": "",
+            "flags": [
+              "DOTALL"
+            ],
+            "description": "Remove address and copyright information"
+          },
+          {
+            "name": "footer_simple",
+            "pattern": "新闻中心\\s+交易中心",
+            "replacement": "",
+            "flags": [],
+            "description": "Remove simple footer navigation"
+          }
+        ]
+      },
+      "HBETS": {
+        "enabled": false,
+        "patterns": [],
+        "description": "HBETS documents generally clean, no patterns needed"
+      },
+      "MEE": {
+        "enabled": false,
+        "patterns": [],
+        "description": "MEE documents generally clean, no patterns needed"
+      }
+    },
+    "global_patterns": [
+      {
+        "name": "multiple_spaces",
+        "pattern": "\\s{3,}",
+        "replacement": " ",
+        "description": "Replace multiple spaces with single space"
+      },
+      {
+        "name": "trailing_whitespace",
+        "pattern": "\\s+$",
+        "replacement": "",
+        "description": "Remove trailing whitespace"
+      }
+    ]
+  }
+}

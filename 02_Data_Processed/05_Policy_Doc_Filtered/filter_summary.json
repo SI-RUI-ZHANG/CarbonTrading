@@ -21,25 +21,26 @@
   "GZETS": {
     "Trading_Announcements": {
       "original": 684,
-      "filtered": 677,
-      "retention_rate": 98.9766081871345
+      "filtered": 576,
+      "retention_rate": 84.21052631578947
     },
     "Center_Dynamics": {
       "original": 876,
-      "filtered": 871,
-      "retention_rate": 99.42922374429224
+      "filtered": 858,
+      "retention_rate": 97.94520547945206
     },
     "Provincial_Municipal": {
       "original": 495,
-      "filtered": 474,
-      "retention_rate": 95.75757575757575
+      "filtered": 471,
+      "retention_rate": 95.15151515151516
     }
   },
   "summary": {
     "total_original": 3312,
-    "total_filtered": 2734,
-    "overall_retention_rate": 82.54830917874396,
-    "documents_removed": 578,
-    "filter_timestamp": "2025-08-10T18:31:16.887428"
+    "total_filtered": 2617,
+    "overall_retention_rate": 79.01570048309179,
+    "documents_removed": 695,
+    "filter_timestamp": "2025-08-10T22:16:03.202182",
+    "used_cleaned_documents": true
   }
 }
