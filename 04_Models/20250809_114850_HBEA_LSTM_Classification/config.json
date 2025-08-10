@@ -1,0 +1,16 @@
+{
+    "MARKET": "HBEA",
+    "RUN_NAME": "20250809_114850_HBEA_LSTM_Classification",
+    "TASK_TYPE": "Binary Classification (BCEWithLogitsLoss)",
+    "INPUT_SIZE": 56,
+    "HIDDEN_SIZE": 128,
+    "NUM_LAYERS": 2,
+    "DROPOUT": 0.2,
+    "BATCH_SIZE": 32,
+    "LEARNING_RATE": 0.001,
+    "NUM_EPOCHS": 100,
+    "EARLY_STOPPING_PATIENCE": 15,
+    "SHUFFLE_TRAIN_LOADER": true,
+    "SEED": 42,
+    "DEVICE": "cpu"
+}

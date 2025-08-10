@@ -62,13 +62,19 @@ def evaluate_model(model, test_loader, config):
             outputs = model(X_batch)
             
             # Convert to probabilities using sigmoid for binary classification
-            probs = torch.sigmoid(outputs)
-            probabilities.extend(probs.cpu().numpy())  # Probability of class 1 (up)
+            probs = torch.sigmoid(outputs).squeeze()  # Remove extra dimension
             
-            # Get predicted classes using threshold
-            predicted = (probs > 0.5).float()
-            predictions.extend(predicted.cpu().numpy())
-            actuals.extend(y_batch.numpy())
+            # Handle both single sample and batch cases
+            if probs.dim() == 0:  # Single sample case
+                probabilities.append(probs.cpu().item())
+                predicted = (probs > 0.5).float()
+                predictions.append(predicted.cpu().item())
+                actuals.append(y_batch.item())
+            else:  # Batch case
+                probabilities.extend(probs.cpu().numpy())
+                predicted = (probs > 0.5).float()
+                predictions.extend(predicted.cpu().numpy())
+                actuals.extend(y_batch.numpy())
     
     predictions = np.array(predictions)
     actuals = np.array(actuals)

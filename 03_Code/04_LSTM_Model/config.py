@@ -10,7 +10,7 @@ from datetime import datetime
 
 class Config:
     # Data
-    MARKET = 'HBEA'  # or 'HBEA'
+    MARKET = 'HBEA'  # 'HBEA' or 'GDEA'
     DATA_DIR = '../../02_Data_Processed/04_LSTM_Ready'
     
     # Experiment Tracking - Unique folder for each run

@@ -14,13 +14,11 @@ path_GDEA = os.path.join(base_dir, "../../02_Data_Processed/01_Carbon_Markets/01
 df_HBEA = pd.read_parquet(path_HBEA)
 df_GDEA = pd.read_parquet(path_GDEA)
 
-# Only keep the close as pd.Series
+# Only keep the close as pd.Series (trading-only data)
 close_HBEA = df_HBEA["close"]
-is_open_HBEA = df_HBEA["is_open"]
 close_GDEA = df_GDEA["close"]
-is_open_GDEA = df_GDEA["is_open"]
 
-# Strategies
+# Strategies (no is_open needed with trading-only data)
 strategies = {
     "BuyAndHold": BuyAndHold(),
     "SMA20": SMA20(),
@@ -32,10 +30,10 @@ SIGNAL_HBEA: SignalDict = {}
 NAV_GDEA: NavDict = {}
 SIGNAL_GDEA: SignalDict = {}
 for name, strategy in strategies.items():
-    signal, nav = strategy.run(close_HBEA, is_open_HBEA)
+    signal, nav = strategy.run(close_HBEA)
     NAV_HBEA[name] = nav
     SIGNAL_HBEA[name] = signal
-    signal, nav = strategy.run(close_GDEA, is_open_GDEA)
+    signal, nav = strategy.run(close_GDEA)
     NAV_GDEA[name] = nav
     SIGNAL_GDEA[name] = signal
 
