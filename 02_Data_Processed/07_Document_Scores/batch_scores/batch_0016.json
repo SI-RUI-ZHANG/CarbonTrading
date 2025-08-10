@@ -1,0 +1,2002 @@
+[
+  {
+    "doc_id": "65f0e23085f2f600",
+    "title": "广东落地全国首个碳配额抵质押融资标准",
+    "source": "GZETS",
+    "publish_date": "2024-04-17T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 70,
+        "minor_decrease": 60,
+        "minor_increase": 50,
+        "major_increase": 65
+      },
+      "demand": {
+        "major_decrease": 70,
+        "minor_decrease": 60,
+        "minor_increase": 55,
+        "major_increase": 65
+      },
+      "policy_strength": {
+        "informational": 50,
+        "encouraged": 55,
+        "binding": 65,
+        "mandatory": 70
+      },
+      "confidence": 65
+    },
+    "scores": {
+      "supply": -4.08,
+      "demand": -3.0,
+      "policy_strength": 54.88,
+      "confidence": 65,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Moderate confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:01.879617"
+  },
+  {
+    "doc_id": "dc42d2cf761a44bd",
+    "title": "探索地球之路，共创低碳生活党组织结对共建主题党日活动",
+    "source": "GZETS",
+    "publish_date": "2024-06-24T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 20,
+        "minor_decrease": 15,
+        "minor_increase": 10,
+        "major_increase": 25
+      },
+      "demand": {
+        "major_decrease": 20,
+        "minor_decrease": 15,
+        "minor_increase": 10,
+        "major_increase": 25
+      },
+      "policy_strength": {
+        "informational": 10,
+        "encouraged": 15,
+        "binding": 20,
+        "mandatory": 15
+      },
+      "confidence": 20
+    },
+    "scores": {
+      "supply": 3.57,
+      "demand": 3.57,
+      "policy_strength": 55.58,
+      "confidence": 20,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Low confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:01.973806"
+  },
+  {
+    "doc_id": "9f5dfb4a1426cbdb",
+    "title": "湖南长沙线下第九期碳金融培训成功举办",
+    "source": "GZETS",
+    "publish_date": "2023-07-27T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 20,
+        "minor_decrease": 15,
+        "minor_increase": 10,
+        "major_increase": 25
+      },
+      "demand": {
+        "major_decrease": 20,
+        "minor_decrease": 15,
+        "minor_increase": 10,
+        "major_increase": 25
+      },
+      "policy_strength": {
+        "informational": 30,
+        "encouraged": 35,
+        "binding": 20,
+        "mandatory": 15
+      },
+      "confidence": 25
+    },
+    "scores": {
+      "supply": 3.57,
+      "demand": 3.57,
+      "policy_strength": 39.95,
+      "confidence": 25,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "Low confidence: neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:02.122682"
+  },
+  {
+    "doc_id": "4c82d5b93640f7ab",
+    "title": "广州碳交中心关于碳市场的研究成果在《清华金融评论》发表",
+    "source": "GZETS",
+    "publish_date": "2024-05-10T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 60,
+        "minor_decrease": 50,
+        "minor_increase": 40,
+        "major_increase": 70
+      },
+      "demand": {
+        "major_decrease": 60,
+        "minor_decrease": 50,
+        "minor_increase": 40,
+        "major_increase": 70
+      },
+      "policy_strength": {
+        "informational": 65,
+        "encouraged": 70,
+        "binding": 50,
+        "mandatory": 55
+      },
+      "confidence": 65
+    },
+    "scores": {
+      "supply": 2.27,
+      "demand": 2.27,
+      "policy_strength": 46.5,
+      "confidence": 65,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "Moderate confidence: neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:02.189111"
+  },
+  {
+    "doc_id": "a58b24f7c896f03f",
+    "title": "美国能源部代表团一行赴广碳所调研交流",
+    "source": "GZETS",
+    "publish_date": "2023-11-16T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 30,
+        "minor_decrease": 20,
+        "minor_increase": 25,
+        "major_increase": 35
+      },
+      "demand": {
+        "major_decrease": 30,
+        "minor_decrease": 25,
+        "minor_increase": 40,
+        "major_increase": 35
+      },
+      "policy_strength": {
+        "informational": 20,
+        "encouraged": 25,
+        "binding": 30,
+        "mandatory": 35
+      },
+      "confidence": 30
+    },
+    "scores": {
+      "supply": 6.82,
+      "demand": 9.62,
+      "policy_strength": 57.59,
+      "confidence": 30,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Low confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:02.292023"
+  },
+  {
+    "doc_id": "d6b6c8b211522955",
+    "title": "广州碳交中心项目成功入选2024年度广东绿色金融改革创新推广案例并在金交会上授牌",
+    "source": "GZETS",
+    "publish_date": "2024-06-21T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 60,
+        "minor_decrease": 50,
+        "minor_increase": 40,
+        "major_increase": 70
+      },
+      "demand": {
+        "major_decrease": 60,
+        "minor_decrease": 50,
+        "minor_increase": 40,
+        "major_increase": 70
+      },
+      "policy_strength": {
+        "informational": 30,
+        "encouraged": 40,
+        "binding": 50,
+        "mandatory": 60
+      },
+      "confidence": 55
+    },
+    "scores": {
+      "supply": 2.27,
+      "demand": 2.27,
+      "policy_strength": 59.28,
+      "confidence": 55,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Low confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:02.346619"
+  },
+  {
+    "doc_id": "bb3e71f6a3eeae21",
+    "title": "广碳所受邀参展2023生态文明贵阳国际论坛",
+    "source": "GZETS",
+    "publish_date": "2023-07-12T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 20,
+        "minor_decrease": 15,
+        "minor_increase": 10,
+        "major_increase": 25
+      },
+      "demand": {
+        "major_decrease": 20,
+        "minor_decrease": 15,
+        "minor_increase": 10,
+        "major_increase": 25
+      },
+      "policy_strength": {
+        "informational": 5,
+        "encouraged": 10,
+        "binding": 15,
+        "mandatory": 5
+      },
+      "confidence": 20
+    },
+    "scores": {
+      "supply": 3.57,
+      "demand": 3.57,
+      "policy_strength": 52.43,
+      "confidence": 20,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Low confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:02.428277"
+  },
+  {
+    "doc_id": "0cebf0a042d71fa3",
+    "title": "广州碳交中心支持制定的《广州市发展绿色金融支持碳达峰行动实施方案》正式印发",
+    "source": "GZETS",
+    "publish_date": "2024-04-11T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 70,
+        "minor_decrease": 60,
+        "minor_increase": 50,
+        "major_increase": 65
+      },
+      "demand": {
+        "major_decrease": 70,
+        "minor_decrease": 60,
+        "minor_increase": 55,
+        "major_increase": 65
+      },
+      "policy_strength": {
+        "informational": 75,
+        "encouraged": 80,
+        "binding": 70,
+        "mandatory": 65
+      },
+      "confidence": 75
+    },
+    "scores": {
+      "supply": -4.08,
+      "demand": -3.0,
+      "policy_strength": 47.69,
+      "confidence": 75,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "Moderate confidence: neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:02.436961"
+  },
+  {
+    "doc_id": "d44b6a44ed9aa6f0",
+    "title": "广碳所参加2023绿色低碳高质量发展大会",
+    "source": "GZETS",
+    "publish_date": "2023-08-31T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 60,
+        "minor_decrease": 50,
+        "minor_increase": 40,
+        "major_increase": 70
+      },
+      "demand": {
+        "major_decrease": 60,
+        "minor_decrease": 55,
+        "minor_increase": 45,
+        "major_increase": 65
+      },
+      "policy_strength": {
+        "informational": 50,
+        "encouraged": 55,
+        "binding": 70,
+        "mandatory": 75
+      },
+      "confidence": 65
+    },
+    "scores": {
+      "supply": 2.27,
+      "demand": -0.0,
+      "policy_strength": 56.02,
+      "confidence": 65,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Moderate confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:02.475579"
+  },
+  {
+    "doc_id": "c80190227152ca9e",
+    "title": "广碳所党支部、集团第三党支部联合开展传承伟大建党精神，奋进新征程、建功新时代主题党日活动",
+    "source": "GZETS",
+    "publish_date": "2023-08-11T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 10,
+        "minor_decrease": 5,
+        "minor_increase": 5,
+        "major_increase": 15
+      },
+      "demand": {
+        "major_decrease": 10,
+        "minor_decrease": 5,
+        "minor_increase": 5,
+        "major_increase": 15
+      },
+      "policy_strength": {
+        "informational": 5,
+        "encouraged": 5,
+        "binding": 5,
+        "mandatory": 5
+      },
+      "confidence": 10
+    },
+    "scores": {
+      "supply": 14.29,
+      "demand": 14.29,
+      "policy_strength": 50.0,
+      "confidence": 10,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "Low confidence: neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:02.620109"
+  },
+  {
+    "doc_id": "5eddf9a3c5b6e38c",
+    "title": "广碳所成为中共广州市委党校教学基地",
+    "source": "GZETS",
+    "publish_date": "2023-12-18T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 20,
+        "minor_decrease": 15,
+        "minor_increase": 10,
+        "major_increase": 25
+      },
+      "demand": {
+        "major_decrease": 20,
+        "minor_decrease": 15,
+        "minor_increase": 10,
+        "major_increase": 25
+      },
+      "policy_strength": {
+        "informational": 30,
+        "encouraged": 25,
+        "binding": 20,
+        "mandatory": 15
+      },
+      "confidence": 20
+    },
+    "scores": {
+      "supply": 3.57,
+      "demand": 3.57,
+      "policy_strength": 40.72,
+      "confidence": 20,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "Low confidence: neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:02.626981"
+  },
+  {
+    "doc_id": "c6b6f998b34216e0",
+    "title": "广州交易集团第三党支部联合广碳所党支部开展义务植树活动",
+    "source": "GZETS",
+    "publish_date": "2024-03-14T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 10,
+        "minor_decrease": 5,
+        "minor_increase": 5,
+        "major_increase": 15
+      },
+      "demand": {
+        "major_decrease": 10,
+        "minor_decrease": 5,
+        "minor_increase": 5,
+        "major_increase": 15
+      },
+      "policy_strength": {
+        "informational": 5,
+        "encouraged": 10,
+        "binding": 5,
+        "mandatory": 5
+      },
+      "confidence": 10
+    },
+    "scores": {
+      "supply": 14.29,
+      "demand": 14.29,
+      "policy_strength": 46.6,
+      "confidence": 10,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "Low confidence: neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:02.642990"
+  },
+  {
+    "doc_id": "c7319311b3f2b3d0",
+    "title": "2022年度广东省拟纳入行业企业碳排放信息报告指南与核查专题培训顺利举行",
+    "source": "GZETS",
+    "publish_date": "2023-08-25T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 60,
+        "minor_decrease": 70,
+        "minor_increase": 50,
+        "major_increase": 65
+      },
+      "demand": {
+        "major_decrease": 60,
+        "minor_decrease": 75,
+        "minor_increase": 55,
+        "major_increase": 70
+      },
+      "policy_strength": {
+        "informational": 80,
+        "encouraged": 65,
+        "binding": 75,
+        "mandatory": 70
+      },
+      "confidence": 70
+    },
+    "scores": {
+      "supply": -2.04,
+      "demand": 0.0,
+      "policy_strength": 48.86,
+      "confidence": 70,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "Moderate confidence: neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:02.705250"
+  },
+  {
+    "doc_id": "4eb1097dcde087c1",
+    "title": "中共广州市委党校局级干部进修班一行赴广碳所调研交流",
+    "source": "GZETS",
+    "publish_date": "2023-09-13T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 20,
+        "minor_decrease": 15,
+        "minor_increase": 10,
+        "major_increase": 25
+      },
+      "demand": {
+        "major_decrease": 20,
+        "minor_decrease": 15,
+        "minor_increase": 10,
+        "major_increase": 30
+      },
+      "policy_strength": {
+        "informational": 10,
+        "encouraged": 5,
+        "binding": 15,
+        "mandatory": 20
+      },
+      "confidence": 15
+    },
+    "scores": {
+      "supply": 3.57,
+      "demand": 10.0,
+      "policy_strength": 63.4,
+      "confidence": 15,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Low confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:02.708862"
+  },
+  {
+    "doc_id": "dad111767e3d5207",
+    "title": "广碳所生态产品价值实现体系研究成果在《中国国土资源经济》学术期刊发表",
+    "source": "GZETS",
+    "publish_date": "2024-03-05T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 30,
+        "minor_decrease": 25,
+        "minor_increase": 20,
+        "major_increase": 35
+      },
+      "demand": {
+        "major_decrease": 30,
+        "minor_decrease": 25,
+        "minor_increase": 20,
+        "major_increase": 35
+      },
+      "policy_strength": {
+        "informational": 20,
+        "encouraged": 15,
+        "binding": 25,
+        "mandatory": 30
+      },
+      "confidence": 30
+    },
+    "scores": {
+      "supply": 2.27,
+      "demand": 2.27,
+      "policy_strength": 57.44,
+      "confidence": 30,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Low confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:02.730618"
+  },
+  {
+    "doc_id": "e8edd43f92398d4d",
+    "title": "广碳所赴澳门开展双碳系列交流活动 助力大湾区绿色低碳发展",
+    "source": "GZETS",
+    "publish_date": "2023-08-22T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 60,
+        "minor_decrease": 55,
+        "minor_increase": 40,
+        "major_increase": 50
+      },
+      "demand": {
+        "major_decrease": 60,
+        "minor_decrease": 50,
+        "minor_increase": 45,
+        "major_increase": 55
+      },
+      "policy_strength": {
+        "informational": 30,
+        "encouraged": 50,
+        "binding": 40,
+        "mandatory": 35
+      },
+      "confidence": 50
+    },
+    "scores": {
+      "supply": -8.54,
+      "demand": -3.57,
+      "policy_strength": 50.52,
+      "confidence": 50,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Low confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:02.731894"
+  },
+  {
+    "doc_id": "f5088c3cd020af90",
+    "title": "广州交易集团受邀参加2023年明珠湾国际气候投融资大会，广东碳市场十周年回顾亮相开幕式",
+    "source": "GZETS",
+    "publish_date": "2023-11-29T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 30,
+        "minor_decrease": 25,
+        "minor_increase": 20,
+        "major_increase": 35
+      },
+      "demand": {
+        "major_decrease": 30,
+        "minor_decrease": 25,
+        "minor_increase": 20,
+        "major_increase": 35
+      },
+      "policy_strength": {
+        "informational": 20,
+        "encouraged": 15,
+        "binding": 25,
+        "mandatory": 30
+      },
+      "confidence": 25
+    },
+    "scores": {
+      "supply": 2.27,
+      "demand": 2.27,
+      "policy_strength": 57.44,
+      "confidence": 25,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Low confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:02.780541"
+  },
+  {
+    "doc_id": "b3d4f1b5b5cd0407",
+    "title": "广碳所参加2023年广州开发区广州市黄埔区街镇、相关企业碳账户宣讲系列培训活动",
+    "source": "GZETS",
+    "publish_date": "2023-12-28T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 30,
+        "minor_decrease": 20,
+        "minor_increase": 25,
+        "major_increase": 35
+      },
+      "demand": {
+        "major_decrease": 30,
+        "minor_decrease": 25,
+        "minor_increase": 20,
+        "major_increase": 40
+      },
+      "policy_strength": {
+        "informational": 15,
+        "encouraged": 25,
+        "binding": 20,
+        "mandatory": 30
+      },
+      "confidence": 25
+    },
+    "scores": {
+      "supply": 6.82,
+      "demand": 6.52,
+      "policy_strength": 57.39,
+      "confidence": 25,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Low confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:02.952180"
+  },
+  {
+    "doc_id": "1f5bd61eb9d177e0",
+    "title": "接续奋斗 碳路先行",
+    "source": "GZETS",
+    "publish_date": "2024-01-02T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 75,
+        "minor_decrease": 60,
+        "minor_increase": 50,
+        "major_increase": 70
+      },
+      "demand": {
+        "major_decrease": 75,
+        "minor_decrease": 65,
+        "minor_increase": 80,
+        "major_increase": 70
+      },
+      "policy_strength": {
+        "informational": 65,
+        "encouraged": 70,
+        "binding": 60,
+        "mandatory": 55
+      },
+      "confidence": 70
+    },
+    "scores": {
+      "supply": -3.92,
+      "demand": 0.86,
+      "policy_strength": 47.32,
+      "confidence": 70,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "Moderate confidence: neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:02.986593"
+  },
+  {
+    "doc_id": "17ce6654da52aee9",
+    "title": "产教融合，实践育人，广碳所与暨南大学共建校外实践教育基地",
+    "source": "GZETS",
+    "publish_date": "2023-11-30T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 20,
+        "minor_decrease": 15,
+        "minor_increase": 10,
+        "major_increase": 25
+      },
+      "demand": {
+        "major_decrease": 20,
+        "minor_decrease": 15,
+        "minor_increase": 10,
+        "major_increase": 25
+      },
+      "policy_strength": {
+        "informational": 10,
+        "encouraged": 5,
+        "binding": 5,
+        "mandatory": 5
+      },
+      "confidence": 15
+    },
+    "scores": {
+      "supply": 3.57,
+      "demand": 3.57,
+      "policy_strength": 40.0,
+      "confidence": 15,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "Low confidence: neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:02.993086"
+  },
+  {
+    "doc_id": "0e828a1132dc7c95",
+    "title": "广州碳交中心参编的广州市地方标准《企业（项目）融资气候友好评价规范》正式发布",
+    "source": "GZETS",
+    "publish_date": "2024-06-28T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 40,
+        "minor_decrease": 30,
+        "minor_increase": 20,
+        "major_increase": 50
+      },
+      "demand": {
+        "major_decrease": 40,
+        "minor_decrease": 30,
+        "minor_increase": 20,
+        "major_increase": 50
+      },
+      "policy_strength": {
+        "informational": 10,
+        "encouraged": 20,
+        "binding": 30,
+        "mandatory": 40
+      },
+      "confidence": 35
+    },
+    "scores": {
+      "supply": 3.57,
+      "demand": 3.57,
+      "policy_strength": 66.7,
+      "confidence": 35,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Low confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:03.011552"
+  },
+  {
+    "doc_id": "7f1c5f9c108754ba",
+    "title": "广碳所荣获高新技术企业认定",
+    "source": "GZETS",
+    "publish_date": "2024-02-08T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 20,
+        "minor_decrease": 15,
+        "minor_increase": 10,
+        "major_increase": 25
+      },
+      "demand": {
+        "major_decrease": 20,
+        "minor_decrease": 15,
+        "minor_increase": 10,
+        "major_increase": 25
+      },
+      "policy_strength": {
+        "informational": 10,
+        "encouraged": 5,
+        "binding": 15,
+        "mandatory": 20
+      },
+      "confidence": 15
+    },
+    "scores": {
+      "supply": 3.57,
+      "demand": 3.57,
+      "policy_strength": 63.4,
+      "confidence": 15,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Low confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:03.013135"
+  },
+  {
+    "doc_id": "efa6d6be7d8bb25b",
+    "title": "广州碳排放权交易中心与江门双碳实验室挂牌成立江门碳市场服务中心，江门市、新会区分管领导出席揭牌仪式",
+    "source": "GZETS",
+    "publish_date": "2023-12-29T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 40,
+        "minor_decrease": 30,
+        "minor_increase": 20,
+        "major_increase": 50
+      },
+      "demand": {
+        "major_decrease": 40,
+        "minor_decrease": 30,
+        "minor_increase": 20,
+        "major_increase": 50
+      },
+      "policy_strength": {
+        "informational": 20,
+        "encouraged": 30,
+        "binding": 40,
+        "mandatory": 50
+      },
+      "confidence": 40
+    },
+    "scores": {
+      "supply": 3.57,
+      "demand": 3.57,
+      "policy_strength": 61.93,
+      "confidence": 40,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Low confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:03.018262"
+  },
+  {
+    "doc_id": "a9756834dd87f584",
+    "title": "广碳所联合广东碳中和研究院（韶关）举办9月沙龙活动",
+    "source": "GZETS",
+    "publish_date": "2023-09-27T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 30,
+        "minor_decrease": 25,
+        "minor_increase": 20,
+        "major_increase": 35
+      },
+      "demand": {
+        "major_decrease": 30,
+        "minor_decrease": 25,
+        "minor_increase": 40,
+        "major_increase": 35
+      },
+      "policy_strength": {
+        "informational": 15,
+        "encouraged": 20,
+        "binding": 10,
+        "mandatory": 10
+      },
+      "confidence": 25
+    },
+    "scores": {
+      "supply": 2.27,
+      "demand": 9.62,
+      "policy_strength": 42.36,
+      "confidence": 25,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "Low confidence: neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:03.045843"
+  },
+  {
+    "doc_id": "765031608f1b7c43",
+    "title": "广碳所执笔的《碳金融产品行业标准应用》入编《2022中国金融标准化报告》",
+    "source": "GZETS",
+    "publish_date": "2024-03-01T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 60,
+        "minor_decrease": 50,
+        "minor_increase": 40,
+        "major_increase": 55
+      },
+      "demand": {
+        "major_decrease": 60,
+        "minor_decrease": 55,
+        "minor_increase": 45,
+        "major_increase": 50
+      },
+      "policy_strength": {
+        "informational": 65,
+        "encouraged": 70,
+        "binding": 55,
+        "mandatory": 60
+      },
+      "confidence": 60
+    },
+    "scores": {
+      "supply": -4.88,
+      "demand": -7.14,
+      "policy_strength": 47.98,
+      "confidence": 60,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "Low confidence: neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:03.046953"
+  },
+  {
+    "doc_id": "5288d9440136b51c",
+    "title": "广碳所参加全省生态修复技术和国土绿化培训班",
+    "source": "GZETS",
+    "publish_date": "2023-09-04T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 40,
+        "minor_decrease": 30,
+        "minor_increase": 20,
+        "major_increase": 50
+      },
+      "demand": {
+        "major_decrease": 40,
+        "minor_decrease": 30,
+        "minor_increase": 50,
+        "major_increase": 60
+      },
+      "policy_strength": {
+        "informational": 20,
+        "encouraged": 30,
+        "binding": 10,
+        "mandatory": 10
+      },
+      "confidence": 45
+    },
+    "scores": {
+      "supply": 3.57,
+      "demand": 16.67,
+      "policy_strength": 38.0,
+      "confidence": 45,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "Low confidence: neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:03.058531"
+  },
+  {
+    "doc_id": "3b568bdb73654764",
+    "title": "广州碳普惠减排量完成首次认购 广州碳普惠自愿减排注册登记平台上线 碳普惠价值转化迈出关键一步",
+    "source": "GZETS",
+    "publish_date": "2023-11-07T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 40,
+        "minor_decrease": 30,
+        "minor_increase": 20,
+        "major_increase": 50
+      },
+      "demand": {
+        "major_decrease": 40,
+        "minor_decrease": 30,
+        "minor_increase": 50,
+        "major_increase": 60
+      },
+      "policy_strength": {
+        "informational": 20,
+        "encouraged": 70,
+        "binding": 30,
+        "mandatory": 40
+      },
+      "confidence": 55
+    },
+    "scores": {
+      "supply": 3.57,
+      "demand": 16.67,
+      "policy_strength": 52.0,
+      "confidence": 55,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Low confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:03.116241"
+  },
+  {
+    "doc_id": "6c8c210e79fda011",
+    "title": "广碳所2023年全国科普日活动圆满成功",
+    "source": "GZETS",
+    "publish_date": "2023-09-26T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 20,
+        "minor_decrease": 15,
+        "minor_increase": 10,
+        "major_increase": 25
+      },
+      "demand": {
+        "major_decrease": 20,
+        "minor_decrease": 15,
+        "minor_increase": 10,
+        "major_increase": 25
+      },
+      "policy_strength": {
+        "informational": 10,
+        "encouraged": 15,
+        "binding": 5,
+        "mandatory": 5
+      },
+      "confidence": 15
+    },
+    "scores": {
+      "supply": 3.57,
+      "demand": 3.57,
+      "policy_strength": 38.0,
+      "confidence": 15,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "Low confidence: neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:03.385166"
+  },
+  {
+    "doc_id": "efe0965fc443df7e",
+    "title": "广州碳排放权交易中心《国际碳减排黄金标准的模式、经验以及对中国的建议》论文被期刊《海南金融》收录",
+    "source": "GZETS",
+    "publish_date": "2024-03-20T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 40,
+        "minor_decrease": 30,
+        "minor_increase": 20,
+        "major_increase": 50
+      },
+      "demand": {
+        "major_decrease": 40,
+        "minor_decrease": 30,
+        "minor_increase": 20,
+        "major_increase": 50
+      },
+      "policy_strength": {
+        "informational": 25,
+        "encouraged": 35,
+        "binding": 20,
+        "mandatory": 30
+      },
+      "confidence": 40
+    },
+    "scores": {
+      "supply": 3.57,
+      "demand": 3.57,
+      "policy_strength": 49.95,
+      "confidence": 40,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "Low confidence: neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:03.818916"
+  },
+  {
+    "doc_id": "1fbb18bf534107ff",
+    "title": "广州市司法局党委委员、副局长张建山带队赴广碳所调研",
+    "source": "GZETS",
+    "publish_date": "2023-08-04T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 20,
+        "minor_decrease": 15,
+        "minor_increase": 10,
+        "major_increase": 25
+      },
+      "demand": {
+        "major_decrease": 20,
+        "minor_decrease": 15,
+        "minor_increase": 10,
+        "major_increase": 25
+      },
+      "policy_strength": {
+        "informational": 30,
+        "encouraged": 25,
+        "binding": 20,
+        "mandatory": 15
+      },
+      "confidence": 20
+    },
+    "scores": {
+      "supply": 3.57,
+      "demand": 3.57,
+      "policy_strength": 40.72,
+      "confidence": 20,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "Low confidence: neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:04.736361"
+  },
+  {
+    "doc_id": "d0770418e2e8ba0e",
+    "title": "广碳所生态产品价值实现平台落地我国首单滨海盐沼生态系统碳汇产品交易",
+    "source": "GZETS",
+    "publish_date": "2023-09-26T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 30,
+        "minor_decrease": 25,
+        "minor_increase": 20,
+        "major_increase": 35
+      },
+      "demand": {
+        "major_decrease": 30,
+        "minor_decrease": 25,
+        "minor_increase": 20,
+        "major_increase": 35
+      },
+      "policy_strength": {
+        "informational": 40,
+        "encouraged": 45,
+        "binding": 50,
+        "mandatory": 55
+      },
+      "confidence": 50
+    },
+    "scores": {
+      "supply": 2.27,
+      "demand": 2.27,
+      "policy_strength": 54.39,
+      "confidence": 50,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Low confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:04.986009"
+  },
+  {
+    "doc_id": "1d9525d9f5d0c90f",
+    "title": "香港中资银行业协会绿色金融委员会一行赴广碳所调研交流",
+    "source": "GZETS",
+    "publish_date": "2023-07-21T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 30,
+        "minor_decrease": 20,
+        "minor_increase": 15,
+        "major_increase": 25
+      },
+      "demand": {
+        "major_decrease": 30,
+        "minor_decrease": 25,
+        "minor_increase": 20,
+        "major_increase": 35
+      },
+      "policy_strength": {
+        "informational": 15,
+        "encouraged": 25,
+        "binding": 20,
+        "mandatory": 10
+      },
+      "confidence": 25
+    },
+    "scores": {
+      "supply": -8.33,
+      "demand": 2.27,
+      "policy_strength": 45.21,
+      "confidence": 25,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "Low confidence: neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:04.987129"
+  },
+  {
+    "doc_id": "306b28f871b5cee5",
+    "title": "广碳所联合撰写课题获评为国家机关事务管理局2022-2023年度公共机构绿色低碳转型优秀课题",
+    "source": "GZETS",
+    "publish_date": "2023-07-10T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 30,
+        "minor_decrease": 20,
+        "minor_increase": 25,
+        "major_increase": 35
+      },
+      "demand": {
+        "major_decrease": 30,
+        "minor_decrease": 20,
+        "minor_increase": 25,
+        "major_increase": 40
+      },
+      "policy_strength": {
+        "informational": 50,
+        "encouraged": 60,
+        "binding": 40,
+        "mandatory": 30
+      },
+      "confidence": 50
+    },
+    "scores": {
+      "supply": 6.82,
+      "demand": 10.87,
+      "policy_strength": 42.56,
+      "confidence": 50,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "Low confidence: neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:05.012703"
+  },
+  {
+    "doc_id": "614dcb5bbf7ea566",
+    "title": "广碳所研究成果在《金融纵横》学术期刊发表",
+    "source": "GZETS",
+    "publish_date": "2023-06-16T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 60,
+        "minor_decrease": 50,
+        "minor_increase": 40,
+        "major_increase": 55
+      },
+      "demand": {
+        "major_decrease": 60,
+        "minor_decrease": 50,
+        "minor_increase": 45,
+        "major_increase": 55
+      },
+      "policy_strength": {
+        "informational": 30,
+        "encouraged": 40,
+        "binding": 50,
+        "mandatory": 55
+      },
+      "confidence": 50
+    },
+    "scores": {
+      "supply": -4.88,
+      "demand": -3.57,
+      "policy_strength": 58.11,
+      "confidence": 50,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Low confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:05.069592"
+  },
+  {
+    "doc_id": "10d65403037a187d",
+    "title": "广碳所9月会员沙龙圆满举办",
+    "source": "GZETS",
+    "publish_date": "2023-09-08T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 20,
+        "minor_decrease": 30,
+        "minor_increase": 25,
+        "major_increase": 35
+      },
+      "demand": {
+        "major_decrease": 20,
+        "minor_decrease": 30,
+        "minor_increase": 25,
+        "major_increase": 35
+      },
+      "policy_strength": {
+        "informational": 15,
+        "encouraged": 25,
+        "binding": 30,
+        "mandatory": 20
+      },
+      "confidence": 25
+    },
+    "scores": {
+      "supply": 11.36,
+      "demand": 11.36,
+      "policy_strength": 53.72,
+      "confidence": 25,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Low confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:05.094651"
+  },
+  {
+    "doc_id": "20fc820e9759bc8f",
+    "title": "中国石油国际事业（香港）有限公司赴广碳所交流",
+    "source": "GZETS",
+    "publish_date": "2023-05-05T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 30,
+        "minor_decrease": 20,
+        "minor_increase": 25,
+        "major_increase": 35
+      },
+      "demand": {
+        "major_decrease": 30,
+        "minor_decrease": 25,
+        "minor_increase": 40,
+        "major_increase": 35
+      },
+      "policy_strength": {
+        "informational": 20,
+        "encouraged": 25,
+        "binding": 30,
+        "mandatory": 35
+      },
+      "confidence": 30
+    },
+    "scores": {
+      "supply": 6.82,
+      "demand": 9.62,
+      "policy_strength": 57.59,
+      "confidence": 30,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Low confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:05.120647"
+  },
+  {
+    "doc_id": "9e5232299bd81484",
+    "title": "广碳所联合广州交易集团研究院举办7月沙龙活动",
+    "source": "GZETS",
+    "publish_date": "2023-07-14T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 30,
+        "minor_decrease": 20,
+        "minor_increase": 25,
+        "major_increase": 35
+      },
+      "demand": {
+        "major_decrease": 30,
+        "minor_decrease": 25,
+        "minor_increase": 20,
+        "major_increase": 40
+      },
+      "policy_strength": {
+        "informational": 15,
+        "encouraged": 20,
+        "binding": 25,
+        "mandatory": 30
+      },
+      "confidence": 25
+    },
+    "scores": {
+      "supply": 6.82,
+      "demand": 6.52,
+      "policy_strength": 59.28,
+      "confidence": 25,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Low confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:05.172256"
+  },
+  {
+    "doc_id": "77d8a15ac49e6360",
+    "title": "生态环境部应对气候变化司李高司长赴广州交易集团广碳所调研广东碳市场运行和气候投融资服务",
+    "source": "GZETS",
+    "publish_date": "2023-05-11T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 75,
+        "minor_decrease": 60,
+        "minor_increase": 50,
+        "major_increase": 70
+      },
+      "demand": {
+        "major_decrease": 75,
+        "minor_decrease": 65,
+        "minor_increase": 55,
+        "major_increase": 70
+      },
+      "policy_strength": {
+        "informational": 50,
+        "encouraged": 60,
+        "binding": 70,
+        "mandatory": 80
+      },
+      "confidence": 70
+    },
+    "scores": {
+      "supply": -3.92,
+      "demand": -3.77,
+      "policy_strength": 56.42,
+      "confidence": 70,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Moderate confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:05.314898"
+  },
+  {
+    "doc_id": "c06640f0a6104cf9",
+    "title": "广碳所联合江门双碳实验室举办6月会员沙龙活动",
+    "source": "GZETS",
+    "publish_date": "2023-06-20T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 30,
+        "minor_decrease": 20,
+        "minor_increase": 10,
+        "major_increase": 25
+      },
+      "demand": {
+        "major_decrease": 30,
+        "minor_decrease": 20,
+        "minor_increase": 15,
+        "major_increase": 25
+      },
+      "policy_strength": {
+        "informational": 10,
+        "encouraged": 15,
+        "binding": 20,
+        "mandatory": 25
+      },
+      "confidence": 20
+    },
+    "scores": {
+      "supply": -11.76,
+      "demand": -8.33,
+      "policy_strength": 61.93,
+      "confidence": 20,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Low confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:05.546186"
+  },
+  {
+    "doc_id": "4414fb97d1d9ac48",
+    "title": "广碳所联合广东碳中和研究院（韶关）举办4月会员沙龙活动",
+    "source": "GZETS",
+    "publish_date": "2023-04-28T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 20,
+        "minor_decrease": 15,
+        "minor_increase": 10,
+        "major_increase": 25
+      },
+      "demand": {
+        "major_decrease": 20,
+        "minor_decrease": 15,
+        "minor_increase": 10,
+        "major_increase": 25
+      },
+      "policy_strength": {
+        "informational": 30,
+        "encouraged": 35,
+        "binding": 25,
+        "mandatory": 20
+      },
+      "confidence": 40
+    },
+    "scores": {
+      "supply": 3.57,
+      "demand": 3.57,
+      "policy_strength": 43.91,
+      "confidence": 40,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "Low confidence: neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:05.684306"
+  },
+  {
+    "doc_id": "3ee1e324e9137f54",
+    "title": "国家林业和草原局中南调查规划院一行赴广交易调研林草碳汇提升和价值实现机制",
+    "source": "GZETS",
+    "publish_date": "2023-06-21T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 60,
+        "minor_decrease": 50,
+        "minor_increase": 40,
+        "major_increase": 70
+      },
+      "demand": {
+        "major_decrease": 60,
+        "minor_decrease": 50,
+        "minor_increase": 40,
+        "major_increase": 70
+      },
+      "policy_strength": {
+        "informational": 30,
+        "encouraged": 50,
+        "binding": 60,
+        "mandatory": 70
+      },
+      "confidence": 65
+    },
+    "scores": {
+      "supply": 2.27,
+      "demand": 2.27,
+      "policy_strength": 60.33,
+      "confidence": 65,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Moderate confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:05.708036"
+  },
+  {
+    "doc_id": "09ef0643dabae14c",
+    "title": "广碳所生态产品价值实现平台正式发布红树林、城市绿地领域碳汇计量与监测方法",
+    "source": "GZETS",
+    "publish_date": "2023-07-03T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 30,
+        "minor_decrease": 25,
+        "minor_increase": 20,
+        "major_increase": 35
+      },
+      "demand": {
+        "major_decrease": 30,
+        "minor_decrease": 25,
+        "minor_increase": 20,
+        "major_increase": 35
+      },
+      "policy_strength": {
+        "informational": 40,
+        "encouraged": 50,
+        "binding": 30,
+        "mandatory": 20
+      },
+      "confidence": 40
+    },
+    "scores": {
+      "supply": 2.27,
+      "demand": 2.27,
+      "policy_strength": 40.43,
+      "confidence": 40,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "Low confidence: neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:05.758209"
+  },
+  {
+    "doc_id": "8531199f52a3d122",
+    "title": "上新了！你会读碳吗？",
+    "source": "GZETS",
+    "publish_date": "2023-04-19T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 30,
+        "minor_decrease": 20,
+        "minor_increase": 25,
+        "major_increase": 35
+      },
+      "demand": {
+        "major_decrease": 30,
+        "minor_decrease": 25,
+        "minor_increase": 40,
+        "major_increase": 45
+      },
+      "policy_strength": {
+        "informational": 20,
+        "encouraged": 25,
+        "binding": 30,
+        "mandatory": 35
+      },
+      "confidence": 30
+    },
+    "scores": {
+      "supply": 6.82,
+      "demand": 16.07,
+      "policy_strength": 57.59,
+      "confidence": 30,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Low confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:05.787409"
+  },
+  {
+    "doc_id": "371f2382c10f5871",
+    "title": "广碳所第八期碳金融培训圆满举行",
+    "source": "GZETS",
+    "publish_date": "2023-05-30T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 40,
+        "minor_decrease": 30,
+        "minor_increase": 20,
+        "major_increase": 50
+      },
+      "demand": {
+        "major_decrease": 40,
+        "minor_decrease": 30,
+        "minor_increase": 20,
+        "major_increase": 50
+      },
+      "policy_strength": {
+        "informational": 20,
+        "encouraged": 30,
+        "binding": 40,
+        "mandatory": 50
+      },
+      "confidence": 40
+    },
+    "scores": {
+      "supply": 3.57,
+      "demand": 3.57,
+      "policy_strength": 61.93,
+      "confidence": 40,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Low confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:05.792556"
+  },
+  {
+    "doc_id": "081a4e6e7965b74a",
+    "title": "广碳所参编的栽培大型海藻碳足迹核算与评价标准等两项团体标准正式发布",
+    "source": "GZETS",
+    "publish_date": "2023-04-04T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 20,
+        "minor_decrease": 15,
+        "minor_increase": 10,
+        "major_increase": 25
+      },
+      "demand": {
+        "major_decrease": 20,
+        "minor_decrease": 15,
+        "minor_increase": 10,
+        "major_increase": 25
+      },
+      "policy_strength": {
+        "informational": 30,
+        "encouraged": 40,
+        "binding": 20,
+        "mandatory": 25
+      },
+      "confidence": 30
+    },
+    "scores": {
+      "supply": 3.57,
+      "demand": 3.57,
+      "policy_strength": 44.87,
+      "confidence": 30,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "Low confidence: neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:06.193938"
+  },
+  {
+    "doc_id": "f0879be9a95de41e",
+    "title": "广东省博物馆联合广碳所等开展绿色博物馆主题活动",
+    "source": "GZETS",
+    "publish_date": "2023-05-23T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 10,
+        "minor_decrease": 15,
+        "minor_increase": 20,
+        "major_increase": 25
+      },
+      "demand": {
+        "major_decrease": 10,
+        "minor_decrease": 15,
+        "minor_increase": 30,
+        "major_increase": 35
+      },
+      "policy_strength": {
+        "informational": 40,
+        "encouraged": 70,
+        "binding": 10,
+        "mandatory": 5
+      },
+      "confidence": 45
+    },
+    "scores": {
+      "supply": 25.0,
+      "demand": 36.11,
+      "policy_strength": 27.84,
+      "confidence": 45,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Minor demand increase",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "Low confidence: neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:06.290257"
+  },
+  {
+    "doc_id": "63fce77970e5ada9",
+    "title": "2022年度广东省碳排放核查机构专题培训顺利举行",
+    "source": "GZETS",
+    "publish_date": "2023-04-28T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 30,
+        "minor_decrease": 40,
+        "minor_increase": 20,
+        "major_increase": 50
+      },
+      "demand": {
+        "major_decrease": 30,
+        "minor_decrease": 40,
+        "minor_increase": 20,
+        "major_increase": 50
+      },
+      "policy_strength": {
+        "informational": 20,
+        "encouraged": 25,
+        "binding": 15,
+        "mandatory": 35
+      },
+      "confidence": 40
+    },
+    "scores": {
+      "supply": 7.14,
+      "demand": 7.14,
+      "policy_strength": 56.11,
+      "confidence": 40,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Low confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:06.310048"
+  },
+  {
+    "doc_id": "6a60cb8ca5041861",
+    "title": "广州碳达峰碳中和产业联盟成立",
+    "source": "GZETS",
+    "publish_date": "2023-07-04T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 60,
+        "minor_decrease": 50,
+        "minor_increase": 40,
+        "major_increase": 70
+      },
+      "demand": {
+        "major_decrease": 60,
+        "minor_decrease": 50,
+        "minor_increase": 40,
+        "major_increase": 70
+      },
+      "policy_strength": {
+        "informational": 30,
+        "encouraged": 50,
+        "binding": 60,
+        "mandatory": 40
+      },
+      "confidence": 65
+    },
+    "scores": {
+      "supply": 2.27,
+      "demand": 2.27,
+      "policy_strength": 53.72,
+      "confidence": 65,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Moderate confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:06.591907"
+  },
+  {
+    "doc_id": "64b85ab3b08bf2d5",
+    "title": "广碳所党支部开展促进人与自然和谐共生，碳索南沙高质量发展主题党日共建活动",
+    "source": "GZETS",
+    "publish_date": "2023-03-03T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 20,
+        "minor_decrease": 15,
+        "minor_increase": 10,
+        "major_increase": 25
+      },
+      "demand": {
+        "major_decrease": 20,
+        "minor_decrease": 15,
+        "minor_increase": 10,
+        "major_increase": 25
+      },
+      "policy_strength": {
+        "informational": 10,
+        "encouraged": 30,
+        "binding": 15,
+        "mandatory": 20
+      },
+      "confidence": 25
+    },
+    "scores": {
+      "supply": 3.57,
+      "demand": 3.57,
+      "policy_strength": 53.27,
+      "confidence": 25,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Low confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:06.880800"
+  },
+  {
+    "doc_id": "d3c42757356eebda",
+    "title": "广碳所党支部召开2023年党风廉政建设工作会议",
+    "source": "GZETS",
+    "publish_date": "2023-03-30T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 20,
+        "minor_decrease": 15,
+        "minor_increase": 10,
+        "major_increase": 25
+      },
+      "demand": {
+        "major_decrease": 20,
+        "minor_decrease": 15,
+        "minor_increase": 10,
+        "major_increase": 25
+      },
+      "policy_strength": {
+        "informational": 30,
+        "encouraged": 25,
+        "binding": 20,
+        "mandatory": 25
+      },
+      "confidence": 20
+    },
+    "scores": {
+      "supply": 3.57,
+      "demand": 3.57,
+      "policy_strength": 46.65,
+      "confidence": 20,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "Low confidence: neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T05:05:07.819474"
+  }
+]

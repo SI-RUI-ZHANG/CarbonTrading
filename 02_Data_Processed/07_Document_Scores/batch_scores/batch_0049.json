@@ -1,0 +1,2002 @@
+[
+  {
+    "doc_id": "92412b27b8b22020",
+    "title": "关于暂停受理远期交易业务的公告",
+    "source": "GZETS",
+    "publish_date": "2021-06-17T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 20,
+        "minor_decrease": 30,
+        "minor_increase": 25,
+        "major_increase": 15
+      },
+      "demand": {
+        "major_decrease": 20,
+        "minor_decrease": 30,
+        "minor_increase": 25,
+        "major_increase": 15
+      },
+      "policy_strength": {
+        "informational": 10,
+        "encouraged": 5,
+        "binding": 15,
+        "mandatory": 5
+      },
+      "confidence": 20
+    },
+    "scores": {
+      "supply": -8.33,
+      "demand": -8.33,
+      "policy_strength": 47.71,
+      "confidence": 20,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "Low confidence: neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:33.737985"
+  },
+  {
+    "doc_id": "cfa77337cfbd8fc9",
+    "title": "广东省省级碳普惠制核证减排量（PHCER）项目竞价公告",
+    "source": "GZETS",
+    "publish_date": "2021-07-22T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 60,
+        "minor_decrease": 50,
+        "minor_increase": 70,
+        "major_increase": 80
+      },
+      "demand": {
+        "major_decrease": 60,
+        "minor_decrease": 50,
+        "minor_increase": 80,
+        "major_increase": 70
+      },
+      "policy_strength": {
+        "informational": 40,
+        "encouraged": 70,
+        "binding": 60,
+        "mandatory": 80
+      },
+      "confidence": 70
+    },
+    "scores": {
+      "supply": 11.54,
+      "demand": 9.62,
+      "policy_strength": 57.32,
+      "confidence": 70,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Moderate confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:33.794986"
+  },
+  {
+    "doc_id": "30e215a38a981c2a",
+    "title": "关于在履约期前增加交易时间的公告",
+    "source": "GZETS",
+    "publish_date": "2021-07-09T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 20,
+        "minor_decrease": 30,
+        "minor_increase": 25,
+        "major_increase": 40
+      },
+      "demand": {
+        "major_decrease": 20,
+        "minor_decrease": 30,
+        "minor_increase": 25,
+        "major_increase": 40
+      },
+      "policy_strength": {
+        "informational": 15,
+        "encouraged": 10,
+        "binding": 25,
+        "mandatory": 35
+      },
+      "confidence": 30
+    },
+    "scores": {
+      "supply": 15.22,
+      "demand": 15.22,
+      "policy_strength": 64.76,
+      "confidence": 30,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Low confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:33.921263"
+  },
+  {
+    "doc_id": "f20b2af0cda0cbba",
+    "title": "广州碳排放权交易所实习招聘简章",
+    "source": "GZETS",
+    "publish_date": "2020-12-31T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 20,
+        "minor_decrease": 15,
+        "minor_increase": 25,
+        "major_increase": 30
+      },
+      "demand": {
+        "major_decrease": 20,
+        "minor_decrease": 15,
+        "minor_increase": 25,
+        "major_increase": 30
+      },
+      "policy_strength": {
+        "informational": 10,
+        "encouraged": 15,
+        "binding": 20,
+        "mandatory": 25
+      },
+      "confidence": 25
+    },
+    "scores": {
+      "supply": 16.67,
+      "demand": 16.67,
+      "policy_strength": 61.93,
+      "confidence": 25,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Low confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:33.991964"
+  },
+  {
+    "doc_id": "4f1135de15b117d9",
+    "title": "广州碳排放权交易中心有限公司人员招聘公告",
+    "source": "GZETS",
+    "publish_date": "2021-06-09T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 20,
+        "minor_decrease": 15,
+        "minor_increase": 10,
+        "major_increase": 25
+      },
+      "demand": {
+        "major_decrease": 20,
+        "minor_decrease": 15,
+        "minor_increase": 10,
+        "major_increase": 25
+      },
+      "policy_strength": {
+        "informational": 5,
+        "encouraged": 10,
+        "binding": 0,
+        "mandatory": 0
+      },
+      "confidence": 15
+    },
+    "scores": {
+      "supply": 3.57,
+      "demand": 3.57,
+      "policy_strength": 22.0,
+      "confidence": 15,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "Low confidence: neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:33.998705"
+  },
+  {
+    "doc_id": "42f6cfb9f6331438",
+    "title": "2021年深能龙川新能源有限公司分布式光伏发电碳普惠核证减排量项目（PHCER） 竞价情况",
+    "source": "GZETS",
+    "publish_date": "2021-06-11T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 60,
+        "minor_decrease": 50,
+        "minor_increase": 70,
+        "major_increase": 40
+      },
+      "demand": {
+        "major_decrease": 60,
+        "minor_decrease": 50,
+        "minor_increase": 80,
+        "major_increase": 30
+      },
+      "policy_strength": {
+        "informational": 70,
+        "encouraged": 75,
+        "binding": 65,
+        "mandatory": 60
+      },
+      "confidence": 65
+    },
+    "scores": {
+      "supply": -4.55,
+      "demand": -6.82,
+      "policy_strength": 47.52,
+      "confidence": 65,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "Moderate confidence: neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:34.067656"
+  },
+  {
+    "doc_id": "5ccbb41447d6aaf6",
+    "title": "关于纳入全国碳市场发电企业（含自备电厂）广东省配额临时冻结的通知",
+    "source": "GZETS",
+    "publish_date": "2021-08-25T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 60,
+        "minor_decrease": 70,
+        "minor_increase": 50,
+        "major_increase": 40
+      },
+      "demand": {
+        "major_decrease": 60,
+        "minor_decrease": 70,
+        "minor_increase": 50,
+        "major_increase": 40
+      },
+      "policy_strength": {
+        "informational": 50,
+        "encouraged": 30,
+        "binding": 70,
+        "mandatory": 80
+      },
+      "confidence": 65
+    },
+    "scores": {
+      "supply": -13.64,
+      "demand": -13.64,
+      "policy_strength": 59.48,
+      "confidence": 65,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Moderate confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:34.082355"
+  },
+  {
+    "doc_id": "02b942aefba14411",
+    "title": "2020年清远市阳山县14个林业碳普惠项目（PHCER）竞价情况",
+    "source": "GZETS",
+    "publish_date": "2020-12-28T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 60,
+        "minor_decrease": 50,
+        "minor_increase": 70,
+        "major_increase": 65
+      },
+      "demand": {
+        "major_decrease": 60,
+        "minor_decrease": 55,
+        "minor_increase": 75,
+        "major_increase": 70
+      },
+      "policy_strength": {
+        "informational": 40,
+        "encouraged": 50,
+        "binding": 65,
+        "mandatory": 60
+      },
+      "confidence": 65
+    },
+    "scores": {
+      "supply": 6.12,
+      "demand": 7.69,
+      "policy_strength": 55.84,
+      "confidence": 65,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Moderate confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:34.099333"
+  },
+  {
+    "doc_id": "252a9910eb93e848",
+    "title": "广州碳排放权交易中心招聘公告",
+    "source": "GZETS",
+    "publish_date": "2021-03-01T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 10,
+        "minor_decrease": 15,
+        "minor_increase": 20,
+        "major_increase": 25
+      },
+      "demand": {
+        "major_decrease": 10,
+        "minor_decrease": 15,
+        "minor_increase": 20,
+        "major_increase": 25
+      },
+      "policy_strength": {
+        "informational": 5,
+        "encouraged": 10,
+        "binding": 15,
+        "mandatory": 20
+      },
+      "confidence": 15
+    },
+    "scores": {
+      "supply": 25.0,
+      "demand": 25.0,
+      "policy_strength": 66.7,
+      "confidence": 15,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Low confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:34.112624"
+  },
+  {
+    "doc_id": "c552e27de707ac26",
+    "title": "广东省省级碳普惠制核证减排量（PHCER）项目竞价公告",
+    "source": "GZETS",
+    "publish_date": "2020-12-21T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 30,
+        "minor_decrease": 20,
+        "minor_increase": 40,
+        "major_increase": 50
+      },
+      "demand": {
+        "major_decrease": 30,
+        "minor_decrease": 20,
+        "minor_increase": 60,
+        "major_increase": 70
+      },
+      "policy_strength": {
+        "informational": 40,
+        "encouraged": 50,
+        "binding": 60,
+        "mandatory": 70
+      },
+      "confidence": 60
+    },
+    "scores": {
+      "supply": 21.43,
+      "demand": 33.33,
+      "policy_strength": 57.59,
+      "confidence": 60,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Minor demand increase",
+        "policy_strength": "Binding guidance",
+        "overall": "Low confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:34.258353"
+  },
+  {
+    "doc_id": "02ffe7b1de7eb4e8",
+    "title": "2021年龙川县鹤市镇鹤市村分布式光伏发电碳普惠核证减排量项目、新丰县等3县6个省定贫困村林业碳普惠项目（PHCER）竞价情况",
+    "source": "GZETS",
+    "publish_date": "2021-02-02T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 60,
+        "minor_decrease": 50,
+        "minor_increase": 70,
+        "major_increase": 65
+      },
+      "demand": {
+        "major_decrease": 60,
+        "minor_decrease": 55,
+        "minor_increase": 75,
+        "major_increase": 70
+      },
+      "policy_strength": {
+        "informational": 50,
+        "encouraged": 65,
+        "binding": 55,
+        "mandatory": 70
+      },
+      "confidence": 65
+    },
+    "scores": {
+      "supply": 6.12,
+      "demand": 7.69,
+      "policy_strength": 53.46,
+      "confidence": 65,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Moderate confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:34.262738"
+  },
+  {
+    "doc_id": "8ed9cc4d223eff8b",
+    "title": "2021年广东粤电华南理工大学光伏发电并网电站等三个碳普惠项目（PHCER） 竞价情况",
+    "source": "GZETS",
+    "publish_date": "2021-06-08T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 60,
+        "minor_decrease": 50,
+        "minor_increase": 70,
+        "major_increase": 80
+      },
+      "demand": {
+        "major_decrease": 60,
+        "minor_decrease": 50,
+        "minor_increase": 70,
+        "major_increase": 80
+      },
+      "policy_strength": {
+        "informational": 40,
+        "encouraged": 70,
+        "binding": 60,
+        "mandatory": 50
+      },
+      "confidence": 65
+    },
+    "scores": {
+      "supply": 11.54,
+      "demand": 11.54,
+      "policy_strength": 51.5,
+      "confidence": 65,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Moderate confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:34.281789"
+  },
+  {
+    "doc_id": "7855c1da7e6c917e",
+    "title": "2021年韶关市翁源县等4县5个林业碳普惠项目、韶关市仁化县 4个林业碳普惠项目（PHCER） 竞价情况",
+    "source": "GZETS",
+    "publish_date": "2021-05-27T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 30,
+        "minor_decrease": 40,
+        "minor_increase": 50,
+        "major_increase": 60
+      },
+      "demand": {
+        "major_decrease": 30,
+        "minor_decrease": 40,
+        "minor_increase": 70,
+        "major_increase": 80
+      },
+      "policy_strength": {
+        "informational": 20,
+        "encouraged": 50,
+        "binding": 60,
+        "mandatory": 70
+      },
+      "confidence": 65
+    },
+    "scores": {
+      "supply": 19.44,
+      "demand": 29.55,
+      "policy_strength": 63.35,
+      "confidence": 65,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Minor demand increase",
+        "policy_strength": "Binding guidance",
+        "overall": "Moderate confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:34.305271"
+  },
+  {
+    "doc_id": "041b39aad775b7b2",
+    "title": "广东省省级碳普惠制核证减排量（PHCER）项目竞价公告",
+    "source": "GZETS",
+    "publish_date": "2021-03-12T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 60,
+        "minor_decrease": 50,
+        "minor_increase": 55,
+        "major_increase": 65
+      },
+      "demand": {
+        "major_decrease": 60,
+        "minor_decrease": 55,
+        "minor_increase": 70,
+        "major_increase": 75
+      },
+      "policy_strength": {
+        "informational": 40,
+        "encouraged": 65,
+        "binding": 70,
+        "mandatory": 75
+      },
+      "confidence": 65
+    },
+    "scores": {
+      "supply": 3.26,
+      "demand": 8.65,
+      "policy_strength": 57.34,
+      "confidence": 65,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Moderate confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:34.342578"
+  },
+  {
+    "doc_id": "bee31922e36de33c",
+    "title": "2020年肇庆市广宁县4个省定贫困村林业碳普惠项目（PHCER）竞价情况",
+    "source": "GZETS",
+    "publish_date": "2020-12-28T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 30,
+        "minor_decrease": 40,
+        "minor_increase": 50,
+        "major_increase": 20
+      },
+      "demand": {
+        "major_decrease": 30,
+        "minor_decrease": 40,
+        "minor_increase": 60,
+        "major_increase": 20
+      },
+      "policy_strength": {
+        "informational": 50,
+        "encouraged": 60,
+        "binding": 40,
+        "mandatory": 30
+      },
+      "confidence": 45
+    },
+    "scores": {
+      "supply": -3.57,
+      "demand": 0.0,
+      "policy_strength": 42.56,
+      "confidence": 45,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "Low confidence: neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:34.351533"
+  },
+  {
+    "doc_id": "c6d2845b86a121d5",
+    "title": "广东省省级碳普惠制核证减排量（PHCER）项目竞价公告",
+    "source": "GZETS",
+    "publish_date": "2020-12-17T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 60,
+        "minor_decrease": 50,
+        "minor_increase": 70,
+        "major_increase": 80
+      },
+      "demand": {
+        "major_decrease": 60,
+        "minor_decrease": 50,
+        "minor_increase": 75,
+        "major_increase": 85
+      },
+      "policy_strength": {
+        "informational": 65,
+        "encouraged": 70,
+        "binding": 75,
+        "mandatory": 80
+      },
+      "confidence": 75
+    },
+    "scores": {
+      "supply": 11.54,
+      "demand": 13.89,
+      "policy_strength": 52.88,
+      "confidence": 75,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Moderate confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:34.373369"
+  },
+  {
+    "doc_id": "a593d1f14b227b88",
+    "title": "关于开展托管业务资质年审工作的通知",
+    "source": "GZETS",
+    "publish_date": "2020-04-30T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 20,
+        "minor_decrease": 15,
+        "minor_increase": 10,
+        "major_increase": 25
+      },
+      "demand": {
+        "major_decrease": 20,
+        "minor_decrease": 15,
+        "minor_increase": 10,
+        "major_increase": 25
+      },
+      "policy_strength": {
+        "informational": 30,
+        "encouraged": 20,
+        "binding": 25,
+        "mandatory": 35
+      },
+      "confidence": 25
+    },
+    "scores": {
+      "supply": 3.57,
+      "demand": 3.57,
+      "policy_strength": 53.05,
+      "confidence": 25,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Low confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:34.397098"
+  },
+  {
+    "doc_id": "6aea9a148cf9ec13",
+    "title": "2021年韶关市翁源县龙仙镇青云村 林业碳普惠项目（PHCER）竞价情况",
+    "source": "GZETS",
+    "publish_date": "2021-03-23T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 40,
+        "minor_decrease": 60,
+        "minor_increase": 50,
+        "major_increase": 30
+      },
+      "demand": {
+        "major_decrease": 40,
+        "minor_decrease": 60,
+        "minor_increase": 70,
+        "major_increase": 50
+      },
+      "policy_strength": {
+        "informational": 30,
+        "encouraged": 50,
+        "binding": 70,
+        "mandatory": 40
+      },
+      "confidence": 60
+    },
+    "scores": {
+      "supply": -8.33,
+      "demand": 6.82,
+      "policy_strength": 54.42,
+      "confidence": 60,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Low confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:34.461782"
+  },
+  {
+    "doc_id": "3ab3eb4800f2aef4",
+    "title": "2020年肇庆市怀集县桥头镇红光村、梅州市丰顺县龙岗镇坪丰村林业碳普惠项目（PHCER）竞价情况",
+    "source": "GZETS",
+    "publish_date": "2020-11-06T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 30,
+        "minor_decrease": 40,
+        "minor_increase": 50,
+        "major_increase": 60
+      },
+      "demand": {
+        "major_decrease": 30,
+        "minor_decrease": 40,
+        "minor_increase": 70,
+        "major_increase": 60
+      },
+      "policy_strength": {
+        "informational": 20,
+        "encouraged": 50,
+        "binding": 60,
+        "mandatory": 70
+      },
+      "confidence": 55
+    },
+    "scores": {
+      "supply": 19.44,
+      "demand": 22.5,
+      "policy_strength": 63.35,
+      "confidence": 55,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Low confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:34.510999"
+  },
+  {
+    "doc_id": "6303958552bddaa7",
+    "title": "广东省省级碳普惠制核证减排量（PHCER）项目竞价公告",
+    "source": "GZETS",
+    "publish_date": "2021-01-21T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 40,
+        "minor_decrease": 30,
+        "minor_increase": 50,
+        "major_increase": 60
+      },
+      "demand": {
+        "major_decrease": 40,
+        "minor_decrease": 30,
+        "minor_increase": 70,
+        "major_increase": 80
+      },
+      "policy_strength": {
+        "informational": 20,
+        "encouraged": 60,
+        "binding": 50,
+        "mandatory": 70
+      },
+      "confidence": 65
+    },
+    "scores": {
+      "supply": 16.67,
+      "demand": 27.27,
+      "policy_strength": 61.65,
+      "confidence": 65,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Minor demand increase",
+        "policy_strength": "Binding guidance",
+        "overall": "Moderate confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:34.526058"
+  },
+  {
+    "doc_id": "7f6041aa1de334cb",
+    "title": "关于2020年端午节休市安排的公告",
+    "source": "GZETS",
+    "publish_date": "2020-06-22T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 0,
+        "minor_decrease": 0,
+        "minor_increase": 0,
+        "major_increase": 0
+      },
+      "demand": {
+        "major_decrease": 0,
+        "minor_decrease": 0,
+        "minor_increase": 0,
+        "major_increase": 0
+      },
+      "policy_strength": {
+        "informational": 0,
+        "encouraged": 0,
+        "binding": 0,
+        "mandatory": 0
+      },
+      "confidence": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "confidence": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "Low confidence: neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:34.568296"
+  },
+  {
+    "doc_id": "96a3f702e006d815",
+    "title": "关于2021年清明节休市安排的公告",
+    "source": "GZETS",
+    "publish_date": "2021-03-31T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 0,
+        "minor_decrease": 0,
+        "minor_increase": 0,
+        "major_increase": 0
+      },
+      "demand": {
+        "major_decrease": 0,
+        "minor_decrease": 0,
+        "minor_increase": 0,
+        "major_increase": 0
+      },
+      "policy_strength": {
+        "informational": 0,
+        "encouraged": 0,
+        "binding": 0,
+        "mandatory": 0
+      },
+      "confidence": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "confidence": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "Low confidence: neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:34.591455"
+  },
+  {
+    "doc_id": "8b78c9e9966a85ed",
+    "title": "20210608广东省省级碳普惠制核证减排量（PHCER）项目竞价公告",
+    "source": "GZETS",
+    "publish_date": "2021-05-28T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 60,
+        "minor_decrease": 50,
+        "minor_increase": 70,
+        "major_increase": 80
+      },
+      "demand": {
+        "major_decrease": 60,
+        "minor_decrease": 50,
+        "minor_increase": 75,
+        "major_increase": 85
+      },
+      "policy_strength": {
+        "informational": 40,
+        "encouraged": 70,
+        "binding": 80,
+        "mandatory": 90
+      },
+      "confidence": 75
+    },
+    "scores": {
+      "supply": 11.54,
+      "demand": 13.89,
+      "policy_strength": 59.54,
+      "confidence": 75,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Moderate confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:34.728713"
+  },
+  {
+    "doc_id": "78e164cf73997c21",
+    "title": "关于2021年端午节休市安排的公告",
+    "source": "GZETS",
+    "publish_date": "2021-06-11T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 0,
+        "minor_decrease": 0,
+        "minor_increase": 0,
+        "major_increase": 0
+      },
+      "demand": {
+        "major_decrease": 0,
+        "minor_decrease": 0,
+        "minor_increase": 0,
+        "major_increase": 0
+      },
+      "policy_strength": {
+        "informational": 0,
+        "encouraged": 0,
+        "binding": 0,
+        "mandatory": 0
+      },
+      "confidence": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "confidence": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "Low confidence: neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:34.750061"
+  },
+  {
+    "doc_id": "caf253713b435585",
+    "title": "广东省省级碳普惠制核证减排量（PHCER）项目竞价公告",
+    "source": "GZETS",
+    "publish_date": "2021-05-17T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 60,
+        "minor_decrease": 50,
+        "minor_increase": 70,
+        "major_increase": 65
+      },
+      "demand": {
+        "major_decrease": 60,
+        "minor_decrease": 55,
+        "minor_increase": 75,
+        "major_increase": 70
+      },
+      "policy_strength": {
+        "informational": 50,
+        "encouraged": 65,
+        "binding": 70,
+        "mandatory": 75
+      },
+      "confidence": 65
+    },
+    "scores": {
+      "supply": 6.12,
+      "demand": 7.69,
+      "policy_strength": 55.13,
+      "confidence": 65,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Moderate confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:34.811689"
+  },
+  {
+    "doc_id": "9a3128b98a649319",
+    "title": "2021年韶关市粤佳白土和杨梅分布式光伏发电碳普惠项目（PHCER） 竞价情况",
+    "source": "GZETS",
+    "publish_date": "2021-08-03T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 60,
+        "minor_decrease": 70,
+        "minor_increase": 80,
+        "major_increase": 75
+      },
+      "demand": {
+        "major_decrease": 60,
+        "minor_decrease": 65,
+        "minor_increase": 85,
+        "major_increase": 70
+      },
+      "policy_strength": {
+        "informational": 50,
+        "encouraged": 65,
+        "binding": 75,
+        "mandatory": 80
+      },
+      "confidence": 70
+    },
+    "scores": {
+      "supply": 7.02,
+      "demand": 7.14,
+      "policy_strength": 56.19,
+      "confidence": 70,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Moderate confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:34.835602"
+  },
+  {
+    "doc_id": "2eb0bb84fcca09ae",
+    "title": "2021年韶关市乳源县等4县7个林业碳普惠项目（PHCER） 竞价情况",
+    "source": "GZETS",
+    "publish_date": "2021-04-19T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 40,
+        "minor_decrease": 60,
+        "minor_increase": 70,
+        "major_increase": 50
+      },
+      "demand": {
+        "major_decrease": 40,
+        "minor_decrease": 60,
+        "minor_increase": 70,
+        "major_increase": 50
+      },
+      "policy_strength": {
+        "informational": 30,
+        "encouraged": 50,
+        "binding": 70,
+        "mandatory": 60
+      },
+      "confidence": 55
+    },
+    "scores": {
+      "supply": 6.82,
+      "demand": 6.82,
+      "policy_strength": 58.76,
+      "confidence": 55,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Low confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:34.858554"
+  },
+  {
+    "doc_id": "102264c5a6b6ee2a",
+    "title": "广东省省级碳普惠制核证减排量（PHCER）项目竞价公告",
+    "source": "GZETS",
+    "publish_date": "2021-04-07T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 40,
+        "minor_decrease": 50,
+        "minor_increase": 60,
+        "major_increase": 70
+      },
+      "demand": {
+        "major_decrease": 40,
+        "minor_decrease": 50,
+        "minor_increase": 80,
+        "major_increase": 75
+      },
+      "policy_strength": {
+        "informational": 30,
+        "encouraged": 65,
+        "binding": 70,
+        "mandatory": 60
+      },
+      "confidence": 65
+    },
+    "scores": {
+      "supply": 15.91,
+      "demand": 20.41,
+      "policy_strength": 57.04,
+      "confidence": 65,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Moderate confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:35.299371"
+  },
+  {
+    "doc_id": "43d14cb3b26dc24e",
+    "title": "20210611广东省省级碳普惠制核证减排量（PHCER）项目竞价公告",
+    "source": "GZETS",
+    "publish_date": "2021-06-02T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 30,
+        "minor_decrease": 40,
+        "minor_increase": 50,
+        "major_increase": 60
+      },
+      "demand": {
+        "major_decrease": 30,
+        "minor_decrease": 40,
+        "minor_increase": 70,
+        "major_increase": 80
+      },
+      "policy_strength": {
+        "informational": 20,
+        "encouraged": 50,
+        "binding": 60,
+        "mandatory": 70
+      },
+      "confidence": 65
+    },
+    "scores": {
+      "supply": 19.44,
+      "demand": 29.55,
+      "policy_strength": 63.35,
+      "confidence": 65,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Minor demand increase",
+        "policy_strength": "Binding guidance",
+        "overall": "Moderate confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:36.014444"
+  },
+  {
+    "doc_id": "2ac1dc5d5c290918",
+    "title": "广州碳排放权交易所实习招聘简章",
+    "source": "GZETS",
+    "publish_date": "2020-05-08T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 30,
+        "minor_decrease": 20,
+        "minor_increase": 25,
+        "major_increase": 35
+      },
+      "demand": {
+        "major_decrease": 30,
+        "minor_decrease": 25,
+        "minor_increase": 40,
+        "major_increase": 45
+      },
+      "policy_strength": {
+        "informational": 20,
+        "encouraged": 25,
+        "binding": 30,
+        "mandatory": 35
+      },
+      "confidence": 35
+    },
+    "scores": {
+      "supply": 6.82,
+      "demand": 16.07,
+      "policy_strength": 57.59,
+      "confidence": 35,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Low confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:36.419503"
+  },
+  {
+    "doc_id": "3727694c5d457b53",
+    "title": "2019年韶关市始兴县等3县（市、区）24个省定贫困村林业碳普惠项目等3个碳普惠项目（PHCER）竞价情况",
+    "source": "GZETS",
+    "publish_date": "2019-11-28T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 40,
+        "minor_decrease": 30,
+        "minor_increase": 50,
+        "major_increase": 60
+      },
+      "demand": {
+        "major_decrease": 40,
+        "minor_decrease": 30,
+        "minor_increase": 70,
+        "major_increase": 80
+      },
+      "policy_strength": {
+        "informational": 50,
+        "encouraged": 60,
+        "binding": 70,
+        "mandatory": 80
+      },
+      "confidence": 65
+    },
+    "scores": {
+      "supply": 16.67,
+      "demand": 27.27,
+      "policy_strength": 56.42,
+      "confidence": 65,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Minor demand increase",
+        "policy_strength": "Binding guidance",
+        "overall": "Moderate confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:36.427891"
+  },
+  {
+    "doc_id": "3d910b7322719c67",
+    "title": "广东省省级碳普惠制核证减排量（PHCER）项目竞价公告",
+    "source": "GZETS",
+    "publish_date": "2020-10-26T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 30,
+        "minor_decrease": 40,
+        "minor_increase": 50,
+        "major_increase": 60
+      },
+      "demand": {
+        "major_decrease": 30,
+        "minor_decrease": 40,
+        "minor_increase": 70,
+        "major_increase": 50
+      },
+      "policy_strength": {
+        "informational": 20,
+        "encouraged": 60,
+        "binding": 70,
+        "mandatory": 80
+      },
+      "confidence": 65
+    },
+    "scores": {
+      "supply": 19.44,
+      "demand": 18.42,
+      "policy_strength": 63.78,
+      "confidence": 65,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Moderate confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:36.455702"
+  },
+  {
+    "doc_id": "1625d02196cba4ca",
+    "title": "2020年茂名市石狗塘村等5个省定贫困村分布式光伏发电碳普惠项目（PHCER）竞价情况",
+    "source": "GZETS",
+    "publish_date": "2020-08-28T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 30,
+        "minor_decrease": 25,
+        "minor_increase": 40,
+        "major_increase": 35
+      },
+      "demand": {
+        "major_decrease": 30,
+        "minor_decrease": 25,
+        "minor_increase": 50,
+        "major_increase": 45
+      },
+      "policy_strength": {
+        "informational": 20,
+        "encouraged": 60,
+        "binding": 15,
+        "mandatory": 10
+      },
+      "confidence": 40
+    },
+    "scores": {
+      "supply": 9.62,
+      "demand": 18.33,
+      "policy_strength": 37.95,
+      "confidence": 40,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "Low confidence: neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:36.484667"
+  },
+  {
+    "doc_id": "c64aabf9baf1a452",
+    "title": "关于《企业委托配额（GDEA）竞价转让公告》的补充公告",
+    "source": "GZETS",
+    "publish_date": "2020-06-29T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 20,
+        "minor_decrease": 30,
+        "minor_increase": 40,
+        "major_increase": 50
+      },
+      "demand": {
+        "major_decrease": 20,
+        "minor_decrease": 30,
+        "minor_increase": 40,
+        "major_increase": 50
+      },
+      "policy_strength": {
+        "informational": 60,
+        "encouraged": 50,
+        "binding": 70,
+        "mandatory": 80
+      },
+      "confidence": 65
+    },
+    "scores": {
+      "supply": 25.0,
+      "demand": 25.0,
+      "policy_strength": 55.15,
+      "confidence": 65,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Moderate confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:36.640608"
+  },
+  {
+    "doc_id": "1ae5a894df68d7be",
+    "title": "广东省省级碳普惠制核证减排量（PHCER）项目竞价公告",
+    "source": "GZETS",
+    "publish_date": "2020-08-18T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 40,
+        "minor_decrease": 30,
+        "minor_increase": 50,
+        "major_increase": 60
+      },
+      "demand": {
+        "major_decrease": 40,
+        "minor_decrease": 30,
+        "minor_increase": 70,
+        "major_increase": 60
+      },
+      "policy_strength": {
+        "informational": 50,
+        "encouraged": 60,
+        "binding": 70,
+        "mandatory": 80
+      },
+      "confidence": 65
+    },
+    "scores": {
+      "supply": 16.67,
+      "demand": 20.0,
+      "policy_strength": 56.42,
+      "confidence": 65,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Moderate confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:36.690845"
+  },
+  {
+    "doc_id": "8d34c82429cbb43b",
+    "title": "广州碳排放权交易所关于新型冠状病毒疫情防控期间业务办理有关事项的通知",
+    "source": "GZETS",
+    "publish_date": "2020-02-09T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 10,
+        "minor_decrease": 15,
+        "minor_increase": 20,
+        "major_increase": 25
+      },
+      "demand": {
+        "major_decrease": 10,
+        "minor_decrease": 15,
+        "minor_increase": 20,
+        "major_increase": 25
+      },
+      "policy_strength": {
+        "informational": 30,
+        "encouraged": 20,
+        "binding": 15,
+        "mandatory": 10
+      },
+      "confidence": 20
+    },
+    "scores": {
+      "supply": 25.0,
+      "demand": 25.0,
+      "policy_strength": 35.53,
+      "confidence": 20,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "Low confidence: neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:36.763833"
+  },
+  {
+    "doc_id": "362609adfe1ab95f",
+    "title": "关于CCER注册登记系统暂停服务的通知",
+    "source": "GZETS",
+    "publish_date": "2019-12-24T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 10,
+        "minor_decrease": 15,
+        "minor_increase": 10,
+        "major_increase": 5
+      },
+      "demand": {
+        "major_decrease": 10,
+        "minor_decrease": 15,
+        "minor_increase": 10,
+        "major_increase": 5
+      },
+      "policy_strength": {
+        "informational": 20,
+        "encouraged": 10,
+        "binding": 5,
+        "mandatory": 5
+      },
+      "confidence": 10
+    },
+    "scores": {
+      "supply": -18.75,
+      "demand": -18.75,
+      "policy_strength": 29.12,
+      "confidence": 10,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "Low confidence: neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:36.897444"
+  },
+  {
+    "doc_id": "facd28f7b96bff44",
+    "title": "2020年7月6日广东省碳排放配额（GDEA）竞价情况",
+    "source": "GZETS",
+    "publish_date": "2020-07-06T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 60,
+        "minor_decrease": 70,
+        "minor_increase": 80,
+        "major_increase": 75
+      },
+      "demand": {
+        "major_decrease": 60,
+        "minor_decrease": 70,
+        "minor_increase": 80,
+        "major_increase": 75
+      },
+      "policy_strength": {
+        "informational": 50,
+        "encouraged": 55,
+        "binding": 65,
+        "mandatory": 70
+      },
+      "confidence": 65
+    },
+    "scores": {
+      "supply": 7.02,
+      "demand": 7.02,
+      "policy_strength": 54.88,
+      "confidence": 65,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Moderate confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:36.936724"
+  },
+  {
+    "doc_id": "ace0d5f915dbb8cf",
+    "title": "关于2020年国庆节、中秋节休市安排的公告",
+    "source": "GZETS",
+    "publish_date": "2020-09-26T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 0,
+        "minor_decrease": 0,
+        "minor_increase": 0,
+        "major_increase": 0
+      },
+      "demand": {
+        "major_decrease": 0,
+        "minor_decrease": 0,
+        "minor_increase": 0,
+        "major_increase": 0
+      },
+      "policy_strength": {
+        "informational": 0,
+        "encouraged": 0,
+        "binding": 0,
+        "mandatory": 0
+      },
+      "confidence": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "confidence": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "Low confidence: neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:37.020965"
+  },
+  {
+    "doc_id": "0db6477d5ee81bdf",
+    "title": "关于2020年元旦休市安排的公告",
+    "source": "GZETS",
+    "publish_date": "2019-12-31T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 0,
+        "minor_decrease": 0,
+        "minor_increase": 0,
+        "major_increase": 0
+      },
+      "demand": {
+        "major_decrease": 0,
+        "minor_decrease": 0,
+        "minor_increase": 0,
+        "major_increase": 0
+      },
+      "policy_strength": {
+        "informational": 0,
+        "encouraged": 0,
+        "binding": 0,
+        "mandatory": 0
+      },
+      "confidence": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "confidence": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "Low confidence: neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:37.071270"
+  },
+  {
+    "doc_id": "191524d75244ffed",
+    "title": "广东省省级碳普惠制核证减排量（PHCER）项目竞价公告",
+    "source": "GZETS",
+    "publish_date": "2020-04-21T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 40,
+        "minor_decrease": 30,
+        "minor_increase": 50,
+        "major_increase": 60
+      },
+      "demand": {
+        "major_decrease": 40,
+        "minor_decrease": 30,
+        "minor_increase": 70,
+        "major_increase": 50
+      },
+      "policy_strength": {
+        "informational": 20,
+        "encouraged": 60,
+        "binding": 50,
+        "mandatory": 40
+      },
+      "confidence": 55
+    },
+    "scores": {
+      "supply": 16.67,
+      "demand": 15.79,
+      "policy_strength": 54.88,
+      "confidence": 55,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Low confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:37.177706"
+  },
+  {
+    "doc_id": "b771c51dab9c2ad8",
+    "title": "关于碳交易银行结算账户注销操作的提示",
+    "source": "GZETS",
+    "publish_date": "2020-06-05T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 10,
+        "minor_decrease": 15,
+        "minor_increase": 5,
+        "major_increase": 10
+      },
+      "demand": {
+        "major_decrease": 10,
+        "minor_decrease": 15,
+        "minor_increase": 5,
+        "major_increase": 10
+      },
+      "policy_strength": {
+        "informational": 20,
+        "encouraged": 5,
+        "binding": 10,
+        "mandatory": 5
+      },
+      "confidence": 15
+    },
+    "scores": {
+      "supply": -12.5,
+      "demand": -12.5,
+      "policy_strength": 33.38,
+      "confidence": 15,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "Low confidence: neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:37.182406"
+  },
+  {
+    "doc_id": "12c2f53ed01bef8e",
+    "title": "2019年度广东省碳排放配额有偿发放（第一次）公告",
+    "source": "GZETS",
+    "publish_date": "2020-04-10T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 30,
+        "minor_decrease": 40,
+        "minor_increase": 90,
+        "major_increase": 60
+      },
+      "demand": {
+        "major_decrease": 30,
+        "minor_decrease": 40,
+        "minor_increase": 50,
+        "major_increase": 70
+      },
+      "policy_strength": {
+        "informational": 20,
+        "encouraged": 30,
+        "binding": 80,
+        "mandatory": 60
+      },
+      "confidence": 65
+    },
+    "scores": {
+      "supply": 25.0,
+      "demand": 23.68,
+      "policy_strength": 65.0,
+      "confidence": 65,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Moderate confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:37.187367"
+  },
+  {
+    "doc_id": "12f13ff3572ed94d",
+    "title": "关于在履约期前增加交易时间的公告",
+    "source": "GZETS",
+    "publish_date": "2020-11-05T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 20,
+        "minor_decrease": 30,
+        "minor_increase": 40,
+        "major_increase": 50
+      },
+      "demand": {
+        "major_decrease": 20,
+        "minor_decrease": 30,
+        "minor_increase": 40,
+        "major_increase": 50
+      },
+      "policy_strength": {
+        "informational": 10,
+        "encouraged": 20,
+        "binding": 30,
+        "mandatory": 40
+      },
+      "confidence": 35
+    },
+    "scores": {
+      "supply": 25.0,
+      "demand": 25.0,
+      "policy_strength": 66.7,
+      "confidence": 35,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Low confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:37.217290"
+  },
+  {
+    "doc_id": "fec8b3999a56915f",
+    "title": "企业委托配额（GDEA）竞价转让公告",
+    "source": "GZETS",
+    "publish_date": "2020-06-22T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 30,
+        "minor_decrease": 40,
+        "minor_increase": 50,
+        "major_increase": 60
+      },
+      "demand": {
+        "major_decrease": 30,
+        "minor_decrease": 40,
+        "minor_increase": 50,
+        "major_increase": 60
+      },
+      "policy_strength": {
+        "informational": 20,
+        "encouraged": 30,
+        "binding": 70,
+        "mandatory": 80
+      },
+      "confidence": 60
+    },
+    "scores": {
+      "supply": 19.44,
+      "demand": 19.44,
+      "policy_strength": 68.4,
+      "confidence": 60,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Low confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:37.424667"
+  },
+  {
+    "doc_id": "01cdcd2273afa8d4",
+    "title": "关于碳排放权交易账户安全的提示",
+    "source": "GZETS",
+    "publish_date": "2020-06-29T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 10,
+        "minor_decrease": 15,
+        "minor_increase": 5,
+        "major_increase": 5
+      },
+      "demand": {
+        "major_decrease": 10,
+        "minor_decrease": 15,
+        "minor_increase": 5,
+        "major_increase": 5
+      },
+      "policy_strength": {
+        "informational": 20,
+        "encouraged": 10,
+        "binding": 5,
+        "mandatory": 5
+      },
+      "confidence": 15
+    },
+    "scores": {
+      "supply": -28.57,
+      "demand": -28.57,
+      "policy_strength": 29.12,
+      "confidence": 15,
+      "interpretations": {
+        "supply": "Minor supply decrease",
+        "demand": "Minor demand decrease",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "Low confidence: neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:37.572573"
+  },
+  {
+    "doc_id": "12b930576b531f5f",
+    "title": "关于启用配额竞价转让交易方式的公告",
+    "source": "GZETS",
+    "publish_date": "2020-06-22T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 40,
+        "minor_decrease": 30,
+        "minor_increase": 50,
+        "major_increase": 60
+      },
+      "demand": {
+        "major_decrease": 40,
+        "minor_decrease": 30,
+        "minor_increase": 50,
+        "major_increase": 60
+      },
+      "policy_strength": {
+        "informational": 20,
+        "encouraged": 30,
+        "binding": 50,
+        "mandatory": 60
+      },
+      "confidence": 50
+    },
+    "scores": {
+      "supply": 16.67,
+      "demand": 16.67,
+      "policy_strength": 64.62,
+      "confidence": 50,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "Low confidence: neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:37.574789"
+  },
+  {
+    "doc_id": "8b5c5657a36d7a7b",
+    "title": "2020年7月6日企业委托配额（GDEA）竞价成交情况",
+    "source": "GZETS",
+    "publish_date": "2020-07-13T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 30,
+        "minor_decrease": 40,
+        "minor_increase": 50,
+        "major_increase": 20
+      },
+      "demand": {
+        "major_decrease": 30,
+        "minor_decrease": 40,
+        "minor_increase": 50,
+        "major_increase": 20
+      },
+      "policy_strength": {
+        "informational": 60,
+        "encouraged": 30,
+        "binding": 40,
+        "mandatory": 50
+      },
+      "confidence": 40
+    },
+    "scores": {
+      "supply": -3.57,
+      "demand": -3.57,
+      "policy_strength": 48.17,
+      "confidence": 40,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "Low confidence: neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:37.614005"
+  },
+  {
+    "doc_id": "c33314a4dd957ebd",
+    "title": "2019年度广东省碳排放配额有偿发放（第一次）竞价情况",
+    "source": "GZETS",
+    "publish_date": "2020-04-27T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 30,
+        "minor_decrease": 40,
+        "minor_increase": 90,
+        "major_increase": 20
+      },
+      "demand": {
+        "major_decrease": 30,
+        "minor_decrease": 40,
+        "minor_increase": 20,
+        "major_increase": 10
+      },
+      "policy_strength": {
+        "informational": 20,
+        "encouraged": 10,
+        "binding": 90,
+        "mandatory": 30
+      },
+      "confidence": 60
+    },
+    "scores": {
+      "supply": 8.33,
+      "demand": -30.0,
+      "policy_strength": 62.4,
+      "confidence": 60,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Minor demand decrease",
+        "policy_strength": "Binding guidance",
+        "overall": "Low confidence: moderate downward price pressure with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:38.417207"
+  },
+  {
+    "doc_id": "381b9ef6138c7b36",
+    "title": "关于2021年春节休市安排的公告",
+    "source": "GZETS",
+    "publish_date": "2021-02-08T00:00:00",
+    "similarities": {
+      "supply": {
+        "major_decrease": 0,
+        "minor_decrease": 0,
+        "minor_increase": 0,
+        "major_increase": 0
+      },
+      "demand": {
+        "major_decrease": 0,
+        "minor_decrease": 0,
+        "minor_increase": 0,
+        "major_increase": 0
+      },
+      "policy_strength": {
+        "informational": 0,
+        "encouraged": 0,
+        "binding": 0,
+        "mandatory": 0
+      },
+      "confidence": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "confidence": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "Low confidence: neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T05:09:44.821304"
+  }
+]
