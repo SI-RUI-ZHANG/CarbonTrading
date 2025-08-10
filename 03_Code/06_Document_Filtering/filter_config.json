@@ -21,7 +21,7 @@
             "Provincial_Municipal": "01_Data_Raw/03_Policy_Documents/GZETS/Provincial_Municipal/_all_documents.jsonl"
         }
     },
-    "output_base_path": "02_Data_Processed/05_Carbon_Filtered",
+    "output_base_path": "02_Data_Processed/05_Policy_Doc_Filtered",
     "output_metadata": {
         "include_match_info": true,
         "include_statistics": true
