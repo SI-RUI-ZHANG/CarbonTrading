@@ -1,0 +1,21 @@
+{
+  "MARKET": "GDEA",
+  "RUN_NAME": "20250811_182131_GDEA_Weekly_NoSentiment",
+  "TASK_TYPE": "Weekly Binary Classification",
+  "USE_SENTIMENT": false,
+  "AGGREGATION": "weekly",
+  "SEQUENCE_LENGTH": 12,
+  "HIDDEN_SIZE": 64,
+  "NUM_LAYERS": 2,
+  "DROPOUT": 0.2,
+  "BATCH_SIZE": 16,
+  "LEARNING_RATE": 0.001,
+  "NUM_EPOCHS": 150,
+  "EARLY_STOPPING_PATIENCE": 20,
+  "MIN_DAYS_PER_WEEK": 3,
+  "SHUFFLE_TRAIN_LOADER": true,
+  "SEED": 42,
+  "DEVICE": "cpu",
+  "TRAIN_END_DATE": "2020-12-31",
+  "VAL_END_DATE": "2022-12-31"
+}

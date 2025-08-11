@@ -130,20 +130,17 @@ def merge_sentiment_with_market(market_df: pd.DataFrame, sentiment_df: pd.DataFr
     sentiment_cols = [col for col in sentiment_df.columns if col != 'Date']
     missing_before = merged[sentiment_cols[0]].isna().sum()
     
-    # Forward-fill sentiment features (sentiment from previous day carries over)
-    for col in sentiment_cols:
-        merged[col] = merged[col].fillna(method='ffill')
-    
-    missing_after_ffill = merged[sentiment_cols[0]].isna().sum()
-    
-    # Fill remaining NaN with 0 (for dates before sentiment data)
+    # Fill NaN with 0 (no forward-fill to avoid artificial persistence)
+    # Decay features already provide temporal continuity
     for col in sentiment_cols:
         merged[col] = merged[col].fillna(0)
     
+    missing_after_fill = merged[sentiment_cols[0]].isna().sum()
+    
     logger.info(f"  Trading days: {len(market_df)}")
     logger.info(f"  Days with sentiment: {len(market_df) - missing_before}")
-    logger.info(f"  Days filled by forward-fill: {missing_before - missing_after_ffill}")
-    logger.info(f"  Days filled with 0: {missing_after_ffill}")
+    logger.info(f"  Days filled with 0: {missing_before}")
+    logger.info(f"  Days remaining with NaN: {missing_after_fill}")
     
     # Verify no NaN values remain
     nan_counts = merged.isna().sum()
@@ -159,7 +156,9 @@ def save_merged_features(df: pd.DataFrame, output_path: Path, market_name: str):
     if not output_path.parent.exists():
         output_path.parent.mkdir(parents=True)
     
-    df.to_parquet(output_path, index=False)
+    # Set Date as index for LSTM compatibility
+    df = df.set_index('Date')
+    df.to_parquet(output_path, index=True)
     logger.info(f"Saved {market_name} merged features to {output_path}")
     
     # Log statistics

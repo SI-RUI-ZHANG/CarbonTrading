@@ -151,10 +151,44 @@ The positioning system enables:
 ## Implementation Details
 
 ### Processing Efficiency
-- **Total documents**: 2,617
+- **Total documents**: 2,617 filtered documents processed
+- **Unique documents**: 989 after deduplication (37 MEE, 563 HBETS, 389 GZETS)
 - **Processing time**: ~7-10 minutes (depending on API tier)
 - **API calls**: 2,617 (one per document)
 - **Success rate**: Typically >99%
+
+### Batch Processing Architecture
+The scoring pipeline uses resilient batch processing with checkpoint/resume functionality:
+
+- **Batch Size**: 50 documents per batch for optimal API throughput
+- **Persistent Batch Numbering**: `total_batches_processed` counter ensures unique batch numbers across interrupted runs
+- **Checkpoint System**: Saves progress after each batch with processed doc IDs and batch counter
+- **Automatic Resume**: Detects interrupted runs and continues from last checkpoint
+- **Batch File Storage**: Each batch saved as `batch_XXX.json` for incremental persistence
+
+### Automatic Deduplication
+The final merge process ensures data integrity:
+
+```python
+def _save_final_results():
+    # Read ALL batch files from directory
+    batch_files = sorted(config.BATCH_SCORES_PATH.glob("batch_*.json"))
+    
+    # Merge all batches
+    all_scores = []
+    for batch_file in batch_files:
+        batch_scores = json.load(batch_file)
+        all_scores.extend(batch_scores)
+    
+    # Deduplicate by doc_id (keeps first occurrence)
+    df = pd.DataFrame(all_scores)
+    df = df.drop_duplicates(subset=['doc_id'], keep='first')
+```
+
+This ensures:
+- No document scores are lost during interruptions
+- Batch files from multiple runs are automatically merged
+- Duplicate documents are removed (keeps earliest score)
 
 ### Score Interpretation
 ```python
