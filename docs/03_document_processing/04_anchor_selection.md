@@ -16,9 +16,9 @@ Anchors provide concrete examples: "This policy is similar to the 2024 Guangdong
 ## The Design: 3×4 Matrix
 
 ```
-Supply Dimension:       Major↓  Minor↓  Minor↑  Major↑
-Demand Dimension:       Major↓  Minor↓  Minor↑  Major↑  
-Policy Strength:        Info    Encour  Binding Mandatory
+Supply Dimension:       Restrict  Reduce  Increase  Expand
+Demand Dimension:       Restrict  Reduce  Increase  Expand  
+Policy Strength:        Info      Encour  Binding   Mandatory
 ```
 
 **Why these dimensions?**

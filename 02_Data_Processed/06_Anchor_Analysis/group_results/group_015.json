@@ -1,38 +1,32 @@
 {
   "supply": {
-    "major_decrease": null,
-    "minor_decrease": {
-      "doc_id": "06b50decae5afd14",
-      "title": "湖北碳交助力湖北省首家政策性银行实现碳中和"
-    },
-    "minor_increase": {
-      "doc_id": "dd165035a2978b59",
-      "title": "湖北碳交助力湖北省首家政策性银行实现碳中和"
-    },
-    "major_increase": null
+    "restrict": null,
+    "reduce": null,
+    "increase": null,
+    "expand": {
+      "doc_id": "c6d2845b86a121d5",
+      "title": "广东省省级碳普惠制核证减排量（PHCER）项目竞价公告"
+    }
   },
   "demand": {
-    "major_increase": null,
-    "minor_increase": {
-      "doc_id": "dd165035a2978b59",
-      "title": "湖北碳交助力湖北省首家政策性银行实现碳中和"
-    },
-    "minor_decrease": null,
-    "major_decrease": null
+    "restrict": null,
+    "reduce": null,
+    "increase": null,
+    "expand": null
   },
   "policy_strength": {
     "mandatory": {
-      "doc_id": "06b50decae5afd14",
-      "title": "湖北碳交助力湖北省首家政策性银行实现碳中和"
+      "doc_id": "c6d2845b86a121d5",
+      "title": "广东省省级碳普惠制核证减排量（PHCER）项目竞价公告"
     },
     "binding": null,
     "encouraged": {
-      "doc_id": "dd165035a2978b59",
+      "doc_id": "5a1a127c9f0465b7",
       "title": "湖北碳交助力湖北省首家政策性银行实现碳中和"
     },
     "informational": {
-      "doc_id": "ead93bcda608ff83",
-      "title": "湖北省产品碳足迹公共服务平台正式发布"
+      "doc_id": "62acdd178babcca1",
+      "title": "MBAESG双驱商业领袖高级研修班招生简章"
     }
   }
 }

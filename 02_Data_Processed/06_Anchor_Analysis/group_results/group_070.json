@@ -1,38 +1,47 @@
 {
   "supply": {
-    "major_decrease": null,
-    "minor_decrease": {
-      "doc_id": "23e5e8816ec4590e",
-      "title": "广碳所参加澳门大湾区碳中和发展研讨会"
+    "restrict": null,
+    "reduce": {
+      "doc_id": "43ec3c537488324d",
+      "title": "广东省碳排放权配额或下月首次竞拍"
     },
-    "minor_increase": {
-      "doc_id": "7426bfd1c86f6380",
-      "title": "广碳所支持上清所成功举办创新绿金产品 助力低碳转型碳金融业务分享会"
+    "increase": {
+      "doc_id": "b974f249be39f79c",
+      "title": "广东首度发放有偿碳排放配额300万吨"
     },
-    "major_increase": null
+    "expand": {
+      "doc_id": "58ffe65e670484a2",
+      "title": "广东碳市场开放个人投资者买碳 首批5名会员昨日进场交易"
+    }
   },
   "demand": {
-    "major_increase": null,
-    "minor_increase": {
-      "doc_id": "23e5e8816ec4590e",
-      "title": "广碳所参加澳门大湾区碳中和发展研讨会"
+    "restrict": null,
+    "reduce": null,
+    "increase": {
+      "doc_id": "d730010b7ab7a6b8",
+      "title": "广东开放个人投资者炒碳"
     },
-    "minor_decrease": null,
-    "major_decrease": null
+    "expand": {
+      "doc_id": "58ffe65e670484a2",
+      "title": "广东碳市场开放个人投资者买碳 首批5名会员昨日进场交易"
+    }
   },
   "policy_strength": {
     "mandatory": {
-      "doc_id": "715aebd721941f43",
-      "title": "广碳所助力消博会第三届可持续消费高峰论坛实现大型活动碳中和"
+      "doc_id": "0702c1b8a6a60d7f",
+      "title": "广东省2013年度控排企业碳排放配额清缴通知"
     },
-    "binding": null,
+    "binding": {
+      "doc_id": "58ffe65e670484a2",
+      "title": "广东碳市场开放个人投资者买碳 首批5名会员昨日进场交易"
+    },
     "encouraged": {
-      "doc_id": "23e5e8816ec4590e",
-      "title": "广碳所参加澳门大湾区碳中和发展研讨会"
+      "doc_id": "ad686fd33ca3efe0",
+      "title": "广东个人碳排放权首日交易金额超万元"
     },
     "informational": {
-      "doc_id": "7426bfd1c86f6380",
-      "title": "广碳所支持上清所成功举办创新绿金产品 助力低碳转型碳金融业务分享会"
+      "doc_id": "dc13eff5a60ea4c0",
+      "title": "广东碳交易履约进展顺利"
     }
   }
 }

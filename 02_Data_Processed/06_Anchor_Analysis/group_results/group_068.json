@@ -1,38 +1,50 @@
 {
   "supply": {
-    "major_decrease": null,
-    "minor_decrease": {
-      "doc_id": "c7319311b3f2b3d0",
-      "title": "2022年度广东省拟纳入行业企业碳排放信息报告指南与核查专题培训顺利举行"
+    "restrict": null,
+    "reduce": {
+      "doc_id": "8487dad2c67b9559",
+      "title": "广东配额有偿发放再现供不应求"
     },
-    "minor_increase": {
-      "doc_id": "d0770418e2e8ba0e",
-      "title": "广碳所生态产品价值实现平台落地我国首单滨海盐沼生态系统碳汇产品交易"
+    "increase": {
+      "doc_id": "0e82b29a466d83e1",
+      "title": "国内首单碳排放权 抵押融资落地广东"
     },
-    "major_increase": null
+    "expand": {
+      "doc_id": "25cd15cc282fc4bb",
+      "title": "广东：成为全球第三大碳交易市场"
+    }
   },
   "demand": {
-    "major_increase": null,
-    "minor_increase": {
-      "doc_id": "1f5bd61eb9d177e0",
-      "title": "接续奋斗 碳路先行"
+    "restrict": {
+      "doc_id": "915ae61e7e644a5e",
+      "title": "广东发布最新的配额管理实施细则和报告核查实施细则"
     },
-    "minor_decrease": null,
-    "major_decrease": null
+    "reduce": null,
+    "increase": {
+      "doc_id": "8487dad2c67b9559",
+      "title": "广东配额有偿发放再现供不应求"
+    },
+    "expand": {
+      "doc_id": "25cd15cc282fc4bb",
+      "title": "广东：成为全球第三大碳交易市场"
+    }
   },
   "policy_strength": {
     "mandatory": {
-      "doc_id": "d0770418e2e8ba0e",
-      "title": "广碳所生态产品价值实现平台落地我国首单滨海盐沼生态系统碳汇产品交易"
+      "doc_id": "eb784cbaf97ab4c4",
+      "title": "广东控排企业年度碳履约率100"
     },
-    "binding": null,
+    "binding": {
+      "doc_id": "25cd15cc282fc4bb",
+      "title": "广东：成为全球第三大碳交易市场"
+    },
     "encouraged": {
-      "doc_id": "5288d9440136b51c",
-      "title": "广碳所参加全省生态修复技术和国土绿化培训班"
+      "doc_id": "0e82b29a466d83e1",
+      "title": "国内首单碳排放权 抵押融资落地广东"
     },
     "informational": {
-      "doc_id": "c7319311b3f2b3d0",
-      "title": "2022年度广东省拟纳入行业企业碳排放信息报告指南与核查专题培训顺利举行"
+      "doc_id": "9717d0e75420777b",
+      "title": "广东省发展改革委 广东省财政厅关于2015年首期省低碳发展基金安排计划的公示"
     }
   }
 }

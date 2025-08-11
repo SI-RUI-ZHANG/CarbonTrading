@@ -1,38 +1,38 @@
 {
   "supply": {
-    "major_decrease": null,
-    "minor_decrease": {
-      "doc_id": "4ffc2a602df820c2",
-      "title": "关于广东省2019年度碳排放配额有偿竞价发放的预通知"
+    "restrict": null,
+    "reduce": null,
+    "increase": {
+      "doc_id": "bf6c3b2a0890c398",
+      "title": "广东2014年碳排放配额首次竞价 成交超5000万元"
     },
-    "minor_increase": {
-      "doc_id": "12c2f53ed01bef8e",
-      "title": "2019年度广东省碳排放配额有偿发放（第一次）公告"
-    },
-    "major_increase": null
+    "expand": {
+      "doc_id": "e2cf7b7fd8f94604",
+      "title": "广州碳排放权交易所完成国内第一单CCER线上交易"
+    }
   },
   "demand": {
-    "major_increase": null,
-    "minor_increase": {
-      "doc_id": "12c2f53ed01bef8e",
-      "title": "2019年度广东省碳排放配额有偿发放（第一次）公告"
-    },
-    "minor_decrease": null,
-    "major_decrease": null
+    "restrict": null,
+    "reduce": null,
+    "increase": null,
+    "expand": {
+      "doc_id": "e2cf7b7fd8f94604",
+      "title": "广州碳排放权交易所完成国内第一单CCER线上交易"
+    }
   },
   "policy_strength": {
     "mandatory": {
-      "doc_id": "fec8b3999a56915f",
-      "title": "企业委托配额（GDEA）竞价转让公告"
+      "doc_id": "1b05a1778f0b3c25",
+      "title": "粤碳配额首次拍卖供不应求"
     },
-    "binding": {
-      "doc_id": "4ffc2a602df820c2",
-      "title": "关于广东省2019年度碳排放配额有偿竞价发放的预通知"
+    "binding": null,
+    "encouraged": {
+      "doc_id": "bf6c3b2a0890c398",
+      "title": "广东2014年碳排放配额首次竞价 成交超5000万元"
     },
-    "encouraged": null,
     "informational": {
-      "doc_id": "8b5c5657a36d7a7b",
-      "title": "2020年7月6日企业委托配额（GDEA）竞价成交情况"
+      "doc_id": "069b1dc49626ac67",
+      "title": "广碳所举办广东碳交易媒体沙龙"
     }
   }
 }

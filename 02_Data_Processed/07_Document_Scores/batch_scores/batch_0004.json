@@ -1,2002 +1,1152 @@
 [
   {
+    "doc_id": "2a796368e3f72c1b",
+    "title": "关于举办温室气体管理师基础知识课程培训的通知",
+    "source": "HBETS",
+    "publish_date": "2024-07-02T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T11:26:26.550285"
+  },
+  {
     "doc_id": "23619399937bd587",
     "title": "湖北碳交助力湖北省首家政策性银行实现碳中和",
     "source": "HBETS",
     "publish_date": "2024-07-29T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 25
-      },
-      "demand": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 25
-      },
-      "policy_strength": {
-        "informational": 30,
-        "encouraged": 40,
-        "binding": 10,
-        "mandatory": 5
-      },
-      "confidence": 30
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
     },
     "scores": {
-      "supply": 3.57,
-      "demand": 3.57,
-      "policy_strength": 29.29,
-      "confidence": 30,
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
       "interpretations": {
         "supply": "Neutral supply impact",
         "demand": "Neutral demand impact",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "Low confidence: neutral price impact with voluntary measures"
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
       }
     },
-    "timestamp": "2025-08-11T05:03:20.978371"
-  },
-  {
-    "doc_id": "12b7215fc4759065",
-    "title": "关于举办温室气体管理师基础知识课程培训的通知",
-    "source": "HBETS",
-    "publish_date": "2024-07-25T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 25
-      },
-      "demand": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 25
-      },
-      "policy_strength": {
-        "informational": 30,
-        "encouraged": 40,
-        "binding": 10,
-        "mandatory": 5
-      },
-      "confidence": 25
-    },
-    "scores": {
-      "supply": 3.57,
-      "demand": 3.57,
-      "policy_strength": 29.29,
-      "confidence": 25,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "Low confidence: neutral price impact with voluntary measures"
-      }
-    },
-    "timestamp": "2025-08-11T05:03:21.019838"
-  },
-  {
-    "doc_id": "911a458de7710c14",
-    "title": "校企合作湖北碳交获评全国水利与生态环保行业高校学生实习实践基地",
-    "source": "HBETS",
-    "publish_date": "2024-07-16T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 25
-      },
-      "demand": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 25
-      },
-      "policy_strength": {
-        "informational": 30,
-        "encouraged": 40,
-        "binding": 10,
-        "mandatory": 5
-      },
-      "confidence": 30
-    },
-    "scores": {
-      "supply": 3.57,
-      "demand": 3.57,
-      "policy_strength": 29.29,
-      "confidence": 30,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "Low confidence: neutral price impact with voluntary measures"
-      }
-    },
-    "timestamp": "2025-08-11T05:03:21.128661"
-  },
-  {
-    "doc_id": "4da9cd71596db3f8",
-    "title": "湖北碳交助力湖北省首家政策性银行实现碳中和",
-    "source": "HBETS",
-    "publish_date": "2024-07-01T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 25,
-        "minor_decrease": 20,
-        "minor_increase": 15,
-        "major_increase": 30
-      },
-      "demand": {
-        "major_decrease": 25,
-        "minor_decrease": 20,
-        "minor_increase": 15,
-        "major_increase": 35
-      },
-      "policy_strength": {
-        "informational": 40,
-        "encouraged": 50,
-        "binding": 20,
-        "mandatory": 10
-      },
-      "confidence": 40
-    },
-    "scores": {
-      "supply": 2.78,
-      "demand": 7.89,
-      "policy_strength": 33.25,
-      "confidence": 40,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "Low confidence: neutral price impact with voluntary measures"
-      }
-    },
-    "timestamp": "2025-08-11T05:03:21.218652"
+    "timestamp": "2025-08-11T11:26:26.565901"
   },
   {
     "doc_id": "34d29df696677d2c",
     "title": "湖北省产品碳足迹公共服务平台正式发布",
     "source": "HBETS",
     "publish_date": "2024-08-07T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 25
-      },
-      "demand": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 25
-      },
-      "policy_strength": {
-        "informational": 30,
-        "encouraged": 50,
-        "binding": 10,
-        "mandatory": 5
-      },
-      "confidence": 30
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
     },
     "scores": {
-      "supply": 3.57,
-      "demand": 3.57,
-      "policy_strength": 29.68,
-      "confidence": 30,
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
       "interpretations": {
         "supply": "Neutral supply impact",
         "demand": "Neutral demand impact",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "Low confidence: neutral price impact with voluntary measures"
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
       }
     },
-    "timestamp": "2025-08-11T05:03:21.364954"
-  },
-  {
-    "doc_id": "eb44e52e4dde9b5a",
-    "title": "湖北碳交助力湖北省首家政策性银行实现碳中和",
-    "source": "HBETS",
-    "publish_date": "2024-06-28T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 25
-      },
-      "demand": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 25
-      },
-      "policy_strength": {
-        "informational": 30,
-        "encouraged": 40,
-        "binding": 10,
-        "mandatory": 5
-      },
-      "confidence": 30
-    },
-    "scores": {
-      "supply": 3.57,
-      "demand": 3.57,
-      "policy_strength": 29.29,
-      "confidence": 30,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "Low confidence: neutral price impact with voluntary measures"
-      }
-    },
-    "timestamp": "2025-08-11T05:03:21.430769"
-  },
-  {
-    "doc_id": "bc48a1243445bb43",
-    "title": "湖北碳交助力湖北省首家政策性银行实现碳中和",
-    "source": "HBETS",
-    "publish_date": "2024-06-21T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 25
-      },
-      "demand": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 30
-      },
-      "policy_strength": {
-        "informational": 25,
-        "encouraged": 35,
-        "binding": 10,
-        "mandatory": 5
-      },
-      "confidence": 25
-    },
-    "scores": {
-      "supply": 3.57,
-      "demand": 10.0,
-      "policy_strength": 31.0,
-      "confidence": 25,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "Low confidence: neutral price impact with voluntary measures"
-      }
-    },
-    "timestamp": "2025-08-11T05:03:21.456524"
-  },
-  {
-    "doc_id": "79c43ea9b71bdf41",
-    "title": "MBAESG双驱商业领袖高级研修班招生简章",
-    "source": "HBETS",
-    "publish_date": "2024-06-24T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 25
-      },
-      "demand": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 25
-      },
-      "policy_strength": {
-        "informational": 30,
-        "encouraged": 35,
-        "binding": 10,
-        "mandatory": 5
-      },
-      "confidence": 20
-    },
-    "scores": {
-      "supply": 3.57,
-      "demand": 3.57,
-      "policy_strength": 29.06,
-      "confidence": 20,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "Low confidence: neutral price impact with voluntary measures"
-      }
-    },
-    "timestamp": "2025-08-11T05:03:21.621134"
-  },
-  {
-    "doc_id": "3386757bc64b23fd",
-    "title": "关于举办温室气体管理师基础知识课程培训的通知",
-    "source": "HBETS",
-    "publish_date": "2024-06-19T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 30
-      },
-      "demand": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 25
-      },
-      "policy_strength": {
-        "informational": 40,
-        "encouraged": 50,
-        "binding": 10,
-        "mandatory": 5
-      },
-      "confidence": 30
-    },
-    "scores": {
-      "supply": 10.0,
-      "demand": 3.57,
-      "policy_strength": 26.86,
-      "confidence": 30,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "Low confidence: neutral price impact with voluntary measures"
-      }
-    },
-    "timestamp": "2025-08-11T05:03:21.628083"
-  },
-  {
-    "doc_id": "eeb45944ab567ece",
-    "title": "MBAESG双驱商业领袖高级研修班招生简章",
-    "source": "HBETS",
-    "publish_date": "2024-06-14T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 25
-      },
-      "demand": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 25
-      },
-      "policy_strength": {
-        "informational": 30,
-        "encouraged": 40,
-        "binding": 10,
-        "mandatory": 5
-      },
-      "confidence": 30
-    },
-    "scores": {
-      "supply": 3.57,
-      "demand": 3.57,
-      "policy_strength": 29.29,
-      "confidence": 30,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "Low confidence: neutral price impact with voluntary measures"
-      }
-    },
-    "timestamp": "2025-08-11T05:03:21.673469"
-  },
-  {
-    "doc_id": "18942db5c6af5c65",
-    "title": "湖北省产品碳足迹公共服务平台正式发布",
-    "source": "HBETS",
-    "publish_date": "2024-06-21T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 10,
-        "minor_decrease": 15,
-        "minor_increase": 20,
-        "major_increase": 25
-      },
-      "demand": {
-        "major_decrease": 10,
-        "minor_decrease": 15,
-        "minor_increase": 30,
-        "major_increase": 35
-      },
-      "policy_strength": {
-        "informational": 20,
-        "encouraged": 80,
-        "binding": 5,
-        "mandatory": 5
-      },
-      "confidence": 60
-    },
-    "scores": {
-      "supply": 25.0,
-      "demand": 36.11,
-      "policy_strength": 31.59,
-      "confidence": 60,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Minor demand increase",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "Low confidence: neutral price impact with voluntary measures"
-      }
-    },
-    "timestamp": "2025-08-11T05:03:21.677970"
-  },
-  {
-    "doc_id": "7b86a335034b13b4",
-    "title": "关于举办温室气体管理师基础知识课程培训的通知",
-    "source": "HBETS",
-    "publish_date": "2024-06-06T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 10,
-        "minor_decrease": 15,
-        "minor_increase": 5,
-        "major_increase": 20
-      },
-      "demand": {
-        "major_decrease": 10,
-        "minor_decrease": 15,
-        "minor_increase": 5,
-        "major_increase": 20
-      },
-      "policy_strength": {
-        "informational": 30,
-        "encouraged": 70,
-        "binding": 10,
-        "mandatory": 5
-      },
-      "confidence": 40
-    },
-    "scores": {
-      "supply": 10.0,
-      "demand": 10.0,
-      "policy_strength": 30.26,
-      "confidence": 40,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "Low confidence: neutral price impact with voluntary measures"
-      }
-    },
-    "timestamp": "2025-08-11T05:03:21.697048"
-  },
-  {
-    "doc_id": "2a796368e3f72c1b",
-    "title": "关于举办温室气体管理师基础知识课程培训的通知",
-    "source": "HBETS",
-    "publish_date": "2024-07-02T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 10,
-        "minor_decrease": 15,
-        "minor_increase": 20,
-        "major_increase": 80
-      },
-      "demand": {
-        "major_decrease": 10,
-        "minor_decrease": 15,
-        "minor_increase": 25,
-        "major_increase": 70
-      },
-      "policy_strength": {
-        "informational": 5,
-        "encouraged": 30,
-        "binding": 10,
-        "mandatory": 15
-      },
-      "confidence": 60
-    },
-    "scores": {
-      "supply": 58.0,
-      "demand": 54.17,
-      "policy_strength": 52.67,
-      "confidence": 60,
-      "interpretations": {
-        "supply": "Minor supply increase",
-        "demand": "Minor demand increase",
-        "policy_strength": "Binding guidance",
-        "overall": "Low confidence: neutral price impact with binding guidance"
-      }
-    },
-    "timestamp": "2025-08-11T05:03:21.720308"
-  },
-  {
-    "doc_id": "ae217ab980f4e3c3",
-    "title": "湖北碳交助力湖北省首家政策性银行实现碳中和",
-    "source": "HBETS",
-    "publish_date": "2024-06-12T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 25
-      },
-      "demand": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 25
-      },
-      "policy_strength": {
-        "informational": 30,
-        "encouraged": 50,
-        "binding": 20,
-        "mandatory": 10
-      },
-      "confidence": 40
-    },
-    "scores": {
-      "supply": 3.57,
-      "demand": 3.57,
-      "policy_strength": 36.27,
-      "confidence": 40,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "Low confidence: neutral price impact with voluntary measures"
-      }
-    },
-    "timestamp": "2025-08-11T05:03:21.756323"
-  },
-  {
-    "doc_id": "5e7baeb63de44e60",
-    "title": "MBAESG双驱商业领袖高级研修班招生简章",
-    "source": "HBETS",
-    "publish_date": "2024-06-18T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 25
-      },
-      "demand": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 25
-      },
-      "policy_strength": {
-        "informational": 30,
-        "encouraged": 40,
-        "binding": 25,
-        "mandatory": 35
-      },
-      "confidence": 30
-    },
-    "scores": {
-      "supply": 3.57,
-      "demand": 3.57,
-      "policy_strength": 49.96,
-      "confidence": 30,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "Low confidence: neutral price impact with voluntary measures"
-      }
-    },
-    "timestamp": "2025-08-11T05:03:21.819411"
+    "timestamp": "2025-08-11T11:26:26.589341"
   },
   {
     "doc_id": "28488d76d3e3b5a0",
     "title": "湖北省产品碳足迹公共服务平台正式发布",
     "source": "HBETS",
     "publish_date": "2024-08-12T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 25
-      },
-      "demand": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 30
-      },
-      "policy_strength": {
-        "informational": 25,
-        "encouraged": 50,
-        "binding": 10,
-        "mandatory": 5
-      },
-      "confidence": 40
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
     },
     "scores": {
-      "supply": 3.57,
-      "demand": 10.0,
-      "policy_strength": 31.33,
-      "confidence": 40,
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
       "interpretations": {
         "supply": "Neutral supply impact",
         "demand": "Neutral demand impact",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "Low confidence: neutral price impact with voluntary measures"
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
       }
     },
-    "timestamp": "2025-08-11T05:03:21.833039"
+    "timestamp": "2025-08-11T11:26:26.619918"
+  },
+  {
+    "doc_id": "12b7215fc4759065",
+    "title": "关于举办温室气体管理师基础知识课程培训的通知",
+    "source": "HBETS",
+    "publish_date": "2024-07-25T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T11:26:26.690191"
   },
   {
     "doc_id": "5fddd7983bc61377",
     "title": "校企合作湖北碳交获评全国水利与生态环保行业高校学生实习实践基地",
     "source": "HBETS",
     "publish_date": "2024-07-12T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 25
-      },
-      "demand": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 25
-      },
-      "policy_strength": {
-        "informational": 30,
-        "encouraged": 40,
-        "binding": 25,
-        "mandatory": 20
-      },
-      "confidence": 30
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
     },
     "scores": {
-      "supply": 3.57,
-      "demand": 3.57,
-      "policy_strength": 43.43,
-      "confidence": 30,
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
       "interpretations": {
         "supply": "Neutral supply impact",
         "demand": "Neutral demand impact",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "Low confidence: neutral price impact with voluntary measures"
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
       }
     },
-    "timestamp": "2025-08-11T05:03:21.859126"
+    "timestamp": "2025-08-11T11:26:26.702522"
   },
   {
-    "doc_id": "0cbaaa13babbbe18",
-    "title": "湖北省产品碳足迹公共服务平台正式发布",
-    "source": "HBETS",
-    "publish_date": "2024-06-07T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 25
-      },
-      "demand": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 30,
-        "major_increase": 40
-      },
-      "policy_strength": {
-        "informational": 25,
-        "encouraged": 60,
-        "binding": 10,
-        "mandatory": 5
-      },
-      "confidence": 35
-    },
-    "scores": {
-      "supply": 3.57,
-      "demand": 26.19,
-      "policy_strength": 31.5,
-      "confidence": 35,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Minor demand increase",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "Low confidence: neutral price impact with voluntary measures"
-      }
-    },
-    "timestamp": "2025-08-11T05:03:21.928812"
-  },
-  {
-    "doc_id": "b32198f824d7c24b",
-    "title": "校企合作湖北碳交获评全国水利与生态环保行业高校学生实习实践基地",
-    "source": "HBETS",
-    "publish_date": "2024-06-07T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 10,
-        "minor_decrease": 5,
-        "minor_increase": 5,
-        "major_increase": 15
-      },
-      "demand": {
-        "major_decrease": 10,
-        "minor_decrease": 5,
-        "minor_increase": 5,
-        "major_increase": 15
-      },
-      "policy_strength": {
-        "informational": 20,
-        "encouraged": 25,
-        "binding": 10,
-        "mandatory": 5
-      },
-      "confidence": 15
-    },
-    "scores": {
-      "supply": 14.29,
-      "demand": 14.29,
-      "policy_strength": 33.25,
-      "confidence": 15,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "Low confidence: neutral price impact with voluntary measures"
-      }
-    },
-    "timestamp": "2025-08-11T05:03:21.961840"
-  },
-  {
-    "doc_id": "2a823fb3271b7673",
+    "doc_id": "eb44e52e4dde9b5a",
     "title": "湖北碳交助力湖北省首家政策性银行实现碳中和",
     "source": "HBETS",
-    "publish_date": "2024-06-06T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 25,
-        "major_increase": 30
-      },
-      "demand": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 25,
-        "major_increase": 30
-      },
-      "policy_strength": {
-        "informational": 40,
-        "encouraged": 50,
-        "binding": 10,
-        "mandatory": 5
-      },
-      "confidence": 35
+    "publish_date": "2024-06-28T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
     },
     "scores": {
-      "supply": 16.67,
-      "demand": 16.67,
-      "policy_strength": 26.86,
-      "confidence": 35,
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
       "interpretations": {
         "supply": "Neutral supply impact",
         "demand": "Neutral demand impact",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "Low confidence: neutral price impact with voluntary measures"
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
       }
     },
-    "timestamp": "2025-08-11T05:03:21.966263"
-  },
-  {
-    "doc_id": "26dcb651be9c93cf",
-    "title": "校企合作湖北碳交获评全国水利与生态环保行业高校学生实习实践基地",
-    "source": "HBETS",
-    "publish_date": "2024-06-20T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 25
-      },
-      "demand": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 25
-      },
-      "policy_strength": {
-        "informational": 30,
-        "encouraged": 40,
-        "binding": 10,
-        "mandatory": 5
-      },
-      "confidence": 30
-    },
-    "scores": {
-      "supply": 3.57,
-      "demand": 3.57,
-      "policy_strength": 29.29,
-      "confidence": 30,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "Low confidence: neutral price impact with voluntary measures"
-      }
-    },
-    "timestamp": "2025-08-11T05:03:22.060775"
-  },
-  {
-    "doc_id": "6a932485e52b36d1",
-    "title": "关于举办温室气体管理师基础知识课程培训的通知",
-    "source": "HBETS",
-    "publish_date": "2024-06-03T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 25
-      },
-      "demand": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 30,
-        "major_increase": 25
-      },
-      "policy_strength": {
-        "informational": 40,
-        "encouraged": 60,
-        "binding": 10,
-        "mandatory": 5
-      },
-      "confidence": 30
-    },
-    "scores": {
-      "supply": 3.57,
-      "demand": 13.89,
-      "policy_strength": 27.39,
-      "confidence": 30,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "Low confidence: neutral price impact with voluntary measures"
-      }
-    },
-    "timestamp": "2025-08-11T05:03:22.132043"
-  },
-  {
-    "doc_id": "79ac250745c7803a",
-    "title": "校企合作湖北碳交获评全国水利与生态环保行业高校学生实习实践基地",
-    "source": "HBETS",
-    "publish_date": "2024-07-08T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 40,
-        "minor_decrease": 30,
-        "minor_increase": 20,
-        "major_increase": 50
-      },
-      "demand": {
-        "major_decrease": 40,
-        "minor_decrease": 30,
-        "minor_increase": 20,
-        "major_increase": 50
-      },
-      "policy_strength": {
-        "informational": 60,
-        "encouraged": 70,
-        "binding": 40,
-        "mandatory": 30
-      },
-      "confidence": 55
-    },
-    "scores": {
-      "supply": 3.57,
-      "demand": 3.57,
-      "policy_strength": 39.95,
-      "confidence": 55,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "Low confidence: neutral price impact with voluntary measures"
-      }
-    },
-    "timestamp": "2025-08-11T05:03:22.176443"
-  },
-  {
-    "doc_id": "90b3c0456b1c7805",
-    "title": "关于举办温室气体管理师基础知识课程培训的通知",
-    "source": "HBETS",
-    "publish_date": "2024-06-17T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 25,
-        "major_increase": 30
-      },
-      "demand": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 25,
-        "major_increase": 30
-      },
-      "policy_strength": {
-        "informational": 40,
-        "encouraged": 50,
-        "binding": 30,
-        "mandatory": 20
-      },
-      "confidence": 35
-    },
-    "scores": {
-      "supply": 16.67,
-      "demand": 16.67,
-      "policy_strength": 40.43,
-      "confidence": 35,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "Low confidence: neutral price impact with voluntary measures"
-      }
-    },
-    "timestamp": "2025-08-11T05:03:22.300363"
-  },
-  {
-    "doc_id": "03fadc1ebb3b59eb",
-    "title": "校企合作湖北碳交获评全国水利与生态环保行业高校学生实习实践基地",
-    "source": "HBETS",
-    "publish_date": "2024-06-13T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 25
-      },
-      "demand": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 25
-      },
-      "policy_strength": {
-        "informational": 30,
-        "encouraged": 40,
-        "binding": 25,
-        "mandatory": 20
-      },
-      "confidence": 30
-    },
-    "scores": {
-      "supply": 3.57,
-      "demand": 3.57,
-      "policy_strength": 43.43,
-      "confidence": 30,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "Low confidence: neutral price impact with voluntary measures"
-      }
-    },
-    "timestamp": "2025-08-11T05:03:22.417472"
-  },
-  {
-    "doc_id": "e4cf041b54f6258d",
-    "title": "校企合作湖北碳交获评全国水利与生态环保行业高校学生实习实践基地",
-    "source": "HBETS",
-    "publish_date": "2024-06-26T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 20,
-        "minor_decrease": 25,
-        "minor_increase": 30,
-        "major_increase": 35
-      },
-      "demand": {
-        "major_decrease": 20,
-        "minor_decrease": 25,
-        "minor_increase": 30,
-        "major_increase": 40
-      },
-      "policy_strength": {
-        "informational": 50,
-        "encouraged": 60,
-        "binding": 30,
-        "mandatory": 20
-      },
-      "confidence": 40
-    },
-    "scores": {
-      "supply": 15.91,
-      "demand": 19.57,
-      "policy_strength": 37.44,
-      "confidence": 40,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "Low confidence: neutral price impact with voluntary measures"
-      }
-    },
-    "timestamp": "2025-08-11T05:03:22.512091"
-  },
-  {
-    "doc_id": "e9d05e9b07ce5ed0",
-    "title": "MBAESG双驱商业领袖高级研修班招生简章",
-    "source": "HBETS",
-    "publish_date": "2024-06-06T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 25
-      },
-      "demand": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 30,
-        "major_increase": 25
-      },
-      "policy_strength": {
-        "informational": 10,
-        "encouraged": 40,
-        "binding": 5,
-        "mandatory": 5
-      },
-      "confidence": 25
-    },
-    "scores": {
-      "supply": 3.57,
-      "demand": 13.89,
-      "policy_strength": 35.92,
-      "confidence": 25,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "Low confidence: neutral price impact with voluntary measures"
-      }
-    },
-    "timestamp": "2025-08-11T05:03:22.583008"
-  },
-  {
-    "doc_id": "2d82c65d4c675da8",
-    "title": "MBAESG双驱商业领袖高级研修班招生简章",
-    "source": "HBETS",
-    "publish_date": "2024-05-31T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 25
-      },
-      "demand": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 25
-      },
-      "policy_strength": {
-        "informational": 30,
-        "encouraged": 40,
-        "binding": 10,
-        "mandatory": 5
-      },
-      "confidence": 25
-    },
-    "scores": {
-      "supply": 3.57,
-      "demand": 3.57,
-      "policy_strength": 29.29,
-      "confidence": 25,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "Low confidence: neutral price impact with voluntary measures"
-      }
-    },
-    "timestamp": "2025-08-11T05:03:22.657796"
-  },
-  {
-    "doc_id": "abba4a5d8d5f98cb",
-    "title": "校企合作湖北碳交获评全国水利与生态环保行业高校学生实习实践基地",
-    "source": "HBETS",
-    "publish_date": "2024-06-04T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 30
-      },
-      "demand": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 25
-      },
-      "policy_strength": {
-        "informational": 10,
-        "encouraged": 40,
-        "binding": 5,
-        "mandatory": 0
-      },
-      "confidence": 25
-    },
-    "scores": {
-      "supply": 10.0,
-      "demand": 3.57,
-      "policy_strength": 30.09,
-      "confidence": 25,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "Low confidence: neutral price impact with voluntary measures"
-      }
-    },
-    "timestamp": "2025-08-11T05:03:22.763703"
+    "timestamp": "2025-08-11T11:26:26.713416"
   },
   {
     "doc_id": "1806cb1034e8da76",
     "title": "关于举办温室气体管理师基础知识课程培训的通知",
     "source": "HBETS",
     "publish_date": "2024-07-01T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 50
-      },
-      "demand": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 40
-      },
-      "policy_strength": {
-        "informational": 30,
-        "encouraged": 60,
-        "binding": 20,
-        "mandatory": 10
-      },
-      "confidence": 40
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
     },
     "scores": {
-      "supply": 28.95,
-      "demand": 20.59,
-      "policy_strength": 36.0,
-      "confidence": 40,
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
       "interpretations": {
-        "supply": "Minor supply increase",
+        "supply": "Neutral supply impact",
         "demand": "Neutral demand impact",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "Low confidence: neutral price impact with voluntary measures"
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
       }
     },
-    "timestamp": "2025-08-11T05:03:23.480629"
+    "timestamp": "2025-08-11T11:26:26.865274"
   },
   {
-    "doc_id": "189fede40454b79e",
+    "doc_id": "18942db5c6af5c65",
     "title": "湖北省产品碳足迹公共服务平台正式发布",
     "source": "HBETS",
-    "publish_date": "2024-04-11T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 40,
-        "minor_decrease": 30,
-        "minor_increase": 20,
-        "major_increase": 50
-      },
-      "demand": {
-        "major_decrease": 40,
-        "minor_decrease": 30,
-        "minor_increase": 20,
-        "major_increase": 50
-      },
-      "policy_strength": {
-        "informational": 60,
-        "encouraged": 70,
-        "binding": 50,
-        "mandatory": 40
-      },
-      "confidence": 55
+    "publish_date": "2024-06-21T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
     },
     "scores": {
-      "supply": 3.57,
-      "demand": 3.57,
-      "policy_strength": 43.91,
-      "confidence": 55,
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
       "interpretations": {
         "supply": "Neutral supply impact",
         "demand": "Neutral demand impact",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "Low confidence: neutral price impact with voluntary measures"
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
       }
     },
-    "timestamp": "2025-08-11T05:03:24.254547"
+    "timestamp": "2025-08-11T11:26:26.913357"
   },
   {
-    "doc_id": "08f82701a3b5c032",
-    "title": "MBAESG双驱商业领袖高级研修班招生简章",
+    "doc_id": "4da9cd71596db3f8",
+    "title": "湖北碳交助力湖北省首家政策性银行实现碳中和",
     "source": "HBETS",
-    "publish_date": "2024-06-03T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 25
-      },
-      "demand": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 30
-      },
-      "policy_strength": {
-        "informational": 25,
-        "encouraged": 35,
-        "binding": 20,
-        "mandatory": 15
-      },
-      "confidence": 40
+    "publish_date": "2024-07-01T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 75,
+      "policy_strength": 33
     },
     "scores": {
-      "supply": 3.57,
-      "demand": 10.0,
-      "policy_strength": 42.05,
-      "confidence": 40,
+      "supply": 0,
+      "demand": 75,
+      "policy_strength": 33,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Demand increase",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "moderate upward price pressure with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T11:26:26.943631"
+  },
+  {
+    "doc_id": "911a458de7710c14",
+    "title": "校企合作湖北碳交获评全国水利与生态环保行业高校学生实习实践基地",
+    "source": "HBETS",
+    "publish_date": "2024-07-16T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T11:26:26.972050"
+  },
+  {
+    "doc_id": "bc48a1243445bb43",
+    "title": "湖北碳交助力湖北省首家政策性银行实现碳中和",
+    "source": "HBETS",
+    "publish_date": "2024-06-21T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 33
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 33,
       "interpretations": {
         "supply": "Neutral supply impact",
         "demand": "Neutral demand impact",
         "policy_strength": "Encouraged/voluntary policy",
-        "overall": "Low confidence: neutral price impact with voluntary measures"
+        "overall": "neutral price impact with voluntary measures"
       }
     },
-    "timestamp": "2025-08-11T05:03:24.274785"
+    "timestamp": "2025-08-11T11:26:27.007652"
+  },
+  {
+    "doc_id": "e4cf041b54f6258d",
+    "title": "校企合作湖北碳交获评全国水利与生态环保行业高校学生实习实践基地",
+    "source": "HBETS",
+    "publish_date": "2024-06-26T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T11:26:27.009235"
+  },
+  {
+    "doc_id": "26dcb651be9c93cf",
+    "title": "校企合作湖北碳交获评全国水利与生态环保行业高校学生实习实践基地",
+    "source": "HBETS",
+    "publish_date": "2024-06-20T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T11:26:27.033144"
+  },
+  {
+    "doc_id": "eeb45944ab567ece",
+    "title": "MBAESG双驱商业领袖高级研修班招生简章",
+    "source": "HBETS",
+    "publish_date": "2024-06-14T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T11:26:27.056974"
+  },
+  {
+    "doc_id": "79ac250745c7803a",
+    "title": "校企合作湖北碳交获评全国水利与生态环保行业高校学生实习实践基地",
+    "source": "HBETS",
+    "publish_date": "2024-07-08T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T11:26:27.081670"
+  },
+  {
+    "doc_id": "b32198f824d7c24b",
+    "title": "校企合作湖北碳交获评全国水利与生态环保行业高校学生实习实践基地",
+    "source": "HBETS",
+    "publish_date": "2024-06-07T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T11:26:27.102848"
+  },
+  {
+    "doc_id": "03fadc1ebb3b59eb",
+    "title": "校企合作湖北碳交获评全国水利与生态环保行业高校学生实习实践基地",
+    "source": "HBETS",
+    "publish_date": "2024-06-13T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T11:26:27.104048"
+  },
+  {
+    "doc_id": "3386757bc64b23fd",
+    "title": "关于举办温室气体管理师基础知识课程培训的通知",
+    "source": "HBETS",
+    "publish_date": "2024-06-19T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T11:26:27.151284"
+  },
+  {
+    "doc_id": "0cbaaa13babbbe18",
+    "title": "湖北省产品碳足迹公共服务平台正式发布",
+    "source": "HBETS",
+    "publish_date": "2024-06-07T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 33
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 33,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T11:26:27.152362"
+  },
+  {
+    "doc_id": "90b3c0456b1c7805",
+    "title": "关于举办温室气体管理师基础知识课程培训的通知",
+    "source": "HBETS",
+    "publish_date": "2024-06-17T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T11:26:27.193278"
+  },
+  {
+    "doc_id": "e9d05e9b07ce5ed0",
+    "title": "MBAESG双驱商业领袖高级研修班招生简章",
+    "source": "HBETS",
+    "publish_date": "2024-06-06T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T11:26:27.194445"
+  },
+  {
+    "doc_id": "ae217ab980f4e3c3",
+    "title": "湖北碳交助力湖北省首家政策性银行实现碳中和",
+    "source": "HBETS",
+    "publish_date": "2024-06-12T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 33
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 33,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T11:26:27.194661"
+  },
+  {
+    "doc_id": "7b86a335034b13b4",
+    "title": "关于举办温室气体管理师基础知识课程培训的通知",
+    "source": "HBETS",
+    "publish_date": "2024-06-06T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T11:26:27.257625"
+  },
+  {
+    "doc_id": "6a932485e52b36d1",
+    "title": "关于举办温室气体管理师基础知识课程培训的通知",
+    "source": "HBETS",
+    "publish_date": "2024-06-03T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T11:26:27.287125"
+  },
+  {
+    "doc_id": "5e7baeb63de44e60",
+    "title": "MBAESG双驱商业领袖高级研修班招生简章",
+    "source": "HBETS",
+    "publish_date": "2024-06-18T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T11:26:27.295802"
+  },
+  {
+    "doc_id": "79c43ea9b71bdf41",
+    "title": "MBAESG双驱商业领袖高级研修班招生简章",
+    "source": "HBETS",
+    "publish_date": "2024-06-24T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T11:26:27.384769"
+  },
+  {
+    "doc_id": "2a823fb3271b7673",
+    "title": "湖北碳交助力湖北省首家政策性银行实现碳中和",
+    "source": "HBETS",
+    "publish_date": "2024-06-06T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T11:26:27.388222"
+  },
+  {
+    "doc_id": "2d82c65d4c675da8",
+    "title": "MBAESG双驱商业领袖高级研修班招生简章",
+    "source": "HBETS",
+    "publish_date": "2024-05-31T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T11:26:27.397552"
   },
   {
     "doc_id": "1b77084870bc9ee0",
     "title": "湖北省产品碳足迹公共服务平台正式发布",
     "source": "HBETS",
     "publish_date": "2024-05-28T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 40,
-        "minor_decrease": 30,
-        "minor_increase": 20,
-        "major_increase": 50
-      },
-      "demand": {
-        "major_decrease": 40,
-        "minor_decrease": 30,
-        "minor_increase": 20,
-        "major_increase": 50
-      },
-      "policy_strength": {
-        "informational": 60,
-        "encouraged": 80,
-        "binding": 30,
-        "mandatory": 20
-      },
-      "confidence": 60
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 33
     },
     "scores": {
-      "supply": 3.57,
-      "demand": 3.57,
-      "policy_strength": 35.0,
-      "confidence": 60,
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 33,
       "interpretations": {
         "supply": "Neutral supply impact",
         "demand": "Neutral demand impact",
         "policy_strength": "Encouraged/voluntary policy",
-        "overall": "Low confidence: neutral price impact with voluntary measures"
+        "overall": "neutral price impact with voluntary measures"
       }
     },
-    "timestamp": "2025-08-11T05:03:24.280302"
+    "timestamp": "2025-08-11T11:26:27.518148"
   },
   {
-    "doc_id": "03ed045e6557ff5b",
-    "title": "湖北省产品碳足迹公共服务平台正式发布",
+    "doc_id": "08f82701a3b5c032",
+    "title": "MBAESG双驱商业领袖高级研修班招生简章",
     "source": "HBETS",
-    "publish_date": "2024-05-14T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 25
-      },
-      "demand": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 30
-      },
-      "policy_strength": {
-        "informational": 25,
-        "encouraged": 40,
-        "binding": 10,
-        "mandatory": 5
-      },
-      "confidence": 30
+    "publish_date": "2024-06-03T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 33
     },
     "scores": {
-      "supply": 3.57,
-      "demand": 10.0,
-      "policy_strength": 31.12,
-      "confidence": 30,
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 33,
       "interpretations": {
         "supply": "Neutral supply impact",
         "demand": "Neutral demand impact",
         "policy_strength": "Encouraged/voluntary policy",
-        "overall": "Low confidence: neutral price impact with voluntary measures"
+        "overall": "neutral price impact with voluntary measures"
       }
     },
-    "timestamp": "2025-08-11T05:03:24.283409"
+    "timestamp": "2025-08-11T11:26:27.549580"
   },
   {
-    "doc_id": "f47caff16bd371a7",
-    "title": "湖北碳交助力湖北省首家政策性银行实现碳中和",
+    "doc_id": "abba4a5d8d5f98cb",
+    "title": "校企合作湖北碳交获评全国水利与生态环保行业高校学生实习实践基地",
     "source": "HBETS",
-    "publish_date": "2024-05-16T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 25
-      },
-      "demand": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 30
-      },
-      "policy_strength": {
-        "informational": 10,
-        "encouraged": 40,
-        "binding": 5,
-        "mandatory": 5
-      },
-      "confidence": 30
+    "publish_date": "2024-06-04T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
     },
     "scores": {
-      "supply": 3.57,
-      "demand": 10.0,
-      "policy_strength": 35.92,
-      "confidence": 30,
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
       "interpretations": {
         "supply": "Neutral supply impact",
         "demand": "Neutral demand impact",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "Low confidence: neutral price impact with voluntary measures"
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
       }
     },
-    "timestamp": "2025-08-11T05:03:24.346374"
-  },
-  {
-    "doc_id": "49932573b8227f63",
-    "title": "关于举办温室气体管理师基础知识课程培训的通知",
-    "source": "HBETS",
-    "publish_date": "2024-06-06T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 30
-      },
-      "demand": {
-        "major_decrease": 25,
-        "minor_decrease": 20,
-        "minor_increase": 15,
-        "major_increase": 35
-      },
-      "policy_strength": {
-        "informational": 40,
-        "encouraged": 50,
-        "binding": 10,
-        "mandatory": 5
-      },
-      "confidence": 45
-    },
-    "scores": {
-      "supply": 10.0,
-      "demand": 7.89,
-      "policy_strength": 26.86,
-      "confidence": 45,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "Low confidence: neutral price impact with voluntary measures"
-      }
-    },
-    "timestamp": "2025-08-11T05:03:24.534622"
+    "timestamp": "2025-08-11T11:26:27.551434"
   },
   {
     "doc_id": "4af912e60a8858a0",
     "title": "MBAESG双驱商业领袖高级研修班招生简章",
     "source": "HBETS",
     "publish_date": "2024-05-23T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 20,
-        "minor_decrease": 25,
-        "minor_increase": 15,
-        "major_increase": 30
-      },
-      "demand": {
-        "major_decrease": 20,
-        "minor_decrease": 25,
-        "minor_increase": 15,
-        "major_increase": 30
-      },
-      "policy_strength": {
-        "informational": 10,
-        "encouraged": 40,
-        "binding": 5,
-        "mandatory": 5
-      },
-      "confidence": 25
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
     },
     "scores": {
-      "supply": 5.56,
-      "demand": 5.56,
-      "policy_strength": 35.92,
-      "confidence": 25,
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
       "interpretations": {
         "supply": "Neutral supply impact",
         "demand": "Neutral demand impact",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "Low confidence: neutral price impact with voluntary measures"
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
       }
     },
-    "timestamp": "2025-08-11T05:03:24.537719"
-  },
-  {
-    "doc_id": "3158d72dbc51f05e",
-    "title": "校企合作湖北碳交获评全国水利与生态环保行业高校学生实习实践基地",
-    "source": "HBETS",
-    "publish_date": "2024-05-23T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 10,
-        "minor_decrease": 5,
-        "minor_increase": 5,
-        "major_increase": 15
-      },
-      "demand": {
-        "major_decrease": 10,
-        "minor_decrease": 5,
-        "minor_increase": 5,
-        "major_increase": 15
-      },
-      "policy_strength": {
-        "informational": 20,
-        "encouraged": 25,
-        "binding": 5,
-        "mandatory": 5
-      },
-      "confidence": 15
-    },
-    "scores": {
-      "supply": 14.29,
-      "demand": 14.29,
-      "policy_strength": 30.18,
-      "confidence": 15,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "Low confidence: neutral price impact with voluntary measures"
-      }
-    },
-    "timestamp": "2025-08-11T05:03:24.548154"
-  },
-  {
-    "doc_id": "fa0818f731911a50",
-    "title": "湖北省产品碳足迹公共服务平台正式发布",
-    "source": "HBETS",
-    "publish_date": "2024-05-16T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 25
-      },
-      "demand": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 30,
-        "major_increase": 25
-      },
-      "policy_strength": {
-        "informational": 30,
-        "encouraged": 70,
-        "binding": 10,
-        "mandatory": 5
-      },
-      "confidence": 60
-    },
-    "scores": {
-      "supply": 3.57,
-      "demand": 13.89,
-      "policy_strength": 30.26,
-      "confidence": 60,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "Low confidence: neutral price impact with voluntary measures"
-      }
-    },
-    "timestamp": "2025-08-11T05:03:24.562285"
-  },
-  {
-    "doc_id": "4e5e0aabdea927e8",
-    "title": "关于举办温室气体管理师基础知识课程培训的通知",
-    "source": "HBETS",
-    "publish_date": "2024-05-11T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 25,
-        "major_increase": 30
-      },
-      "demand": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 25,
-        "major_increase": 30
-      },
-      "policy_strength": {
-        "informational": 40,
-        "encouraged": 50,
-        "binding": 20,
-        "mandatory": 10
-      },
-      "confidence": 35
-    },
-    "scores": {
-      "supply": 16.67,
-      "demand": 16.67,
-      "policy_strength": 33.25,
-      "confidence": 35,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "Low confidence: neutral price impact with voluntary measures"
-      }
-    },
-    "timestamp": "2025-08-11T05:03:24.578586"
-  },
-  {
-    "doc_id": "d07197609e8dc9dc",
-    "title": "湖北省产品碳足迹公共服务平台正式发布",
-    "source": "HBETS",
-    "publish_date": "2024-04-13T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 30,
-        "minor_decrease": 25,
-        "minor_increase": 20,
-        "major_increase": 40
-      },
-      "demand": {
-        "major_decrease": 30,
-        "minor_decrease": 25,
-        "minor_increase": 35,
-        "major_increase": 45
-      },
-      "policy_strength": {
-        "informational": 20,
-        "encouraged": 50,
-        "binding": 10,
-        "mandatory": 15
-      },
-      "confidence": 35
-    },
-    "scores": {
-      "supply": 6.52,
-      "demand": 14.81,
-      "policy_strength": 40.21,
-      "confidence": 35,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "Low confidence: neutral price impact with voluntary measures"
-      }
-    },
-    "timestamp": "2025-08-11T05:03:24.626888"
-  },
-  {
-    "doc_id": "4061bd3730110b12",
-    "title": "湖北省产品碳足迹公共服务平台正式发布",
-    "source": "HBETS",
-    "publish_date": "2024-05-21T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 20,
-        "minor_decrease": 30,
-        "minor_increase": 25,
-        "major_increase": 35
-      },
-      "demand": {
-        "major_decrease": 20,
-        "minor_decrease": 30,
-        "minor_increase": 25,
-        "major_increase": 35
-      },
-      "policy_strength": {
-        "informational": 40,
-        "encouraged": 60,
-        "binding": 20,
-        "mandatory": 15
-      },
-      "confidence": 40
-    },
-    "scores": {
-      "supply": 11.36,
-      "demand": 11.36,
-      "policy_strength": 35.7,
-      "confidence": 40,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "Low confidence: neutral price impact with voluntary measures"
-      }
-    },
-    "timestamp": "2025-08-11T05:03:24.767687"
-  },
-  {
-    "doc_id": "86ead9842d3f1816",
-    "title": "校企合作湖北碳交获评全国水利与生态环保行业高校学生实习实践基地",
-    "source": "HBETS",
-    "publish_date": "2024-06-01T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 30,
-        "minor_decrease": 25,
-        "minor_increase": 20,
-        "major_increase": 35
-      },
-      "demand": {
-        "major_decrease": 30,
-        "minor_decrease": 25,
-        "minor_increase": 20,
-        "major_increase": 40
-      },
-      "policy_strength": {
-        "informational": 20,
-        "encouraged": 50,
-        "binding": 30,
-        "mandatory": 25
-      },
-      "confidence": 40
-    },
-    "scores": {
-      "supply": 2.27,
-      "demand": 6.52,
-      "policy_strength": 49.28,
-      "confidence": 40,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "Low confidence: neutral price impact with voluntary measures"
-      }
-    },
-    "timestamp": "2025-08-11T05:03:24.798807"
-  },
-  {
-    "doc_id": "2bfc5adf232d88bd",
-    "title": "湖北省产品碳足迹公共服务平台正式发布",
-    "source": "HBETS",
-    "publish_date": "2024-05-11T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 30,
-        "minor_decrease": 20,
-        "minor_increase": 25,
-        "major_increase": 35
-      },
-      "demand": {
-        "major_decrease": 30,
-        "minor_decrease": 25,
-        "minor_increase": 40,
-        "major_increase": 35
-      },
-      "policy_strength": {
-        "informational": 20,
-        "encouraged": 60,
-        "binding": 15,
-        "mandatory": 10
-      },
-      "confidence": 40
-    },
-    "scores": {
-      "supply": 6.82,
-      "demand": 9.62,
-      "policy_strength": 37.95,
-      "confidence": 40,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "Low confidence: neutral price impact with voluntary measures"
-      }
-    },
-    "timestamp": "2025-08-11T05:03:24.866277"
-  },
-  {
-    "doc_id": "4443e0731ae8fb4a",
-    "title": "湖北省产品碳足迹公共服务平台正式发布",
-    "source": "HBETS",
-    "publish_date": "2024-04-23T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 25
-      },
-      "demand": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 25
-      },
-      "policy_strength": {
-        "informational": 30,
-        "encouraged": 70,
-        "binding": 20,
-        "mandatory": 15
-      },
-      "confidence": 60
-    },
-    "scores": {
-      "supply": 3.57,
-      "demand": 3.57,
-      "policy_strength": 38.15,
-      "confidence": 60,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "Low confidence: neutral price impact with voluntary measures"
-      }
-    },
-    "timestamp": "2025-08-11T05:03:24.873325"
-  },
-  {
-    "doc_id": "64b3eeeed3a8a58b",
-    "title": "MBAESG双驱商业领袖高级研修班招生简章",
-    "source": "HBETS",
-    "publish_date": "2024-05-24T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 25
-      },
-      "demand": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 25
-      },
-      "policy_strength": {
-        "informational": 30,
-        "encouraged": 40,
-        "binding": 10,
-        "mandatory": 5
-      },
-      "confidence": 30
-    },
-    "scores": {
-      "supply": 3.57,
-      "demand": 3.57,
-      "policy_strength": 29.29,
-      "confidence": 30,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "Low confidence: neutral price impact with voluntary measures"
-      }
-    },
-    "timestamp": "2025-08-11T05:03:24.875628"
-  },
-  {
-    "doc_id": "e60ad0356dd1e227",
-    "title": "湖北省产品碳足迹公共服务平台正式发布",
-    "source": "HBETS",
-    "publish_date": "2024-04-09T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 25
-      },
-      "demand": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 30
-      },
-      "policy_strength": {
-        "informational": 10,
-        "encouraged": 40,
-        "binding": 5,
-        "mandatory": 5
-      },
-      "confidence": 30
-    },
-    "scores": {
-      "supply": 3.57,
-      "demand": 10.0,
-      "policy_strength": 35.92,
-      "confidence": 30,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "Low confidence: neutral price impact with voluntary measures"
-      }
-    },
-    "timestamp": "2025-08-11T05:03:24.887080"
-  },
-  {
-    "doc_id": "0c91ae8d9729b699",
-    "title": "湖北碳交助力湖北省首家政策性银行实现碳中和",
-    "source": "HBETS",
-    "publish_date": "2024-05-20T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 10,
-        "minor_decrease": 5,
-        "minor_increase": 5,
-        "major_increase": 15
-      },
-      "demand": {
-        "major_decrease": 10,
-        "minor_decrease": 5,
-        "minor_increase": 5,
-        "major_increase": 15
-      },
-      "policy_strength": {
-        "informational": 20,
-        "encouraged": 30,
-        "binding": 10,
-        "mandatory": 5
-      },
-      "confidence": 15
-    },
-    "scores": {
-      "supply": 14.29,
-      "demand": 14.29,
-      "policy_strength": 33.23,
-      "confidence": 15,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "Low confidence: neutral price impact with voluntary measures"
-      }
-    },
-    "timestamp": "2025-08-11T05:03:24.899452"
-  },
-  {
-    "doc_id": "befd00b85b93da5e",
-    "title": "校企合作湖北碳交获评全国水利与生态环保行业高校学生实习实践基地",
-    "source": "HBETS",
-    "publish_date": "2024-04-30T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 25
-      },
-      "demand": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 25
-      },
-      "policy_strength": {
-        "informational": 30,
-        "encouraged": 40,
-        "binding": 20,
-        "mandatory": 10
-      },
-      "confidence": 30
-    },
-    "scores": {
-      "supply": 3.57,
-      "demand": 3.57,
-      "policy_strength": 36.6,
-      "confidence": 30,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "Low confidence: neutral price impact with voluntary measures"
-      }
-    },
-    "timestamp": "2025-08-11T05:03:25.021159"
+    "timestamp": "2025-08-11T11:26:27.566120"
   },
   {
     "doc_id": "ab6a70558f5b88d3",
     "title": "湖北碳交助力湖北省首家政策性银行实现碳中和",
     "source": "HBETS",
     "publish_date": "2024-06-04T00:00:00",
-    "similarities": {
-      "supply": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 25
-      },
-      "demand": {
-        "major_decrease": 20,
-        "minor_decrease": 15,
-        "minor_increase": 10,
-        "major_increase": 25
-      },
-      "policy_strength": {
-        "informational": 30,
-        "encouraged": 40,
-        "binding": 10,
-        "mandatory": 5
-      },
-      "confidence": 25
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
     },
     "scores": {
-      "supply": 3.57,
-      "demand": 3.57,
-      "policy_strength": 29.29,
-      "confidence": 25,
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T11:26:27.572407"
+  },
+  {
+    "doc_id": "fa0818f731911a50",
+    "title": "湖北省产品碳足迹公共服务平台正式发布",
+    "source": "HBETS",
+    "publish_date": "2024-05-16T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T11:26:27.806687"
+  },
+  {
+    "doc_id": "86ead9842d3f1816",
+    "title": "校企合作湖北碳交获评全国水利与生态环保行业高校学生实习实践基地",
+    "source": "HBETS",
+    "publish_date": "2024-06-01T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 25,
+      "policy_strength": 33
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 25,
+      "policy_strength": 33,
       "interpretations": {
         "supply": "Neutral supply impact",
         "demand": "Neutral demand impact",
         "policy_strength": "Encouraged/voluntary policy",
-        "overall": "Low confidence: neutral price impact with voluntary measures"
+        "overall": "moderate downward price pressure with voluntary measures"
       }
     },
-    "timestamp": "2025-08-11T05:03:25.435714"
+    "timestamp": "2025-08-11T11:26:27.876265"
+  },
+  {
+    "doc_id": "64b3eeeed3a8a58b",
+    "title": "MBAESG双驱商业领袖高级研修班招生简章",
+    "source": "HBETS",
+    "publish_date": "2024-05-24T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T11:26:28.067457"
+  },
+  {
+    "doc_id": "4e5e0aabdea927e8",
+    "title": "关于举办温室气体管理师基础知识课程培训的通知",
+    "source": "HBETS",
+    "publish_date": "2024-05-11T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T11:26:28.070497"
+  },
+  {
+    "doc_id": "2bfc5adf232d88bd",
+    "title": "湖北省产品碳足迹公共服务平台正式发布",
+    "source": "HBETS",
+    "publish_date": "2024-05-11T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T11:26:28.093424"
+  },
+  {
+    "doc_id": "03ed045e6557ff5b",
+    "title": "湖北省产品碳足迹公共服务平台正式发布",
+    "source": "HBETS",
+    "publish_date": "2024-05-14T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T11:26:28.099525"
+  },
+  {
+    "doc_id": "49932573b8227f63",
+    "title": "关于举办温室气体管理师基础知识课程培训的通知",
+    "source": "HBETS",
+    "publish_date": "2024-06-06T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T11:26:28.128158"
+  },
+  {
+    "doc_id": "e60ad0356dd1e227",
+    "title": "湖北省产品碳足迹公共服务平台正式发布",
+    "source": "HBETS",
+    "publish_date": "2024-04-09T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 33
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 33,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T11:26:28.131867"
+  },
+  {
+    "doc_id": "0c91ae8d9729b699",
+    "title": "湖北碳交助力湖北省首家政策性银行实现碳中和",
+    "source": "HBETS",
+    "publish_date": "2024-05-20T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T11:26:28.217207"
+  },
+  {
+    "doc_id": "189fede40454b79e",
+    "title": "湖北省产品碳足迹公共服务平台正式发布",
+    "source": "HBETS",
+    "publish_date": "2024-04-11T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 33
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 33,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T11:26:28.220380"
+  },
+  {
+    "doc_id": "d07197609e8dc9dc",
+    "title": "湖北省产品碳足迹公共服务平台正式发布",
+    "source": "HBETS",
+    "publish_date": "2024-04-13T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T11:26:28.645097"
+  },
+  {
+    "doc_id": "4443e0731ae8fb4a",
+    "title": "湖北省产品碳足迹公共服务平台正式发布",
+    "source": "HBETS",
+    "publish_date": "2024-04-23T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T11:26:28.780962"
+  },
+  {
+    "doc_id": "befd00b85b93da5e",
+    "title": "校企合作湖北碳交获评全国水利与生态环保行业高校学生实习实践基地",
+    "source": "HBETS",
+    "publish_date": "2024-04-30T00:00:00",
+    "positions": {
+      "supply": 10,
+      "demand": 25,
+      "policy_strength": 67
+    },
+    "scores": {
+      "supply": 10,
+      "demand": 25,
+      "policy_strength": 67,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T11:26:28.821989"
+  },
+  {
+    "doc_id": "f47caff16bd371a7",
+    "title": "湖北碳交助力湖北省首家政策性银行实现碳中和",
+    "source": "HBETS",
+    "publish_date": "2024-05-16T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 60,
+      "policy_strength": 33
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 60,
+      "policy_strength": 33,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Demand increase",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "moderate upward price pressure with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T11:26:28.853973"
+  },
+  {
+    "doc_id": "4061bd3730110b12",
+    "title": "湖北省产品碳足迹公共服务平台正式发布",
+    "source": "HBETS",
+    "publish_date": "2024-05-21T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 33
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 33,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T11:26:29.622725"
+  },
+  {
+    "doc_id": "3158d72dbc51f05e",
+    "title": "校企合作湖北碳交获评全国水利与生态环保行业高校学生实习实践基地",
+    "source": "HBETS",
+    "publish_date": "2024-05-23T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T11:26:29.781100"
   }
 ]

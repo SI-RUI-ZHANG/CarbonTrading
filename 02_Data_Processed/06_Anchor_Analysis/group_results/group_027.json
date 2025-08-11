@@ -1,41 +1,41 @@
 {
   "supply": {
-    "major_decrease": null,
-    "minor_decrease": {
-      "doc_id": "9c2de4fc475d7c76",
-      "title": "湖北省产品碳足迹公共服务平台正式发布"
+    "restrict": null,
+    "reduce": {
+      "doc_id": "f4426f1d55f71f6d",
+      "title": "2016年度广东省碳排放配额有偿发放（第四次）竞价情况"
     },
-    "minor_increase": {
-      "doc_id": "e713b44d2fd5663b",
-      "title": "湖北省产品碳足迹公共服务平台正式发布"
+    "increase": {
+      "doc_id": "12b9bab971bbadae",
+      "title": "2016年度广东省碳排放配额有偿发放（第四次）公告"
     },
-    "major_increase": null
+    "expand": {
+      "doc_id": "03f3c92addb8c1a5",
+      "title": "广东省省级碳普惠制核证减排量（PHCER）项目竞价公告"
+    }
   },
   "demand": {
-    "major_increase": {
-      "doc_id": "41fd6132e7371afe",
-      "title": "MBAESG双驱商业领袖高级研修班招生简章"
-    },
-    "minor_increase": {
-      "doc_id": "22401913be67ba81",
-      "title": "湖北碳交助力湖北省首家政策性银行实现碳中和"
-    },
-    "minor_decrease": null,
-    "major_decrease": null
+    "restrict": null,
+    "reduce": null,
+    "increase": null,
+    "expand": {
+      "doc_id": "286de50b8aa310ab",
+      "title": "关于允许基金等非法人机构开户和上调投资者持仓量的公告"
+    }
   },
   "policy_strength": {
     "mandatory": {
-      "doc_id": "599f7e1bc0861eea",
-      "title": "湖北省产品碳足迹公共服务平台正式发布"
+      "doc_id": "12b9bab971bbadae",
+      "title": "2016年度广东省碳排放配额有偿发放（第四次）公告"
     },
     "binding": null,
     "encouraged": {
-      "doc_id": "22401913be67ba81",
-      "title": "湖北碳交助力湖北省首家政策性银行实现碳中和"
+      "doc_id": "330e9c567f04e0a9",
+      "title": "广州碳排放权交易中心经纪机构招募公告"
     },
     "informational": {
-      "doc_id": "56496268aa496146",
-      "title": "湖北省产品碳足迹公共服务平台正式发布"
+      "doc_id": "af082238f29417c5",
+      "title": "关于发布《广东省碳排放配额托管业务指引（2017年修订）》等四项业务修订的通知"
     }
   }
 }

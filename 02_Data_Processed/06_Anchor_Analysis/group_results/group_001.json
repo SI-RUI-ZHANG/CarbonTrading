@@ -1,38 +1,26 @@
 {
   "supply": {
-    "major_decrease": null,
-    "minor_decrease": {
-      "doc_id": "541706ebbbd67751",
-      "title": "温室气体自愿减排交易管理办法（试行）"
-    },
-    "minor_increase": null,
-    "major_increase": null
+    "restrict": null,
+    "reduce": null,
+    "increase": null,
+    "expand": null
   },
   "demand": {
-    "major_increase": null,
-    "minor_increase": {
-      "doc_id": "541706ebbbd67751",
-      "title": "温室气体自愿减排交易管理办法（试行）"
-    },
-    "minor_decrease": {
-      "doc_id": "bd9f847e38e7667e",
-      "title": "关于禁止生产以11-二氯-1-氟乙烷（HCFC-141b）为发泡剂的保温管产品、太阳能热水器产品的公告"
-    },
-    "major_decrease": null
+    "restrict": null,
+    "reduce": null,
+    "increase": null,
+    "expand": null
   },
   "policy_strength": {
     "mandatory": {
-      "doc_id": "541706ebbbd67751",
-      "title": "温室气体自愿减排交易管理办法（试行）"
+      "doc_id": "7256a12077d1b0f9",
+      "title": "关于禁止生产以一氟二氯乙烷（HCFC-141b）为发泡剂的冰箱冷柜产品、冷藏集装箱产品、电热水器产品的公告"
     },
-    "binding": null,
-    "encouraged": {
-      "doc_id": "a64415ea6c2cd094",
-      "title": "关于发布《公民生态环境行为规范十条》的公告"
+    "binding": {
+      "doc_id": "161747c87ee1de60",
+      "title": "关于发布《大型活动碳中和实施指南（试行）》的公告"
     },
-    "informational": {
-      "doc_id": "973bd6415302fc9f",
-      "title": "关于发布2023年电力碳足迹因子数据的公告"
-    }
+    "encouraged": null,
+    "informational": null
   }
 }

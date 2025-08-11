@@ -1,35 +1,26 @@
 {
   "supply": {
-    "major_decrease": null,
-    "minor_decrease": {
-      "doc_id": "5ccbb41447d6aaf6",
-      "title": "关于纳入全国碳市场发电企业（含自备电厂）广东省配额临时冻结的通知"
-    },
-    "minor_increase": {
-      "doc_id": "7855c1da7e6c917e",
-      "title": "2021年韶关市翁源县等4县5个林业碳普惠项目、韶关市仁化县 4个林业碳普惠项目（PHCER） 竞价情况"
-    },
-    "major_increase": null
+    "restrict": null,
+    "reduce": null,
+    "increase": null,
+    "expand": null
   },
   "demand": {
-    "major_increase": null,
-    "minor_increase": {
-      "doc_id": "7855c1da7e6c917e",
-      "title": "2021年韶关市翁源县等4县5个林业碳普惠项目、韶关市仁化县 4个林业碳普惠项目（PHCER） 竞价情况"
-    },
-    "minor_decrease": null,
-    "major_decrease": null
+    "restrict": null,
+    "reduce": null,
+    "increase": null,
+    "expand": null
   },
   "policy_strength": {
-    "mandatory": {
-      "doc_id": "5ccbb41447d6aaf6",
-      "title": "关于纳入全国碳市场发电企业（含自备电厂）广东省配额临时冻结的通知"
-    },
+    "mandatory": null,
     "binding": null,
-    "encouraged": null,
+    "encouraged": {
+      "doc_id": "002c7873f020691d",
+      "title": "广碳所举办第一届会员大会 发布碳金融产品创新举措"
+    },
     "informational": {
-      "doc_id": "01cdcd2273afa8d4",
-      "title": "关于碳排放权交易账户安全的提示"
+      "doc_id": "429ce281a512df9c",
+      "title": "广碳所举办全国碳市场能力建设专题培训会——碳交易师第十六期岗位能力培训"
     }
   }
 }

@@ -1,38 +1,32 @@
 {
   "supply": {
-    "major_decrease": null,
-    "minor_decrease": {
-      "doc_id": "6b65f36a8f43dd85",
-      "title": "广东省省级碳普惠制核证减排量（PHCER）项目竞价公告"
+    "restrict": null,
+    "reduce": {
+      "doc_id": "00c506c2b142e758",
+      "title": "广东省生态环境厅关于做好2018年度企业碳排放信息报告核查和配额清缴履约相关工作的通知"
     },
-    "minor_increase": {
-      "doc_id": "12b9bab971bbadae",
-      "title": "2016年度广东省碳排放配额有偿发放（第四次）公告"
-    },
-    "major_increase": null
+    "increase": null,
+    "expand": null
   },
   "demand": {
-    "major_increase": null,
-    "minor_increase": {
-      "doc_id": "45ec484972a1d144",
-      "title": "2017年广东省省级碳普惠制核证减排量（PHCER）项目首次竞价情况"
+    "restrict": null,
+    "reduce": null,
+    "increase": {
+      "doc_id": "0f38ad2abc02a526",
+      "title": "广东省生态环境厅关于做好我省碳排放管理和交易企业2019年度碳排放报告核查和配额清缴相关工作的通知"
     },
-    "minor_decrease": null,
-    "major_decrease": null
+    "expand": null
   },
   "policy_strength": {
     "mandatory": {
-      "doc_id": "6b65f36a8f43dd85",
-      "title": "广东省省级碳普惠制核证减排量（PHCER）项目竞价公告"
+      "doc_id": "0f38ad2abc02a526",
+      "title": "广东省生态环境厅关于做好我省碳排放管理和交易企业2019年度碳排放报告核查和配额清缴相关工作的通知"
     },
     "binding": null,
-    "encouraged": {
-      "doc_id": "330e9c567f04e0a9",
-      "title": "广州碳排放权交易中心经纪机构招募公告"
-    },
+    "encouraged": null,
     "informational": {
-      "doc_id": "71a863131db962a4",
-      "title": "关于2017年劳动节休市安排的公告"
+      "doc_id": "e54a7272efb301f2",
+      "title": "广东省生态环境厅关于印发广东碳交易试点2017年度核查、参与全国碳交易市场广东企业2016、2017年度核查工作考评结果的通知"
     }
   }
 }

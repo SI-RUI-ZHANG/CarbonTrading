@@ -15,7 +15,7 @@ if not API_KEY:
         "See .env.example for the required format."
     )
 
-MODEL = "gpt-4o-mini"
+MODEL = "gpt-4o"
 TEMPERATURE = 0.3
 MAX_TOKENS = 1000
 
@@ -38,16 +38,16 @@ DIMENSIONS = {
 # Categories now specific to each dimension
 DIMENSION_CATEGORIES = {
     'supply': {
-        'major_decrease': '大幅减少供给',
-        'minor_decrease': '适度减少供给',
-        'minor_increase': '适度增加供给',
-        'major_increase': '大幅增加供给'
+        'restrict': '限制供给',
+        'reduce': '减少供给',
+        'increase': '增加供给',
+        'expand': '扩大供给'
     },
     'demand': {
-        'major_increase': '大幅增加需求',
-        'minor_increase': '适度增加需求',
-        'minor_decrease': '适度减少需求',
-        'major_decrease': '大幅减少需求'
+        'restrict': '限制需求',
+        'reduce': '减少需求',
+        'increase': '增加需求',
+        'expand': '扩大需求'
     },
     'policy_strength': {
         'mandatory': '强制执行',
@@ -59,12 +59,11 @@ DIMENSION_CATEGORIES = {
 
 # Flattened categories for backward compatibility
 CATEGORIES = {
-    # Supply categories
-    'major_decrease': '大幅减少',
-    'minor_decrease': '适度减少',
-    'minor_increase': '适度增加',
-    'major_increase': '大幅增加',
-    # Demand categories (reuse supply keys)
+    # Supply/Demand categories
+    'restrict': '限制',
+    'reduce': '减少',
+    'increase': '增加',
+    'expand': '扩大',
     # Policy strength categories
     'mandatory': '强制执行',
     'binding': '约束指导',

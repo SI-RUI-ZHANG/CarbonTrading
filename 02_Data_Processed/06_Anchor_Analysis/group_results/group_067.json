@@ -1,41 +1,47 @@
 {
   "supply": {
-    "major_decrease": null,
-    "minor_decrease": {
-      "doc_id": "43b08a91d214ede7",
-      "title": "碳市场建设的问题与发展路径——基于构建碳人民币体系视角"
+    "restrict": null,
+    "reduce": {
+      "doc_id": "f6f2c737eddd8449",
+      "title": "广东省发展改革委关于印发燃煤热电联产机组碳排放配额计算方法的通知"
     },
-    "minor_increase": {
-      "doc_id": "9373bff82658b880",
-      "title": "广州碳交中心举办广东碳配额资产证券化业务研讨会"
+    "increase": {
+      "doc_id": "fc399fa3ae64b15b",
+      "title": "广东2015年度配额拍卖再现供不应求"
     },
-    "major_increase": null
+    "expand": {
+      "doc_id": "8306dcc364575819",
+      "title": "广东配额总成交金额破10亿元 连续创下多项全国第一"
+    }
   },
   "demand": {
-    "major_increase": null,
-    "minor_increase": {
-      "doc_id": "9373bff82658b880",
-      "title": "广州碳交中心举办广东碳配额资产证券化业务研讨会"
+    "restrict": null,
+    "reduce": null,
+    "increase": {
+      "doc_id": "fc399fa3ae64b15b",
+      "title": "广东2015年度配额拍卖再现供不应求"
     },
-    "minor_decrease": null,
-    "major_decrease": null
+    "expand": {
+      "doc_id": "e6c1e29fb1a3f154",
+      "title": "广东碳市场：改革中稳步前进"
+    }
   },
   "policy_strength": {
     "mandatory": {
-      "doc_id": "0cebf0a042d71fa3",
-      "title": "广州碳交中心支持制定的《广州市发展绿色金融支持碳达峰行动实施方案》正式印发"
+      "doc_id": "9b6e57fcf1b89bc0",
+      "title": "广东省发展改革委关于做好2015年度企业碳排放信息报告核查和配额清缴履约相关工作的通知"
     },
     "binding": {
-      "doc_id": "43b08a91d214ede7",
-      "title": "碳市场建设的问题与发展路径——基于构建碳人民币体系视角"
+      "doc_id": "27a836065e1d40b5",
+      "title": "粤力争成为全国碳交易平台之一"
     },
     "encouraged": {
-      "doc_id": "9373bff82658b880",
-      "title": "广州碳交中心举办广东碳配额资产证券化业务研讨会"
+      "doc_id": "8aef5cfd866765c1",
+      "title": "广东正式启动碳普惠制试点建设 成全国首创"
     },
     "informational": {
-      "doc_id": "b3d4f1b5b5cd0407",
-      "title": "广碳所参加2023年广州开发区广州市黄埔区街镇、相关企业碳账户宣讲系列培训活动"
+      "doc_id": "fc399fa3ae64b15b",
+      "title": "广东2015年度配额拍卖再现供不应求"
     }
   }
 }

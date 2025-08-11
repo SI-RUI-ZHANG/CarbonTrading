@@ -1,32 +1,26 @@
 {
   "supply": {
-    "major_decrease": null,
-    "minor_decrease": {
-      "doc_id": "98cc2ffd7a616450",
-      "title": "广东省发展改革委关于广东省2015年度碳排放配额有偿发放方案的批复"
-    },
-    "minor_increase": {
-      "doc_id": "0c630eb93bfa893f",
-      "title": "2015年度广东省碳排放配额有偿发放第一次）公告"
-    },
-    "major_increase": null
+    "restrict": null,
+    "reduce": null,
+    "increase": null,
+    "expand": null
   },
   "demand": {
-    "major_increase": null,
-    "minor_increase": null,
-    "minor_decrease": null,
-    "major_decrease": null
+    "restrict": null,
+    "reduce": null,
+    "increase": null,
+    "expand": null
   },
   "policy_strength": {
-    "mandatory": {
-      "doc_id": "a7babbab7196de94",
-      "title": "广州碳排放权交易中心广东省碳排放配额抵押登记操作规程（试行）"
+    "mandatory": null,
+    "binding": null,
+    "encouraged": {
+      "doc_id": "9c7d2dc450080b27",
+      "title": "广州碳排放权交易所：充分发挥平台功能，搭建粤港澳大湾区环境权益交易与金融服务平台"
     },
-    "binding": {
-      "doc_id": "98cc2ffd7a616450",
-      "title": "广东省发展改革委关于广东省2015年度碳排放配额有偿发放方案的批复"
-    },
-    "encouraged": null,
-    "informational": null
+    "informational": {
+      "doc_id": "40df8fa1245c3322",
+      "title": "河源市成功举办碳普惠工作推进暨碳排放交易管理培训会"
+    }
   }
 }

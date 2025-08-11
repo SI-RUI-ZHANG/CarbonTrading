@@ -1,113 +1,39 @@
-"""Document scorer with spectrum positioning algorithm."""
+"""Document scorer using direct position placement."""
 
-from typing import Dict, Optional, Tuple
-import numpy as np
+from typing import Dict, Optional
 import config
 
 class DocumentScorer:
-    """Score documents using spectrum positioning based on anchor similarities."""
+    """Score documents using direct spectrum positioning from LLM."""
     
     def __init__(self):
-        self.spectrum_positions = config.SPECTRUM_POSITIONS
+        # No longer need spectrum_positions since LLM provides direct positions
+        pass
     
-    def score_document(self, similarities: Dict) -> Dict:
+    def score_document(self, positions: Dict) -> Dict:
         """
-        Calculate spectrum scores for a document based on similarities to anchors.
+        Process document positions from LLM.
         
         Args:
-            similarities: Dictionary with similarity scores for all dimensions and categories
+            positions: Dictionary with direct positions on each spectrum
             
         Returns:
             Dictionary with spectrum scores for each dimension
         """
-        if not similarities:
+        if not positions:
             return self._get_default_scores()
         
-        scores = {}
-        
-        # Calculate spectrum position for each dimension
-        for dimension in ['supply', 'demand', 'policy_strength']:
-            if dimension in similarities:
-                score = self.calculate_spectrum_score(similarities[dimension], dimension)
-                scores[dimension] = score
-            else:
-                scores[dimension] = 0
-        
-        # Add confidence if available
-        if 'confidence' in similarities:
-            scores['confidence'] = similarities['confidence']
-        else:
-            scores['confidence'] = self._calculate_confidence(similarities)
+        # Direct passthrough of positions as scores
+        scores = {
+            'supply': positions.get('supply', 0),
+            'demand': positions.get('demand', 0),
+            'policy_strength': positions.get('policy_strength', 0)
+        }
         
         # Add interpretations
         scores['interpretations'] = self._interpret_scores(scores)
         
         return scores
-    
-    def calculate_spectrum_score(self, category_similarities: Dict, dimension: str) -> float:
-        """
-        Calculate position on spectrum using weighted interpolation.
-        
-        Args:
-            category_similarities: Similarity scores for each category
-            dimension: The dimension being scored
-            
-        Returns:
-            Position on spectrum (-100 to 100 for supply/demand, 0 to 100 for policy_strength)
-        """
-        # Get total similarity
-        total_similarity = sum(category_similarities.values())
-        
-        # If no similarity to any anchor, return neutral position
-        if total_similarity == 0:
-            return 0
-        
-        # Calculate normalized weights
-        weights = {
-            cat: sim / total_similarity 
-            for cat, sim in category_similarities.items()
-        }
-        
-        # Get spectrum positions for this dimension
-        positions = self.spectrum_positions[dimension]
-        
-        # Calculate weighted position
-        spectrum_score = sum(
-            weights.get(cat, 0) * positions.get(cat, 0) 
-            for cat in positions
-        )
-        
-        return round(spectrum_score, 2)
-    
-    def _calculate_confidence(self, similarities: Dict) -> float:
-        """
-        Calculate confidence based on similarity strength and consistency.
-        
-        Args:
-            similarities: All similarity scores
-            
-        Returns:
-            Confidence score (0-100)
-        """
-        all_scores = []
-        for dimension in ['supply', 'demand', 'policy_strength']:
-            if dimension in similarities:
-                all_scores.extend(similarities[dimension].values())
-        
-        if not all_scores:
-            return 0
-        
-        # Higher max similarity = higher confidence
-        max_similarity = max(all_scores)
-        
-        # Lower variance = higher confidence (more decisive)
-        variance = np.var(all_scores)
-        variance_factor = max(0, 1 - variance / 1000)  # Normalize variance impact
-        
-        # Combine factors
-        confidence = (max_similarity * 0.7 + variance_factor * 100 * 0.3)
-        
-        return round(min(100, max(0, confidence)), 2)
     
     def _interpret_scores(self, scores: Dict) -> Dict:
         """
@@ -121,31 +47,39 @@ class DocumentScorer:
         """
         interpretations = {}
         
-        # Supply interpretation
+        # Supply interpretation (extended range)
         supply_score = scores.get('supply', 0)
-        if supply_score <= -75:
-            interpretations['supply'] = "Major supply decrease"
+        if supply_score <= -110:
+            interpretations['supply'] = "Extreme supply restriction"
+        elif supply_score <= -75:
+            interpretations['supply'] = "Strong supply restriction"
         elif supply_score <= -25:
-            interpretations['supply'] = "Minor supply decrease"
+            interpretations['supply'] = "Supply reduction"
         elif supply_score <= 25:
             interpretations['supply'] = "Neutral supply impact"
         elif supply_score <= 75:
-            interpretations['supply'] = "Minor supply increase"
+            interpretations['supply'] = "Supply increase"
+        elif supply_score <= 110:
+            interpretations['supply'] = "Strong supply expansion"
         else:
-            interpretations['supply'] = "Major supply increase"
+            interpretations['supply'] = "Extreme supply expansion"
         
-        # Demand interpretation
+        # Demand interpretation (extended range)
         demand_score = scores.get('demand', 0)
-        if demand_score <= -75:
-            interpretations['demand'] = "Major demand decrease"
+        if demand_score <= -110:
+            interpretations['demand'] = "Extreme demand restriction"
+        elif demand_score <= -75:
+            interpretations['demand'] = "Strong demand restriction"
         elif demand_score <= -25:
-            interpretations['demand'] = "Minor demand decrease"
+            interpretations['demand'] = "Demand reduction"
         elif demand_score <= 25:
             interpretations['demand'] = "Neutral demand impact"
         elif demand_score <= 75:
-            interpretations['demand'] = "Minor demand increase"
+            interpretations['demand'] = "Demand increase"
+        elif demand_score <= 110:
+            interpretations['demand'] = "Strong demand expansion"
         else:
-            interpretations['demand'] = "Major demand increase"
+            interpretations['demand'] = "Extreme demand expansion"
         
         # Policy strength interpretation
         policy_score = scores.get('policy_strength', 0)
@@ -168,7 +102,6 @@ class DocumentScorer:
         supply = scores.get('supply', 0)
         demand = scores.get('demand', 0)
         policy = scores.get('policy_strength', 0)
-        confidence = scores.get('confidence', 0)
         
         # Determine price pressure
         # Positive supply = more supply = downward price pressure
@@ -196,15 +129,7 @@ class DocumentScorer:
         else:
             enforcement = "as informational guidance"
         
-        # Add confidence qualifier
-        if confidence > 80:
-            confidence_qual = "High confidence"
-        elif confidence > 60:
-            confidence_qual = "Moderate confidence"
-        else:
-            confidence_qual = "Low confidence"
-        
-        return f"{confidence_qual}: {price_impact} {enforcement}"
+        return f"{price_impact} {enforcement}"
     
     def _get_default_scores(self) -> Dict:
         """Return default scores when no similarities are available."""
@@ -212,7 +137,6 @@ class DocumentScorer:
             'supply': 0,
             'demand': 0,
             'policy_strength': 0,
-            'confidence': 0,
             'interpretations': {
                 'supply': "No supply impact detected",
                 'demand': "No demand impact detected",

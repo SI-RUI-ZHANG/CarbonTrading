@@ -10,7 +10,7 @@ from datetime import datetime
 import pandas as pd
 
 import config
-from api_client import SimilarityScorer
+from api_client import DocumentPositioner
 from document_scorer import DocumentScorer
 
 class BatchProcessor:
@@ -20,7 +20,7 @@ class BatchProcessor:
         self.batch_size = batch_size or config.DEFAULT_BATCH_SIZE
         self.max_workers = max_workers or config.MAX_PARALLEL_WORKERS
         
-        self.similarity_scorer = SimilarityScorer()
+        self.position_scorer = DocumentPositioner()
         self.document_scorer = DocumentScorer()
         
         # Track progress
@@ -134,14 +134,14 @@ class BatchProcessor:
     def _score_single_document(self, document: Dict) -> Optional[Dict]:
         """Score a single document."""
         try:
-            # Get similarities from LLM
-            similarities = self.similarity_scorer.get_document_similarities(document)
+            # Get positions from LLM
+            positions = self.position_scorer.get_document_positions(document)
             
-            if not similarities:
+            if not positions:
                 return None
             
-            # Calculate spectrum scores
-            scores = self.document_scorer.score_document(similarities)
+            # Process positions into scores
+            scores = self.document_scorer.score_document(positions)
             
             # Combine results
             return {
@@ -149,7 +149,7 @@ class BatchProcessor:
                 'title': document.get('title', ''),
                 'source': document.get('source', ''),
                 'publish_date': document.get('publish_date', ''),
-                'similarities': similarities,
+                'positions': positions,
                 'scores': scores,
                 'timestamp': datetime.now().isoformat()
             }
@@ -212,7 +212,7 @@ class BatchProcessor:
         df = pd.DataFrame(self.all_scores)
         
         # Extract scores into separate columns
-        for dim in ['supply', 'demand', 'policy_strength', 'confidence']:
+        for dim in ['supply', 'demand', 'policy_strength']:
             df[f'score_{dim}'] = df['scores'].apply(lambda x: x.get(dim, 0))
         
         # Save as parquet
@@ -230,7 +230,7 @@ class BatchProcessor:
         """Calculate score distributions and statistics."""
         distributions = {}
         
-        for dim in ['supply', 'demand', 'policy_strength', 'confidence']:
+        for dim in ['supply', 'demand', 'policy_strength']:
             col = f'score_{dim}'
             if col in df.columns:
                 distributions[dim] = {
@@ -258,7 +258,7 @@ class BatchProcessor:
             'success_rate': len(self.processed_docs) / max(len(self.processed_docs) + len(self.failed_docs), 1),
             'elapsed_time_seconds': elapsed_time,
             'avg_time_per_doc': elapsed_time / max(len(self.processed_docs), 1),
-            'api_stats': self.similarity_scorer.get_stats(),
+            'api_stats': self.position_scorer.get_stats(),
             'timestamp': datetime.now().isoformat()
         }
         

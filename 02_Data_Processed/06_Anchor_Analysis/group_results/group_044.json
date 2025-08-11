@@ -1,41 +1,41 @@
 {
   "supply": {
-    "major_decrease": null,
-    "minor_decrease": {
-      "doc_id": "f4426f1d55f71f6d",
-      "title": "2016年度广东省碳排放配额有偿发放（第四次）竞价情况"
+    "restrict": null,
+    "reduce": null,
+    "increase": {
+      "doc_id": "ee0a19cc9fcd1de0",
+      "title": "广东省碳市场开锣 创下多个第一"
     },
-    "minor_increase": {
-      "doc_id": "12b9bab971bbadae",
-      "title": "2016年度广东省碳排放配额有偿发放（第四次）公告"
-    },
-    "major_increase": null
+    "expand": {
+      "doc_id": "0e23d368835b8ea8",
+      "title": "广碳所开创中国特色碳交易市场体制"
+    }
   },
   "demand": {
-    "major_increase": null,
-    "minor_increase": {
-      "doc_id": "0f3863de0332d2a1",
-      "title": "广州碳排放权交易中心关于征集绿色融资项目的公告"
-    },
-    "minor_decrease": null,
-    "major_decrease": null
+    "restrict": null,
+    "reduce": null,
+    "increase": null,
+    "expand": {
+      "doc_id": "383125f0a5a4ef6b",
+      "title": "广东启动碳排放权交易 多个创新减排项目签约"
+    }
   },
   "policy_strength": {
     "mandatory": {
-      "doc_id": "77798c213a80cbd2",
-      "title": "广东省省级碳普惠制核证减排量（PHCER）项目竞价公告"
+      "doc_id": "ee0a19cc9fcd1de0",
+      "title": "广东省碳市场开锣 创下多个第一"
     },
     "binding": {
-      "doc_id": "0942883da8374880",
-      "title": "广东省碳排放配额回购交易购碳需求发布"
+      "doc_id": "383125f0a5a4ef6b",
+      "title": "广东启动碳排放权交易 多个创新减排项目签约"
     },
     "encouraged": {
-      "doc_id": "330e9c567f04e0a9",
-      "title": "广州碳排放权交易中心经纪机构招募公告"
+      "doc_id": "0e23d368835b8ea8",
+      "title": "广碳所开创中国特色碳交易市场体制"
     },
     "informational": {
-      "doc_id": "1d4e4d80759073f7",
-      "title": "CCER出售需求发布"
+      "doc_id": "c04e3132e23a7b96",
+      "title": "碳交易师岗位能力培训招生简章"
     }
   }
 }

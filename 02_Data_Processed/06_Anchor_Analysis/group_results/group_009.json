@@ -1,41 +1,29 @@
 {
   "supply": {
-    "major_decrease": null,
-    "minor_decrease": {
-      "doc_id": "18942db5c6af5c65",
+    "restrict": null,
+    "reduce": {
+      "doc_id": "77ca537d5942d26b",
       "title": "湖北省产品碳足迹公共服务平台正式发布"
     },
-    "minor_increase": {
-      "doc_id": "79ac250745c7803a",
-      "title": "校企合作湖北碳交获评全国水利与生态环保行业高校学生实习实践基地"
-    },
-    "major_increase": null
+    "increase": null,
+    "expand": null
   },
   "demand": {
-    "major_increase": null,
-    "minor_increase": {
-      "doc_id": "79ac250745c7803a",
-      "title": "校企合作湖北碳交获评全国水利与生态环保行业高校学生实习实践基地"
-    },
-    "minor_decrease": null,
-    "major_decrease": null
+    "restrict": null,
+    "reduce": null,
+    "increase": null,
+    "expand": null
   },
   "policy_strength": {
-    "mandatory": {
-      "doc_id": "90b3c0456b1c7805",
-      "title": "关于举办温室气体管理师基础知识课程培训的通知"
-    },
+    "mandatory": null,
     "binding": {
-      "doc_id": "79ac250745c7803a",
-      "title": "校企合作湖北碳交获评全国水利与生态环保行业高校学生实习实践基地"
-    },
-    "encouraged": {
-      "doc_id": "18942db5c6af5c65",
+      "doc_id": "77ca537d5942d26b",
       "title": "湖北省产品碳足迹公共服务平台正式发布"
     },
+    "encouraged": null,
     "informational": {
-      "doc_id": "1806cb1034e8da76",
-      "title": "关于举办温室气体管理师基础知识课程培训的通知"
+      "doc_id": "e16c29b4990f1cc2",
+      "title": "湖北省产品碳足迹公共服务平台正式发布"
     }
   }
 }

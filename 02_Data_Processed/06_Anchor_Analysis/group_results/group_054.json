@@ -1,32 +1,26 @@
 {
   "supply": {
-    "major_decrease": null,
-    "minor_decrease": {
-      "doc_id": "92412b27b8b22020",
-      "title": "关于暂停受理远期交易业务的公告"
-    },
-    "minor_increase": {
-      "doc_id": "420214fd64f75d4a",
-      "title": "关于纳入全国碳市场发电企业（含自备电厂）广东省配额解冻的通知"
-    },
-    "major_increase": null
+    "restrict": null,
+    "reduce": null,
+    "increase": null,
+    "expand": null
   },
   "demand": {
-    "major_increase": null,
-    "minor_increase": null,
-    "minor_decrease": null,
-    "major_decrease": null
+    "restrict": null,
+    "reduce": null,
+    "increase": null,
+    "expand": null
   },
   "policy_strength": {
-    "mandatory": {
-      "doc_id": "05e075af0636f67e",
-      "title": "关于信托公司办理开户事宜的通知"
-    },
+    "mandatory": null,
     "binding": null,
-    "encouraged": null,
+    "encouraged": {
+      "doc_id": "2e4a420ba7ed47da",
+      "title": "广碳所举办碳交易走进茂名石化培训活动"
+    },
     "informational": {
-      "doc_id": "30e215a38a981c2a",
-      "title": "关于在履约期前增加交易时间的公告"
+      "doc_id": "c4277177694a5203",
+      "title": "全国碳交易师培训黄埔十期完美收官"
     }
   }
 }

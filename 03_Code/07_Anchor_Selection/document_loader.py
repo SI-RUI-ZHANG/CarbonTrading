@@ -4,15 +4,23 @@ import json
 import os
 from typing import List, Dict
 from pathlib import Path
+from datetime import datetime
 import config
 
 def load_filtered_documents() -> List[Dict]:
     """Load all filtered documents from JSONL files.
     
+    IMPORTANT: Only loads documents published before or on 2020-12-31
+    to avoid data leakage in anchor selection for LSTM training.
+    
     Returns:
         List of document dictionaries with full content
     """
     all_documents = []
+    filtered_count = 0
+    
+    # CRITICAL: Training data cutoff date to avoid data leakage
+    TRAINING_CUTOFF = datetime(2020, 12, 31)
     
     # Define sources and their sections
     sources = {
@@ -29,9 +37,40 @@ def load_filtered_documents() -> List[Dict]:
             
             if file_path.exists():
                 print(f"Loading {source}/{section}...")
+                section_docs = 0
+                section_filtered = 0
+                
                 with open(file_path, 'r', encoding='utf-8') as f:
                     for line in f:
                         doc = json.loads(line.strip())
+                        
+                        # Parse publish date and filter out documents after training cutoff
+                        publish_date_str = doc.get('publish_date', '')
+                        if publish_date_str:
+                            try:
+                                # Parse date string (format: "2020-01-01" or "2020-01-01T00:00:00")
+                                if 'T' in publish_date_str:
+                                    publish_date = datetime.fromisoformat(publish_date_str.split('T')[0])
+                                else:
+                                    publish_date = datetime.strptime(publish_date_str, '%Y-%m-%d')
+                                
+                                # Skip documents after training cutoff
+                                if publish_date > TRAINING_CUTOFF:
+                                    section_filtered += 1
+                                    filtered_count += 1
+                                    continue
+                            except (ValueError, TypeError) as e:
+                                print(f"    Warning: Could not parse date '{publish_date_str}' for doc {doc.get('doc_id', 'unknown')}: {e}")
+                                # Skip documents with unparseable dates to be safe
+                                section_filtered += 1
+                                filtered_count += 1
+                                continue
+                        else:
+                            # Skip documents without dates
+                            section_filtered += 1
+                            filtered_count += 1
+                            continue
+                        
                         # Keep full content, no truncation
                         all_documents.append({
                             'doc_id': doc['doc_id'],
@@ -42,11 +81,17 @@ def load_filtered_documents() -> List[Dict]:
                             'publish_date': doc.get('publish_date', ''),
                             'url': doc.get('url', '')
                         })
-                print(f"  Loaded {len([d for d in all_documents if d['source'] == source and d['section'] == section])} documents")
+                        section_docs += 1
+                
+                print(f"  Loaded {section_docs} documents (filtered out {section_filtered} after {TRAINING_CUTOFF.date()})")
             else:
                 print(f"  Warning: File not found - {file_path}")
     
-    print(f"\nTotal documents loaded: {len(all_documents)}")
+    print(f"\n📊 Document Loading Summary:")
+    print(f"  Total documents loaded: {len(all_documents)}")
+    print(f"  Documents filtered out (after {TRAINING_CUTOFF.date()}): {filtered_count}")
+    print(f"  ⚠️  Using only pre-2021 documents to avoid data leakage in LSTM training")
+    
     return all_documents
 
 

@@ -1,38 +1,32 @@
 {
   "supply": {
-    "major_decrease": null,
-    "minor_decrease": {
-      "doc_id": "1ec871e58668c092",
-      "title": "2015年度广东省碳排放配额有偿发放（第四次）竞价情况"
-    },
-    "minor_increase": {
-      "doc_id": "54e39a4b8011a981",
-      "title": "2016年度广东省碳排放配额有偿发放（第二次）公告"
-    },
-    "major_increase": null
+    "restrict": null,
+    "reduce": null,
+    "increase": null,
+    "expand": {
+      "doc_id": "7492bcb188bd0c9d",
+      "title": "共建美丽广东，助推生态文明建设 广碳所在行动：系列四 生态产品价值实现"
+    }
   },
   "demand": {
-    "major_increase": null,
-    "minor_increase": {
-      "doc_id": "63115db639def01a",
-      "title": "广东省碳排放配额回购交易购碳需求发布"
-    },
-    "minor_decrease": null,
-    "major_decrease": null
+    "restrict": null,
+    "reduce": null,
+    "increase": null,
+    "expand": {
+      "doc_id": "7492bcb188bd0c9d",
+      "title": "共建美丽广东，助推生态文明建设 广碳所在行动：系列四 生态产品价值实现"
+    }
   },
   "policy_strength": {
-    "mandatory": {
-      "doc_id": "293b7f36e09855e3",
-      "title": "广东省发展改革委关于做好2015年度企业碳排放信息报告核查和配额清缴履约相关工作的通知"
+    "mandatory": null,
+    "binding": {
+      "doc_id": "482d30c27941d844",
+      "title": "共建零碳中国，助力碳排放达峰 广碳所在行动：系列三 新能源"
     },
-    "binding": null,
     "encouraged": {
-      "doc_id": "b6835fdf945afa3e",
-      "title": "绿色融资意向征集活动通知"
+      "doc_id": "7492bcb188bd0c9d",
+      "title": "共建美丽广东，助推生态文明建设 广碳所在行动：系列四 生态产品价值实现"
     },
-    "informational": {
-      "doc_id": "63115db639def01a",
-      "title": "广东省碳排放配额回购交易购碳需求发布"
-    }
+    "informational": null
   }
 }

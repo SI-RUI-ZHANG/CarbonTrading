@@ -1,44 +1,38 @@
 {
   "supply": {
-    "major_decrease": null,
-    "minor_decrease": {
-      "doc_id": "c444b9f0f0a51255",
-      "title": "关于举办温室气体管理师基础知识课程培训的通知"
+    "restrict": null,
+    "reduce": null,
+    "increase": {
+      "doc_id": "4ffc2a602df820c2",
+      "title": "关于广东省2019年度碳排放配额有偿竞价发放的预通知"
     },
-    "minor_increase": {
-      "doc_id": "bb108809949148a9",
-      "title": "MBAESG双驱商业领袖高级研修班招生简章"
-    },
-    "major_increase": {
-      "doc_id": "fbfdebbf511d1ce4",
-      "title": "关于举办温室气体管理师基础知识课程培训的通知"
+    "expand": {
+      "doc_id": "7a04d605a6ef7464",
+      "title": "2018年广东省韶关市贫困村林业碳普惠项目竞价情况"
     }
   },
   "demand": {
-    "major_increase": null,
-    "minor_increase": {
-      "doc_id": "bb108809949148a9",
-      "title": "MBAESG双驱商业领袖高级研修班招生简章"
+    "restrict": null,
+    "reduce": null,
+    "increase": {
+      "doc_id": "fbff5901c334a349",
+      "title": "广东省碳排放配额回购交易购碳需求发布"
     },
-    "minor_decrease": null,
-    "major_decrease": null
+    "expand": null
   },
   "policy_strength": {
     "mandatory": {
-      "doc_id": "bb108809949148a9",
-      "title": "MBAESG双驱商业领袖高级研修班招生简章"
+      "doc_id": "e8c40e4f23b609e6",
+      "title": "广东省省级碳普惠制核证减排量（PHCER）项目竞价公告"
     },
     "binding": {
-      "doc_id": "0a05f97894f1d4cc",
-      "title": "MBAESG双驱商业领袖高级研修班招生简章"
+      "doc_id": "4ffc2a602df820c2",
+      "title": "关于广东省2019年度碳排放配额有偿竞价发放的预通知"
     },
-    "encouraged": {
-      "doc_id": "6fd3bc9ccf8e2e4d",
-      "title": "湖北碳交助力湖北省首家政策性银行实现碳中和"
-    },
+    "encouraged": null,
     "informational": {
-      "doc_id": "fbfdebbf511d1ce4",
-      "title": "关于举办温室气体管理师基础知识课程培训的通知"
+      "doc_id": "541be4d6532587e6",
+      "title": "广东省省级碳普惠制核证减排量（PHCER）项目竞价公告"
     }
   }
 }

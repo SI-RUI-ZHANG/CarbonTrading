@@ -1,35 +1,41 @@
 {
   "supply": {
-    "major_decrease": null,
-    "minor_decrease": {
-      "doc_id": "5f1eaea4457ff508",
-      "title": "关于调整广东省碳排放配额、国家核证自愿减排量和广东省碳普惠制核证减排量收盘价规定的公告"
+    "restrict": null,
+    "reduce": null,
+    "increase": {
+      "doc_id": "1c25460dd4536da2",
+      "title": "粤碳排放权有偿配额昨第二次发放"
     },
-    "minor_increase": {
-      "doc_id": "45ec484972a1d144",
-      "title": "2017年广东省省级碳普惠制核证减排量（PHCER）项目首次竞价情况"
-    },
-    "major_increase": null
+    "expand": {
+      "doc_id": "6dbe6dd05728baec",
+      "title": "广东在全国率先开拍碳排放配额 现代卖碳翁减碳尝甜头"
+    }
   },
   "demand": {
-    "major_increase": null,
-    "minor_increase": {
-      "doc_id": "45ec484972a1d144",
-      "title": "2017年广东省省级碳普惠制核证减排量（PHCER）项目首次竞价情况"
+    "restrict": null,
+    "reduce": null,
+    "increase": {
+      "doc_id": "83775af2903b133d",
+      "title": "靳国良：碳交易首年考核履约须慎重"
     },
-    "minor_decrease": null,
-    "major_decrease": null
+    "expand": {
+      "doc_id": "865be96632efa5b8",
+      "title": "粤碳市场今启个人交易 上午成交127094元"
+    }
   },
   "policy_strength": {
     "mandatory": {
-      "doc_id": "57473a7ed6933b5e",
-      "title": "广东省省级碳普惠制核证减排量（PHCER）项目竞价公告"
+      "doc_id": "83775af2903b133d",
+      "title": "靳国良：碳交易首年考核履约须慎重"
     },
     "binding": null,
-    "encouraged": null,
+    "encouraged": {
+      "doc_id": "adbab509ba811cef",
+      "title": "广碳所首个非控排企业自营会员入市交易"
+    },
     "informational": {
-      "doc_id": "7357847dffd931dc",
-      "title": "CCER购买需求发布"
+      "doc_id": "49f4d3a2c2c746a9",
+      "title": "广碳所举行控排企业座谈会解读配额管理实施细则"
     }
   }
 }

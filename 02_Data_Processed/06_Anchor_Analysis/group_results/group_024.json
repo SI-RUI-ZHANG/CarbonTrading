@@ -1,38 +1,32 @@
 {
   "supply": {
-    "major_decrease": null,
-    "minor_decrease": {
-      "doc_id": "60e1491c1de26709",
-      "title": "湖北省产品碳足迹公共服务平台正式发布"
+    "restrict": null,
+    "reduce": null,
+    "increase": {
+      "doc_id": "12c2f53ed01bef8e",
+      "title": "2019年度广东省碳排放配额有偿发放（第一次）公告"
     },
-    "minor_increase": {
-      "doc_id": "809331ba31e67d13",
-      "title": "湖北碳交助力湖北省首家政策性银行实现碳中和"
-    },
-    "major_increase": null
+    "expand": {
+      "doc_id": "37caa6d9e9580860",
+      "title": "广东省省级碳普惠制核证减排量（PHCER）项目竞价公告"
+    }
   },
   "demand": {
-    "major_increase": null,
-    "minor_increase": {
-      "doc_id": "809331ba31e67d13",
-      "title": "湖北碳交助力湖北省首家政策性银行实现碳中和"
-    },
-    "minor_decrease": null,
-    "major_decrease": null
+    "restrict": null,
+    "reduce": null,
+    "increase": null,
+    "expand": null
   },
   "policy_strength": {
     "mandatory": {
-      "doc_id": "60e1491c1de26709",
-      "title": "湖北省产品碳足迹公共服务平台正式发布"
+      "doc_id": "12c2f53ed01bef8e",
+      "title": "2019年度广东省碳排放配额有偿发放（第一次）公告"
     },
-    "binding": null,
-    "encouraged": {
-      "doc_id": "809331ba31e67d13",
-      "title": "湖北碳交助力湖北省首家政策性银行实现碳中和"
+    "binding": {
+      "doc_id": "4ffc2a602df820c2",
+      "title": "关于广东省2019年度碳排放配额有偿竞价发放的预通知"
     },
-    "informational": {
-      "doc_id": "9e4add9900680b5e",
-      "title": "关于举办温室气体管理师基础知识课程培训的通知"
-    }
+    "encouraged": null,
+    "informational": null
   }
 }

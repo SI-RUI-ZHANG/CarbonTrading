@@ -1,38 +1,35 @@
 {
   "supply": {
-    "major_decrease": null,
-    "minor_decrease": {
-      "doc_id": "c7712af4c82303e5",
-      "title": "MBAESG双驱商业领袖高级研修班招生简章"
+    "restrict": null,
+    "reduce": null,
+    "increase": {
+      "doc_id": "0407a1f116c03f9b",
+      "title": "广东省省级碳普惠制核证减排量（PHCER）项目竞价公告"
     },
-    "minor_increase": null,
-    "major_increase": null
+    "expand": {
+      "doc_id": "7a04d605a6ef7464",
+      "title": "2018年广东省韶关市贫困村林业碳普惠项目竞价情况"
+    }
   },
   "demand": {
-    "major_increase": null,
-    "minor_increase": {
-      "doc_id": "c7712af4c82303e5",
-      "title": "MBAESG双驱商业领袖高级研修班招生简章"
-    },
-    "minor_decrease": null,
-    "major_decrease": null
+    "restrict": null,
+    "reduce": null,
+    "increase": null,
+    "expand": null
   },
   "policy_strength": {
     "mandatory": {
-      "doc_id": "312f4d04f1875914",
-      "title": "校企合作湖北碳交获评全国水利与生态环保行业高校学生实习实践基地"
+      "doc_id": "03fae4163ccac5ab",
+      "title": "关于修订广东省碳排放配额托管业务和回购交易业务指引的通知"
     },
     "binding": {
-      "doc_id": "82c32238fbea3fde",
-      "title": "校企合作湖北碳交获评全国水利与生态环保行业高校学生实习实践基地"
+      "doc_id": "983a68c768093ab2",
+      "title": "2018年广州市花都区梯面林场林业碳普惠项目竞价情况"
     },
-    "encouraged": {
-      "doc_id": "6012b0746e54c6e1",
-      "title": "湖北碳交助力湖北省首家政策性银行实现碳中和"
-    },
+    "encouraged": null,
     "informational": {
-      "doc_id": "03f53feebf08383b",
-      "title": "关于举办温室气体管理师基础知识课程培训的通知"
+      "doc_id": "018070a4dd24a20e",
+      "title": "关于6月15日-16日交易市场不休市的公告"
     }
   }
 }

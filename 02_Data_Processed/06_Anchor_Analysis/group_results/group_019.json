@@ -1,41 +1,38 @@
 {
   "supply": {
-    "major_decrease": null,
-    "minor_decrease": {
-      "doc_id": "114fbcd09015c845",
-      "title": "MBAESG双驱商业领袖高级研修班招生简章"
+    "restrict": null,
+    "reduce": {
+      "doc_id": "1ec871e58668c092",
+      "title": "2015年度广东省碳排放配额有偿发放（第四次）竞价情况"
     },
-    "minor_increase": {
-      "doc_id": "b5bf2a4078a44703",
-      "title": "关于举办温室气体管理师基础知识课程培训的通知"
+    "increase": {
+      "doc_id": "54e39a4b8011a981",
+      "title": "2016年度广东省碳排放配额有偿发放（第二次）公告"
     },
-    "major_increase": null
+    "expand": null
   },
   "demand": {
-    "major_increase": null,
-    "minor_increase": {
-      "doc_id": "b5bf2a4078a44703",
-      "title": "关于举办温室气体管理师基础知识课程培训的通知"
+    "restrict": null,
+    "reduce": null,
+    "increase": {
+      "doc_id": "63115db639def01a",
+      "title": "广东省碳排放配额回购交易购碳需求发布"
     },
-    "minor_decrease": null,
-    "major_decrease": null
+    "expand": null
   },
   "policy_strength": {
     "mandatory": {
-      "doc_id": "b1bd10f917179b2d",
-      "title": "湖北省产品碳足迹公共服务平台正式发布"
+      "doc_id": "54e39a4b8011a981",
+      "title": "2016年度广东省碳排放配额有偿发放（第二次）公告"
     },
-    "binding": {
-      "doc_id": "4bb0ed0e8e8e9001",
-      "title": "湖北省产品碳足迹公共服务平台正式发布"
-    },
+    "binding": null,
     "encouraged": {
-      "doc_id": "b5bf2a4078a44703",
-      "title": "关于举办温室气体管理师基础知识课程培训的通知"
+      "doc_id": "0f3863de0332d2a1",
+      "title": "广州碳排放权交易中心关于征集绿色融资项目的公告"
     },
     "informational": {
-      "doc_id": "ef54c45c380af023",
-      "title": "关于举办温室气体管理师基础知识课程培训的通知"
+      "doc_id": "0942883da8374880",
+      "title": "广东省碳排放配额回购交易购碳需求发布"
     }
   }
 }

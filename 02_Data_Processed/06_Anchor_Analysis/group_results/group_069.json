@@ -1,35 +1,50 @@
 {
   "supply": {
-    "major_decrease": null,
-    "minor_decrease": {
-      "doc_id": "306b28f871b5cee5",
-      "title": "广碳所联合撰写课题获评为国家机关事务管理局2022-2023年度公共机构绿色低碳转型优秀课题"
+    "restrict": null,
+    "reduce": {
+      "doc_id": "3f554916baef067f",
+      "title": "广东省2014年度碳排放配额分配实施方案"
     },
-    "minor_increase": null,
-    "major_increase": null
+    "increase": {
+      "doc_id": "430346064afbd7b3",
+      "title": "广东2014年碳排放配额首次竞价 成交超5000万元"
+    },
+    "expand": {
+      "doc_id": "7c3e6203482b465c",
+      "title": "广东履约顺利完成 拍卖规则将改"
+    }
   },
   "demand": {
-    "major_increase": null,
-    "minor_increase": null,
-    "minor_decrease": null,
-    "major_decrease": null
+    "restrict": {
+      "doc_id": "2039bc86c41eaf72",
+      "title": "广东省发展改革委关于2013年度碳交易未履约企业情况的公告"
+    },
+    "reduce": null,
+    "increase": {
+      "doc_id": "bcd9293a5193afb6",
+      "title": "广东2014年碳排放配额首次竞价情况热烈 成交超5000万元"
+    },
+    "expand": {
+      "doc_id": "e18999742f773adc",
+      "title": "广东：配额竞拍收入拟纳入碳基金鼓励减排"
+    }
   },
   "policy_strength": {
     "mandatory": {
-      "doc_id": "306b28f871b5cee5",
-      "title": "广碳所联合撰写课题获评为国家机关事务管理局2022-2023年度公共机构绿色低碳转型优秀课题"
+      "doc_id": "2039bc86c41eaf72",
+      "title": "广东省发展改革委关于2013年度碳交易未履约企业情况的公告"
     },
     "binding": {
-      "doc_id": "09ef0643dabae14c",
-      "title": "广碳所生态产品价值实现平台正式发布红树林、城市绿地领域碳汇计量与监测方法"
+      "doc_id": "e18999742f773adc",
+      "title": "广东：配额竞拍收入拟纳入碳基金鼓励减排"
     },
     "encouraged": {
-      "doc_id": "f0879be9a95de41e",
-      "title": "广东省博物馆联合广碳所等开展绿色博物馆主题活动"
+      "doc_id": "6b7fac48103c0d08",
+      "title": "粤首批私家车主签署《承诺书》实现碳中和"
     },
     "informational": {
-      "doc_id": "9b4d676066af5776",
-      "title": "第一期碳资产开发与交易实务培训班成功举办"
+      "doc_id": "d5e9c95e894674bf",
+      "title": "广东省控排企业碳排放交易培训班在广州召开"
     }
   }
 }

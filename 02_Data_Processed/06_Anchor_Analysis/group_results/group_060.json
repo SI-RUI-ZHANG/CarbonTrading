@@ -1,38 +1,38 @@
 {
   "supply": {
-    "major_decrease": null,
-    "minor_decrease": {
-      "doc_id": "f4426f1d55f71f6d",
-      "title": "2016年度广东省碳排放配额有偿发放（第四次）竞价情况"
+    "restrict": {
+      "doc_id": "cd64bd6e75f5bc11",
+      "title": "关于暂停受理省级碳普惠核证减排量备案申请的通知"
     },
-    "minor_increase": {
-      "doc_id": "8d99dcf9944f2d94",
-      "title": "2016年度广东省碳排放配额有偿发放（第三次）公告"
+    "reduce": {
+      "doc_id": "cad0f535b33c94ba",
+      "title": "一图读懂广东省2019年度碳排放配额分配实施方案"
     },
-    "major_increase": null
+    "increase": null,
+    "expand": {
+      "doc_id": "bef05911c254a772",
+      "title": "广东省生态环境厅关于恢复受理省级碳普惠核证减排量备案申请的通知"
+    }
   },
   "demand": {
-    "major_increase": null,
-    "minor_increase": {
-      "doc_id": "e415dcf97d95a55a",
-      "title": "广东省碳排放配额回购交易购碳需求发布"
-    },
-    "minor_decrease": null,
-    "major_decrease": null
+    "restrict": null,
+    "reduce": null,
+    "increase": null,
+    "expand": null
   },
   "policy_strength": {
     "mandatory": {
-      "doc_id": "8d99dcf9944f2d94",
-      "title": "2016年度广东省碳排放配额有偿发放（第三次）公告"
+      "doc_id": "c0ad9c058eed4133",
+      "title": "关于广东省2017年度碳排放配额履约工作的最新公告"
     },
-    "binding": null,
+    "binding": {
+      "doc_id": "22548e8bf45d5845",
+      "title": "广东省发展改革委关于启动广东省近零碳排放区示范工程试点项目建设的通知"
+    },
     "encouraged": {
-      "doc_id": "f676ce05fd6733ab",
-      "title": "关于实行广东省碳排放配额回购交易优惠措施的公告"
+      "doc_id": "bef05911c254a772",
+      "title": "广东省生态环境厅关于恢复受理省级碳普惠核证减排量备案申请的通知"
     },
-    "informational": {
-      "doc_id": "e415dcf97d95a55a",
-      "title": "广东省碳排放配额回购交易购碳需求发布"
-    }
+    "informational": null
   }
 }

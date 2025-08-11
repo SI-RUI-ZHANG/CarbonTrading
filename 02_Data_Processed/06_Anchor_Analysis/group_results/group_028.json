@@ -1,41 +1,32 @@
 {
   "supply": {
-    "major_decrease": null,
-    "minor_decrease": {
-      "doc_id": "5186c05f89be98de",
-      "title": "关于举办温室气体管理师基础知识课程培训的通知"
+    "restrict": null,
+    "reduce": {
+      "doc_id": "1ec871e58668c092",
+      "title": "2015年度广东省碳排放配额有偿发放（第四次）竞价情况"
     },
-    "minor_increase": {
-      "doc_id": "03a8c70b6047dee2",
-      "title": "关于举办温室气体管理师基础知识课程培训的通知"
+    "increase": {
+      "doc_id": "5ed4ce6a2ced685a",
+      "title": "2016年度广东省碳排放配额有偿发放（第二次）竞价情况"
     },
-    "major_increase": null
+    "expand": null
   },
   "demand": {
-    "major_increase": null,
-    "minor_increase": {
-      "doc_id": "5186c05f89be98de",
-      "title": "关于举办温室气体管理师基础知识课程培训的通知"
-    },
-    "minor_decrease": null,
-    "major_decrease": null
+    "restrict": null,
+    "reduce": null,
+    "increase": null,
+    "expand": null
   },
   "policy_strength": {
     "mandatory": {
-      "doc_id": "ed9d979a325eee35",
-      "title": "MBAESG双驱商业领袖高级研修班招生简章"
+      "doc_id": "badc1135b9ad1901",
+      "title": "关于发布《广州碳排放权交易中心会员管理暂行办法（2017年修订）》的通知"
     },
-    "binding": {
-      "doc_id": "9487aa1e4d6fd536",
-      "title": "湖北省产品碳足迹公共服务平台正式发布"
-    },
-    "encouraged": {
-      "doc_id": "44af76de18507a76",
-      "title": "校企合作湖北碳交获评全国水利与生态环保行业高校学生实习实践基地"
-    },
+    "binding": null,
+    "encouraged": null,
     "informational": {
-      "doc_id": "5186c05f89be98de",
-      "title": "关于举办温室气体管理师基础知识课程培训的通知"
+      "doc_id": "cec82d3267b06878",
+      "title": "广州碳排放权交易中心会员资格和业务资质收费标准"
     }
   }
 }

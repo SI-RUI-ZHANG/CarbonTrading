@@ -8,8 +8,8 @@ from openai import OpenAI
 import config
 from smart_rate_limiter import SmartRateLimiter
 
-class SimilarityScorer:
-    """Client for scoring document similarities using GPT-4o-mini."""
+class DocumentPositioner:
+    """Client for positioning documents on policy spectrums using GPT-4o."""
     
     def __init__(self):
         self.client = OpenAI(api_key=config.API_KEY)
@@ -61,17 +61,17 @@ class SimilarityScorer:
                         }
         return anchors
     
-    def get_document_similarities(self, document: Dict) -> Optional[Dict]:
+    def get_document_positions(self, document: Dict) -> Optional[Dict]:
         """
-        Get similarity scores for a document against all 12 anchors in one API call.
+        Get spectrum positions for a document by comparing to reference anchors.
         
         Args:
             document: Document dictionary with title and content
             
         Returns:
-            Dictionary with similarity scores for all dimensions and categories
+            Dictionary with positions on each spectrum
         """
-        prompt = self._build_similarity_prompt(document)
+        prompt = self._build_position_prompt(document)
         
         for attempt in range(config.MAX_RETRY_ATTEMPTS):
             try:
@@ -83,7 +83,7 @@ class SimilarityScorer:
                     messages=[
                         {
                             "role": "system", 
-                            "content": "You are an expert at analyzing carbon trading policy documents. Compare documents based on their semantic meaning and policy implications, not superficial characteristics."
+                            "content": "You are an expert at positioning carbon trading policy documents on intensity spectrums. Determine exact positions based on policy content and implications."
                         },
                         {"role": "user", "content": prompt}
                     ],
@@ -100,7 +100,7 @@ class SimilarityScorer:
                 result = json.loads(response.choices[0].message.content)
                 
                 # Validate structure
-                if self._validate_similarity_response(result):
+                if self._validate_position_response(result):
                     return result
                 else:
                     print(f"    Invalid response structure for doc {document.get('doc_id', 'unknown')}")
@@ -141,8 +141,8 @@ class SimilarityScorer:
         
         return None
     
-    def _build_similarity_prompt(self, document: Dict) -> str:
-        """Build the prompt for similarity scoring."""
+    def _build_position_prompt(self, document: Dict) -> str:
+        """Build the prompt for position scoring."""
         # Truncate document content to manage token usage
         doc_content = document.get('content', '')[:1500] + '...'
         
@@ -154,37 +154,43 @@ class SimilarityScorer:
         
         # Add each anchor
         for dimension in ['supply', 'demand', 'policy_strength']:
-            for category in self.anchors.get(dimension, {}):
-                anchor = self.anchors[dimension][category]
-                key = f"{dimension}_{category}" if dimension != 'policy_strength' else f"policy_{category}"
-                format_args[key] = f"{anchor['title'][:100]}: {anchor['content'][:200]}"
+            # Get the correct categories for this dimension
+            if dimension == 'policy_strength':
+                categories = ['informational', 'encouraged', 'binding', 'mandatory']
+            else:
+                categories = ['restrict', 'reduce', 'increase', 'expand']
+            
+            for category in categories:
+                if dimension in self.anchors and category in self.anchors[dimension]:
+                    anchor = self.anchors[dimension][category]
+                    key = f"{dimension}_{category}" if dimension != 'policy_strength' else f"policy_{category}"
+                    format_args[key] = f"{anchor['title'][:100]}: {anchor['content'][:200]}"
+                else:
+                    # Provide empty anchor if missing
+                    key = f"{dimension}_{category}" if dimension != 'policy_strength' else f"policy_{category}"
+                    format_args[key] = "No anchor document available"
         
-        return config.SIMILARITY_PROMPT_TEMPLATE.format(**format_args)
+        return config.POSITION_SCORING_PROMPT.format(**format_args)
     
-    def _validate_similarity_response(self, response: Dict) -> bool:
-        """Validate the structure of the similarity response."""
-        required_dimensions = ['supply', 'demand', 'policy_strength']
+    def _validate_position_response(self, response: Dict) -> bool:
+        """Validate the structure of the position response."""
+        required_fields = ['supply', 'demand', 'policy_strength']
         
-        for dim in required_dimensions:
-            if dim not in response:
+        for field in required_fields:
+            if field not in response:
                 return False
             
-            # Check categories based on dimension
-            if dim == 'supply' or dim == 'demand':
-                required_cats = ['major_decrease', 'minor_decrease', 'minor_increase', 'major_increase']
-            else:  # policy_strength
-                required_cats = ['informational', 'encouraged', 'binding', 'mandatory']
-            
-            for cat in required_cats:
-                if cat not in response[dim]:
-                    return False
-                # Check if it's a valid number
-                try:
-                    score = float(response[dim][cat])
-                    if not 0 <= score <= 100:
+            # Check if it's a valid number in the correct range
+            try:
+                position = float(response[field])
+                if field == 'policy_strength':
+                    if not 0 <= position <= 150:
                         return False
-                except (TypeError, ValueError):
-                    return False
+                else:  # supply or demand
+                    if not -150 <= position <= 150:
+                        return False
+            except (TypeError, ValueError):
+                return False
         
         return True
     

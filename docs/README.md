@@ -25,7 +25,6 @@ Comprehensive documentation for the Chinese regional carbon markets analysis pro
 ## 📈 Analysis
 - [Data Publication Lag](04_analysis/01_data_lag_analysis.md) - Analysis of data availability delays
 - [Model Performance](04_analysis/02_model_performance.md) - Comparative results across strategies
-- [Score Analysis](04_analysis/03_score_analysis.md) - Document scoring insights
 
 ## 🔧 API Reference
 - [Carbon Markets API](05_api_reference/carbon_markets_api.md)
@@ -42,8 +41,8 @@ Different lag strategies for daily (1-day) vs monthly/quarterly (15-day) data, r
 ### 2. MapReduce Anchor Selection
 Scalable selection of 12 exemplar documents from 2,617 using parallel processing and binary tournament merging.
 
-### 3. Spectrum Positioning
-Documents scored on bidirectional spectrums (-100 to +100) for supply/demand, capturing directional policy impacts.
+### 3. Direct Spectrum Positioning
+Documents placed directly on bidirectional spectrums (-150 to +150) for supply/demand, with LLM determining exact positions without complex calculations.
 
 ### 4. Smart Rate Limiting
 Adaptive API throttling that automatically recovers from rate limits while maximizing throughput.

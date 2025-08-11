@@ -1,38 +1,35 @@
 {
   "supply": {
-    "major_decrease": null,
-    "minor_decrease": {
-      "doc_id": "2e2c06c257e99196",
-      "title": "湖北碳交助力湖北省首家政策性银行实现碳中和"
-    },
-    "minor_increase": {
-      "doc_id": "9d1d0c76bb0b4068",
-      "title": "湖北碳交助力湖北省首家政策性银行实现碳中和"
-    },
-    "major_increase": null
+    "restrict": null,
+    "reduce": null,
+    "increase": null,
+    "expand": {
+      "doc_id": "6b65f36a8f43dd85",
+      "title": "广东省省级碳普惠制核证减排量（PHCER）项目竞价公告"
+    }
   },
   "demand": {
-    "major_increase": null,
-    "minor_increase": {
-      "doc_id": "9d1d0c76bb0b4068",
-      "title": "湖北碳交助力湖北省首家政策性银行实现碳中和"
+    "restrict": null,
+    "reduce": null,
+    "increase": {
+      "doc_id": "45ec484972a1d144",
+      "title": "2017年广东省省级碳普惠制核证减排量（PHCER）项目首次竞价情况"
     },
-    "minor_decrease": null,
-    "major_decrease": null
+    "expand": null
   },
   "policy_strength": {
     "mandatory": {
-      "doc_id": "c519608d6d06347c",
-      "title": "湖北省产品碳足迹公共服务平台正式发布"
+      "doc_id": "6b65f36a8f43dd85",
+      "title": "广东省省级碳普惠制核证减排量（PHCER）项目竞价公告"
     },
     "binding": null,
     "encouraged": {
-      "doc_id": "aa0239221a556d71",
-      "title": "湖北省产品碳足迹公共服务平台正式发布"
+      "doc_id": "45ec484972a1d144",
+      "title": "2017年广东省省级碳普惠制核证减排量（PHCER）项目首次竞价情况"
     },
     "informational": {
-      "doc_id": "ef4e341ce5a6601c",
-      "title": "湖北碳交助力湖北省首家政策性银行实现碳中和"
+      "doc_id": "541be4d6532587e6",
+      "title": "广东省省级碳普惠制核证减排量（PHCER）项目竞价公告"
     }
   }
 }

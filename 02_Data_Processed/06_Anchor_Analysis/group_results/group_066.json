@@ -1,47 +1,50 @@
 {
   "supply": {
-    "major_decrease": {
-      "doc_id": "a0a8f2741a507068",
-      "title": "广东省2024年度碳排放配额分配方案解读"
+    "restrict": null,
+    "reduce": {
+      "doc_id": "49c9ad655a4c3db9",
+      "title": "广东2016年度碳排放配额分配实施方案出炉 航企和机场年内纳入碳控排"
     },
-    "minor_decrease": {
-      "doc_id": "4e387403fdba37ed",
-      "title": "广州碳交中心承办双碳战略 绿色转型 国企先行绿色低碳高质量发展活动"
-    },
-    "minor_increase": null,
-    "major_increase": null
+    "increase": null,
+    "expand": {
+      "doc_id": "1aad678ef8a9b5de",
+      "title": "广东碳交易新增两大行业 一图看懂配额如何分配"
+    }
   },
   "demand": {
-    "major_increase": {
-      "doc_id": "faa8c93a061f3ea6",
-      "title": "广东省碳排放管理和交易新纳入行业企业专题培训顺利举行"
+    "restrict": {
+      "doc_id": "dfd1f922b7e4cd64",
+      "title": "广东省发展改革委关于控排企业使用国家核证自愿减排量抵消实际碳排放有关事宜的通知"
     },
-    "minor_increase": {
-      "doc_id": "1c98ee96991e778a",
-      "title": "广州碳排放权交易中心携手恒丰银行广州分行成功举办绿色金融沙龙活动"
+    "reduce": {
+      "doc_id": "bce22325fafc9645",
+      "title": "广东省企业核证自愿减排量CCER抵消碳排放情况通报"
     },
-    "minor_decrease": null,
-    "major_decrease": {
-      "doc_id": "a0a8f2741a507068",
-      "title": "广东省2024年度碳排放配额分配方案解读"
+    "increase": {
+      "doc_id": "1d1468235e37e60a",
+      "title": "广东配额有偿分配趋成熟稳健，配额未来仍紧缺"
+    },
+    "expand": {
+      "doc_id": "49c9ad655a4c3db9",
+      "title": "广东2016年度碳排放配额分配实施方案出炉 航企和机场年内纳入碳控排"
     }
   },
   "policy_strength": {
     "mandatory": {
-      "doc_id": "a0a8f2741a507068",
-      "title": "广东省2024年度碳排放配额分配方案解读"
+      "doc_id": "dfd1f922b7e4cd64",
+      "title": "广东省发展改革委关于控排企业使用国家核证自愿减排量抵消实际碳排放有关事宜的通知"
     },
     "binding": {
-      "doc_id": "4e387403fdba37ed",
-      "title": "广州碳交中心承办双碳战略 绿色转型 国企先行绿色低碳高质量发展活动"
+      "doc_id": "49c9ad655a4c3db9",
+      "title": "广东2016年度碳排放配额分配实施方案出炉 航企和机场年内纳入碳控排"
     },
     "encouraged": {
-      "doc_id": "589d3ea032882ba3",
-      "title": "倒计时1天  广州碳交中心承建的横琴粤澳深度合作区琴碳星人碳普惠小程序即将上线"
+      "doc_id": "6d8a48aff86b1c0f",
+      "title": "广东省发展改革委关于征集近零碳排放区示范工程试点项目的通知"
     },
     "informational": {
-      "doc_id": "525f9439d3460ea0",
-      "title": "2023年度广东碳市场新增控排企业履约指引专题沙龙活动成功举办"
+      "doc_id": "d0c6c9aa0198ad2b",
+      "title": "深化泛珠区域合作 广西碳市场能力建设市级培训在穗举办"
     }
   }
 }

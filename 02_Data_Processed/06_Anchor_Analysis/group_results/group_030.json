@@ -1,38 +1,41 @@
 {
   "supply": {
-    "major_decrease": null,
-    "minor_decrease": {
-      "doc_id": "ec35b9c2b91489b5",
-      "title": "湖北省产品碳足迹公共服务平台正式发布"
+    "restrict": null,
+    "reduce": {
+      "doc_id": "32585c19da83edd4",
+      "title": "2014年度广东省碳排放配额有偿发放（第三次）竞价情况"
     },
-    "minor_increase": {
-      "doc_id": "77ca537d5942d26b",
-      "title": "湖北省产品碳足迹公共服务平台正式发布"
+    "increase": {
+      "doc_id": "b6bbbae271d9887e",
+      "title": "2014年度广东省碳排放配额有偿发放（第四次）公告"
     },
-    "major_increase": null
+    "expand": null
   },
   "demand": {
-    "major_increase": null,
-    "minor_increase": {
-      "doc_id": "0c36c927908340c7",
-      "title": "关于举办温室气体管理师基础知识课程培训的通知"
+    "restrict": null,
+    "reduce": null,
+    "increase": {
+      "doc_id": "baa7499e6ecd6710",
+      "title": "关于印发《广东省重点企（事）业单位温室气体排放报告工作实施方案》的通知"
     },
-    "minor_decrease": null,
-    "major_decrease": null
+    "expand": null
   },
   "policy_strength": {
     "mandatory": {
-      "doc_id": "77ca537d5942d26b",
-      "title": "湖北省产品碳足迹公共服务平台正式发布"
+      "doc_id": "5d68366ac95814a5",
+      "title": "关于2014年度碳排放配额履约工作的简讯"
     },
-    "binding": null,
+    "binding": {
+      "doc_id": "98cc2ffd7a616450",
+      "title": "广东省发展改革委关于广东省2015年度碳排放配额有偿发放方案的批复"
+    },
     "encouraged": {
-      "doc_id": "5b65302d9bd1faea",
-      "title": "湖北省产品碳足迹公共服务平台正式发布"
+      "doc_id": "9ece440abbcde8ae",
+      "title": "关于广东碳交易优惠措施的通知"
     },
     "informational": {
-      "doc_id": "16d732dbf5c76a00",
-      "title": "关于举办温室气体管理师基础知识课程培训的通知"
+      "doc_id": "66cfc69a77a8fc36",
+      "title": "2014年度广东省碳排放配额有偿发放（第四次）竞价情况"
     }
   }
 }

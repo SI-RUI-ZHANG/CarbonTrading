@@ -202,19 +202,19 @@ class DocumentClassifier:
 
 维度1：配额供给 - 是否影响碳配额的供给量？
 关注：配额总量设定、配额分配方法、配额发放规则、储备配额释放、拍卖数量等
-如相关，归类为：
-- major_decrease：大幅减少供给（如总量削减>10%、暂停配额发放）
-- minor_decrease：适度减少供给（如总量削减5-10%、收紧分配基准）  
-- minor_increase：适度增加供给（如释放储备配额、增加拍卖量）
-- major_increase：大幅增加供给（如总量增加>10%、特别配额发放）
+如相关，归类为（注意强度递进：restrict > reduce, expand > increase）：
+- restrict：限制供给（如严格限制配额、暂停发放、冻结配额）
+- reduce：减少供给（如削减配额总量、收紧分配基准）  
+- increase：增加供给（如释放储备配额、增加拍卖量）
+- expand：扩大供给（如大幅增加配额总量、特别配额发放、新增配额来源）
 
 维度2：配额需求 - 是否影响碳配额的需求量？
 关注：控排企业范围、履约标准、抵消机制、处罚力度、行业扩容等
-如相关，归类为：
-- major_increase：大幅增加需求（如新增行业纳入、提高履约标准>10%）
-- minor_increase：适度增加需求（如企业范围微调、履约标准提高5-10%）
-- minor_decrease：适度减少需求（如增加抵消比例、放宽履约要求）
-- major_decrease：大幅减少需求（如行业退出、大幅降低履约标准）
+如相关，归类为（注意强度递进：restrict > reduce, expand > increase）：
+- restrict：限制需求（如严格限制抵消使用、冻结交易资格）
+- reduce：减少需求（如降低履约标准、延长履约期限、提高免费配额比例、减少控排企业数量）
+- increase：增加需求（如企业范围扩大、提高履约标准）
+- expand：扩大需求（如新增行业纳入、大幅提高履约要求、强制购买）
 
 维度3：政策强度 - 政策的约束力和执行强度如何？
 关注：法规层级、强制性表述、处罚条款、执行要求等
@@ -227,7 +227,7 @@ class DocumentClassifier:
 返回JSON格式（每个维度最多一个类别）：
 {{
   "classifications": [
-    {{"dimension": "supply", "category": "minor_decrease"}},
+    {{"dimension": "supply", "category": "reduce"}},
     {{"dimension": "policy_strength", "category": "mandatory"}},
     ...
   ]

@@ -1,38 +1,38 @@
 {
   "supply": {
-    "major_decrease": null,
-    "minor_decrease": {
-      "doc_id": "a0619dc7dd542527",
-      "title": "湖北省产品碳足迹公共服务平台正式发布"
+    "restrict": null,
+    "reduce": {
+      "doc_id": "f4426f1d55f71f6d",
+      "title": "2016年度广东省碳排放配额有偿发放（第四次）竞价情况"
     },
-    "minor_increase": {
-      "doc_id": "7e8851feb416ac2f",
-      "title": "MBAESG双驱商业领袖高级研修班招生简章"
+    "increase": {
+      "doc_id": "12b9bab971bbadae",
+      "title": "2016年度广东省碳排放配额有偿发放（第四次）公告"
     },
-    "major_increase": null
+    "expand": {
+      "doc_id": "45ec484972a1d144",
+      "title": "2017年广东省省级碳普惠制核证减排量（PHCER）项目首次竞价情况"
+    }
   },
   "demand": {
-    "major_increase": null,
-    "minor_increase": {
-      "doc_id": "d7497e7f426150d4",
-      "title": "湖北碳交助力湖北省首家政策性银行实现碳中和"
-    },
-    "minor_decrease": null,
-    "major_decrease": null
+    "restrict": null,
+    "reduce": null,
+    "increase": null,
+    "expand": null
   },
   "policy_strength": {
     "mandatory": {
-      "doc_id": "a0619dc7dd542527",
-      "title": "湖北省产品碳足迹公共服务平台正式发布"
+      "doc_id": "12b9bab971bbadae",
+      "title": "2016年度广东省碳排放配额有偿发放（第四次）公告"
     },
     "binding": null,
     "encouraged": {
-      "doc_id": "433d81de7b054dc2",
-      "title": "校企合作湖北碳交获评全国水利与生态环保行业高校学生实习实践基地"
+      "doc_id": "45ec484972a1d144",
+      "title": "2017年广东省省级碳普惠制核证减排量（PHCER）项目首次竞价情况"
     },
     "informational": {
-      "doc_id": "7c061fecf42cc016",
-      "title": "关于举办温室气体管理师基础知识课程培训的通知"
+      "doc_id": "ee916cfb35c0f307",
+      "title": "2016年度广东省碳排放配额有偿发放（第三次）竞价情况"
     }
   }
 }

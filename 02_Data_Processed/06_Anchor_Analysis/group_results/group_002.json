@@ -1,35 +1,32 @@
 {
   "supply": {
-    "major_decrease": null,
-    "minor_decrease": {
-      "doc_id": "161747c87ee1de60",
-      "title": "关于发布《大型活动碳中和实施指南（试行）》的公告"
+    "restrict": null,
+    "reduce": {
+      "doc_id": "583dcfc3f271e5d0",
+      "title": "校企合作湖北碳交获评全国水利与生态环保行业高校学生实习实践基地"
     },
-    "minor_increase": null,
-    "major_increase": null
+    "increase": null,
+    "expand": {
+      "doc_id": "227381a13d21f353",
+      "title": "湖北碳交助力湖北省首家政策性银行实现碳中和"
+    }
   },
   "demand": {
-    "major_increase": null,
-    "minor_increase": null,
-    "minor_decrease": null,
-    "major_decrease": null
+    "restrict": null,
+    "reduce": null,
+    "increase": null,
+    "expand": null
   },
   "policy_strength": {
-    "mandatory": {
-      "doc_id": "7256a12077d1b0f9",
-      "title": "关于禁止生产以一氟二氯乙烷（HCFC-141b）为发泡剂的冰箱冷柜产品、冷藏集装箱产品、电热水器产品的公告"
-    },
+    "mandatory": null,
     "binding": {
-      "doc_id": "cbf7e422ea370469",
-      "title": "关于发布《饮料酒制造业污染防治技术政策》的公告"
+      "doc_id": "583dcfc3f271e5d0",
+      "title": "校企合作湖北碳交获评全国水利与生态环保行业高校学生实习实践基地"
     },
-    "encouraged": {
-      "doc_id": "3b1aadcbc67a06ea",
-      "title": "关于公布《公民生态环境行为规范（试行）》的公告"
-    },
+    "encouraged": null,
     "informational": {
-      "doc_id": "dc2c55c5f7616217",
-      "title": "湖北省产品碳足迹公共服务平台正式发布"
+      "doc_id": "b2b3ed4606386d2d",
+      "title": "湖北碳交助力湖北省首家政策性银行实现碳中和"
     }
   }
 }

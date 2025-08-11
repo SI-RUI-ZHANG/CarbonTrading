@@ -1,41 +1,38 @@
 {
   "supply": {
-    "major_decrease": null,
-    "minor_decrease": {
-      "doc_id": "877f6bb5d7e6afdb",
-      "title": "湖北省产品碳足迹公共服务平台正式发布"
+    "restrict": null,
+    "reduce": {
+      "doc_id": "05f613f357cb899e",
+      "title": "广东省2014年度碳排放配额分配实施方案"
     },
-    "minor_increase": {
-      "doc_id": "0f29797bd605825d",
-      "title": "关于举办温室气体管理师基础知识课程培训的通知"
+    "increase": {
+      "doc_id": "c76a3ac956a80181",
+      "title": "2013年度广东省碳排放配额有偿发放（第五次）公告"
     },
-    "major_increase": null
+    "expand": null
   },
   "demand": {
-    "major_increase": null,
-    "minor_increase": {
-      "doc_id": "0f29797bd605825d",
-      "title": "关于举办温室气体管理师基础知识课程培训的通知"
+    "restrict": {
+      "doc_id": "e69f40b436530114",
+      "title": "广东省发展改革委关于2013年度碳交易未履约企业情况的公告"
     },
-    "minor_decrease": null,
-    "major_decrease": null
+    "reduce": null,
+    "increase": {
+      "doc_id": "05f613f357cb899e",
+      "title": "广东省2014年度碳排放配额分配实施方案"
+    },
+    "expand": null
   },
   "policy_strength": {
     "mandatory": {
-      "doc_id": "877f6bb5d7e6afdb",
-      "title": "湖北省产品碳足迹公共服务平台正式发布"
+      "doc_id": "e69f40b436530114",
+      "title": "广东省发展改革委关于2013年度碳交易未履约企业情况的公告"
     },
-    "binding": {
-      "doc_id": "c8573214c161c915",
-      "title": "校企合作湖北碳交获评全国水利与生态环保行业高校学生实习实践基地"
-    },
-    "encouraged": {
-      "doc_id": "8c8d621a2f3d61c3",
-      "title": "湖北碳交助力湖北省首家政策性银行实现碳中和"
-    },
+    "binding": null,
+    "encouraged": null,
     "informational": {
-      "doc_id": "273e354c133a20e0",
-      "title": "关于举办温室气体管理师基础知识课程培训的通知"
+      "doc_id": "c15a0b79ae0123d1",
+      "title": "广东省2013年度碳排放交易及履约情况"
     }
   }
 }

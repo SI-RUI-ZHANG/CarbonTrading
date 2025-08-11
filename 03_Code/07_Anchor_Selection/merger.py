@@ -86,7 +86,7 @@ class AnchorMerger:
     
     def merge_two_sets(self, set_a: Dict, set_b: Dict, merge_id: str) -> tuple:
         """
-        Merge two anchor sets by comparing slot by slot.
+        Merge two anchor sets by comparing slot by slot with adaptive filling.
         
         Args:
             set_a: First anchor set
@@ -96,13 +96,37 @@ class AnchorMerger:
         Returns:
             Tuple of (merged set, comparison count)
         """
+        # Define adjacency relationships for adaptive filling
+        ADJACENT_CATEGORIES = {
+            'supply': {
+                'restrict': ['reduce'],      # restrict loser can fill reduce
+                'reduce': [],                # reduce has no fallback (middle category)
+                'increase': [],              # increase has no fallback (middle category)
+                'expand': ['increase']       # expand loser can fill increase
+            },
+            'demand': {
+                'restrict': ['reduce'],      # Same logic as supply
+                'reduce': [],                
+                'increase': [],              
+                'expand': ['increase']       
+            }
+        }
+        
         merged = {}
         comparisons = 0
+        losers_pool = []  # Track losers for potential reuse
         
+        # First pass: normal merge
         for dimension in config.DIMENSIONS:
             merged[dimension] = {}
             
-            for category in config.CATEGORIES:
+            # Get appropriate categories for this dimension
+            if dimension in config.DIMENSION_CATEGORIES:
+                categories = config.DIMENSION_CATEGORIES[dimension].keys()
+            else:
+                categories = config.CATEGORIES.keys()
+            
+            for category in categories:
                 anchor_a = set_a.get(dimension, {}).get(category)
                 anchor_b = set_b.get(dimension, {}).get(category)
                 
@@ -116,12 +140,32 @@ class AnchorMerger:
                         winner = self.classifier.compare_documents(
                             anchor_a, anchor_b, dimension, category
                         )
-                        merged[dimension][category] = anchor_a if winner == 'A' else anchor_b
+                        if winner == 'A':
+                            merged[dimension][category] = anchor_a
+                            # Save loser for potential reuse
+                            losers_pool.append((anchor_b, dimension, category))
+                        else:
+                            merged[dimension][category] = anchor_b
+                            # Save loser for potential reuse
+                            losers_pool.append((anchor_a, dimension, category))
                         comparisons += 1
                     except Exception as e:
                         print(f"    Error comparing {dimension}/{category}: {e}")
                         # Default to first on error
                         merged[dimension][category] = anchor_a
+        
+        # Second pass: try to fill empty slots with losers from same direction
+        for loser_doc, orig_dim, orig_cat in losers_pool:
+            # Only apply adaptive filling for supply/demand dimensions
+            if orig_dim in ADJACENT_CATEGORIES:
+                adjacent_cats = ADJACENT_CATEGORIES[orig_dim].get(orig_cat, [])
+                
+                for adj_cat in adjacent_cats:
+                    # Check if adjacent slot is empty
+                    if merged[orig_dim].get(adj_cat) is None:
+                        merged[orig_dim][adj_cat] = loser_doc
+                        print(f"      Adaptive fill: {orig_dim}/{orig_cat} loser → {adj_cat}")
+                        break  # Only fill one slot per loser
         
         return merged, comparisons
     

@@ -105,6 +105,8 @@ def main(batch_size: int = None, max_parallel: int = None, test_mode: bool = Fal
                 
                 # Save intermediate result
                 group_file = Path(config.OUTPUT_BASE) / "group_results" / f"group_{group_id + 1:03d}.json"
+                # Ensure directory exists before writing (thread-safe)
+                group_file.parent.mkdir(parents=True, exist_ok=True)
                 with open(group_file, 'w', encoding='utf-8') as f:
                     # Convert to serializable format
                     serializable_result = {}
@@ -181,6 +183,9 @@ def main(batch_size: int = None, max_parallel: int = None, test_mode: bool = Fal
                 }
             else:
                 final_output[dimension][category] = None
+    
+    # Create directory if it doesn't exist
+    os.makedirs(os.path.dirname(config.FINAL_ANCHORS_PATH), exist_ok=True)
     
     with open(config.FINAL_ANCHORS_PATH, 'w', encoding='utf-8') as f:
         json.dump(final_output, f, ensure_ascii=False, indent=2)

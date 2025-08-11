@@ -1,44 +1,44 @@
 {
   "supply": {
-    "major_decrease": null,
-    "minor_decrease": {
-      "doc_id": "3a0091fdd08b32ef",
-      "title": "《广东省碳排放权配额首次分配及工作方案》"
+    "restrict": null,
+    "reduce": {
+      "doc_id": "054ce31c77b7f695",
+      "title": "广东省发展改革委关于做好2016年度企业碳排放信息报告核查和配额清缴履约相关工作的通知"
     },
-    "minor_increase": {
-      "doc_id": "cf658f4d60a575fa",
-      "title": "2013年度广东省碳排放配额有偿发放公告"
-    },
-    "major_increase": null
+    "increase": null,
+    "expand": {
+      "doc_id": "ad80946eb8742750",
+      "title": "广东民航与造纸业纳入碳交易管理"
+    }
   },
   "demand": {
-    "major_increase": {
-      "doc_id": "9ba5eac388f1d435",
-      "title": "广州碳排放权交易中心董事长张争鸣：碳市场扩围将有助于激发市场活力，赋能企业绿色转型"
+    "restrict": {
+      "doc_id": "022b7d875bc0a025",
+      "title": "广东CCER履约新政解读"
     },
-    "minor_increase": {
-      "doc_id": "3a0091fdd08b32ef",
-      "title": "《广东省碳排放权配额首次分配及工作方案》"
+    "reduce": {
+      "doc_id": "b712f5a8f4ee0b65",
+      "title": "广东省发展改革委印发《广东省控排企业使用CCER抵消2016年度实际碳排放工作指引》"
     },
-    "minor_decrease": null,
-    "major_decrease": null
+    "increase": {
+      "doc_id": "054ce31c77b7f695",
+      "title": "广东省发展改革委关于做好2016年度企业碳排放信息报告核查和配额清缴履约相关工作的通知"
+    },
+    "expand": {
+      "doc_id": "ad80946eb8742750",
+      "title": "广东民航与造纸业纳入碳交易管理"
+    }
   },
   "policy_strength": {
     "mandatory": {
-      "doc_id": "3a0091fdd08b32ef",
-      "title": "《广东省碳排放权配额首次分配及工作方案》"
+      "doc_id": "054ce31c77b7f695",
+      "title": "广东省发展改革委关于做好2016年度企业碳排放信息报告核查和配额清缴履约相关工作的通知"
     },
-    "binding": {
-      "doc_id": "53623b69fb6ca5d2",
-      "title": "转型金融助力经济高质量发展主题沙龙：广东工业企业低碳转型发展的机遇与挑战"
-    },
+    "binding": null,
     "encouraged": {
-      "doc_id": "a745e28f1f066f41",
-      "title": "加入琴碳星人碳普惠平台，开启绿色商业新征程"
+      "doc_id": "3f71de3c72d713e8",
+      "title": "国内首笔民营企业碳排放配额抵押融资业务在广东完成"
     },
-    "informational": {
-      "doc_id": "8e72c87964f96043",
-      "title": "广东碳排放权交易系统开户特别提醒"
-    }
+    "informational": null
   }
 }

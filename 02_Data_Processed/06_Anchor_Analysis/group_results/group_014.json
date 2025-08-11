@@ -1,38 +1,35 @@
 {
   "supply": {
-    "major_decrease": null,
-    "minor_decrease": {
-      "doc_id": "6b6ff4031ef3915c",
-      "title": "湖北碳交助力湖北省首家政策性银行实现碳中和"
-    },
-    "minor_increase": {
-      "doc_id": "90209f418cc24b57",
-      "title": "MBAESG双驱商业领袖高级研修班招生简章"
-    },
-    "major_increase": null
+    "restrict": null,
+    "reduce": null,
+    "increase": null,
+    "expand": {
+      "doc_id": "bd41879693de83d9",
+      "title": "湖北省产品碳足迹公共服务平台正式发布"
+    }
   },
   "demand": {
-    "major_increase": null,
-    "minor_increase": {
-      "doc_id": "90209f418cc24b57",
+    "restrict": null,
+    "reduce": null,
+    "increase": {
+      "doc_id": "a9b37ed71a6cf5a8",
       "title": "MBAESG双驱商业领袖高级研修班招生简章"
     },
-    "minor_decrease": null,
-    "major_decrease": null
+    "expand": null
   },
   "policy_strength": {
     "mandatory": {
-      "doc_id": "ad071ef7c8d8eb20",
-      "title": "校企合作湖北碳交获评全国水利与生态环保行业高校学生实习实践基地"
+      "doc_id": "a9b37ed71a6cf5a8",
+      "title": "MBAESG双驱商业领袖高级研修班招生简章"
     },
     "binding": null,
     "encouraged": {
-      "doc_id": "6b6ff4031ef3915c",
+      "doc_id": "9238646cc750fe30",
       "title": "湖北碳交助力湖北省首家政策性银行实现碳中和"
     },
     "informational": {
-      "doc_id": "1daae710e002bffc",
-      "title": "湖北省产品碳足迹公共服务平台正式发布"
+      "doc_id": "6100f23ae82f78d1",
+      "title": "关于举办温室气体管理师基础知识课程培训的通知"
     }
   }
 }

@@ -1,41 +1,47 @@
 {
   "supply": {
-    "major_decrease": null,
-    "minor_decrease": {
-      "doc_id": "05f613f357cb899e",
-      "title": "广东省2014年度碳排放配额分配实施方案"
+    "restrict": {
+      "doc_id": "cd64bd6e75f5bc11",
+      "title": "关于暂停受理省级碳普惠核证减排量备案申请的通知"
     },
-    "minor_increase": {
-      "doc_id": "0c630eb93bfa893f",
-      "title": "2015年度广东省碳排放配额有偿发放第一次）公告"
+    "reduce": {
+      "doc_id": "1b4895803de91d75",
+      "title": "广东省发展改革委关于印发广东省2018年度碳排放配额分配实施方案的通知"
     },
-    "major_increase": null
+    "increase": null,
+    "expand": {
+      "doc_id": "bef05911c254a772",
+      "title": "广东省生态环境厅关于恢复受理省级碳普惠核证减排量备案申请的通知"
+    }
   },
   "demand": {
-    "major_increase": null,
-    "minor_increase": {
-      "doc_id": "05f613f357cb899e",
-      "title": "广东省2014年度碳排放配额分配实施方案"
+    "restrict": {
+      "doc_id": "afd7355f544386f0",
+      "title": "关于广东省2017年度碳排放配额履约工作的公告"
     },
-    "minor_decrease": null,
-    "major_decrease": null
+    "reduce": null,
+    "increase": {
+      "doc_id": "00c506c2b142e758",
+      "title": "广东省生态环境厅关于做好2018年度企业碳排放信息报告核查和配额清缴履约相关工作的通知"
+    },
+    "expand": null
   },
   "policy_strength": {
     "mandatory": {
-      "doc_id": "baa7499e6ecd6710",
-      "title": "关于印发《广东省重点企（事）业单位温室气体排放报告工作实施方案》的通知"
+      "doc_id": "afd7355f544386f0",
+      "title": "关于广东省2017年度碳排放配额履约工作的公告"
     },
     "binding": {
-      "doc_id": "98cc2ffd7a616450",
-      "title": "广东省发展改革委关于广东省2015年度碳排放配额有偿发放方案的批复"
+      "doc_id": "e73dc5eba021b5de",
+      "title": "广东省发展改革委关于同意韶关市翁源县等4县（市）36个省定贫困村及少数民族县村林业碳普惠项目减排量备案的函"
     },
     "encouraged": {
-      "doc_id": "9ece440abbcde8ae",
-      "title": "关于广东碳交易优惠措施的通知"
+      "doc_id": "bef05911c254a772",
+      "title": "广东省生态环境厅关于恢复受理省级碳普惠核证减排量备案申请的通知"
     },
     "informational": {
-      "doc_id": "2b9f3c3f081e3efb",
-      "title": "关于举办2015年配额有偿发放会员模拟竞价的通知"
+      "doc_id": "e54a7272efb301f2",
+      "title": "广东省生态环境厅关于印发广东碳交易试点2017年度核查、参与全国碳交易市场广东企业2016、2017年度核查工作考评结果的通知"
     }
   }
 }

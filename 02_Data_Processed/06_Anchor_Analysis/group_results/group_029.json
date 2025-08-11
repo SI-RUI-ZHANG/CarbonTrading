@@ -1,38 +1,38 @@
 {
   "supply": {
-    "major_decrease": null,
-    "minor_decrease": {
-      "doc_id": "e7b84db8cd303f94",
-      "title": "湖北省产品碳足迹公共服务平台正式发布"
+    "restrict": null,
+    "reduce": {
+      "doc_id": "293b7f36e09855e3",
+      "title": "广东省发展改革委关于做好2015年度企业碳排放信息报告核查和配额清缴履约相关工作的通知"
     },
-    "minor_increase": {
-      "doc_id": "38d0619318264fa9",
-      "title": "湖北碳交助力湖北省首家政策性银行实现碳中和"
+    "increase": {
+      "doc_id": "ca5e398f98e0e83d",
+      "title": "2015年度广东省碳排放配额有偿发放第四次）公告"
     },
-    "major_increase": null
+    "expand": null
   },
   "demand": {
-    "major_increase": null,
-    "minor_increase": {
-      "doc_id": "38d0619318264fa9",
-      "title": "湖北碳交助力湖北省首家政策性银行实现碳中和"
+    "restrict": null,
+    "reduce": {
+      "doc_id": "559c3b68588c783a",
+      "title": "置换交易需求发布"
     },
-    "minor_decrease": null,
-    "major_decrease": null
+    "increase": {
+      "doc_id": "293b7f36e09855e3",
+      "title": "广东省发展改革委关于做好2015年度企业碳排放信息报告核查和配额清缴履约相关工作的通知"
+    },
+    "expand": null
   },
   "policy_strength": {
     "mandatory": {
-      "doc_id": "0fa02229671ad87d",
-      "title": "校企合作湖北碳交获评全国水利与生态环保行业高校学生实习实践基地"
+      "doc_id": "293b7f36e09855e3",
+      "title": "广东省发展改革委关于做好2015年度企业碳排放信息报告核查和配额清缴履约相关工作的通知"
     },
     "binding": null,
-    "encouraged": {
-      "doc_id": "48cb2a0fb9ce58c4",
-      "title": "湖北省产品碳足迹公共服务平台正式发布"
-    },
+    "encouraged": null,
     "informational": {
-      "doc_id": "2c34c2a581dc20af",
-      "title": "关于举办温室气体管理师基础知识课程培训的通知"
+      "doc_id": "c6ae0871089e88c9",
+      "title": "关于广东碳排放权交易系统代理开户事项的公告"
     }
   }
 }
