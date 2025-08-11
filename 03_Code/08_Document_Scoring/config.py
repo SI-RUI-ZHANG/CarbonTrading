@@ -45,11 +45,11 @@ SPECTRUM_POSITIONS = {
 
 # Processing configuration
 DEFAULT_BATCH_SIZE = 50  # Documents per batch
-MAX_PARALLEL_WORKERS = 30  # Maximum parallel API calls
+MAX_PARALLEL_WORKERS = 6  # Maximum parallel API calls (reduced by 5x for GPT-4o)
 SAVE_CHECKPOINT_EVERY = 50  # Save progress every N documents
 
-# Rate limiting configuration - optimized for Tier 2
-API_CALLS_PER_SECOND = 50  # 3,000 per minute
+# Rate limiting configuration - adjusted for GPT-4o (÷5 scaling)
+API_CALLS_PER_SECOND = 10  # Reduced by 5x from original 50
 RATE_LIMIT_BUFFER = 0.90  # Use 90% of limits
 MAX_RETRY_ATTEMPTS = 5
 EXPONENTIAL_BACKOFF_BASE = 2
@@ -79,50 +79,70 @@ BATCH_SCORES_PATH.mkdir(parents=True, exist_ok=True)
 # Direct position scoring prompt template
 POSITION_SCORING_PROMPT = """
 ## YOUR ROLE
-You are a document positioning specialist for carbon trading policy analysis. Your task is to precisely place documents on three measurement spectrums by comparing them to reference documents at known positions.
+You are a document positioning specialist for carbon market policy analysis. Your task is to precisely place documents on three measurement spectrums by comparing them to reference documents at known positions.
 
 ## CORE CONCEPT
-Think of this like judging a competition where you have example performances with known scores. You'll compare the new document to these examples to determine its position on each spectrum.
+China's carbon markets include both mandatory emissions trading (碳排放权交易) and voluntary reduction markets (CCER/碳普惠). You should consider impacts on BOTH types of markets when scoring documents.
 
 ## THE THREE SPECTRUMS
 
-### 1. SUPPLY SPECTRUM (Carbon Quota Availability)
-Measures how a policy affects the total supply of carbon quotas in the trading market.
-- **Scale**: -150 (severely restricts supply) to +150 (massively expands supply)
-- **Zero point**: No effect on carbon quota supply
-- **Key question**: Does this change how many carbon quotas are available for trading?
+### 1. SUPPLY SPECTRUM (Carbon Asset Availability)
+Measures how a policy affects the total supply of tradeable carbon assets.
+- **Scale**: -150 (severely restricts) to +150 (massively expands)
+- **Zero point**: No effect on carbon asset supply
+- **Includes**: Emission quotas, CCER credits, carbon offsets, green certificates
+- **Key question**: Does this change the amount of carbon assets available in ANY market?
 
-### 2. DEMAND SPECTRUM (Carbon Quota Demand)
-Measures how a policy affects the demand for carbon quotas from market participants.
-- **Scale**: -150 (severely reduces demand) to +150 (massively increases demand)
-- **Zero point**: No effect on carbon quota demand
-- **Key question**: Does this change how many quotas companies need to buy?
+### 2. DEMAND SPECTRUM (Carbon Asset Demand)
+Measures how a policy affects demand for carbon assets from market participants.
+- **Scale**: -150 (severely reduces) to +150 (massively increases)
+- **Zero point**: No effect on carbon asset demand
+- **Includes**: Compliance needs, voluntary offsetting, carbon neutrality goals
+- **Key question**: Does this change how many carbon assets entities need or want?
 
 ### 3. POLICY STRENGTH SPECTRUM (Enforcement Level)
 Measures the legal force and compliance requirements of the policy.
-- **Scale**: 0 (purely informational) to 150 (mandatory with extreme penalties)
+- **Scale**: 0 (informational) to 150 (mandatory with severe penalties)
 - **Key positions**: 0=Information, 33=Encouraged, 67=Binding, 100=Mandatory
-- **Key question**: How strongly must organizations comply with this policy?
+- **Key question**: How binding is this policy on affected parties?
 
 ## SCORING METHOD
 
-### Step 1: Identify Document Type
-First, determine if this document affects carbon trading markets at all:
-- ✅ Carbon trading relevant: quota allocation, trading rules, market access, compliance requirements
-- ❌ Not relevant: carbon footprint reporting, general environmental policies, waste management, green finance
+### Step 1: Identify Carbon Market Relevance
+Look for ANY connection to carbon markets, including:
+
+**DIRECT IMPACTS** (typically ±50 to ±150):
+- Quota allocation rules (配额分配)
+- Trading regulations (交易规则)
+- CCER/voluntary reduction programs (自愿减排)
+- Carbon offset mechanisms (碳抵消)
+- Market access rules (市场准入)
+- Compliance and penalties (履约处罚) 
+- Feel free to expand.
+
+**INDIRECT IMPACTS** (typically ±10 to ±50):
+- Carbon accounting methods (碳核算)
+- MRV systems (监测报告核查)
+- Carbon neutrality targets (碳中和目标)
+- Green finance for carbon projects (绿色金融)
+- Technology standards affecting emissions (技术标准)
+- Industry guidance affecting carbon intensity (行业指导)
+- Feel free to expance.
+
+**SUPPORTING INFRASTRUCTURE** (typically ±5 to ±15):
+- Registry systems for trading (登记系统)
+- Market analysis affecting trading decisions (市场分析)
+- Training for market operators/traders (not general education)
+- Feel free to expand.
 
 ### Step 2: Compare to Reference Anchors
-For each spectrum, you have 4 reference documents at known positions. Compare your document to these anchors:
-- Is it more extreme than the strongest anchor? (position beyond ±100)
-- Is it similar to an anchor? (position near that anchor's value)
-- Is it between two anchors? (interpolate the position)
-- Is it weaker than the weakest anchor? (position closer to zero)
+For each spectrum, compare your document to the 4 reference anchors:
+- Beyond strongest anchor? → Position beyond ±100
+- Similar to an anchor? → Position near that anchor's value  
+- Between two anchors? → Interpolate based on similarity
+- Weaker than weakest? → Position between 0 and weakest anchor
 
 ### Step 3: Assign Numerical Positions
-Based on your comparison, assign precise numbers:
-- Supply/Demand: Use 0 for non-carbon-trading documents
-- Policy Strength: Consider actual enforcement mechanisms and penalties
-- Be consistent: Similar documents should get similar scores
 
 ## REFERENCE ANCHORS
 
@@ -146,10 +166,16 @@ Based on your comparison, assign precise numbers:
 
 ## SPECIAL SCORING RULES
 
-1. **Zero Position**: 0 means no effect at all on that spectrum
-2. **Extreme Cases**: Can exceed anchor positions (beyond ±100) for unprecedented policies  
-3. **Uncertainty**: When between anchors, interpolate based on relative similarity
-4. **Consistency**: Similar documents should receive similar positions
+1. **Consider cumulative effects**: Multiple impacts can justify moderate scores
+2. **Focus on market operations**: Document must affect how carbon markets function
+3. **Be flexible**: You don't need to be too rigid, give a number that "feels right".
+
+## EXCLUSIONS (Score 0 only if ALL these conditions met)
+- No mention of carbon, emissions, or climate
+- No connection to regulated entities or carbon market participants
+- No impact on carbon-intensive industries
+- Pure nature conservation without carbon considerations
+- General waste/water/air pollution without carbon aspects
 
 ## DOCUMENT TO ANALYZE
 
@@ -159,7 +185,7 @@ Based on your comparison, assign precise numbers:
 
 ## OUTPUT REQUIREMENT
 
-After careful analysis and comparison to the anchors, return your positioning as a JSON object with three precise numbers:
+Return your positioning as a JSON object:
 
 {{
     "supply": <integer from -150 to +150>,
