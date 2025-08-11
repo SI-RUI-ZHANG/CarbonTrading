@@ -16,7 +16,7 @@ class Config:
     MARKET = 'HBEA'  # 'HBEA' or 'GDEA'
     
     # SENTIMENT FEATURE TOGGLE - KEY CONFIGURATION
-    USE_SENTIMENT = True  # Set to False for baseline without sentiment
+    USE_SENTIMENT = False  # Set to False for baseline without sentiment
     
     def __init__(self):
         """Initialize config with fixed timestamp"""
@@ -77,7 +77,7 @@ class Config:
     # ==================================================================================
     
     # LSTM Architecture (shared between sentiment/no-sentiment)
-    HIDDEN_SIZE = 64        # LSTM hidden units
+    HIDDEN_SIZE = 128        # LSTM hidden units
     NUM_LAYERS = 2          # Number of LSTM layers
     DROPOUT = 0.2           # Dropout rate for regularization
     

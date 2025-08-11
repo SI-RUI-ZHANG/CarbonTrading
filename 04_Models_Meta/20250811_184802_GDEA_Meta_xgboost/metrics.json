@@ -1,0 +1,22 @@
+{
+  "training": {
+    "accuracy": 0.6283422459893048,
+    "precision": 0.9375,
+    "recall": 0.17964071856287425,
+    "f1_score": 0.3015075376884422,
+    "auc_roc": 0.6943648934016025
+  },
+  "validation": {
+    "accuracy": 0.648936170212766,
+    "precision": 0.3333333333333333,
+    "recall": 0.03125,
+    "f1_score": 0.05714285714285714,
+    "auc_roc": 0.5093245967741935
+  },
+  "config": {
+    "model_type": "xgboost",
+    "market": "GDEA",
+    "strategy": "filtered",
+    "confidence_threshold": 0.6
+  }
+}

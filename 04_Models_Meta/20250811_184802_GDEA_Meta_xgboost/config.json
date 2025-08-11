@@ -1,0 +1,20 @@
+{
+  "market": "GDEA",
+  "meta_model_type": "xgboost",
+  "ensemble_strategy": "filtered",
+  "confidence_threshold": 0.6,
+  "sentiment_features": [
+    "sentiment_supply",
+    "sentiment_demand",
+    "supply_decayed",
+    "demand_decayed",
+    "policy_decayed",
+    "supply_momentum",
+    "demand_momentum",
+    "doc_count",
+    "max_policy",
+    "avg_policy"
+  ],
+  "primary_model": "../../04_Models/20250810_155551_GDEA_LSTM_Classification",
+  "run_name": "20250811_184802_GDEA_Meta_xgboost"
+}

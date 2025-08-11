@@ -1,0 +1,22 @@
+{
+  "accuracy": 0.4489795918367347,
+  "precision": 0.4107142857142857,
+  "recall": 0.5227272727272727,
+  "f1_score": 0.46,
+  "true_positives": 23,
+  "true_negatives": 21,
+  "false_positives": 33,
+  "false_negatives": 21,
+  "best_val_accuracy": 0.5862068965517241,
+  "final_epoch": 46,
+  "config": {
+    "market": "HBEA",
+    "use_sentiment": true,
+    "sequence_length": 12,
+    "batch_size": 16,
+    "learning_rate": 0.001,
+    "hidden_size": 128,
+    "num_layers": 2,
+    "input_features": 63
+  }
+}
