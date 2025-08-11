@@ -27,6 +27,7 @@ class BatchProcessor:
         self.processed_docs = set()
         self.failed_docs = []
         self.all_scores = []
+        self.total_batches_processed = 0  # Track total batches across all runs
         
         # Load checkpoint if exists
         self._load_checkpoint()
@@ -66,10 +67,14 @@ class BatchProcessor:
         # Process in batches
         for batch_idx in range(0, len(documents), self.batch_size):
             batch = documents[batch_idx:batch_idx + self.batch_size]
-            batch_num = batch_idx // self.batch_size + 1
-            total_batches = (len(documents) + self.batch_size - 1) // self.batch_size
+            # Use total_batches_processed to ensure unique batch numbers across runs
+            self.total_batches_processed += 1
+            batch_num = self.total_batches_processed
+            current_batch_in_run = batch_idx // self.batch_size + 1
+            total_batches_in_run = (len(documents) + self.batch_size - 1) // self.batch_size
             
-            print(f"\n📦 Processing batch {batch_num}/{total_batches} ({len(batch)} documents)")
+            print(f"\n📦 Processing batch {current_batch_in_run}/{total_batches_in_run} "
+                  f"(global batch #{batch_num}, {len(batch)} documents)")
             
             # Process batch in parallel
             batch_scores = self._process_batch_parallel(batch, batch_num)
@@ -165,6 +170,7 @@ class BatchProcessor:
             'failed_docs': self.failed_docs,
             'num_processed': len(self.processed_docs),
             'num_failed': len(self.failed_docs),
+            'total_batches_processed': self.total_batches_processed,
             'timestamp': datetime.now().isoformat()
         }
         
@@ -180,13 +186,13 @@ class BatchProcessor:
                 
                 self.processed_docs = set(checkpoint_data.get('processed_docs', []))
                 self.failed_docs = checkpoint_data.get('failed_docs', [])
+                self.total_batches_processed = checkpoint_data.get('total_batches_processed', 0)
                 
-                # Load existing scores
-                if config.FINAL_SCORES_PATH.exists():
-                    df = pd.read_parquet(config.FINAL_SCORES_PATH)
-                    self.all_scores = df.to_dict('records')
+                # Note: We no longer load parquet scores since _save_final_results 
+                # now reads all batch files directly for proper merging
                 
                 print(f"📂 Loaded checkpoint: {len(self.processed_docs)} documents already processed")
+                print(f"   Previous batches: {self.total_batches_processed}")
                 
             except Exception as e:
                 print(f"⚠️  Error loading checkpoint: {e}")
@@ -203,13 +209,38 @@ class BatchProcessor:
             json.dump(batch_scores, f, ensure_ascii=False, indent=2)
     
     def _save_final_results(self):
-        """Save all results to final output files."""
-        if not self.all_scores:
-            print("⚠️  No scores to save")
+        """Save all results to final output files by merging ALL batch files."""
+        # Read all batch files instead of just using self.all_scores
+        all_scores = []
+        
+        # Get all batch files
+        batch_files = sorted(config.BATCH_SCORES_PATH.glob("batch_*.json"))
+        
+        if not batch_files:
+            print("⚠️  No batch files found to merge")
+            return
+        
+        # Read and combine all batch files
+        for batch_file in batch_files:
+            try:
+                with open(batch_file, 'r', encoding='utf-8') as f:
+                    batch_scores = json.load(f)
+                    all_scores.extend(batch_scores)
+            except Exception as e:
+                print(f"⚠️  Error reading {batch_file.name}: {e}")
+        
+        if not all_scores:
+            print("⚠️  No scores found in batch files")
             return
         
         # Convert to DataFrame for analysis
-        df = pd.DataFrame(self.all_scores)
+        df = pd.DataFrame(all_scores)
+        
+        # Remove duplicates based on doc_id (keep first occurrence)
+        original_count = len(df)
+        df = df.drop_duplicates(subset=['doc_id'], keep='first')
+        if original_count > len(df):
+            print(f"  Removed {original_count - len(df)} duplicate documents")
         
         # Extract scores into separate columns
         for dim in ['supply', 'demand', 'policy_strength']:
@@ -217,7 +248,14 @@ class BatchProcessor:
         
         # Save as parquet
         df.to_parquet(config.FINAL_SCORES_PATH, index=False)
-        print(f"💾 Saved {len(df)} document scores to {config.FINAL_SCORES_PATH}")
+        print(f"💾 Saved {len(df)} unique document scores from {len(batch_files)} batch files to {config.FINAL_SCORES_PATH}")
+        
+        # Show source distribution
+        if 'source' in df.columns:
+            source_counts = df['source'].value_counts()
+            print("\n📊 Source distribution in final merge:")
+            for source, count in source_counts.items():
+                print(f"  {source}: {count} documents")
         
         # Calculate and save distributions
         distributions = self._calculate_distributions(df)

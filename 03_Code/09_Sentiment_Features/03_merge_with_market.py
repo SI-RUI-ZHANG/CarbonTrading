@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 """
 Merge sentiment features with market data for final LSTM input.
+Now uses market-specific sentiment features.
 
 Combines:
 - Market features from 03_Feature_Engineered/GDEA_LSTM_advanced.parquet
-- Sentiment features from 09_Sentiment_Engineered/sentiment_daily_features.parquet
+- GDEA sentiment from 09_Sentiment_Engineered/sentiment_daily_features_GDEA.parquet (MEE + GZETS)
+- HBEA sentiment from 09_Sentiment_Engineered/sentiment_daily_features_HBEA.parquet (MEE + HBETS)
 
 Output:
 - 03_Feature_Engineered/GDEA_LSTM_with_sentiment.parquet
@@ -27,15 +29,20 @@ logger = logging.getLogger(__name__)
 # Paths
 BASE_DIR = Path(__file__).parent.parent.parent
 MARKET_DIR = BASE_DIR / "02_Data_Processed" / "03_Feature_Engineered"
-SENTIMENT_PATH = BASE_DIR / "02_Data_Processed" / "09_Sentiment_Engineered" / "sentiment_daily_features.parquet"
+SENTIMENT_DIR = BASE_DIR / "02_Data_Processed" / "09_Sentiment_Engineered"
+OUTPUT_DIR = BASE_DIR / "02_Data_Processed" / "10_Sentiment_Final_Merged"
 
-# Input files
+# Market-specific sentiment files
+GDEA_SENTIMENT = SENTIMENT_DIR / "sentiment_daily_features_GDEA.parquet"
+HBEA_SENTIMENT = SENTIMENT_DIR / "sentiment_daily_features_HBEA.parquet"
+
+# Input market files
 GDEA_MARKET = MARKET_DIR / "GDEA_LSTM_advanced.parquet"
 HBEA_MARKET = MARKET_DIR / "HBEA_LSTM_advanced.parquet"
 
 # Output files
-GDEA_OUTPUT = MARKET_DIR / "GDEA_LSTM_with_sentiment.parquet"
-HBEA_OUTPUT = MARKET_DIR / "HBEA_LSTM_with_sentiment.parquet"
+GDEA_OUTPUT = OUTPUT_DIR / "GDEA_LSTM_with_sentiment.parquet"
+HBEA_OUTPUT = OUTPUT_DIR / "HBEA_LSTM_with_sentiment.parquet"
 
 
 def load_sentiment_features(sentiment_path: Path) -> pd.DataFrame:
@@ -148,6 +155,10 @@ def merge_sentiment_with_market(market_df: pd.DataFrame, sentiment_df: pd.DataFr
 
 def save_merged_features(df: pd.DataFrame, output_path: Path, market_name: str):
     """Save merged features to parquet."""
+    # check if the output directory exists
+    if not output_path.parent.exists():
+        output_path.parent.mkdir(parents=True)
+    
     df.to_parquet(output_path, index=False)
     logger.info(f"Saved {market_name} merged features to {output_path}")
     
@@ -180,38 +191,43 @@ def validate_merge(merged_df: pd.DataFrame, market_name: str):
 def main():
     """Main execution pipeline."""
     logger.info("=" * 60)
-    logger.info("SENTIMENT-MARKET FEATURE MERGER")
+    logger.info("REGIONAL SENTIMENT-MARKET FEATURE MERGER")
     logger.info("=" * 60)
     
     try:
-        # Load sentiment features once
-        sentiment_df = load_sentiment_features(SENTIMENT_PATH)
-        
-        # Process GDEA market
-        if GDEA_MARKET.exists():
+        # Process GDEA market with GDEA-specific sentiment
+        if GDEA_MARKET.exists() and GDEA_SENTIMENT.exists():
             logger.info("\n" + "-" * 40)
-            logger.info("Processing GDEA")
+            logger.info("Processing GDEA (MEE + GZETS sentiment)")
             logger.info("-" * 40)
             
+            gdea_sentiment = load_sentiment_features(GDEA_SENTIMENT)
             gdea_market = load_market_features(GDEA_MARKET, "GDEA")
-            gdea_merged = merge_sentiment_with_market(gdea_market, sentiment_df, "GDEA")
+            gdea_merged = merge_sentiment_with_market(gdea_market, gdea_sentiment, "GDEA")
             validate_merge(gdea_merged, "GDEA")
             save_merged_features(gdea_merged, GDEA_OUTPUT, "GDEA")
         else:
-            logger.warning(f"GDEA market file not found: {GDEA_MARKET}")
+            if not GDEA_MARKET.exists():
+                logger.warning(f"GDEA market file not found: {GDEA_MARKET}")
+            if not GDEA_SENTIMENT.exists():
+                logger.warning(f"GDEA sentiment file not found: {GDEA_SENTIMENT}")
         
-        # Process HBEA market
-        if HBEA_MARKET.exists():
+        # Process HBEA market with HBEA-specific sentiment
+        if HBEA_MARKET.exists() and HBEA_SENTIMENT.exists():
             logger.info("\n" + "-" * 40)
-            logger.info("Processing HBEA")
+            logger.info("Processing HBEA (MEE + HBETS sentiment)")
             logger.info("-" * 40)
             
+            hbea_sentiment = load_sentiment_features(HBEA_SENTIMENT)
             hbea_market = load_market_features(HBEA_MARKET, "HBEA")
-            hbea_merged = merge_sentiment_with_market(hbea_market, sentiment_df, "HBEA")
+            hbea_merged = merge_sentiment_with_market(hbea_market, hbea_sentiment, "HBEA")
             validate_merge(hbea_merged, "HBEA")
             save_merged_features(hbea_merged, HBEA_OUTPUT, "HBEA")
         else:
-            logger.warning(f"HBEA market file not found: {HBEA_MARKET}")
+            if not HBEA_MARKET.exists():
+                logger.warning(f"HBEA market file not found: {HBEA_MARKET}")
+            if not HBEA_SENTIMENT.exists():
+                logger.warning(f"HBEA sentiment file not found: {HBEA_SENTIMENT}")
         
         # Final summary
         logger.info("\n" + "=" * 60)
@@ -220,18 +236,27 @@ def main():
         
         if GDEA_OUTPUT.exists():
             gdea_final = pd.read_parquet(GDEA_OUTPUT)
-            logger.info(f"GDEA final shape: {gdea_final.shape}")
-            logger.info(f"  New sentiment features: {len([c for c in sentiment_df.columns if c != 'Date'])}")
+            if GDEA_SENTIMENT.exists():
+                gdea_sentiment_df = pd.read_parquet(GDEA_SENTIMENT)
+                logger.info(f"GDEA final shape: {gdea_final.shape}")
+                logger.info(f"  Market-specific sentiment features: {len([c for c in gdea_sentiment_df.columns if c != 'effective_date'])}")
+                logger.info(f"  Sources: MEE + GZETS (Guangdong-specific)")
         
         if HBEA_OUTPUT.exists():
             hbea_final = pd.read_parquet(HBEA_OUTPUT)
-            logger.info(f"HBEA final shape: {hbea_final.shape}")
-            logger.info(f"  New sentiment features: {len([c for c in sentiment_df.columns if c != 'Date'])}")
+            if HBEA_SENTIMENT.exists():
+                hbea_sentiment_df = pd.read_parquet(HBEA_SENTIMENT)
+                logger.info(f"HBEA final shape: {hbea_final.shape}")
+                logger.info(f"  Market-specific sentiment features: {len([c for c in hbea_sentiment_df.columns if c != 'effective_date'])}")
+                logger.info(f"  Sources: MEE + HBETS (Hubei-specific)")
         
-        logger.info("\n✅ Sentiment-market merge completed successfully!")
+        logger.info("\n✅ Regional sentiment-market merge completed successfully!")
+        logger.info("\nRegional separation achieved:")
+        logger.info("  - GDEA uses only MEE + GZETS documents")
+        logger.info("  - HBEA uses only MEE + HBETS documents")
         logger.info("\nNext steps:")
         logger.info("1. Update 04_LSTM_Model/data_preparation.py to use new files")
-        logger.info("2. Retrain LSTM models with sentiment features")
+        logger.info("2. Retrain LSTM models with regional sentiment features")
         
     except Exception as e:
         logger.error(f"❌ Error: {str(e)}", exc_info=True)

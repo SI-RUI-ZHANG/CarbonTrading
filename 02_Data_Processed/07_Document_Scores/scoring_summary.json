@@ -3,19 +3,19 @@
   "processed_successfully": 1793,
   "failed": 0,
   "success_rate": 1.0,
-  "elapsed_time_seconds": 367.25463914871216,
-  "avg_time_per_doc": 0.20482690415432914,
+  "elapsed_time_seconds": 1112.1208219528198,
+  "avg_time_per_doc": 0.6202570116859006,
   "api_stats": {
-    "total_calls": 1232,
+    "total_calls": 2620,
     "total_rate_limit_hits": 3,
-    "total_wait_time": 155.13857625552563,
+    "total_wait_time": 662.0631530693786,
     "current_rate": 10,
     "base_rate": 10,
     "is_throttled": false,
-    "calls_in_last_minute": 149,
-    "total_api_calls": 1229,
+    "calls_in_last_minute": 280,
+    "total_api_calls": 2617,
     "failed_api_calls": 0,
     "success_rate": 1.0
   },
-  "timestamp": "2025-08-11T12:18:15.274544"
+  "timestamp": "2025-08-11T16:08:01.305323"
 }

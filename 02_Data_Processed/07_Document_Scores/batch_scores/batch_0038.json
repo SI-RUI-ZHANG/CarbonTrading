@@ -1,0 +1,1152 @@
+[
+  {
+    "doc_id": "a9551c321feab8e7",
+    "title": "广东省生态环境厅关于同意惠州市惠东县安墩镇南华村等五个林业碳普惠项目减排量备案的函",
+    "source": "GZETS",
+    "publish_date": "2020-03-24T00:00:00",
+    "positions": {
+      "supply": 25,
+      "demand": 10,
+      "policy_strength": 67
+    },
+    "scores": {
+      "supply": 25,
+      "demand": 10,
+      "policy_strength": 67,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:15.242682"
+  },
+  {
+    "doc_id": "ed05bf00534e3629",
+    "title": "广东省生态环境厅关于同意摩拜自行车骑行碳普惠项目（东莞）减排量备案的函",
+    "source": "GZETS",
+    "publish_date": "2020-04-30T00:00:00",
+    "positions": {
+      "supply": 25,
+      "demand": 10,
+      "policy_strength": 33
+    },
+    "scores": {
+      "supply": 25,
+      "demand": 10,
+      "policy_strength": 33,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:15.255393"
+  },
+  {
+    "doc_id": "001cb18cf4478117",
+    "title": "广东省生态环境厅关于做好全国碳排放权交易市场企业2019年度碳排放报告与核查工作的通知",
+    "source": "GZETS",
+    "publish_date": "2020-04-09T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 67
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 67,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:15.345163"
+  },
+  {
+    "doc_id": "18e2fdec43d1b7d5",
+    "title": "广东省生态环境厅关于同意明珠工业园广州万宝集团冰箱有限公司新建厂房屋顶光伏发电碳普惠项目减排量备案的函",
+    "source": "GZETS",
+    "publish_date": "2020-01-19T00:00:00",
+    "positions": {
+      "supply": 30,
+      "demand": 10,
+      "policy_strength": 67
+    },
+    "scores": {
+      "supply": 30,
+      "demand": 10,
+      "policy_strength": 67,
+      "interpretations": {
+        "supply": "Supply increase",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:15.347064"
+  },
+  {
+    "doc_id": "903124594f3f892a",
+    "title": "广东省生态环境厅关于同意摩拜自行车骑行碳普惠项目（广州）减排量备案的函",
+    "source": "GZETS",
+    "publish_date": "2020-04-30T00:00:00",
+    "positions": {
+      "supply": 10,
+      "demand": 5,
+      "policy_strength": 67
+    },
+    "scores": {
+      "supply": 10,
+      "demand": 5,
+      "policy_strength": 67,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:15.553710"
+  },
+  {
+    "doc_id": "56c0de56094127d6",
+    "title": "广东省生态环境厅关于印发 《广东省林业碳汇碳普惠方法学（2020年修订版）》的通知",
+    "source": "GZETS",
+    "publish_date": "2020-04-17T00:00:00",
+    "positions": {
+      "supply": 60,
+      "demand": 30,
+      "policy_strength": 33
+    },
+    "scores": {
+      "supply": 60,
+      "demand": 30,
+      "policy_strength": 33,
+      "interpretations": {
+        "supply": "Supply increase",
+        "demand": "Demand increase",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "moderate downward price pressure with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:15.744470"
+  },
+  {
+    "doc_id": "bc678996b86c09fc",
+    "title": "广东省生态环境厅关于同意从化明珠工业园分布式光伏示范区万宝冰箱41MWp光伏发电碳普惠项目减排量备案的函",
+    "source": "GZETS",
+    "publish_date": "2020-02-24T00:00:00",
+    "positions": {
+      "supply": 50,
+      "demand": 0,
+      "policy_strength": 67
+    },
+    "scores": {
+      "supply": 50,
+      "demand": 0,
+      "policy_strength": 67,
+      "interpretations": {
+        "supply": "Supply increase",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "moderate downward price pressure with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:16.188527"
+  },
+  {
+    "doc_id": "3842fe8d3b849a1d",
+    "title": "广东省生态环境厅关于同意摩拜自行车骑行碳普惠项目（中山）减排量备案的函",
+    "source": "GZETS",
+    "publish_date": "2020-04-30T00:00:00",
+    "positions": {
+      "supply": 10,
+      "demand": 5,
+      "policy_strength": 67
+    },
+    "scores": {
+      "supply": 10,
+      "demand": 5,
+      "policy_strength": 67,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:16.268641"
+  },
+  {
+    "doc_id": "0b04c1656fd3a0df",
+    "title": "广东省生态环境厅关于同意广州白云国际机场T2航站楼分布式光伏发电碳普惠项目减排量备案的函",
+    "source": "GZETS",
+    "publish_date": "2020-01-19T00:00:00",
+    "positions": {
+      "supply": 10,
+      "demand": 0,
+      "policy_strength": 33
+    },
+    "scores": {
+      "supply": 10,
+      "demand": 0,
+      "policy_strength": 33,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:16.389551"
+  },
+  {
+    "doc_id": "c3a2c61902f23b78",
+    "title": "广东省生态环境厅关于同意清远市清新区笔架山林场坑口村林业碳普惠项目减排量备案的函",
+    "source": "GZETS",
+    "publish_date": "2020-04-28T00:00:00",
+    "positions": {
+      "supply": 15,
+      "demand": 10,
+      "policy_strength": 67
+    },
+    "scores": {
+      "supply": 15,
+      "demand": 10,
+      "policy_strength": 67,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:16.556095"
+  },
+  {
+    "doc_id": "0f38ad2abc02a526",
+    "title": "广东省生态环境厅关于做好我省碳排放管理和交易企业2019年度碳排放报告核查和配额清缴相关工作的通知",
+    "source": "GZETS",
+    "publish_date": "2020-04-28T00:00:00",
+    "positions": {
+      "supply": -50,
+      "demand": 0,
+      "policy_strength": 100
+    },
+    "scores": {
+      "supply": -50,
+      "demand": 0,
+      "policy_strength": 100,
+      "interpretations": {
+        "supply": "Supply reduction",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Mandatory enforcement",
+        "overall": "moderate upward price pressure with mandatory enforcement"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:16.838736"
+  },
+  {
+    "doc_id": "080d7247ca791f49",
+    "title": "广东省生态环境厅关于同意河源南玻旗滨4MW分布式光伏发电碳普惠项目减排量备案的函",
+    "source": "GZETS",
+    "publish_date": "2020-01-06T00:00:00",
+    "positions": {
+      "supply": 20,
+      "demand": 10,
+      "policy_strength": 33
+    },
+    "scores": {
+      "supply": 20,
+      "demand": 10,
+      "policy_strength": 33,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:17.216045"
+  },
+  {
+    "doc_id": "1388b35bf6c919d8",
+    "title": "广东省生态环境厅关于同意清远市英德市横石塘镇前锋村、龙华村林业碳普惠项目减排量备案的函",
+    "source": "GZETS",
+    "publish_date": "2020-03-24T00:00:00",
+    "positions": {
+      "supply": 10,
+      "demand": 0,
+      "policy_strength": 67
+    },
+    "scores": {
+      "supply": 10,
+      "demand": 0,
+      "policy_strength": 67,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:17.245318"
+  },
+  {
+    "doc_id": "84f26c3c0491a9a1",
+    "title": "广东省生态环境厅关于同意惠州市惠东县宝口镇五一村等六个林业碳普惠项目减排量备案的函",
+    "source": "GZETS",
+    "publish_date": "2020-03-24T00:00:00",
+    "positions": {
+      "supply": 40,
+      "demand": 10,
+      "policy_strength": 67
+    },
+    "scores": {
+      "supply": 40,
+      "demand": 10,
+      "policy_strength": 67,
+      "interpretations": {
+        "supply": "Supply increase",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "moderate downward price pressure with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:17.345708"
+  },
+  {
+    "doc_id": "ca58caf912b3fedf",
+    "title": "广东省生态环境厅关于同意清远市清新区三坑镇布坑村林业碳普惠项目减排量备案的函",
+    "source": "GZETS",
+    "publish_date": "2020-05-18T00:00:00",
+    "positions": {
+      "supply": 30,
+      "demand": 10,
+      "policy_strength": 67
+    },
+    "scores": {
+      "supply": 30,
+      "demand": 10,
+      "policy_strength": 67,
+      "interpretations": {
+        "supply": "Supply increase",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:17.422685"
+  },
+  {
+    "doc_id": "635fd7116d6e345b",
+    "title": "广东省生态环境厅关于同意揭阳市惠来县资深村分布式光伏发电碳普惠项目减排量备案的函",
+    "source": "GZETS",
+    "publish_date": "2019-10-09T00:00:00",
+    "positions": {
+      "supply": 10,
+      "demand": 0,
+      "policy_strength": 33
+    },
+    "scores": {
+      "supply": 10,
+      "demand": 0,
+      "policy_strength": 33,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:18.032454"
+  },
+  {
+    "doc_id": "cad0f535b33c94ba",
+    "title": "一图读懂广东省2019年度碳排放配额分配实施方案",
+    "source": "GZETS",
+    "publish_date": "2019-11-01T00:00:00",
+    "positions": {
+      "supply": 50,
+      "demand": 50,
+      "policy_strength": 67
+    },
+    "scores": {
+      "supply": 50,
+      "demand": 50,
+      "policy_strength": 67,
+      "interpretations": {
+        "supply": "Supply increase",
+        "demand": "Demand increase",
+        "policy_strength": "Binding guidance",
+        "overall": "neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:18.055994"
+  },
+  {
+    "doc_id": "dc2c505fb43f51f2",
+    "title": "关于广州珠江电力有限公司购买碳配额的通知",
+    "source": "GZETS",
+    "publish_date": "2019-05-07T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 50,
+      "policy_strength": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 50,
+      "policy_strength": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Demand increase",
+        "policy_strength": "Informational policy",
+        "overall": "moderate upward price pressure as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:18.140440"
+  },
+  {
+    "doc_id": "fab17187b467ac98",
+    "title": "关于同意东莞葛天那公司600KW分布式光伏发电碳普惠项目减排量备案的函",
+    "source": "GZETS",
+    "publish_date": "2019-10-24T00:00:00",
+    "positions": {
+      "supply": 20,
+      "demand": 0,
+      "policy_strength": 67
+    },
+    "scores": {
+      "supply": 20,
+      "demand": 0,
+      "policy_strength": 67,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:18.239903"
+  },
+  {
+    "doc_id": "985ec3b5820bc453",
+    "title": "广州中电荔新电力实业有限公司2018年度碳排放配额购买项目招标公告",
+    "source": "GZETS",
+    "publish_date": "2019-05-08T00:00:00",
+    "positions": {
+      "supply": -50,
+      "demand": 50,
+      "policy_strength": 67
+    },
+    "scores": {
+      "supply": -50,
+      "demand": 50,
+      "policy_strength": 67,
+      "interpretations": {
+        "supply": "Supply reduction",
+        "demand": "Demand increase",
+        "policy_strength": "Binding guidance",
+        "overall": "strong upward price pressure with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:18.629567"
+  },
+  {
+    "doc_id": "deaccd3bcb2af37b",
+    "title": "广东省生态环境厅关于同意深能龙川新能源公司分布式光伏发电碳普惠项目减排量备案的函",
+    "source": "GZETS",
+    "publish_date": "2019-12-11T00:00:00",
+    "positions": {
+      "supply": 30,
+      "demand": 20,
+      "policy_strength": 33
+    },
+    "scores": {
+      "supply": 30,
+      "demand": 20,
+      "policy_strength": 33,
+      "interpretations": {
+        "supply": "Supply increase",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:18.816418"
+  },
+  {
+    "doc_id": "7ebf4fc4ba11b221",
+    "title": "广东省生态环境厅关于同意晶科电力广州市盛步光伏电力有限公司皇朝家私5兆瓦分布式光伏发电项目减排量备案的函",
+    "source": "GZETS",
+    "publish_date": "2019-11-13T00:00:00",
+    "positions": {
+      "supply": 20,
+      "demand": 0,
+      "policy_strength": 67
+    },
+    "scores": {
+      "supply": 20,
+      "demand": 0,
+      "policy_strength": 67,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:18.966330"
+  },
+  {
+    "doc_id": "00c506c2b142e758",
+    "title": "广东省生态环境厅关于做好2018年度企业碳排放信息报告核查和配额清缴履约相关工作的通知",
+    "source": "GZETS",
+    "publish_date": "2019-01-17T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 67
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 67,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:19.077269"
+  },
+  {
+    "doc_id": "7ccade1f6c1dcdc6",
+    "title": "广东省生态环境厅办公室关于做好我省参与全国碳排放权交易市场相关材料报送工作的通知",
+    "source": "GZETS",
+    "publish_date": "2019-06-11T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 33
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 33,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:19.080245"
+  },
+  {
+    "doc_id": "b313f5ac46b43ecd",
+    "title": "广东省生态环境厅关于同意东莞市供电局分布式光伏发电等碳普惠项目减排量备案的函",
+    "source": "GZETS",
+    "publish_date": "2019-08-09T00:00:00",
+    "positions": {
+      "supply": 40,
+      "demand": 20,
+      "policy_strength": 67
+    },
+    "scores": {
+      "supply": 40,
+      "demand": 20,
+      "policy_strength": 67,
+      "interpretations": {
+        "supply": "Supply increase",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:19.542883"
+  },
+  {
+    "doc_id": "fa6260d174bc0ce5",
+    "title": "广东省生态环境厅关于同意广州岭南电缆股份有限公司 3MWp分布式光伏发电碳普惠项目减排量备案的函",
+    "source": "GZETS",
+    "publish_date": "2019-10-15T00:00:00",
+    "positions": {
+      "supply": 25,
+      "demand": 10,
+      "policy_strength": 33
+    },
+    "scores": {
+      "supply": 25,
+      "demand": 10,
+      "policy_strength": 33,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:19.909184"
+  },
+  {
+    "doc_id": "e54a7272efb301f2",
+    "title": "广东省生态环境厅关于印发广东碳交易试点2017年度核查、参与全国碳交易市场广东企业2016、2017年度核查工作考评结果的通知",
+    "source": "GZETS",
+    "publish_date": "2019-01-08T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:20.046173"
+  },
+  {
+    "doc_id": "98529ee6b2adb801",
+    "title": "广东省生态环境厅关于同意韶关市始兴等3县（市、区）24个省定贫困村林业碳普惠项目减排量备案的函",
+    "source": "GZETS",
+    "publish_date": "2019-10-15T00:00:00",
+    "positions": {
+      "supply": 50,
+      "demand": 10,
+      "policy_strength": 67
+    },
+    "scores": {
+      "supply": 50,
+      "demand": 10,
+      "policy_strength": 67,
+      "interpretations": {
+        "supply": "Supply increase",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "moderate downward price pressure with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:20.249597"
+  },
+  {
+    "doc_id": "912cde2e7de1e218",
+    "title": "关于广东省2018年度碳排放配额履约工作的公告",
+    "source": "GZETS",
+    "publish_date": "2019-08-06T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 100
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 100,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Mandatory enforcement",
+        "overall": "neutral price impact with mandatory enforcement"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:20.339236"
+  },
+  {
+    "doc_id": "3a5e958f9075cdd8",
+    "title": "广东省发展改革委关于同意河源市紫金县义容镇等10个碳普惠项目减排量备案的函",
+    "source": "GZETS",
+    "publish_date": "2018-08-22T00:00:00",
+    "positions": {
+      "supply": 50,
+      "demand": 10,
+      "policy_strength": 67
+    },
+    "scores": {
+      "supply": 50,
+      "demand": 10,
+      "policy_strength": 67,
+      "interpretations": {
+        "supply": "Supply increase",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "moderate downward price pressure with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:20.458849"
+  },
+  {
+    "doc_id": "afd7355f544386f0",
+    "title": "关于广东省2017年度碳排放配额履约工作的公告",
+    "source": "GZETS",
+    "publish_date": "2018-06-22T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 100
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 100,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Mandatory enforcement",
+        "overall": "neutral price impact with mandatory enforcement"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:20.827051"
+  },
+  {
+    "doc_id": "bef05911c254a772",
+    "title": "广东省生态环境厅关于恢复受理省级碳普惠核证减排量备案申请的通知",
+    "source": "GZETS",
+    "publish_date": "2019-06-04T00:00:00",
+    "positions": {
+      "supply": 75,
+      "demand": 30,
+      "policy_strength": 67
+    },
+    "scores": {
+      "supply": 75,
+      "demand": 30,
+      "policy_strength": 67,
+      "interpretations": {
+        "supply": "Supply increase",
+        "demand": "Demand increase",
+        "policy_strength": "Binding guidance",
+        "overall": "moderate downward price pressure with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:21.096049"
+  },
+  {
+    "doc_id": "adc597acece9515f",
+    "title": "广东省发展改革委关于调整2017年度企业碳排放信息报告核查工作任务的通知",
+    "source": "GZETS",
+    "publish_date": "2018-04-24T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 33
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 33,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:21.106894"
+  },
+  {
+    "doc_id": "95711d0ff363cbf3",
+    "title": "广东省发展改革委关于同意河源市东江林场林业碳普惠项目减排量备案的函",
+    "source": "GZETS",
+    "publish_date": "2018-04-28T00:00:00",
+    "positions": {
+      "supply": 50,
+      "demand": 0,
+      "policy_strength": 67
+    },
+    "scores": {
+      "supply": 50,
+      "demand": 0,
+      "policy_strength": 67,
+      "interpretations": {
+        "supply": "Supply increase",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "moderate downward price pressure with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:21.272366"
+  },
+  {
+    "doc_id": "c0ad9c058eed4133",
+    "title": "关于广东省2017年度碳排放配额履约工作的最新公告",
+    "source": "GZETS",
+    "publish_date": "2018-07-03T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 100
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 100,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Mandatory enforcement",
+        "overall": "neutral price impact with mandatory enforcement"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:21.546480"
+  },
+  {
+    "doc_id": "1b4895803de91d75",
+    "title": "广东省发展改革委关于印发广东省2018年度碳排放配额分配实施方案的通知",
+    "source": "GZETS",
+    "publish_date": "2018-07-25T00:00:00",
+    "positions": {
+      "supply": 75,
+      "demand": 50,
+      "policy_strength": 100
+    },
+    "scores": {
+      "supply": 75,
+      "demand": 50,
+      "policy_strength": 100,
+      "interpretations": {
+        "supply": "Supply increase",
+        "demand": "Demand increase",
+        "policy_strength": "Mandatory enforcement",
+        "overall": "moderate downward price pressure with mandatory enforcement"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:21.646452"
+  },
+  {
+    "doc_id": "e73dc5eba021b5de",
+    "title": "广东省发展改革委关于同意韶关市翁源县等4县（市）36个省定贫困村及少数民族县村林业碳普惠项目减排量备案的函",
+    "source": "GZETS",
+    "publish_date": "2018-06-07T00:00:00",
+    "positions": {
+      "supply": 20,
+      "demand": 10,
+      "policy_strength": 33
+    },
+    "scores": {
+      "supply": 20,
+      "demand": 10,
+      "policy_strength": 33,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:22.163259"
+  },
+  {
+    "doc_id": "22548e8bf45d5845",
+    "title": "广东省发展改革委关于启动广东省近零碳排放区示范工程试点项目建设的通知",
+    "source": "GZETS",
+    "publish_date": "2018-07-03T00:00:00",
+    "positions": {
+      "supply": 20,
+      "demand": 15,
+      "policy_strength": 67
+    },
+    "scores": {
+      "supply": 20,
+      "demand": 15,
+      "policy_strength": 67,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:22.249597"
+  },
+  {
+    "doc_id": "4ff1caef774d5033",
+    "title": "关于举办广东省碳排放管理核查机构2017年度碳排放信息报告专题培训的通知",
+    "source": "GZETS",
+    "publish_date": "2018-03-14T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 10
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 10,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:22.269822"
+  },
+  {
+    "doc_id": "cd64bd6e75f5bc11",
+    "title": "关于暂停受理省级碳普惠核证减排量备案申请的通知",
+    "source": "GZETS",
+    "publish_date": "2018-09-06T00:00:00",
+    "positions": {
+      "supply": -100,
+      "demand": 0,
+      "policy_strength": 67
+    },
+    "scores": {
+      "supply": -100,
+      "demand": 0,
+      "policy_strength": 67,
+      "interpretations": {
+        "supply": "Strong supply restriction",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "strong upward price pressure with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:22.374622"
+  },
+  {
+    "doc_id": "6967efbce4ad96eb",
+    "title": "广东省发展改革委关于同意广州市5个分布式光伏发电碳普惠项目减排量备案的函",
+    "source": "GZETS",
+    "publish_date": "2018-06-07T00:00:00",
+    "positions": {
+      "supply": 30,
+      "demand": 10,
+      "policy_strength": 67
+    },
+    "scores": {
+      "supply": 30,
+      "demand": 10,
+      "policy_strength": 67,
+      "interpretations": {
+        "supply": "Supply increase",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:22.475695"
+  },
+  {
+    "doc_id": "17ba4dfe827b41dc",
+    "title": "广东省发展改革委关于调整全国碳交易市场广东企业2016、2017年度温室气体排放信息报告核查工作任务的通知",
+    "source": "GZETS",
+    "publish_date": "2018-04-24T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 67
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 67,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "neutral price impact with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:22.690813"
+  },
+  {
+    "doc_id": "b3f3c1a1b9a8763f",
+    "title": "广东省发展改革委关于同意花都区梯面林场等4个碳普惠项目减排量备案的函",
+    "source": "GZETS",
+    "publish_date": "2018-07-06T00:00:00",
+    "positions": {
+      "supply": 60,
+      "demand": 10,
+      "policy_strength": 67
+    },
+    "scores": {
+      "supply": 60,
+      "demand": 10,
+      "policy_strength": 67,
+      "interpretations": {
+        "supply": "Supply increase",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Binding guidance",
+        "overall": "moderate downward price pressure with binding guidance"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:23.065266"
+  },
+  {
+    "doc_id": "ccd13e22c994c875",
+    "title": "关于广东省2017年度企业碳排放信息报告核查机构遴选和任务分配有关工作的通知",
+    "source": "GZETS",
+    "publish_date": "2018-03-16T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 33
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 33,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:23.133980"
+  },
+  {
+    "doc_id": "e095cfbd789c9e53",
+    "title": "2017年省级近零碳排放区示范工程试点项目公示",
+    "source": "GZETS",
+    "publish_date": "2017-11-29T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 10,
+      "policy_strength": 33
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 10,
+      "policy_strength": 33,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:23.352079"
+  },
+  {
+    "doc_id": "3f589de3a1663e6e",
+    "title": "图解：广东碳市场2017年度总结",
+    "source": "GZETS",
+    "publish_date": "2018-01-02T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:23.359602"
+  },
+  {
+    "doc_id": "0b4b4e71cfc89c4a",
+    "title": "广东省发展改革委关于调整广东全国碳交易市场企业2016年度温室气体排放信息报告核查任务分工的通知",
+    "source": "GZETS",
+    "publish_date": "2017-11-15T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 33
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 33,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:23.783039"
+  },
+  {
+    "doc_id": "612de004a5c7ab7d",
+    "title": "全国碳排放权交易市场正式启动 广东继续贡献试点经验",
+    "source": "GZETS",
+    "publish_date": "2017-12-20T00:00:00",
+    "positions": {
+      "supply": 100,
+      "demand": 100,
+      "policy_strength": 100
+    },
+    "scores": {
+      "supply": 100,
+      "demand": 100,
+      "policy_strength": 100,
+      "interpretations": {
+        "supply": "Strong supply expansion",
+        "demand": "Strong demand expansion",
+        "policy_strength": "Mandatory enforcement",
+        "overall": "neutral price impact with mandatory enforcement"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:24.162882"
+  },
+  {
+    "doc_id": "9dbeda1a301cf8d3",
+    "title": "广东省发展改革委 广东省财政厅关于下达2017年省级碳排放有偿收入项目计划的通知",
+    "source": "GZETS",
+    "publish_date": "2018-01-02T00:00:00",
+    "positions": {
+      "supply": 10,
+      "demand": 20,
+      "policy_strength": 33
+    },
+    "scores": {
+      "supply": 10,
+      "demand": 20,
+      "policy_strength": 33,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:24.315394"
+  },
+  {
+    "doc_id": "3dbe3463801ae22d",
+    "title": "广州市发展改革委关于征求《广州市碳普惠制管理暂行办法》公众意见的公告",
+    "source": "GZETS",
+    "publish_date": "2018-01-16T00:00:00",
+    "positions": {
+      "supply": 10,
+      "demand": 25,
+      "policy_strength": 33
+    },
+    "scores": {
+      "supply": 10,
+      "demand": 25,
+      "policy_strength": 33,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T16:01:24.687358"
+  }
+]

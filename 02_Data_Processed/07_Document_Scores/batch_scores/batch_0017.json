@@ -1,110 +1,18 @@
 [
   {
-    "doc_id": "7357847dffd931dc",
-    "title": "CCER购买需求发布",
+    "doc_id": "9b4d676066af5776",
+    "title": "第一期碳资产开发与交易实务培训班成功举办",
     "source": "GZETS",
-    "publish_date": "2017-09-04T00:00:00",
+    "publish_date": "2023-03-27T00:00:00",
     "positions": {
-      "supply": 0,
-      "demand": 75,
-      "policy_strength": 0
-    },
-    "scores": {
-      "supply": 0,
-      "demand": 75,
-      "policy_strength": 0,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Demand increase",
-        "policy_strength": "Informational policy",
-        "overall": "moderate upward price pressure as informational guidance"
-      }
-    },
-    "timestamp": "2025-08-11T12:15:00.086801"
-  },
-  {
-    "doc_id": "f4426f1d55f71f6d",
-    "title": "2016年度广东省碳排放配额有偿发放（第四次）竞价情况",
-    "source": "GZETS",
-    "publish_date": "2017-06-05T00:00:00",
-    "positions": {
-      "supply": -50,
-      "demand": 0,
-      "policy_strength": 67
-    },
-    "scores": {
-      "supply": -50,
-      "demand": 0,
-      "policy_strength": 67,
-      "interpretations": {
-        "supply": "Supply reduction",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Binding guidance",
-        "overall": "moderate upward price pressure with binding guidance"
-      }
-    },
-    "timestamp": "2025-08-11T12:15:00.434214"
-  },
-  {
-    "doc_id": "610c1d4f3ba4d030",
-    "title": "CCER出售需求发布",
-    "source": "GZETS",
-    "publish_date": "2017-04-12T00:00:00",
-    "positions": {
-      "supply": 50,
+      "supply": 5,
       "demand": 10,
-      "policy_strength": 0
+      "policy_strength": 10
     },
     "scores": {
-      "supply": 50,
+      "supply": 5,
       "demand": 10,
-      "policy_strength": 0,
-      "interpretations": {
-        "supply": "Supply increase",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Informational policy",
-        "overall": "moderate downward price pressure as informational guidance"
-      }
-    },
-    "timestamp": "2025-08-11T12:15:00.532028"
-  },
-  {
-    "doc_id": "03f3c92addb8c1a5",
-    "title": "广东省省级碳普惠制核证减排量（PHCER）项目竞价公告",
-    "source": "GZETS",
-    "publish_date": "2017-06-07T00:00:00",
-    "positions": {
-      "supply": 50,
-      "demand": 50,
-      "policy_strength": 67
-    },
-    "scores": {
-      "supply": 50,
-      "demand": 50,
-      "policy_strength": 67,
-      "interpretations": {
-        "supply": "Supply increase",
-        "demand": "Demand increase",
-        "policy_strength": "Binding guidance",
-        "overall": "neutral price impact with binding guidance"
-      }
-    },
-    "timestamp": "2025-08-11T12:15:00.544554"
-  },
-  {
-    "doc_id": "374e1df09214b5ef",
-    "title": "关于广东省碳普惠专家委员会首届拟聘委员名单的公示",
-    "source": "GZETS",
-    "publish_date": "2017-05-21T00:00:00",
-    "positions": {
-      "supply": 0,
-      "demand": 0,
-      "policy_strength": 0
-    },
-    "scores": {
-      "supply": 0,
-      "demand": 0,
-      "policy_strength": 0,
+      "policy_strength": 10,
       "interpretations": {
         "supply": "Neutral supply impact",
         "demand": "Neutral demand impact",
@@ -112,243 +20,36 @@
         "overall": "neutral price impact as informational guidance"
       }
     },
-    "timestamp": "2025-08-11T12:15:00.641311"
+    "timestamp": "2025-08-11T15:52:14.568834"
   },
   {
-    "doc_id": "77798c213a80cbd2",
-    "title": "广东省省级碳普惠制核证减排量（PHCER）项目竞价公告",
+    "doc_id": "6c79529994359f9e",
+    "title": "内蒙古自治区碳汇交易调研组一行赴广州碳排放权交易中心调研交流",
     "source": "GZETS",
-    "publish_date": "2018-05-04T00:00:00",
+    "publish_date": "2023-03-10T00:00:00",
     "positions": {
-      "supply": 50,
-      "demand": 50,
-      "policy_strength": 67
+      "supply": 10,
+      "demand": 5,
+      "policy_strength": 15
     },
     "scores": {
-      "supply": 50,
-      "demand": 50,
-      "policy_strength": 67,
+      "supply": 10,
+      "demand": 5,
+      "policy_strength": 15,
       "interpretations": {
-        "supply": "Supply increase",
-        "demand": "Demand increase",
-        "policy_strength": "Binding guidance",
-        "overall": "neutral price impact with binding guidance"
-      }
-    },
-    "timestamp": "2025-08-11T12:15:00.642959"
-  },
-  {
-    "doc_id": "12b9bab971bbadae",
-    "title": "2016年度广东省碳排放配额有偿发放（第四次）公告",
-    "source": "GZETS",
-    "publish_date": "2017-05-24T00:00:00",
-    "positions": {
-      "supply": 50,
-      "demand": 0,
-      "policy_strength": 100
-    },
-    "scores": {
-      "supply": 50,
-      "demand": 0,
-      "policy_strength": 100,
-      "interpretations": {
-        "supply": "Supply increase",
+        "supply": "Neutral supply impact",
         "demand": "Neutral demand impact",
-        "policy_strength": "Mandatory enforcement",
-        "overall": "moderate downward price pressure with mandatory enforcement"
-      }
-    },
-    "timestamp": "2025-08-11T12:15:01.399076"
-  },
-  {
-    "doc_id": "f676ce05fd6733ab",
-    "title": "关于实行广东省碳排放配额回购交易优惠措施的公告",
-    "source": "GZETS",
-    "publish_date": "2017-05-10T00:00:00",
-    "positions": {
-      "supply": 75,
-      "demand": 25,
-      "policy_strength": 67
-    },
-    "scores": {
-      "supply": 75,
-      "demand": 25,
-      "policy_strength": 67,
-      "interpretations": {
-        "supply": "Supply increase",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Binding guidance",
-        "overall": "moderate downward price pressure with binding guidance"
-      }
-    },
-    "timestamp": "2025-08-11T12:15:01.569456"
-  },
-  {
-    "doc_id": "ee916cfb35c0f307",
-    "title": "2016年度广东省碳排放配额有偿发放（第三次）竞价情况",
-    "source": "GZETS",
-    "publish_date": "2017-03-27T00:00:00",
-    "positions": {
-      "supply": 75,
-      "demand": 60,
-      "policy_strength": 67
-    },
-    "scores": {
-      "supply": 75,
-      "demand": 60,
-      "policy_strength": 67,
-      "interpretations": {
-        "supply": "Supply increase",
-        "demand": "Demand increase",
-        "policy_strength": "Binding guidance",
-        "overall": "neutral price impact with binding guidance"
-      }
-    },
-    "timestamp": "2025-08-11T12:15:01.641769"
-  },
-  {
-    "doc_id": "1d4e4d80759073f7",
-    "title": "CCER出售需求发布",
-    "source": "GZETS",
-    "publish_date": "2017-04-19T00:00:00",
-    "positions": {
-      "supply": 50,
-      "demand": 50,
-      "policy_strength": 0
-    },
-    "scores": {
-      "supply": 50,
-      "demand": 50,
-      "policy_strength": 0,
-      "interpretations": {
-        "supply": "Supply increase",
-        "demand": "Demand increase",
         "policy_strength": "Informational policy",
         "overall": "neutral price impact as informational guidance"
       }
     },
-    "timestamp": "2025-08-11T12:15:01.674736"
+    "timestamp": "2025-08-11T15:52:14.841191"
   },
   {
-    "doc_id": "c64b36cf543a7f11",
-    "title": "广东省碳普惠专家委员会首届委员选聘公告",
+    "doc_id": "de61b1e06a39f415",
+    "title": "广碳所支持开展碳汇助力花都碳中和宣传活动",
     "source": "GZETS",
-    "publish_date": "2017-05-11T00:00:00",
-    "positions": {
-      "supply": 0,
-      "demand": 0,
-      "policy_strength": 33
-    },
-    "scores": {
-      "supply": 0,
-      "demand": 0,
-      "policy_strength": 33,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "neutral price impact with voluntary measures"
-      }
-    },
-    "timestamp": "2025-08-11T12:15:01.776920"
-  },
-  {
-    "doc_id": "8d99dcf9944f2d94",
-    "title": "2016年度广东省碳排放配额有偿发放（第三次）公告",
-    "source": "GZETS",
-    "publish_date": "2017-03-15T00:00:00",
-    "positions": {
-      "supply": 50,
-      "demand": 0,
-      "policy_strength": 67
-    },
-    "scores": {
-      "supply": 50,
-      "demand": 0,
-      "policy_strength": 67,
-      "interpretations": {
-        "supply": "Supply increase",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Binding guidance",
-        "overall": "moderate downward price pressure with binding guidance"
-      }
-    },
-    "timestamp": "2025-08-11T12:15:01.777888"
-  },
-  {
-    "doc_id": "af082238f29417c5",
-    "title": "关于发布《广东省碳排放配额托管业务指引（2017年修订）》等四项业务修订的通知",
-    "source": "GZETS",
-    "publish_date": "2017-02-23T00:00:00",
-    "positions": {
-      "supply": 25,
-      "demand": 30,
-      "policy_strength": 67
-    },
-    "scores": {
-      "supply": 25,
-      "demand": 30,
-      "policy_strength": 67,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Demand increase",
-        "policy_strength": "Binding guidance",
-        "overall": "neutral price impact with binding guidance"
-      }
-    },
-    "timestamp": "2025-08-11T12:15:02.270544"
-  },
-  {
-    "doc_id": "330e9c567f04e0a9",
-    "title": "广州碳排放权交易中心经纪机构招募公告",
-    "source": "GZETS",
-    "publish_date": "2017-02-22T00:00:00",
-    "positions": {
-      "supply": 10,
-      "demand": 30,
-      "policy_strength": 33
-    },
-    "scores": {
-      "supply": 10,
-      "demand": 30,
-      "policy_strength": 33,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Demand increase",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "neutral price impact with voluntary measures"
-      }
-    },
-    "timestamp": "2025-08-11T12:15:02.714554"
-  },
-  {
-    "doc_id": "5ed4ce6a2ced685a",
-    "title": "2016年度广东省碳排放配额有偿发放（第二次）竞价情况",
-    "source": "GZETS",
-    "publish_date": "2017-01-04T00:00:00",
-    "positions": {
-      "supply": 80,
-      "demand": 60,
-      "policy_strength": 100
-    },
-    "scores": {
-      "supply": 80,
-      "demand": 60,
-      "policy_strength": 100,
-      "interpretations": {
-        "supply": "Strong supply expansion",
-        "demand": "Demand increase",
-        "policy_strength": "Mandatory enforcement",
-        "overall": "neutral price impact with mandatory enforcement"
-      }
-    },
-    "timestamp": "2025-08-11T12:15:02.867612"
-  },
-  {
-    "doc_id": "0f3863de0332d2a1",
-    "title": "广州碳排放权交易中心关于征集绿色融资项目的公告",
-    "source": "GZETS",
-    "publish_date": "2016-12-22T00:00:00",
+    "publish_date": "2023-04-14T00:00:00",
     "positions": {
       "supply": 10,
       "demand": 20,
@@ -365,112 +66,112 @@
         "overall": "neutral price impact with voluntary measures"
       }
     },
-    "timestamp": "2025-08-11T12:15:02.882632"
+    "timestamp": "2025-08-11T15:52:15.107981"
   },
   {
-    "doc_id": "498567b79156c07e",
-    "title": "CCER出售需求发布",
+    "doc_id": "cfdb4af8abe47435",
+    "title": "中国海洋大学一行赴广州碳排放权交易中心交流座谈",
     "source": "GZETS",
-    "publish_date": "2016-11-03T00:00:00",
+    "publish_date": "2023-03-09T00:00:00",
     "positions": {
-      "supply": 50,
-      "demand": 50,
+      "supply": 0,
+      "demand": 0,
       "policy_strength": 0
     },
     "scores": {
-      "supply": 50,
-      "demand": 50,
+      "supply": 0,
+      "demand": 0,
       "policy_strength": 0,
       "interpretations": {
-        "supply": "Supply increase",
-        "demand": "Demand increase",
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
         "policy_strength": "Informational policy",
         "overall": "neutral price impact as informational guidance"
       }
     },
-    "timestamp": "2025-08-11T12:15:03.005656"
+    "timestamp": "2025-08-11T15:52:15.609917"
   },
   {
-    "doc_id": "badc1135b9ad1901",
-    "title": "关于发布《广州碳排放权交易中心会员管理暂行办法（2017年修订）》的通知",
+    "doc_id": "715aebd721941f43",
+    "title": "广碳所助力消博会第三届可持续消费高峰论坛实现大型活动碳中和",
     "source": "GZETS",
-    "publish_date": "2017-02-07T00:00:00",
+    "publish_date": "2023-04-18T00:00:00",
     "positions": {
       "supply": 0,
-      "demand": 0,
-      "policy_strength": 67
-    },
-    "scores": {
-      "supply": 0,
-      "demand": 0,
-      "policy_strength": 67,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Binding guidance",
-        "overall": "neutral price impact with binding guidance"
-      }
-    },
-    "timestamp": "2025-08-11T12:15:03.610646"
-  },
-  {
-    "doc_id": "67a4dca3826a2d8a",
-    "title": "广东省碳排放配额出售需求发布",
-    "source": "GZETS",
-    "publish_date": "2016-12-15T00:00:00",
-    "positions": {
-      "supply": 75,
-      "demand": 50,
-      "policy_strength": 67
-    },
-    "scores": {
-      "supply": 75,
-      "demand": 50,
-      "policy_strength": 67,
-      "interpretations": {
-        "supply": "Supply increase",
-        "demand": "Demand increase",
-        "policy_strength": "Binding guidance",
-        "overall": "moderate downward price pressure with binding guidance"
-      }
-    },
-    "timestamp": "2025-08-11T12:15:03.902013"
-  },
-  {
-    "doc_id": "0942883da8374880",
-    "title": "广东省碳排放配额回购交易购碳需求发布",
-    "source": "GZETS",
-    "publish_date": "2017-01-06T00:00:00",
-    "positions": {
-      "supply": -50,
-      "demand": 50,
+      "demand": 10,
       "policy_strength": 33
     },
     "scores": {
-      "supply": -50,
-      "demand": 50,
+      "supply": 0,
+      "demand": 10,
       "policy_strength": 33,
       "interpretations": {
-        "supply": "Supply reduction",
-        "demand": "Demand increase",
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
         "policy_strength": "Encouraged/voluntary policy",
-        "overall": "strong upward price pressure with voluntary measures"
+        "overall": "neutral price impact with voluntary measures"
       }
     },
-    "timestamp": "2025-08-11T12:15:04.040504"
+    "timestamp": "2025-08-11T15:52:15.682794"
   },
   {
-    "doc_id": "cec82d3267b06878",
-    "title": "广州碳排放权交易中心会员资格和业务资质收费标准",
+    "doc_id": "63c5fd6a2e43d72f",
+    "title": "广东省高级人民法院、广州市中级人民法院赴广碳所调研",
     "source": "GZETS",
-    "publish_date": "2017-02-21T00:00:00",
+    "publish_date": "2023-04-17T00:00:00",
     "positions": {
       "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T15:52:15.744673"
+  },
+  {
+    "doc_id": "c587301f2565b4df",
+    "title": "广碳所总经理助理肖斯锐到南海所开展学术交流",
+    "source": "GZETS",
+    "publish_date": "2023-03-09T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T15:52:15.970905"
+  },
+  {
+    "doc_id": "2e938d8e3b9a7c4a",
+    "title": "柳州市生态环境局一行赴广碳所调研",
+    "source": "GZETS",
+    "publish_date": "2023-02-10T00:00:00",
+    "positions": {
+      "supply": 10,
       "demand": 15,
       "policy_strength": 33
     },
     "scores": {
-      "supply": 0,
+      "supply": 10,
       "demand": 15,
       "policy_strength": 33,
       "interpretations": {
@@ -480,335 +181,36 @@
         "overall": "neutral price impact with voluntary measures"
       }
     },
-    "timestamp": "2025-08-11T12:15:04.113063"
+    "timestamp": "2025-08-11T15:52:16.071071"
   },
   {
-    "doc_id": "e415dcf97d95a55a",
-    "title": "广东省碳排放配额回购交易购碳需求发布",
+    "doc_id": "23e5e8816ec4590e",
+    "title": "广碳所参加澳门大湾区碳中和发展研讨会",
     "source": "GZETS",
-    "publish_date": "2016-11-07T00:00:00",
+    "publish_date": "2023-04-04T00:00:00",
     "positions": {
-      "supply": -20,
+      "supply": 10,
       "demand": 30,
-      "policy_strength": 33
+      "policy_strength": 15
     },
     "scores": {
-      "supply": -20,
+      "supply": 10,
       "demand": 30,
-      "policy_strength": 33,
+      "policy_strength": 15,
       "interpretations": {
         "supply": "Neutral supply impact",
         "demand": "Demand increase",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "moderate upward price pressure with voluntary measures"
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
       }
     },
-    "timestamp": "2025-08-11T12:15:04.217047"
+    "timestamp": "2025-08-11T15:52:16.144247"
   },
   {
-    "doc_id": "54e39a4b8011a981",
-    "title": "2016年度广东省碳排放配额有偿发放（第二次）公告",
+    "doc_id": "78775df3dd1199ba",
+    "title": "广碳所党支部开展市场化机制助力广东省建筑业绿色高质量发展主题党日共建活动",
     "source": "GZETS",
-    "publish_date": "2016-12-21T00:00:00",
-    "positions": {
-      "supply": 50,
-      "demand": 0,
-      "policy_strength": 67
-    },
-    "scores": {
-      "supply": 50,
-      "demand": 0,
-      "policy_strength": 67,
-      "interpretations": {
-        "supply": "Supply increase",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Binding guidance",
-        "overall": "moderate downward price pressure with binding guidance"
-      }
-    },
-    "timestamp": "2025-08-11T12:15:04.317572"
-  },
-  {
-    "doc_id": "af2eadfe0218b68a",
-    "title": "广州碳排放权交易中心碳排放权交易收费优惠通知",
-    "source": "GZETS",
-    "publish_date": "2017-02-15T00:00:00",
-    "positions": {
-      "supply": 10,
-      "demand": 20,
-      "policy_strength": 33
-    },
-    "scores": {
-      "supply": 10,
-      "demand": 20,
-      "policy_strength": 33,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "neutral price impact with voluntary measures"
-      }
-    },
-    "timestamp": "2025-08-11T12:15:04.387538"
-  },
-  {
-    "doc_id": "ca5e398f98e0e83d",
-    "title": "2015年度广东省碳排放配额有偿发放第四次）公告",
-    "source": "GZETS",
-    "publish_date": "2016-05-30T00:00:00",
-    "positions": {
-      "supply": 50,
-      "demand": 0,
-      "policy_strength": 67
-    },
-    "scores": {
-      "supply": 50,
-      "demand": 0,
-      "policy_strength": 67,
-      "interpretations": {
-        "supply": "Supply increase",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Binding guidance",
-        "overall": "moderate downward price pressure with binding guidance"
-      }
-    },
-    "timestamp": "2025-08-11T12:15:04.746946"
-  },
-  {
-    "doc_id": "4c30d65e45fb23ce",
-    "title": "2016年度广东省碳排放配额有偿发放第一次）公告",
-    "source": "GZETS",
-    "publish_date": "2016-09-09T00:00:00",
-    "positions": {
-      "supply": 50,
-      "demand": 0,
-      "policy_strength": 67
-    },
-    "scores": {
-      "supply": 50,
-      "demand": 0,
-      "policy_strength": 67,
-      "interpretations": {
-        "supply": "Supply increase",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Binding guidance",
-        "overall": "moderate downward price pressure with binding guidance"
-      }
-    },
-    "timestamp": "2025-08-11T12:15:04.950208"
-  },
-  {
-    "doc_id": "63115db639def01a",
-    "title": "广东省碳排放配额回购交易购碳需求发布",
-    "source": "GZETS",
-    "publish_date": "2016-04-21T00:00:00",
-    "positions": {
-      "supply": -10,
-      "demand": 30,
-      "policy_strength": 33
-    },
-    "scores": {
-      "supply": -10,
-      "demand": 30,
-      "policy_strength": 33,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Demand increase",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "moderate upward price pressure with voluntary measures"
-      }
-    },
-    "timestamp": "2025-08-11T12:15:05.094615"
-  },
-  {
-    "doc_id": "1993e6b2508d3c8a",
-    "title": "2016年度广东省碳排放配额有偿发放（第一次）竞价情况",
-    "source": "GZETS",
-    "publish_date": "2016-09-21T00:00:00",
-    "positions": {
-      "supply": 100,
-      "demand": 50,
-      "policy_strength": 67
-    },
-    "scores": {
-      "supply": 100,
-      "demand": 50,
-      "policy_strength": 67,
-      "interpretations": {
-        "supply": "Strong supply expansion",
-        "demand": "Demand increase",
-        "policy_strength": "Binding guidance",
-        "overall": "moderate downward price pressure with binding guidance"
-      }
-    },
-    "timestamp": "2025-08-11T12:15:05.215373"
-  },
-  {
-    "doc_id": "c6ae0871089e88c9",
-    "title": "关于广东碳排放权交易系统代理开户事项的公告",
-    "source": "GZETS",
-    "publish_date": "2016-06-14T00:00:00",
-    "positions": {
-      "supply": 10,
-      "demand": 20,
-      "policy_strength": 33
-    },
-    "scores": {
-      "supply": 10,
-      "demand": 20,
-      "policy_strength": 33,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "neutral price impact with voluntary measures"
-      }
-    },
-    "timestamp": "2025-08-11T12:15:05.391051"
-  },
-  {
-    "doc_id": "1ec871e58668c092",
-    "title": "2015年度广东省碳排放配额有偿发放（第四次）竞价情况",
-    "source": "GZETS",
-    "publish_date": "2016-06-08T00:00:00",
-    "positions": {
-      "supply": -50,
-      "demand": 0,
-      "policy_strength": 67
-    },
-    "scores": {
-      "supply": -50,
-      "demand": 0,
-      "policy_strength": 67,
-      "interpretations": {
-        "supply": "Supply reduction",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Binding guidance",
-        "overall": "moderate upward price pressure with binding guidance"
-      }
-    },
-    "timestamp": "2025-08-11T12:15:05.436365"
-  },
-  {
-    "doc_id": "ef888dc6c826a5dd",
-    "title": "CCER购买需求发布",
-    "source": "GZETS",
-    "publish_date": "2016-11-01T00:00:00",
-    "positions": {
-      "supply": 10,
-      "demand": 50,
-      "policy_strength": 33
-    },
-    "scores": {
-      "supply": 10,
-      "demand": 50,
-      "policy_strength": 33,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Demand increase",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "moderate upward price pressure with voluntary measures"
-      }
-    },
-    "timestamp": "2025-08-11T12:15:05.562923"
-  },
-  {
-    "doc_id": "7286450043f94bb4",
-    "title": "关于开展广东省碳排放管理有关企业历史碳排放信息报告工作的通知",
-    "source": "GZETS",
-    "publish_date": "2015-09-24T00:00:00",
-    "positions": {
-      "supply": 0,
-      "demand": 0,
-      "policy_strength": 33
-    },
-    "scores": {
-      "supply": 0,
-      "demand": 0,
-      "policy_strength": 33,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "neutral price impact with voluntary measures"
-      }
-    },
-    "timestamp": "2025-08-11T12:15:05.878891"
-  },
-  {
-    "doc_id": "822805013031dd5a",
-    "title": "广东省碳排放配额回购交易需求发布",
-    "source": "GZETS",
-    "publish_date": "2016-04-07T00:00:00",
-    "positions": {
-      "supply": -50,
-      "demand": 0,
-      "policy_strength": 33
-    },
-    "scores": {
-      "supply": -50,
-      "demand": 0,
-      "policy_strength": 33,
-      "interpretations": {
-        "supply": "Supply reduction",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "moderate upward price pressure with voluntary measures"
-      }
-    },
-    "timestamp": "2025-08-11T12:15:06.062842"
-  },
-  {
-    "doc_id": "fd94413fab7b523a",
-    "title": "广州碳排放权交易中心远期交易业务指引",
-    "source": "GZETS",
-    "publish_date": "2016-02-03T00:00:00",
-    "positions": {
-      "supply": 75,
-      "demand": 50,
-      "policy_strength": 67
-    },
-    "scores": {
-      "supply": 75,
-      "demand": 50,
-      "policy_strength": 67,
-      "interpretations": {
-        "supply": "Supply increase",
-        "demand": "Demand increase",
-        "policy_strength": "Binding guidance",
-        "overall": "moderate downward price pressure with binding guidance"
-      }
-    },
-    "timestamp": "2025-08-11T12:15:06.746536"
-  },
-  {
-    "doc_id": "cbe1ff3194d04af9",
-    "title": "2015年度广东省碳排放配额有偿发放（第二次）公告",
-    "source": "GZETS",
-    "publish_date": "2015-12-10T00:00:00",
-    "positions": {
-      "supply": 50,
-      "demand": 0,
-      "policy_strength": 67
-    },
-    "scores": {
-      "supply": 50,
-      "demand": 0,
-      "policy_strength": 67,
-      "interpretations": {
-        "supply": "Supply increase",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Binding guidance",
-        "overall": "moderate downward price pressure with binding guidance"
-      }
-    },
-    "timestamp": "2025-08-11T12:15:06.870213"
-  },
-  {
-    "doc_id": "d5ea44852b1e05c6",
-    "title": "广州碳排放权交易所招聘公告",
-    "source": "GZETS",
-    "publish_date": "2016-02-22T00:00:00",
+    "publish_date": "2023-03-24T00:00:00",
     "positions": {
       "supply": 0,
       "demand": 0,
@@ -825,312 +227,36 @@
         "overall": "neutral price impact as informational guidance"
       }
     },
-    "timestamp": "2025-08-11T12:15:06.945937"
+    "timestamp": "2025-08-11T15:52:16.562878"
   },
   {
-    "doc_id": "61e4ada7e86a052d",
-    "title": "2015年度广东省碳排放配额有偿发放第三次）公告",
+    "doc_id": "7ad286c04749461c",
+    "title": "花都论碳沙龙活动——碳普惠共同机制圆满举办",
     "source": "GZETS",
-    "publish_date": "2016-03-18T00:00:00",
-    "positions": {
-      "supply": 50,
-      "demand": 0,
-      "policy_strength": 67
-    },
-    "scores": {
-      "supply": 50,
-      "demand": 0,
-      "policy_strength": 67,
-      "interpretations": {
-        "supply": "Supply increase",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Binding guidance",
-        "overall": "moderate downward price pressure with binding guidance"
-      }
-    },
-    "timestamp": "2025-08-11T12:15:06.973897"
-  },
-  {
-    "doc_id": "293b7f36e09855e3",
-    "title": "广东省发展改革委关于做好2015年度企业碳排放信息报告核查和配额清缴履约相关工作的通知",
-    "source": "GZETS",
-    "publish_date": "2016-02-19T00:00:00",
-    "positions": {
-      "supply": -50,
-      "demand": 67,
-      "policy_strength": 67
-    },
-    "scores": {
-      "supply": -50,
-      "demand": 67,
-      "policy_strength": 67,
-      "interpretations": {
-        "supply": "Supply reduction",
-        "demand": "Demand increase",
-        "policy_strength": "Binding guidance",
-        "overall": "strong upward price pressure with binding guidance"
-      }
-    },
-    "timestamp": "2025-08-11T12:15:07.078048"
-  },
-  {
-    "doc_id": "93c42ab4e2607d65",
-    "title": "2015年广东省碳排放配额有偿发放（第二次）竞价情况",
-    "source": "GZETS",
-    "publish_date": "2015-12-21T00:00:00",
-    "positions": {
-      "supply": 75,
-      "demand": 25,
-      "policy_strength": 67
-    },
-    "scores": {
-      "supply": 75,
-      "demand": 25,
-      "policy_strength": 67,
-      "interpretations": {
-        "supply": "Supply increase",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Binding guidance",
-        "overall": "moderate downward price pressure with binding guidance"
-      }
-    },
-    "timestamp": "2025-08-11T12:15:07.189981"
-  },
-  {
-    "doc_id": "dae11e8b8c386235",
-    "title": "广东省碳排放配额托管业务指引",
-    "source": "GZETS",
-    "publish_date": "2016-02-04T00:00:00",
-    "positions": {
-      "supply": 10,
-      "demand": 25,
-      "policy_strength": 67
-    },
-    "scores": {
-      "supply": 10,
-      "demand": 25,
-      "policy_strength": 67,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Binding guidance",
-        "overall": "neutral price impact with binding guidance"
-      }
-    },
-    "timestamp": "2025-08-11T12:15:07.684747"
-  },
-  {
-    "doc_id": "1bb5120b7043a2c9",
-    "title": "广州碳排放权交易所（中心）会员招募公告",
-    "source": "GZETS",
-    "publish_date": "2015-12-23T00:00:00",
-    "positions": {
-      "supply": 25,
-      "demand": 40,
-      "policy_strength": 33
-    },
-    "scores": {
-      "supply": 25,
-      "demand": 40,
-      "policy_strength": 33,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Demand increase",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "neutral price impact with voluntary measures"
-      }
-    },
-    "timestamp": "2025-08-11T12:15:08.018893"
-  },
-  {
-    "doc_id": "b6835fdf945afa3e",
-    "title": "绿色融资意向征集活动通知",
-    "source": "GZETS",
-    "publish_date": "2015-11-20T00:00:00",
+    "publish_date": "2022-10-28T00:00:00",
     "positions": {
       "supply": 10,
       "demand": 20,
-      "policy_strength": 33
+      "policy_strength": 5
     },
     "scores": {
       "supply": 10,
       "demand": 20,
-      "policy_strength": 33,
+      "policy_strength": 5,
       "interpretations": {
         "supply": "Neutral supply impact",
         "demand": "Neutral demand impact",
-        "policy_strength": "Encouraged/voluntary policy",
-        "overall": "neutral price impact with voluntary measures"
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
       }
     },
-    "timestamp": "2025-08-11T12:15:08.054636"
+    "timestamp": "2025-08-11T15:52:16.770959"
   },
   {
-    "doc_id": "b7391dd82d2c53d1",
-    "title": "广州碳排放权交易中心碳排放权交易风险控制管理细则",
+    "doc_id": "52ca8f6cad951ef5",
+    "title": "广碳所承办的广东金融学会2021-2022年度重大决策咨询课题顺利结项",
     "source": "GZETS",
-    "publish_date": "2015-12-17T00:00:00",
-    "positions": {
-      "supply": 0,
-      "demand": 0,
-      "policy_strength": 67
-    },
-    "scores": {
-      "supply": 0,
-      "demand": 0,
-      "policy_strength": 67,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Binding guidance",
-        "overall": "neutral price impact with binding guidance"
-      }
-    },
-    "timestamp": "2025-08-11T12:15:08.190402"
-  },
-  {
-    "doc_id": "a7babbab7196de94",
-    "title": "广州碳排放权交易中心广东省碳排放配额抵押登记操作规程（试行）",
-    "source": "GZETS",
-    "publish_date": "2015-12-17T00:00:00",
-    "positions": {
-      "supply": 30,
-      "demand": 45,
-      "policy_strength": 67
-    },
-    "scores": {
-      "supply": 30,
-      "demand": 45,
-      "policy_strength": 67,
-      "interpretations": {
-        "supply": "Supply increase",
-        "demand": "Demand increase",
-        "policy_strength": "Binding guidance",
-        "overall": "neutral price impact with binding guidance"
-      }
-    },
-    "timestamp": "2025-08-11T12:15:08.330334"
-  },
-  {
-    "doc_id": "5d68366ac95814a5",
-    "title": "关于2014年度碳排放配额履约工作的简讯",
-    "source": "GZETS",
-    "publish_date": "2015-06-29T00:00:00",
-    "positions": {
-      "supply": 0,
-      "demand": 100,
-      "policy_strength": 100
-    },
-    "scores": {
-      "supply": 0,
-      "demand": 100,
-      "policy_strength": 100,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Strong demand expansion",
-        "policy_strength": "Mandatory enforcement",
-        "overall": "strong upward price pressure with mandatory enforcement"
-      }
-    },
-    "timestamp": "2025-08-11T12:15:08.600209"
-  },
-  {
-    "doc_id": "43ba093c815f51c8",
-    "title": "2015年度广东省碳排放配额有偿发放（第三次）竞价情况",
-    "source": "GZETS",
-    "publish_date": "2016-03-29T00:00:00",
-    "positions": {
-      "supply": 50,
-      "demand": 50,
-      "policy_strength": 100
-    },
-    "scores": {
-      "supply": 50,
-      "demand": 50,
-      "policy_strength": 100,
-      "interpretations": {
-        "supply": "Supply increase",
-        "demand": "Demand increase",
-        "policy_strength": "Mandatory enforcement",
-        "overall": "neutral price impact with mandatory enforcement"
-      }
-    },
-    "timestamp": "2025-08-11T12:15:08.653887"
-  },
-  {
-    "doc_id": "9ece440abbcde8ae",
-    "title": "关于广东碳交易优惠措施的通知",
-    "source": "GZETS",
-    "publish_date": "2015-06-08T00:00:00",
-    "positions": {
-      "supply": 25,
-      "demand": 40,
-      "policy_strength": 67
-    },
-    "scores": {
-      "supply": 25,
-      "demand": 40,
-      "policy_strength": 67,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Demand increase",
-        "policy_strength": "Binding guidance",
-        "overall": "neutral price impact with binding guidance"
-      }
-    },
-    "timestamp": "2025-08-11T12:15:08.794239"
-  },
-  {
-    "doc_id": "0c630eb93bfa893f",
-    "title": "2015年度广东省碳排放配额有偿发放第一次）公告",
-    "source": "GZETS",
-    "publish_date": "2015-09-10T00:00:00",
-    "positions": {
-      "supply": 50,
-      "demand": 50,
-      "policy_strength": 67
-    },
-    "scores": {
-      "supply": 50,
-      "demand": 50,
-      "policy_strength": 67,
-      "interpretations": {
-        "supply": "Supply increase",
-        "demand": "Demand increase",
-        "policy_strength": "Binding guidance",
-        "overall": "neutral price impact with binding guidance"
-      }
-    },
-    "timestamp": "2025-08-11T12:15:08.894996"
-  },
-  {
-    "doc_id": "734d081cf76b50b7",
-    "title": "广东省2014年度碳排放履约工作完美收官",
-    "source": "GZETS",
-    "publish_date": "2015-07-09T00:00:00",
-    "positions": {
-      "supply": 0,
-      "demand": 0,
-      "policy_strength": 100
-    },
-    "scores": {
-      "supply": 0,
-      "demand": 0,
-      "policy_strength": 100,
-      "interpretations": {
-        "supply": "Neutral supply impact",
-        "demand": "Neutral demand impact",
-        "policy_strength": "Mandatory enforcement",
-        "overall": "neutral price impact with mandatory enforcement"
-      }
-    },
-    "timestamp": "2025-08-11T12:15:09.129402"
-  },
-  {
-    "doc_id": "0a49811c3d807d20",
-    "title": "广州碳排放权交易所2015年度招聘公告",
-    "source": "GZETS",
-    "publish_date": "2015-09-11T00:00:00",
+    "publish_date": "2022-11-30T00:00:00",
     "positions": {
       "supply": 0,
       "demand": 0,
@@ -1147,6 +273,880 @@
         "overall": "neutral price impact as informational guidance"
       }
     },
-    "timestamp": "2025-08-11T12:15:09.151428"
+    "timestamp": "2025-08-11T15:52:16.783705"
+  },
+  {
+    "doc_id": "f032b17a5f2b9b6c",
+    "title": "广碳所3月会员沙龙圆满举办",
+    "source": "GZETS",
+    "publish_date": "2023-03-21T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T15:52:16.896087"
+  },
+  {
+    "doc_id": "73b0d7196cb424f2",
+    "title": "广州碳排放权交易中心参与编制的广东省地方标准《汽车工厂碳排放核算技术规范》正式启动",
+    "source": "GZETS",
+    "publish_date": "2022-09-26T00:00:00",
+    "positions": {
+      "supply": 10,
+      "demand": 15,
+      "policy_strength": 33
+    },
+    "scores": {
+      "supply": 10,
+      "demand": 15,
+      "policy_strength": 33,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T15:52:16.978467"
+  },
+  {
+    "doc_id": "186673959183278b",
+    "title": "广碳所与中国海洋大学海洋碳中和中心举行战略合作交流会",
+    "source": "GZETS",
+    "publish_date": "2022-11-09T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T15:52:17.351745"
+  },
+  {
+    "doc_id": "b82af4f92e2cdd79",
+    "title": "广州市中级人民法院环境资源庭一行赴广碳所调研",
+    "source": "GZETS",
+    "publish_date": "2022-10-20T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T15:52:17.554469"
+  },
+  {
+    "doc_id": "0095ab5065ef13ed",
+    "title": "广碳春茗会首场活动圆满举办",
+    "source": "GZETS",
+    "publish_date": "2023-02-10T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T15:52:17.703546"
+  },
+  {
+    "doc_id": "b4550c6ad93356fb",
+    "title": "一图读懂广州碳排放权交易中心2022年度市场报告",
+    "source": "GZETS",
+    "publish_date": "2023-01-30T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T15:52:17.753112"
+  },
+  {
+    "doc_id": "c3efe89777f1944e",
+    "title": "广汽集团赴广州交易集团辖属广碳所调研交流",
+    "source": "GZETS",
+    "publish_date": "2022-09-19T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T15:52:17.814395"
+  },
+  {
+    "doc_id": "7426bfd1c86f6380",
+    "title": "广碳所支持上清所成功举办创新绿金产品 助力低碳转型碳金融业务分享会",
+    "source": "GZETS",
+    "publish_date": "2022-09-02T00:00:00",
+    "positions": {
+      "supply": 10,
+      "demand": 30,
+      "policy_strength": 33
+    },
+    "scores": {
+      "supply": 10,
+      "demand": 30,
+      "policy_strength": 33,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Demand increase",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T15:52:17.910356"
+  },
+  {
+    "doc_id": "3a777c4bdc2489dc",
+    "title": "广碳所成功举办《红树造林碳汇计量与监测方法学》专题评审会",
+    "source": "GZETS",
+    "publish_date": "2022-11-16T00:00:00",
+    "positions": {
+      "supply": 10,
+      "demand": 5,
+      "policy_strength": 33
+    },
+    "scores": {
+      "supply": 10,
+      "demand": 5,
+      "policy_strength": 33,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T15:52:18.368139"
+  },
+  {
+    "doc_id": "61511a49fda71f94",
+    "title": "广碳所全体员工集中收听收看江泽民同志追悼会",
+    "source": "GZETS",
+    "publish_date": "2022-12-07T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T15:52:18.675394"
+  },
+  {
+    "doc_id": "bb290b2f7a1ed34a",
+    "title": "广州碳排放权交易中心2022年度市场报告发布",
+    "source": "GZETS",
+    "publish_date": "2023-01-20T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T15:52:18.722303"
+  },
+  {
+    "doc_id": "b1fe9309a4539225",
+    "title": "支援第一线 我们齐担当",
+    "source": "GZETS",
+    "publish_date": "2022-12-14T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T15:52:18.780076"
+  },
+  {
+    "doc_id": "8b74d6255a4519b5",
+    "title": "广碳所作为首家交易所机构加入生物多样性金融伙伴关系PBF",
+    "source": "GZETS",
+    "publish_date": "2022-09-22T00:00:00",
+    "positions": {
+      "supply": 5,
+      "demand": 10,
+      "policy_strength": 33
+    },
+    "scores": {
+      "supply": 5,
+      "demand": 10,
+      "policy_strength": 33,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T15:52:18.883819"
+  },
+  {
+    "doc_id": "d937186ff060bd4e",
+    "title": "第四十五期碳交易员培训成功举办",
+    "source": "GZETS",
+    "publish_date": "2022-09-13T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 15
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 15,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T15:52:18.884482"
+  },
+  {
+    "doc_id": "3373f5fb955335e7",
+    "title": "南方电网公司2022年中青年干部培训班走进广碳所访学",
+    "source": "GZETS",
+    "publish_date": "2022-06-24T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T15:52:19.152286"
+  },
+  {
+    "doc_id": "54137c41fed1aa43",
+    "title": "夯实碳交易会员自律管理 推动碳市场深化改革创新",
+    "source": "GZETS",
+    "publish_date": "2022-07-01T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 33
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 33,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T15:52:19.484309"
+  },
+  {
+    "doc_id": "cd914da68f02c5a9",
+    "title": "广东省碳排放核查机构培训（新纳入行业企业核查专场）成功举办",
+    "source": "GZETS",
+    "publish_date": "2022-06-29T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 5
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 5,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T15:52:19.571252"
+  },
+  {
+    "doc_id": "1f9bfba9ef458839",
+    "title": "携手低碳生活，共建绿色家园青少年主题路演活动顺利举办",
+    "source": "GZETS",
+    "publish_date": "2022-06-25T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T15:52:19.628181"
+  },
+  {
+    "doc_id": "b75e479944973d70",
+    "title": "广碳所与粤澳工商联会举行广东-澳门双碳业务合作交流会",
+    "source": "GZETS",
+    "publish_date": "2022-06-08T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 10,
+      "policy_strength": 5
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 10,
+      "policy_strength": 5,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T15:52:19.797463"
+  },
+  {
+    "doc_id": "56e3d8c1db814725",
+    "title": "广碳所与哈啰达成战略合作 携手升级个人碳账户",
+    "source": "GZETS",
+    "publish_date": "2022-06-16T00:00:00",
+    "positions": {
+      "supply": 10,
+      "demand": 25,
+      "policy_strength": 33
+    },
+    "scores": {
+      "supply": 10,
+      "demand": 25,
+      "policy_strength": 33,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T15:52:20.211337"
+  },
+  {
+    "doc_id": "cacecc77352694bd",
+    "title": "碳寻绿色金融 深化合作交流 广碳所与安永签署合作备忘录",
+    "source": "GZETS",
+    "publish_date": "2022-06-16T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 10,
+      "policy_strength": 15
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 10,
+      "policy_strength": 15,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T15:52:20.364079"
+  },
+  {
+    "doc_id": "4116de3b0bfcd746",
+    "title": "广碳所双碳业务推介直播活动圆满举办",
+    "source": "GZETS",
+    "publish_date": "2022-06-25T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T15:52:20.507158"
+  },
+  {
+    "doc_id": "91b05fe4282f04a3",
+    "title": "广碳所组织召开2022年上半年工作会议",
+    "source": "GZETS",
+    "publish_date": "2022-07-25T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T15:52:20.614224"
+  },
+  {
+    "doc_id": "6cac51973b27230b",
+    "title": "广碳所与港华能源投资有限公司、港华（深圳）碳资产运营有限公司签署战略合作框架协议及举办广州新豪精密碳中和颁证仪式",
+    "source": "GZETS",
+    "publish_date": "2022-08-10T00:00:00",
+    "positions": {
+      "supply": 20,
+      "demand": 40,
+      "policy_strength": 33
+    },
+    "scores": {
+      "supply": 20,
+      "demand": 40,
+      "policy_strength": 33,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Demand increase",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T15:52:20.884433"
+  },
+  {
+    "doc_id": "66b2eb88cb092352",
+    "title": "推进能源低碳转型，广碳所支持山西双碳平台建设",
+    "source": "GZETS",
+    "publish_date": "2022-09-02T00:00:00",
+    "positions": {
+      "supply": 30,
+      "demand": 40,
+      "policy_strength": 33
+    },
+    "scores": {
+      "supply": 30,
+      "demand": 40,
+      "policy_strength": 33,
+      "interpretations": {
+        "supply": "Supply increase",
+        "demand": "Demand increase",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T15:52:20.904422"
+  },
+  {
+    "doc_id": "4643917b651031b7",
+    "title": "广碳所与中信证券签署战略合作协议 服务国家双碳战略 助力绿色低碳高质量发展",
+    "source": "GZETS",
+    "publish_date": "2022-08-18T00:00:00",
+    "positions": {
+      "supply": 20,
+      "demand": 30,
+      "policy_strength": 33
+    },
+    "scores": {
+      "supply": 20,
+      "demand": 30,
+      "policy_strength": 33,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Demand increase",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T15:52:21.198065"
+  },
+  {
+    "doc_id": "13a1358cef1bf915",
+    "title": "省市人大政协代表一行赴广碳所调研",
+    "source": "GZETS",
+    "publish_date": "2022-07-30T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T15:52:21.330602"
+  },
+  {
+    "doc_id": "dc97e5c88d56b364",
+    "title": "第二期碳管理技术人员系列培训班成功举办",
+    "source": "GZETS",
+    "publish_date": "2022-08-15T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 10,
+      "policy_strength": 5
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 10,
+      "policy_strength": 5,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T15:52:21.569084"
+  },
+  {
+    "doc_id": "a6206d0207a7bf6b",
+    "title": "广碳所与中银香港签署战略合作协议 共同探索湾区碳金融发展 助力经济社会绿色转型",
+    "source": "GZETS",
+    "publish_date": "2022-07-14T00:00:00",
+    "positions": {
+      "supply": 10,
+      "demand": 20,
+      "policy_strength": 33
+    },
+    "scores": {
+      "supply": 10,
+      "demand": 20,
+      "policy_strength": 33,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T15:52:21.706054"
+  },
+  {
+    "doc_id": "c1e9d062a2c47d35",
+    "title": "广碳所成功举办首期碳管理技术人员系列培训班",
+    "source": "GZETS",
+    "publish_date": "2022-05-23T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 10
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 10,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T15:52:21.974548"
+  },
+  {
+    "doc_id": "4cc1730defd997b9",
+    "title": "广碳所与嘀嗒出行宣布达成战略合作",
+    "source": "GZETS",
+    "publish_date": "2022-06-07T00:00:00",
+    "positions": {
+      "supply": 15,
+      "demand": 25,
+      "policy_strength": 10
+    },
+    "scores": {
+      "supply": 15,
+      "demand": 25,
+      "policy_strength": 10,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T15:52:22.119212"
+  },
+  {
+    "doc_id": "de17712b419a6724",
+    "title": "广碳所党支部开展党风廉政建设教育及 安全生产学习主题党日活动",
+    "source": "GZETS",
+    "publish_date": "2022-05-09T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 0,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T15:52:22.289827"
+  },
+  {
+    "doc_id": "4c6aeeb4bac0f933",
+    "title": "广东省碳交易拟纳入行业企业碳排放信息报告与盘查培训成功举办",
+    "source": "GZETS",
+    "publish_date": "2022-03-17T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 5
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 5,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T15:52:22.294503"
+  },
+  {
+    "doc_id": "a5178e29217a7def",
+    "title": "广碳所碳金融培训圆满举行",
+    "source": "GZETS",
+    "publish_date": "2022-01-27T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 5
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 0,
+      "policy_strength": 5,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T15:52:22.357464"
+  },
+  {
+    "doc_id": "cfce939b5c555c90",
+    "title": "自然资源领域生态产品价值实现试点工作研讨会 （生态系统碳汇地球日专场）成功举办",
+    "source": "GZETS",
+    "publish_date": "2022-04-23T00:00:00",
+    "positions": {
+      "supply": 25,
+      "demand": 15,
+      "policy_strength": 33
+    },
+    "scores": {
+      "supply": 25,
+      "demand": 15,
+      "policy_strength": 33,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T15:52:22.787394"
+  },
+  {
+    "doc_id": "f1774dc0da588bd3",
+    "title": "广州市地方金融监督管理局组织召开2022年广州交易场所高质量发展座谈会",
+    "source": "GZETS",
+    "publish_date": "2022-04-02T00:00:00",
+    "positions": {
+      "supply": 10,
+      "demand": 15,
+      "policy_strength": 33
+    },
+    "scores": {
+      "supply": 10,
+      "demand": 15,
+      "policy_strength": 33,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T15:52:22.978183"
+  },
+  {
+    "doc_id": "079ea34c90ffb24c",
+    "title": "广州碳交所与香港交易所签订合作备忘录 共同探索大湾区和国际碳市场机遇",
+    "source": "GZETS",
+    "publish_date": "2022-03-24T00:00:00",
+    "positions": {
+      "supply": 25,
+      "demand": 40,
+      "policy_strength": 33
+    },
+    "scores": {
+      "supply": 25,
+      "demand": 40,
+      "policy_strength": 33,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Demand increase",
+        "policy_strength": "Encouraged/voluntary policy",
+        "overall": "neutral price impact with voluntary measures"
+      }
+    },
+    "timestamp": "2025-08-11T15:52:23.166346"
+  },
+  {
+    "doc_id": "22bea49bd5bffa3c",
+    "title": "增强投资者风险意识，广碳所成功举办投资者沙龙活动",
+    "source": "GZETS",
+    "publish_date": "2022-03-21T00:00:00",
+    "positions": {
+      "supply": 0,
+      "demand": 5,
+      "policy_strength": 10
+    },
+    "scores": {
+      "supply": 0,
+      "demand": 5,
+      "policy_strength": 10,
+      "interpretations": {
+        "supply": "Neutral supply impact",
+        "demand": "Neutral demand impact",
+        "policy_strength": "Informational policy",
+        "overall": "neutral price impact as informational guidance"
+      }
+    },
+    "timestamp": "2025-08-11T15:52:23.419195"
   }
 ]
