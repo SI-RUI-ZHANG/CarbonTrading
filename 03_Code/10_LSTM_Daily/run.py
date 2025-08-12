@@ -52,6 +52,11 @@ class WalkForwardValidator:
         self.step_size = 150     # days
         self.sequence_length = 60  # 60-day lookback
         
+        # Store predictions from all walks for aggregation
+        self.all_predictions = []
+        self.all_actuals = []
+        self.all_probabilities = []
+        
     def load_data(self) -> pd.DataFrame:
         """Load the appropriate dataset based on sentiment usage"""
         if self.config.USE_SENTIMENT:
@@ -204,7 +209,7 @@ class WalkForwardValidator:
         model.load_state_dict(best_model_state)
         return model
     
-    def evaluate_walk(self, model, X_test, y_test) -> Dict:
+    def evaluate_walk(self, model, X_test, y_test) -> Tuple[Dict, np.ndarray, np.ndarray, np.ndarray]:
         """Evaluate model on test set"""
         model.eval()
         
@@ -215,7 +220,7 @@ class WalkForwardValidator:
         # Get predictions
         predictions, actuals, metrics, cm, probabilities = evaluate_model(model, test_loader, self.config)
         
-        return metrics
+        return metrics, predictions, actuals, probabilities
     
     def run(self) -> Dict:
         """Run complete walk-forward validation"""
@@ -271,9 +276,14 @@ class WalkForwardValidator:
             
             # Evaluate
             logger.info("Evaluating on test set...")
-            metrics = self.evaluate_walk(model, X_test, y_test)
+            metrics, test_predictions, test_actuals, test_probabilities = self.evaluate_walk(model, X_test, y_test)
             walk_metrics.append(metrics)
             test_samples_total += len(X_test)
+            
+            # Store predictions for aggregation
+            self.all_predictions.extend(test_predictions)
+            self.all_actuals.extend(test_actuals)
+            self.all_probabilities.extend(test_probabilities)
             
             # Log metrics
             logger.info(f"Walk {walk_idx + 1} Results:")
@@ -341,7 +351,13 @@ class WalkForwardValidator:
         # Save config
         save_config(self.config)
         
-        logger.info(f"\nResults saved to: {self.config.OUTPUT_DIR}")
+        # Save aggregated predictions and actuals (matching weekly format)
+        np.save(os.path.join(self.config.OUTPUT_DIR, 'test_predictions.npy'), np.array(self.all_predictions))
+        np.save(os.path.join(self.config.OUTPUT_DIR, 'test_actuals.npy'), np.array(self.all_actuals))
+        np.save(os.path.join(self.config.OUTPUT_DIR, 'test_probabilities.npy'), np.array(self.all_probabilities))
+        
+        logger.info(f"\nSaved aggregated predictions: {len(self.all_predictions)} samples")
+        logger.info(f"Results saved to: {self.config.OUTPUT_DIR}")
         
         return aggregated_metrics
 

@@ -4,22 +4,22 @@
     "model_display": "Daily Base",
     "market": "GDEA",
     "features": "Base",
-    "accuracy": 0.4848214285714286,
-    "precision": 0.4262048695706654,
-    "recall": 0.5859891414625058,
-    "f1_score": 0.473802655227817,
-    "timestamp": "2025-08-12T22:42:02.679332"
+    "accuracy": 0.5089285714285714,
+    "precision": 0.4466400423828658,
+    "recall": 0.5435177803130795,
+    "f1_score": 0.47850200560806705,
+    "timestamp": "2025-08-13T00:05:14.099786"
   },
   "daily_base_HBEA": {
     "model_type": "daily_base",
     "model_display": "Daily Base",
     "market": "HBEA",
     "features": "Base",
-    "accuracy": 0.46964285714285714,
-    "precision": 0.3952937158469946,
-    "recall": 0.5366371272699587,
-    "f1_score": 0.4112188097171026,
-    "timestamp": "2025-08-12T22:42:54.884729"
+    "accuracy": 0.4839285714285714,
+    "precision": 0.3813522893086438,
+    "recall": 0.5239081406889259,
+    "f1_score": 0.4199305890703975,
+    "timestamp": "2025-08-13T00:06:01.242587"
   },
   "daily_sentiment_GDEA": {
     "model_type": "daily_sentiment",
