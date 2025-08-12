@@ -1,0 +1,75 @@
+{
+  "directories_processed": 13,
+  "files_renamed": 17,
+  "files_removed": 40,
+  "missing_files": {
+    "daily_GDEA_base": [
+      "test_dates.npy (CRITICAL - needed for backtesting)"
+    ],
+    "daily_GDEA_sentiment": [
+      "walk_forward_metrics.json",
+      "test_probabilities.npy",
+      "test_dates.npy (CRITICAL - needed for backtesting)"
+    ],
+    "daily_HBEA_base": [
+      "test_dates.npy (CRITICAL - needed for backtesting)"
+    ],
+    "daily_HBEA_sentiment": [
+      "walk_forward_metrics.json",
+      "test_probabilities.npy",
+      "test_dates.npy (CRITICAL - needed for backtesting)"
+    ],
+    "meta_daily_GDEA": [
+      "test_predictions.npy",
+      "test_actuals.npy",
+      "test_dates.npy (CRITICAL - needed for backtesting)"
+    ],
+    "meta_daily_GDEA_reversal": [
+      "test_predictions.npy",
+      "test_actuals.npy",
+      "test_dates.npy (CRITICAL - needed for backtesting)"
+    ],
+    "meta_daily_HBEA": [
+      "test_predictions.npy",
+      "test_actuals.npy",
+      "test_dates.npy (CRITICAL - needed for backtesting)"
+    ],
+    "meta_weekly_GDEA": [
+      "test_predictions.npy",
+      "test_actuals.npy",
+      "test_dates.npy (CRITICAL - needed for backtesting)"
+    ],
+    "meta_weekly_HBEA": [
+      "test_predictions.npy",
+      "test_actuals.npy",
+      "test_dates.npy (CRITICAL - needed for backtesting)"
+    ],
+    "weekly_GDEA_base": [
+      "test_dates.npy (CRITICAL - needed for backtesting)"
+    ],
+    "weekly_GDEA_sentiment": [
+      "test_dates.npy (CRITICAL - needed for backtesting)"
+    ],
+    "weekly_HBEA_base": [
+      "test_dates.npy (CRITICAL - needed for backtesting)"
+    ],
+    "weekly_HBEA_sentiment": [
+      "test_dates.npy (CRITICAL - needed for backtesting)"
+    ]
+  },
+  "standard_structure": {
+    "config.json": "Model configuration",
+    "metrics.json": "Aggregated performance metrics",
+    "walk_forward_metrics.json": "Detailed walk-forward results",
+    "walk_detailed.json": "Individual walk metrics (optional)",
+    "test_predictions.npy": "Model predictions",
+    "test_actuals.npy": "Actual values",
+    "test_probabilities.npy": "Prediction probabilities",
+    "test_dates.npy": "Dates for backtesting alignment",
+    "best_model.pth/pkl": "Saved model weights",
+    "model_metadata.json": "Model metadata (meta models)",
+    "training_history.png": "Training curves",
+    "classification_analysis.png": "Performance analysis",
+    "walk_forward_performance.png": "Walk-forward analysis"
+  }
+}

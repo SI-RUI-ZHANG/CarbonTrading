@@ -1,0 +1,43 @@
+{
+  "training": {
+    "lstm_baseline_accuracy": 0.5133928571428571,
+    "final_accuracy": 0.6636904761904762,
+    "improvement": 0.15029761904761907,
+    "reversal_rate": 0.25744047619047616,
+    "reversals_correct": 0.791907514450867,
+    "kept_correct": 0.6192384769539078,
+    "coverage": 1.0,
+    "total_samples": 672,
+    "reversed_count": 173,
+    "precision": 0.6892430278884463,
+    "recall": 0.5389408099688473,
+    "f1_score": 0.6048951048951049
+  },
+  "validation": {
+    "lstm_baseline_accuracy": 0.5133928571428571,
+    "final_accuracy": 0.5357142857142857,
+    "improvement": 0.022321428571428603,
+    "reversal_rate": 0.20089285714285715,
+    "reversals_correct": 0.5555555555555556,
+    "kept_correct": 0.5307262569832403,
+    "coverage": 1.0,
+    "total_samples": 224,
+    "reversed_count": 45,
+    "precision": 0.5092592592592593,
+    "recall": 0.5188679245283019,
+    "f1_score": 0.5140186915887851
+  },
+  "reversal_stats": {
+    "total_samples": 224,
+    "reversed": 45,
+    "reversal_rate": 0.20089285714285715,
+    "avg_error_prob": 0.48828110098838806,
+    "coverage": 1.0
+  },
+  "config": {
+    "market": "HBEA",
+    "frequency": "daily",
+    "reversal_threshold": 0.6,
+    "coverage": 1.0
+  }
+}

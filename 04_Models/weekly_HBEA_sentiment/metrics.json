@@ -1,0 +1,18 @@
+{
+  "test_f1": 0.4338993090379681,
+  "test_f1_std": 0.25160140302052647,
+  "test_accuracy": 0.5263157894736843,
+  "test_accuracy_std": 0.15663659139849367,
+  "test_precision": 0.393703810809074,
+  "test_precision_std": 0.21770028078696396,
+  "test_recall": 0.5626468769325912,
+  "test_recall_std": 0.36982543520215705,
+  "best_walk": 1,
+  "best_f1": 0.8125,
+  "n_walks": 14,
+  "total_test_samples": 266,
+  "true_positives": 70,
+  "true_negatives": 70,
+  "false_positives": 77,
+  "false_negatives": 49
+}

@@ -1,0 +1,11 @@
+{
+  "market": "GDEA",
+  "frequency": "daily",
+  "model_type": "error_reversal",
+  "coverage": 1.0,
+  "reversal_threshold": 0.6,
+  "max_reversal_rate": 0.3,
+  "always_trade": true,
+  "primary_model": "../../04_Models/daily_GDEA_base",
+  "sequence_length": 60
+}

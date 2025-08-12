@@ -1,0 +1,16 @@
+{
+    "MARKET": "HBEA",
+    "RUN_NAME": "HBEA_LSTM",
+    "TASK_TYPE": "Binary Classification (BCEWithLogitsLoss)",
+    "INPUT_SIZE": "Determined from data",
+    "HIDDEN_SIZE": 80,
+    "NUM_LAYERS": 2,
+    "DROPOUT": 0.35,
+    "BATCH_SIZE": 32,
+    "LEARNING_RATE": 0.001,
+    "NUM_EPOCHS": 100,
+    "EARLY_STOPPING_PATIENCE": 15,
+    "SHUFFLE_TRAIN_LOADER": true,
+    "SEED": 42,
+    "DEVICE": "cpu"
+}

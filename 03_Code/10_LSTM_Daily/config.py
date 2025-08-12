@@ -26,16 +26,16 @@ class Config:
     
     @property
     def OUTPUT_DIR(self):
-        """Dynamic output directory based on market and sentiment"""
-        sentiment_dir = 'sentiment' if self.USE_SENTIMENT else 'base'
-        return os.path.join(self.BASE_OUTPUT_DIR, 'daily', self.MARKET, sentiment_dir)
+        """Dynamic output directory based on market and sentiment - flat structure"""
+        sentiment_suffix = 'sentiment' if self.USE_SENTIMENT else 'base'
+        return os.path.join(self.BASE_OUTPUT_DIR, f'daily_{self.MARKET}_{sentiment_suffix}')
     
     # Model Architecture for Classification
     # INPUT_SIZE will be determined dynamically from data
     # Using BCEWithLogitsLoss for binary classification with pos_weight
-    HIDDEN_SIZE = 64
+    HIDDEN_SIZE = 80
     NUM_LAYERS = 2
-    DROPOUT = 0.2
+    DROPOUT = 0.35
     
     # Training
     BATCH_SIZE = 32

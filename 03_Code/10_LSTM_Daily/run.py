@@ -56,11 +56,12 @@ class WalkForwardValidator:
         self.all_predictions = []
         self.all_actuals = []
         self.all_probabilities = []
+        self.all_dates = []  # Store dates for backtesting alignment
         
     def load_data(self) -> pd.DataFrame:
         """Load the appropriate dataset based on sentiment usage"""
         if self.config.USE_SENTIMENT:
-            file_path = f'../../02_Data_Processed/03_Feature_Engineered/{self.config.MARKET}_LSTM_with_sentiment.parquet'
+            file_path = f'../../02_Data_Processed/10_Sentiment_Final_Merged/{self.config.MARKET}_LSTM_with_sentiment.parquet'
         else:
             file_path = f'../../02_Data_Processed/03_Feature_Engineered/{self.config.MARKET}_LSTM_advanced.parquet'
         
@@ -122,7 +123,10 @@ class WalkForwardValidator:
         X_val, y_val = self.create_sequences(val_features, val_targets)
         X_test, y_test = self.create_sequences(test_features, test_targets)
         
-        return X_train, y_train, X_val, y_val, X_test, y_test
+        # Get test dates (after sequence creation, so we get the right dates)
+        test_dates = test_df.index[self.sequence_length:].to_numpy()
+        
+        return X_train, y_train, X_val, y_val, X_test, y_test, test_dates
     
     def train_walk(self, X_train, y_train, X_val, y_val) -> CarbonPriceLSTM:
         """Train model for one walk"""
@@ -258,7 +262,7 @@ class WalkForwardValidator:
                 logger.warning(f"Not enough data for walk {walk_idx + 1}, stopping")
                 break
             
-            X_train, y_train, X_val, y_val, X_test, y_test = walk_data
+            X_train, y_train, X_val, y_val, X_test, y_test, test_dates = walk_data
             
             # Log walk info
             train_start_date = df.index[start_idx]
@@ -284,6 +288,7 @@ class WalkForwardValidator:
             self.all_predictions.extend(test_predictions)
             self.all_actuals.extend(test_actuals)
             self.all_probabilities.extend(test_probabilities)
+            self.all_dates.extend(test_dates)
             
             # Log metrics
             logger.info(f"Walk {walk_idx + 1} Results:")
@@ -355,8 +360,9 @@ class WalkForwardValidator:
         np.save(os.path.join(self.config.OUTPUT_DIR, 'test_predictions.npy'), np.array(self.all_predictions))
         np.save(os.path.join(self.config.OUTPUT_DIR, 'test_actuals.npy'), np.array(self.all_actuals))
         np.save(os.path.join(self.config.OUTPUT_DIR, 'test_probabilities.npy'), np.array(self.all_probabilities))
+        np.save(os.path.join(self.config.OUTPUT_DIR, 'test_dates.npy'), np.array(self.all_dates))
         
-        logger.info(f"\nSaved aggregated predictions: {len(self.all_predictions)} samples")
+        logger.info(f"\nSaved aggregated predictions: {len(self.all_predictions)} samples with dates")
         logger.info(f"Results saved to: {self.config.OUTPUT_DIR}")
         
         return aggregated_metrics
