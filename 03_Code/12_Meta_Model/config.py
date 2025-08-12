@@ -102,7 +102,7 @@ class ReversalConfig:
     # Error predictor parameters (XGBoost)
     ERROR_PREDICTOR_PARAMS = {
         'n_estimators': 100,
-        'max_depth': 4,
+        'max_depth': 3,
         'learning_rate': 0.05,
         'min_child_weight': 5,
         'subsample': 0.8,

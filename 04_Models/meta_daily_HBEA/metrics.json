@@ -1,43 +1,43 @@
 {
   "training": {
-    "lstm_baseline_accuracy": 0.5133928571428571,
-    "final_accuracy": 0.6636904761904762,
-    "improvement": 0.15029761904761907,
-    "reversal_rate": 0.25744047619047616,
-    "reversals_correct": 0.791907514450867,
-    "kept_correct": 0.6192384769539078,
+    "lstm_baseline_accuracy": 0.5059523809523809,
+    "final_accuracy": 0.5863095238095238,
+    "improvement": 0.0803571428571429,
+    "reversal_rate": 0.11904761904761904,
+    "reversals_correct": 0.8375,
+    "kept_correct": 0.5523648648648649,
     "coverage": 1.0,
     "total_samples": 672,
-    "reversed_count": 173,
-    "precision": 0.6892430278884463,
-    "recall": 0.5389408099688473,
-    "f1_score": 0.6048951048951049
+    "reversed_count": 80,
+    "precision": 0.5738831615120275,
+    "recall": 0.5202492211838006,
+    "f1_score": 0.545751633986928
   },
   "validation": {
-    "lstm_baseline_accuracy": 0.5133928571428571,
-    "final_accuracy": 0.5357142857142857,
-    "improvement": 0.022321428571428603,
-    "reversal_rate": 0.20089285714285715,
-    "reversals_correct": 0.5555555555555556,
-    "kept_correct": 0.5307262569832403,
+    "lstm_baseline_accuracy": 0.4955357142857143,
+    "final_accuracy": 0.49107142857142855,
+    "improvement": -0.004464285714285754,
+    "reversal_rate": 0.05803571428571429,
+    "reversals_correct": 0.46153846153846156,
+    "kept_correct": 0.4928909952606635,
     "coverage": 1.0,
     "total_samples": 224,
-    "reversed_count": 45,
-    "precision": 0.5092592592592593,
-    "recall": 0.5188679245283019,
-    "f1_score": 0.5140186915887851
+    "reversed_count": 13,
+    "precision": 0.4375,
+    "recall": 0.2641509433962264,
+    "f1_score": 0.3294117647058824
   },
   "reversal_stats": {
     "total_samples": 224,
-    "reversed": 45,
-    "reversal_rate": 0.20089285714285715,
-    "avg_error_prob": 0.48828110098838806,
+    "reversed": 13,
+    "reversal_rate": 0.05803571428571429,
+    "avg_error_prob": 0.5735984444618225,
     "coverage": 1.0
   },
   "config": {
     "market": "HBEA",
     "frequency": "daily",
-    "reversal_threshold": 0.6,
+    "reversal_threshold": 0.6499999999999999,
     "coverage": 1.0
   }
 }

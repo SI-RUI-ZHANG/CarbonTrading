@@ -1,43 +1,43 @@
 {
   "training": {
-    "lstm_baseline_accuracy": 0.5220125786163522,
-    "final_accuracy": 0.6352201257861635,
-    "improvement": 0.1132075471698113,
-    "reversal_rate": 0.11320754716981132,
-    "reversals_correct": 1.0,
-    "kept_correct": 0.5886524822695035,
+    "lstm_baseline_accuracy": 0.559748427672956,
+    "final_accuracy": 0.8050314465408805,
+    "improvement": 0.24528301886792458,
+    "reversal_rate": 0.44654088050314467,
+    "reversals_correct": 0.7746478873239436,
+    "kept_correct": 0.8295454545454546,
     "coverage": 1.0,
     "total_samples": 159,
-    "reversed_count": 18,
-    "precision": 0.6571428571428571,
-    "recall": 0.7582417582417582,
-    "f1_score": 0.7040816326530612
+    "reversed_count": 71,
+    "precision": 0.7884615384615384,
+    "recall": 0.9010989010989011,
+    "f1_score": 0.841025641025641
   },
   "validation": {
-    "lstm_baseline_accuracy": 0.4716981132075472,
-    "final_accuracy": 0.5094339622641509,
-    "improvement": 0.037735849056603765,
-    "reversal_rate": 0.07547169811320754,
-    "reversals_correct": 0.75,
-    "kept_correct": 0.4897959183673469,
+    "lstm_baseline_accuracy": 0.4528301886792453,
+    "final_accuracy": 0.5660377358490566,
+    "improvement": 0.1132075471698113,
+    "reversal_rate": 0.2641509433962264,
+    "reversals_correct": 0.7142857142857143,
+    "kept_correct": 0.5128205128205128,
     "coverage": 1.0,
     "total_samples": 53,
-    "reversed_count": 4,
-    "precision": 0.5,
-    "recall": 0.7692307692307693,
-    "f1_score": 0.6060606060606061
+    "reversed_count": 14,
+    "precision": 0.5483870967741935,
+    "recall": 0.6538461538461539,
+    "f1_score": 0.5964912280701755
   },
   "reversal_stats": {
     "total_samples": 53,
-    "reversed": 4,
-    "reversal_rate": 0.07547169811320754,
-    "avg_error_prob": 0.5180217623710632,
+    "reversed": 14,
+    "reversal_rate": 0.2641509433962264,
+    "avg_error_prob": 0.4180283844470978,
     "coverage": 1.0
   },
   "config": {
     "market": "GDEA",
     "frequency": "weekly",
-    "reversal_threshold": 0.75,
+    "reversal_threshold": 0.5,
     "coverage": 1.0
   }
 }

@@ -66,22 +66,9 @@ def train_error_reversal_model(config=None):
     logger.info("STEP 1: DATA PREPARATION")
     logger.info("-"*60)
     
-    # Check if data already exists
-    data_files = ['X_train.npy', 'lstm_preds_train.npy', 'y_train.npy',
-                  'X_val.npy', 'lstm_preds_val.npy', 'y_val.npy']
-    data_exists = all(os.path.exists(os.path.join(config.output_dir, f)) for f in data_files)
-    
-    if data_exists:
-        logger.info("Loading existing prepared data...")
-        X_train = np.load(os.path.join(config.output_dir, 'X_train.npy'))
-        lstm_preds_train = np.load(os.path.join(config.output_dir, 'lstm_preds_train.npy'))
-        y_train = np.load(os.path.join(config.output_dir, 'y_train.npy'))
-        X_val = np.load(os.path.join(config.output_dir, 'X_val.npy'))
-        lstm_preds_val = np.load(os.path.join(config.output_dir, 'lstm_preds_val.npy'))
-        y_val = np.load(os.path.join(config.output_dir, 'y_val.npy'))
-    else:
-        logger.info("Preparing new data...")
-        X_train, lstm_preds_train, y_train, X_val, lstm_preds_val, y_val = prepare_error_reversal_data(config)
+    # Always prepare fresh data from LSTM models - no caching
+    logger.info("Loading fresh LSTM predictions from primary models...")
+    X_train, lstm_preds_train, y_train, X_val, lstm_preds_val, y_val = prepare_error_reversal_data(config)
     
     logger.info(f"Training data shape: X={X_train.shape}, y={y_train.shape}")
     logger.info(f"Validation data shape: X={X_val.shape}, y={y_val.shape}")
@@ -314,14 +301,8 @@ def prepare_error_reversal_data(config) -> Tuple:
     logger.info(f"Train samples: {len(X_train)}")
     logger.info(f"Val samples: {len(X_val)}")
     
-    # Save prepared data
+    # Create output directory for model and metrics (not for data caching)
     os.makedirs(config.OUTPUT_DIR, exist_ok=True)
-    np.save(os.path.join(config.OUTPUT_DIR, 'X_train.npy'), X_train)
-    np.save(os.path.join(config.OUTPUT_DIR, 'lstm_preds_train.npy'), lstm_preds_train)
-    np.save(os.path.join(config.OUTPUT_DIR, 'y_train.npy'), y_train)
-    np.save(os.path.join(config.OUTPUT_DIR, 'X_val.npy'), X_val)
-    np.save(os.path.join(config.OUTPUT_DIR, 'lstm_preds_val.npy'), lstm_preds_val)
-    np.save(os.path.join(config.OUTPUT_DIR, 'y_val.npy'), y_val)
     
     return X_train, lstm_preds_train, y_train, X_val, lstm_preds_val, y_val
 

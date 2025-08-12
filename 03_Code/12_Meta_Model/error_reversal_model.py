@@ -41,22 +41,17 @@ class ErrorReversalMetaModel:
         
         # Main model to predict if LSTM is WRONG
         if USE_XGBOOST:
+            # Use parameters from config
             self.error_predictor = XGBClassifier(
-                n_estimators=100,
-                max_depth=4,
-                learning_rate=0.05,
-                min_child_weight=5,
-                subsample=0.8,
-                colsample_bytree=0.8,
-                scale_pos_weight=1.2,  # Slightly favor finding errors
+                **config.ERROR_PREDICTOR_PARAMS,
                 random_state=config.SEED,
                 n_jobs=-1
             )
         else:
             # Fallback to RandomForest
             self.error_predictor = RandomForestClassifier(
-                n_estimators=100,
-                max_depth=4,
+                n_estimators=config.ERROR_PREDICTOR_PARAMS.get('n_estimators', 100),
+                max_depth=config.ERROR_PREDICTOR_PARAMS.get('max_depth', 4),
                 min_samples_split=20,
                 min_samples_leaf=10,
                 random_state=config.SEED,

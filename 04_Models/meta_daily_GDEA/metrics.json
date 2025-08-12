@@ -1,43 +1,43 @@
 {
   "training": {
-    "lstm_baseline_accuracy": 0.4791666666666667,
-    "final_accuracy": 0.6428571428571429,
-    "improvement": 0.16369047619047622,
-    "reversal_rate": 0.35119047619047616,
-    "reversals_correct": 0.7330508474576272,
-    "kept_correct": 0.5940366972477065,
+    "lstm_baseline_accuracy": 0.5089285714285714,
+    "final_accuracy": 0.6413690476190477,
+    "improvement": 0.13244047619047628,
+    "reversal_rate": 0.6175595238095238,
+    "reversals_correct": 0.6072289156626506,
+    "kept_correct": 0.6964980544747081,
     "coverage": 1.0,
     "total_samples": 672,
-    "reversed_count": 236,
-    "precision": 0.6490384615384616,
-    "recall": 0.7417582417582418,
-    "f1_score": 0.6923076923076923
+    "reversed_count": 415,
+    "precision": 0.642691415313225,
+    "recall": 0.760989010989011,
+    "f1_score": 0.6968553459119496
   },
   "validation": {
-    "lstm_baseline_accuracy": 0.45535714285714285,
-    "final_accuracy": 0.49107142857142855,
-    "improvement": 0.0357142857142857,
-    "reversal_rate": 0.21428571428571427,
-    "reversals_correct": 0.5833333333333334,
-    "kept_correct": 0.4659090909090909,
+    "lstm_baseline_accuracy": 0.4330357142857143,
+    "final_accuracy": 0.5044642857142857,
+    "improvement": 0.0714285714285714,
+    "reversal_rate": 0.26785714285714285,
+    "reversals_correct": 0.6333333333333333,
+    "kept_correct": 0.4573170731707317,
     "coverage": 1.0,
     "total_samples": 224,
-    "reversed_count": 48,
-    "precision": 0.453551912568306,
-    "recall": 0.8556701030927835,
-    "f1_score": 0.5928571428571429
+    "reversed_count": 60,
+    "precision": 0.4573170731707317,
+    "recall": 0.7731958762886598,
+    "f1_score": 0.5747126436781609
   },
   "reversal_stats": {
     "total_samples": 224,
-    "reversed": 48,
-    "reversal_rate": 0.21428571428571427,
-    "avg_error_prob": 0.5551069378852844,
+    "reversed": 60,
+    "reversal_rate": 0.26785714285714285,
+    "avg_error_prob": 0.4798476994037628,
     "coverage": 1.0
   },
   "config": {
     "market": "GDEA",
     "frequency": "daily",
-    "reversal_threshold": 0.6,
+    "reversal_threshold": 0.5,
     "coverage": 1.0
   }
 }
