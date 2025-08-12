@@ -1,6 +1,0 @@
-strategy,coverage,trades,accuracy,total_return,avg_return,sharpe
-baseline,1.0,96,0.375,-24,-0.25,-4.098780305960519
-filtered,0.0,0,0.0,0,0.0,0.0
-selective,0.2604166666666667,25,0.32,-9,-0.36,-6.125525186911379
-contrarian,1.0,96,0.3645833333333333,-26,-0.2708333333333333,-4.4662670071842046
-volatility_gated,0.0,0,0.0,0,0.0,0.0

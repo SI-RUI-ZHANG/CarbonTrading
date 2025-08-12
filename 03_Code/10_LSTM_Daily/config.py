@@ -6,17 +6,22 @@ Includes dynamic input size detection and experiment tracking
 
 import torch
 import os
-from datetime import datetime
 
 class Config:
+    def __init__(self, market='GDEA'):
+        """Initialize config with specific market"""
+        self.MARKET = market
+        
     # Data
-    MARKET = 'GDEA'  # 'HBEA' or 'GDEA'
     DATA_DIR = '../../02_Data_Processed/04_LSTM_Ready'
     
-    # Experiment Tracking - Unique folder for each run
-    RUN_NAME = f"{datetime.now().strftime('%Y%m%d_%H%M%S')}_{MARKET}_LSTM_Classification"
+    # Fixed output directory structure (no timestamps)
     BASE_OUTPUT_DIR = '../../04_Models/'
-    OUTPUT_DIR = os.path.join(BASE_OUTPUT_DIR, RUN_NAME)
+    
+    @property
+    def OUTPUT_DIR(self):
+        """Dynamic output directory based on market"""
+        return os.path.join(self.BASE_OUTPUT_DIR, 'daily', self.MARKET, 'base')
     
     # Model Architecture for Classification
     # INPUT_SIZE will be determined dynamically from data

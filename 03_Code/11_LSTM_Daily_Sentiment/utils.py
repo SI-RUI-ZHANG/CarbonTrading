@@ -128,7 +128,7 @@ def save_config(config):
     """Save configuration to JSON for reproducibility"""
     config_dict = {
         'MARKET': config.MARKET,
-        'RUN_NAME': config.RUN_NAME,
+        'RUN_NAME': getattr(config, 'RUN_NAME', f'{config.MARKET}_LSTM_Sentiment'),
         'TASK_TYPE': 'Binary Classification (BCEWithLogitsLoss)',
         'INPUT_SIZE': getattr(config, 'INPUT_SIZE', 'Determined from data'),
         'HIDDEN_SIZE': config.HIDDEN_SIZE,

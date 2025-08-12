@@ -5,22 +5,16 @@ Supports both sentiment and non-sentiment versions through USE_SENTIMENT flag
 
 import torch
 import os
-from datetime import datetime
 
 class Config:
+    def __init__(self, market='GDEA', use_sentiment=True):
+        """Initialize config with specific market and sentiment option"""
+        self.MARKET = market
+        self.USE_SENTIMENT = use_sentiment
+    
     # ==================================================================================
     # EXPERIMENT CONFIGURATION
     # ==================================================================================
-    
-    # Market selection
-    MARKET = 'HBEA'  # 'HBEA' or 'GDEA'
-    
-    # SENTIMENT FEATURE TOGGLE - KEY CONFIGURATION
-    USE_SENTIMENT = False  # Set to False for baseline without sentiment
-    
-    def __init__(self):
-        """Initialize config with fixed timestamp"""
-        self._run_name = None
     
     # ==================================================================================
     # TIME AGGREGATION
@@ -50,27 +44,27 @@ class Config:
         return f'../../02_Data_Processed/11_Weekly_Aggregated/{self.MARKET}_weekly{suffix}.parquet'
     
     # Directory for processed LSTM-ready data
-    DATA_DIR = '../../02_Data_Processed/12_LSTM_Weekly_Ready'
+    # Data directories
+    AGGREGATED_DATA_DIR = '../../02_Data_Processed/11_Weekly_Aggregated'
+    LSTM_READY_DIR = '../../02_Data_Processed/12_LSTM_Weekly_Ready'
     
     # ==================================================================================
     # EXPERIMENT TRACKING
     # ==================================================================================
     
-    @property
-    def run_name(self):
-        """Generate unique run name with configuration details (cached to avoid timestamp changes)"""
-        if self._run_name is None:
-            sentiment_tag = 'WithSentiment' if self.USE_SENTIMENT else 'NoSentiment'
-            timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-            self._run_name = f"{timestamp}_{self.MARKET}_Weekly_{sentiment_tag}"
-        return self._run_name
-    
-    BASE_OUTPUT_DIR = '../../04_Models_Weekly/'
+    # Fixed output directory structure (no timestamps)
+    BASE_OUTPUT_DIR = '../../04_Models/'
     
     @property
     def output_dir(self):
-        """Full output directory for this run"""
-        return os.path.join(self.BASE_OUTPUT_DIR, self.run_name)
+        """Full output directory based on sentiment flag"""
+        sentiment_folder = 'sentiment' if self.USE_SENTIMENT else 'base'
+        return os.path.join(self.BASE_OUTPUT_DIR, 'weekly', self.MARKET, sentiment_folder)
+    
+    @property
+    def OUTPUT_DIR(self):
+        """Alias for compatibility"""
+        return self.output_dir
     
     # ==================================================================================
     # MODEL ARCHITECTURE
@@ -155,6 +149,16 @@ class Config:
     SEED = 42
     
     # ==================================================================================
+    # EXPERIMENT NAMING
+    # ==================================================================================
+    
+    @property
+    def run_name(self):
+        """Generate run name for this configuration"""
+        sentiment_tag = 'sentiment' if self.USE_SENTIMENT else 'base'
+        return f"{self.MARKET}_weekly_{sentiment_tag}"
+    
+    # ==================================================================================
     # LOGGING
     # ==================================================================================
     
@@ -219,6 +223,3 @@ class Config:
             f"AGGREGATION={self.AGGREGATION}, "
             f"SEQUENCE_LENGTH={self.SEQUENCE_LENGTH})"
         )
-
-# Create global config instance
-config = Config()

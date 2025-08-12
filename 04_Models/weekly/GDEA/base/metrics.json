@@ -1,0 +1,13 @@
+{
+  "test_accuracy": 0.5051546391752577,
+  "test_precision": 0.4444444444444444,
+  "test_recall": 0.6829268292682927,
+  "test_f1": 0.5384615384615384,
+  "true_positives": 28,
+  "true_negatives": 21,
+  "false_positives": 35,
+  "false_negatives": 13,
+  "best_val_accuracy": 0.5977011494252874,
+  "best_epoch": 1,
+  "total_epochs": 45
+}

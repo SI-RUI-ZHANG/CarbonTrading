@@ -122,7 +122,7 @@ def create_classification_analysis(y_true: np.ndarray, y_pred: np.ndarray,
     conf_data = {
         'High\nConfidence': high_conf_acc,
         'Medium\nConfidence': mid_conf_acc,
-        'Overall': metrics['accuracy']
+        'Overall': metrics.get('test_accuracy', metrics.get('accuracy', 0))
     }
     
     bars = axes[1, 0].bar(conf_data.keys(), conf_data.values(), 
@@ -146,10 +146,10 @@ def create_classification_analysis(y_true: np.ndarray, y_pred: np.ndarray,
     
     Classification Metrics:
     ─────────────────────────
-    Accuracy:    {metrics['accuracy']:.3f}
-    Precision:   {metrics['precision']:.3f}
-    Recall:      {metrics['recall']:.3f}
-    F1-Score:    {metrics['f1_score']:.3f}
+    Accuracy:    {metrics.get('test_accuracy', metrics.get('accuracy', 0)):.3f}
+    Precision:   {metrics.get('test_precision', metrics.get('precision', 0)):.3f}
+    Recall:      {metrics.get('test_recall', metrics.get('recall', 0)):.3f}
+    F1-Score:    {metrics.get('test_f1', metrics.get('f1_score', 0)):.3f}
     
     Confusion Matrix Details:
     ─────────────────────────
@@ -160,8 +160,8 @@ def create_classification_analysis(y_true: np.ndarray, y_pred: np.ndarray,
     
     Weekly Trading Insights:
     ─────────────────────────
-    Up Weeks Detected: {metrics['recall']*100:.1f}%
-    Up Precision: {metrics['precision']*100:.1f}%
+    Up Weeks Detected: {metrics.get('test_recall', metrics.get('recall', 0))*100:.1f}%
+    Up Precision: {metrics.get('test_precision', metrics.get('precision', 0))*100:.1f}%
     """
     axes[1, 1].text(0.1, 0.5, report_text, fontsize=9, family='monospace',
                    verticalalignment='center')
