@@ -122,7 +122,7 @@ def plot_training_history(train_losses, val_losses, train_accuracies, val_accura
     
     plt.tight_layout()
     plt.savefig(f'{config.OUTPUT_DIR}/training_history.png', dpi=100)
-    plt.show()
+    plt.close()  # Close figure to free memory, don't block execution
 
 def save_config(config):
     """Save configuration to JSON for reproducibility"""

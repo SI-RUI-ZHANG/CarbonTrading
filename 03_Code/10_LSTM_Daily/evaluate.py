@@ -187,4 +187,4 @@ def plot_predictions(predictions, actuals, metrics, cm, probabilities, config):
     plt.suptitle(f'{config.MARKET} - Classification Results Analysis', fontsize=14, y=1.02)
     plt.tight_layout()
     plt.savefig(f'{config.OUTPUT_DIR}/classification_analysis.png', dpi=100, bbox_inches='tight')
-    plt.show()
+    plt.close()  # Close figure to free memory, don't block execution

@@ -1,0 +1,43 @@
+{
+  "training": {
+    "lstm_baseline_accuracy": 0.46875,
+    "final_accuracy": 0.5972222222222222,
+    "improvement": 0.1284722222222222,
+    "reversal_rate": 0.1701388888888889,
+    "reversals_correct": 0.8775510204081632,
+    "kept_correct": 0.5397489539748954,
+    "coverage": 1.0,
+    "total_samples": 288,
+    "reversed_count": 49,
+    "precision": 0.521505376344086,
+    "recall": 0.782258064516129,
+    "f1_score": 0.6258064516129033
+  },
+  "validation": {
+    "lstm_baseline_accuracy": 0.3958333333333333,
+    "final_accuracy": 0.4895833333333333,
+    "improvement": 0.09375,
+    "reversal_rate": 0.21875,
+    "reversals_correct": 0.7142857142857143,
+    "kept_correct": 0.4266666666666667,
+    "coverage": 1.0,
+    "total_samples": 96,
+    "reversed_count": 21,
+    "precision": 0.4266666666666667,
+    "recall": 0.8421052631578947,
+    "f1_score": 0.5663716814159292
+  },
+  "reversal_stats": {
+    "total_samples": 96,
+    "reversed": 21,
+    "reversal_rate": 0.21875,
+    "avg_error_prob": 0.5643656849861145,
+    "coverage": 1.0
+  },
+  "config": {
+    "market": "GDEA",
+    "frequency": "daily",
+    "reversal_threshold": 0.7,
+    "coverage": 1.0
+  }
+}

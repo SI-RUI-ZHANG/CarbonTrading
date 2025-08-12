@@ -8,20 +8,27 @@ import torch
 import os
 
 class Config:
-    def __init__(self, market='GDEA'):
-        """Initialize config with specific market"""
+    def __init__(self, market='GDEA', use_sentiment=False):
+        """Initialize config with specific market and sentiment option"""
         self.MARKET = market
+        self.USE_SENTIMENT = use_sentiment
         
     # Data
-    DATA_DIR = '../../02_Data_Processed/04_LSTM_Ready'
+    @property
+    def DATA_DIR(self):
+        """Dynamic data directory based on sentiment usage"""
+        if self.USE_SENTIMENT:
+            return '../../02_Data_Processed/04_LSTM_Ready_Sentiment'
+        return '../../02_Data_Processed/04_LSTM_Ready'
     
     # Fixed output directory structure (no timestamps)
     BASE_OUTPUT_DIR = '../../04_Models/'
     
     @property
     def OUTPUT_DIR(self):
-        """Dynamic output directory based on market"""
-        return os.path.join(self.BASE_OUTPUT_DIR, 'daily', self.MARKET, 'base')
+        """Dynamic output directory based on market and sentiment"""
+        sentiment_dir = 'sentiment' if self.USE_SENTIMENT else 'base'
+        return os.path.join(self.BASE_OUTPUT_DIR, 'daily', self.MARKET, sentiment_dir)
     
     # Model Architecture for Classification
     # INPUT_SIZE will be determined dynamically from data
