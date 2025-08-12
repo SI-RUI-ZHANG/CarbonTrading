@@ -236,11 +236,11 @@ class WalkForwardValidator:
         # Load data
         df = self.load_data()
         
-        # Calculate number of walks (targeting 8 walks)
+        # Calculate number of walks (targeting 10 walks for extended coverage)
         total_samples = len(df)
         min_required = self.train_window + self.val_window + self.test_window + self.sequence_length
         max_walks = (total_samples - min_required) // self.step_size + 1
-        n_walks = min(8, max_walks)  # Use 8 walks as requested
+        n_walks = min(10, max_walks)  # Use 10 walks for extended coverage to May 2024
         
         logger.info(f"Total samples: {total_samples}")
         logger.info(f"Windows: train={self.train_window}, val={self.val_window}, test={self.test_window}")

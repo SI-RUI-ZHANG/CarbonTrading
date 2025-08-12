@@ -4,44 +4,44 @@
     "model_display": "Daily Base",
     "market": "GDEA",
     "features": "Base",
-    "accuracy": 0.5053571428571428,
-    "precision": 0.3744047619047619,
-    "recall": 0.6557377049180328,
-    "f1_score": 0.4631917320014865,
-    "timestamp": "2025-08-13T02:47:38.732159"
+    "accuracy": 0.5,
+    "precision": 0.3949850016497613,
+    "recall": 0.4682144670503193,
+    "f1_score": 0.40320133996588503,
+    "timestamp": "2025-08-13T04:48:42.943189"
   },
   "daily_base_HBEA": {
     "model_type": "daily_base",
     "model_display": "Daily Base",
     "market": "HBEA",
     "features": "Base",
-    "accuracy": 0.47946428571428573,
-    "precision": 0.4023320616731377,
-    "recall": 0.48672621233079455,
-    "f1_score": 0.39772914802368575,
-    "timestamp": "2025-08-13T02:50:45.910491"
+    "accuracy": 0.5014285714285714,
+    "precision": 0.4823160751597927,
+    "recall": 0.5692994205844932,
+    "f1_score": 0.49347180877445485,
+    "timestamp": "2025-08-13T04:49:22.432163"
   },
   "daily_sentiment_GDEA": {
     "model_type": "daily_sentiment",
     "model_display": "Daily Sentiment",
     "market": "GDEA",
     "features": "+Sentiment",
-    "accuracy": 0.4901785714285714,
-    "precision": 0.49428926068090784,
-    "recall": 0.6730400985145848,
-    "f1_score": 0.4806333462429163,
-    "timestamp": "2025-08-13T02:49:04.872304"
+    "accuracy": 0.51,
+    "precision": 0.4563568021350862,
+    "recall": 0.5797447954892831,
+    "f1_score": 0.48075032084725383,
+    "timestamp": "2025-08-13T04:49:00.995060"
   },
   "daily_sentiment_HBEA": {
     "model_type": "daily_sentiment",
     "model_display": "Daily Sentiment",
     "market": "HBEA",
     "features": "+Sentiment",
-    "accuracy": 0.5044642857142857,
-    "precision": 0.4799931878648762,
-    "recall": 0.7464759034595088,
-    "f1_score": 0.57215575373158,
-    "timestamp": "2025-08-13T02:52:34.846108"
+    "accuracy": 0.4757142857142857,
+    "precision": 0.39191784816007635,
+    "recall": 0.5204111169992217,
+    "f1_score": 0.4119126471028432,
+    "timestamp": "2025-08-13T04:49:40.891276"
   },
   "Meta Reversal_GDEA": {
     "model_type": "Meta Reversal",

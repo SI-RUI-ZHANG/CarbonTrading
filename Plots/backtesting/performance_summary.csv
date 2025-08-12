@@ -1,0 +1,13 @@
+Frequency,Market,Model,Total Return (%),CAGR (%),Sharpe Ratio,Max DD (%),Win Rate (%)
+daily,GDEA,Buy&Hold,-39.1,-4.5,0.18,-88.0,44.4
+daily,GDEA,Base,60.9,8.1,0.38,-27.7,23.4
+daily,GDEA,Sentiment,176.1,18.0,0.67,-36.5,29.2
+daily,HBEA,Buy&Hold,67.8,4.8,0.28,-63.1,46.0
+daily,HBEA,Base,-15.4,-2.7,0.02,-48.5,25.7
+daily,HBEA,Sentiment,17.8,2.7,0.18,-39.4,23.7
+weekly,GDEA,Buy&Hold,90.5,6.4,0.85,-75.4,52.9
+weekly,GDEA,Base,102.1,13.4,1.93,-30.9,29.9
+weekly,GDEA,Sentiment,89.4,12.1,1.60,-37.3,33.1
+weekly,HBEA,Buy&Hold,60.0,4.6,0.69,-62.8,46.3
+weekly,HBEA,Base,88.5,12.0,1.21,-43.3,23.9
+weekly,HBEA,Sentiment,59.9,8.7,0.95,-44.5,29.9

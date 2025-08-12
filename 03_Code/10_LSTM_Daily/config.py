@@ -33,19 +33,44 @@ class Config:
     # Model Architecture for Classification
     # INPUT_SIZE will be determined dynamically from data
     # Using BCEWithLogitsLoss for binary classification with pos_weight
-    HIDDEN_SIZE = 80
+    HIDDEN_SIZE = 100
     NUM_LAYERS = 2
-    DROPOUT = 0.35
+    DROPOUT = 0.30
     
     # Training
-    BATCH_SIZE = 32
+    BATCH_SIZE = 64  # Increased for better GPU utilization on M4 Max
     LEARNING_RATE = 0.001
     NUM_EPOCHS = 100
     EARLY_STOPPING_PATIENCE = 15
     SHUFFLE_TRAIN_LOADER = True  # Easily toggle shuffle behavior
     
-    # Device
-    DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    # DataLoader optimization for Apple Silicon
+    NUM_WORKERS = 10  # Parallel data loading (tune based on performance)
+    PIN_MEMORY = False  # Set to True if using CUDA, False for MPS
+    PREFETCH_FACTOR = 4  # Number of batches to prefetch per worker
+    PERSISTENT_WORKERS = True  # Keep workers alive between epochs
+    
+    # Mixed Precision Training
+    USE_AMP = True  # Automatic Mixed Precision for faster training
+    
+    # Device configuration with Apple Silicon support
+    @property
+    def DEVICE(self):
+        """Smart device selection: MPS (Apple Silicon) > CUDA > CPU"""
+        if torch.backends.mps.is_available() and torch.backends.mps.is_built():
+            device = torch.device('mps')
+        elif torch.cuda.is_available():
+            device = torch.device('cuda')
+        else:
+            device = torch.device('cpu')
+        return device
+    
+    # Memory optimization for M4 Max (36GB unified memory)
+    GRADIENT_ACCUMULATION_STEPS = 1  # Increase if running out of memory
+    MAX_GRAD_NORM = 1.0  # Gradient clipping value
+    
+    # Parallel processing for walk-forward validation
+    MAX_PARALLEL_WALKS = 3  # Number of walks to run in parallel (tune based on memory)
     
     # Reproducibility
     SEED = 42
