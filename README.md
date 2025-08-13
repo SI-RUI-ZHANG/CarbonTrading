@@ -1,142 +1,153 @@
-## Project Overview
+# Chinese Carbon Market Price Prediction
 
-Carbon trading research project analyzing Chinese regional carbon markets (Guangdong GDEA and Hubei HBEA). Predicts daily price movements using LSTM models with macroeconomic features. Includes 3,312 scraped policy documents (2,617 carbon-relevant after filtering) for NLP integration.
+## What This Project Does
 
-## Directory Structure
+This project predicts daily and weekly price movements in Chinese regional carbon markets (Guangdong GDEA and Hubei HBEA) using machine learning. It combines:
 
-- **01_Data_Raw/**: Raw data sources
-  - `01_Carbon_Markets/`: GDEA, HBEA price data
-  - `02_Macroeconomic_Indicators/`: 21 economic indicators
-  - `03_Policy_Documents/`: MEE (573), HBETS (684), GZETS (2,055) scraped docs
-- **02_Data_Processed/**:
-  - `01_Carbon_Markets/01_Regional/`: Cleaned carbon price data
-  - `02_Macroeconomic_Indicators/`: Forward-filled, interpolated, daily-aligned versions
-  - `03_Feature_Engineered/`: GDEA/HBEA_daily_with_macro.parquet, *_LSTM_advanced.parquet
-  - `04_Documents_Cleaned/`: Navigation garbage removed from scraped docs
-  - `04_LSTM_Ready/`: Model-ready datasets
-  - `05_Policy_Doc_Filtered/`: 2,617 carbon-relevant documents after filtering
-- **03_Code/**:
-  - `01_Data_Cleaning/`: Carbon markets and macro indicators processing
-  - `02_Feature_Engineering/`: Lagged macro features join
-  - `03_Base_Models/`: Buy&Hold, MA, MACD, RSI strategies
-  - `04_LSTM_Model/`: Binary classification model (up/down-flat)
-  - `05_Web_Scraping/`: MEE, HBETS, GZETS scrapers
-  - `06_Document_Processing/`: Document cleaning & carbon filtering pipeline
-- **04_Models/**: Timestamped experiment folders with trained models
-- **docs/**: analysis/, data/, models/, scrapers/ documentation
+- **21 macroeconomic indicators** (GDP, energy consumption, commodity prices)
+- **3,312 scraped policy documents** from government sources
+- **Sentiment analysis** of carbon-related policies
+- **LSTM neural networks** for time series prediction
 
-## Key Commands
+## Key Results
 
-### Python Environment
-```bash
-# Core dependencies (no requirements.txt yet)
-pip install pandas numpy matplotlib exchange_calendars pyarrow torch scikit-learn beautifulsoup4 requests
+### Model Performance Summary
+| Model Type | Market | Accuracy | F1 Score | Improvement |
+|------------|--------|----------|----------|-------------|
+| Daily LSTM | GDEA | 51.0% | 0.481 | +19.2% with sentiment |
+| Daily LSTM | HBEA | 47.6% | 0.412 | -16.5% with sentiment |
+| Weekly LSTM | GDEA | 56.8% | 0.557 | +15.8% with sentiment |
+| Weekly LSTM | HBEA | 52.6% | 0.434 | +39.0% with sentiment |
+| Meta Model | GDEA | 56.6% | 0.596 | Best overall |
 
-# Run notebooks in sequence (numbered files)
-jupyter notebook
+## Data Pipeline
+
+```
+Raw Data → Cleaning → Feature Engineering → Model Training → Backtesting
+   ↓           ↓             ↓                    ↓              ↓
+Carbon     Remove      50 technical +      LSTM with       Trading
+Prices     noise       12 sentiment       walk-forward    simulation
 ```
 
-### Model Training
-```bash
-# Train LSTM model
-cd 03_Code/04_LSTM_Model/
-python model_training.py  # Creates timestamped folder in 04_Models/
+## Project Structure
+
+```
+Project/
+├── 01_Data_Raw/                 # Original data sources
+│   ├── 01_Carbon_Markets/       # GDEA, HBEA price data (2014-2024)
+│   ├── 02_Macroeconomic/        # 21 economic indicators
+│   └── 03_Policy_Documents/     # 3,312 scraped documents
+│
+├── 02_Data_Processed/           # Cleaned and engineered features
+│   ├── 03_Feature_Engineered/   # 50 base features + sentiment
+│   ├── 07_Document_Scores/      # 989 unique documents scored
+│   └── 12_LSTM_Weekly_Ready/    # Model-ready sequences
+│
+├── 03_Code/                     # Implementation
+│   ├── 05_Document_Collection/  # Web scrapers (MEE, HBETS, GZETS)
+│   ├── 08_Document_Scoring/     # Sentiment scoring pipeline
+│   ├── 10_LSTM_Daily/          # Daily prediction models
+│   ├── 11_LSTM_Weekly/         # Weekly prediction models
+│   └── 12_Meta_Model/          # Error reversal meta-learning
+│
+└── 04_Models/                   # Trained models and results
+    ├── daily/                   # Daily LSTM models
+    ├── weekly/                  # Weekly LSTM models
+    └── meta_reversal/          # Meta models
 ```
 
-### Web Scraping
+## Key Features
+
+### 1. Document Processing
+- **3,312 documents scraped** from 3 government sources
+- **2,617 carbon-relevant** after filtering
+- **989 unique documents** scored for sentiment
+- **Regional separation**: GDEA uses Guangdong docs, HBEA uses Hubei docs
+
+### 2. Advanced Feature Engineering
+- **50 technical features**: Price momentum, volatility, market microstructure
+- **12 sentiment features**: Supply/demand scores, policy strength, momentum
+- **Exponential decay**: 7-day half-life for sentiment influence
+- **Intelligent lags**: 1-day for daily data, 15-day for monthly macro
+
+### 3. Robust Model Validation
+- **Walk-forward validation**: 8 walks (daily), 14 walks (weekly)
+- **No data leakage**: Strict temporal separation
+- **Binary classification**: Up vs down/flat movement
+- **Class balancing**: Handles imbalanced data
+
+### 4. Meta-Learning Approach
+- **Error reversal**: Learns from LSTM prediction errors
+- **100% coverage**: No abstention, always makes predictions
+- **XGBoost classifier**: Combines LSTM confidence with market features
+
+## Running the Models
+
+### Train Daily LSTM
 ```bash
-# Re-run scrapers (incremental, skips existing)
-cd 03_Code/05_Web_Scraping/
-python 01_scrape_mee.py
-python 04_scrape_hbets.py
-python 05_scrape_gzets.py
+cd 03_Code/10_LSTM_Daily/
+python run.py --market GDEA --sentiment base      # Without sentiment
+python run.py --market GDEA --sentiment sentiment # With sentiment
 ```
 
-### Document Processing
+### Train Weekly LSTM
 ```bash
-# Clean and filter scraped documents
-cd 03_Code/06_Document_Processing/
-python 03_pipeline_runner.py  # Runs full pipeline
-
-# Or run stages separately:
-python 01_clean_documents.py  # Remove navigation garbage
-python 02_carbon_filter.py    # Filter for carbon content
+cd 03_Code/11_LSTM_Weekly/
+python run.py --market HBEA --sentiment base      # Without sentiment
+python run.py --market HBEA --sentiment sentiment # With sentiment
 ```
 
-## Architecture & Design Patterns
+### Train Meta Models
+```bash
+cd 03_Code/12_Meta_Model/
+python run.py --frequency daily --market GDEA
+python run.py --frequency weekly --market HBEA
+```
 
-### Data Processing Pipeline
-1. **Trading Calendar Alignment**: Uses Shanghai Stock Exchange (XSHG) calendar for all data
-2. **Missing Value Handling**: Forward-fill → Linear interpolation → Daily alignment
-3. **Lag Strategy**: 1-day lag for daily data, 15-day lag for monthly/quarterly macro indicators
-4. **File Naming Convention**:
-   - `*_processed.csv/.parquet` - Basic cleaned data
-   - `*_forward_filled.csv/.parquet` - Forward-filled missing values
-   - `*_interpolated.csv/.parquet` - Linearly interpolated
-   - `*_ffill_daily.parquet` - Forward-filled and daily aligned
+### Run Document Scoring
+```bash
+cd 03_Code/08_Document_Scoring/
+python run_scoring.py  # Processes documents with GPT-4o-mini
+```
 
-### Trading Strategy Framework (`03_Code/03_Base_Models/`)
-- **Abstract Base**: `a_Strategy.py` - Strategy ABC with `run()` method returning (signal, NAV)
-- **NAV Simulation**: `simulate_nav()` - Converts signals to NAV with proper lag (t+1 execution)
-- **Evaluation**: `a_Evaluation.py` - Performance metrics (CAGR, Sharpe, volatility)
-- **Comparison**: `b_Strategy_Performance.py` - Multi-strategy backtesting and visualization
+## Technical Details
 
-### LSTM Model Architecture (`03_Code/04_LSTM_Model/`)
-- **Config-driven**: `config.py` - Centralized configuration with experiment tracking
-- **Binary Classification**: Predicts up vs down/flat price movement
-- **Dynamic Input Size**: Automatically detects feature count from data
-- **Experiment Tracking**: Each run creates unique folder in `04_Models/` with timestamp
+### LSTM Architecture
+- **Input**: 60-day sequences (daily) or 30-week sequences (weekly)
+- **Network**: 2-layer LSTM (64 units) → FC (64→32→1)
+- **Loss**: Binary cross-entropy with class weights
+- **Optimization**: Adam, learning rate 0.001
+- **Early stopping**: Patience 15 epochs
 
-### Web Scraping Infrastructure (`03_Code/05_Web_Scraping/`)
-- **Parallel Processing**: All scrapers use ThreadPoolExecutor (MEE: 5 workers, others: 10)
-- **Storage**: Individual JSONs per document + `_all_documents.jsonl` compilation
-- **Progress Tracking**: `progress.json` for incremental scraping
-- **Data Quality**: Multiple date extraction methods (JavaScript vars, Chinese dates, URL patterns)
+### Walk-Forward Validation
+- **Daily**: 700/150/200 days (train/val/test)
+- **Weekly**: 180/20/30 weeks (train/val/test)
+- **Total test samples**: ~1120 (daily), ~420 (weekly)
 
-## Important Constants
+### Sentiment Features
+- **Document scoring**: -150 to +150 spectrum
+- **Regional separation**: Market-specific document sources
+- **Aggregation**: Daily weighted by policy strength
+- **Features**: Supply, demand, imbalance, momentum
+
+## Dependencies
 
 ```python
-# Trading Strategy
-INIT_CAPITAL = 1000000  # Initial capital for backtesting
-TRADING_DAYS = 252      # Trading days per year for annualization
-
-# LSTM Model
-BATCH_SIZE = 32
-LEARNING_RATE = 0.001
-NUM_EPOCHS = 100
-EARLY_STOPPING_PATIENCE = 15
-
-# Web Scraping
-MAX_WORKERS = 10  # HBETS/GZETS (MEE uses 5)
-RETRY_ATTEMPTS = 3
+pandas, numpy, torch, scikit-learn
+beautifulsoup4, requests, pyarrow
+exchange_calendars, matplotlib, xgboost
 ```
 
-## Data Quality
+## Key Findings
 
-- **Trading Calendar**: XSHG (Shanghai Stock Exchange) for all alignments
-- **Missing Values**: Forward-fill → Linear interpolation → Daily alignment
-- **Scraped Documents**: 100% have valid publish_date and clean content after fixes
-- **Lag Structure**: 1-day for daily data, 15-day for monthly/quarterly macro data
+1. **Sentiment improves weekly predictions** more than daily (+16-39% F1 improvement)
+2. **GDEA market** more predictable than HBEA (56.8% vs 52.6% weekly accuracy)
+3. **Meta models** achieve best overall performance (59.6% F1 for GDEA weekly)
+4. **Regional document separation** critical for sentiment effectiveness
 
-## Implementation Status
+## Future Work
 
-### Completed Components
-- Carbon market data: GDEA (2014-2024), HBEA (2014-2024) cleaned and aligned
-- Macroeconomic indicators: 21 indicators with intelligent lag (1-day daily, 15-day monthly)
-- Feature engineering: 100+ technical indicators, rolling statistics, market microstructure
-- Baseline strategies: All implemented with NAV simulation and evaluation
-- LSTM models: GDEA (59.8% accuracy, 56.3% F1), HBEA (trained)
-- Web scraping: 2,367 documents with 100% date extraction and content cleaning
-  - MEE: 573 docs (89 Decrees, 484 Notices)
-  - HBETS: 684 docs (Center Dynamics)
-  - GZETS: 1,110 docs (342 Trading, 438 Center, 330 Provincial)
-
-## Key Context
-
-- **Data Pipeline Order**: Clean → Forward-fill → Interpolate → Daily-align → Feature engineer
-- **Model Performance**: GDEA 59.8% accuracy on price direction, better than random (50%)
-- **Scraper Output**: Each doc has doc_id, url, title, content, publish_date, section, source
-- **Critical Files**:
-  - `02_Data_Processed/03_Feature_Engineered/*_LSTM_advanced.parquet` - Model input
-  - `04_Models/*/metrics.json` - Model performance
-  - `01_Data_Raw/03_Policy_Documents/*/_all_documents.jsonl` - Scraped docs
+- Incorporate real-time news sentiment
+- Add cross-market spillover effects
+- Explore transformer architectures
+- Implement online learning for model updates
